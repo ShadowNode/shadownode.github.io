@@ -7,6 +7,7 @@ canonifyurls  = true
 
 DefaultContentLanguage = "en"
 theme = "hugo-theme-learn"
+enableGitInfo = true
 metaDataFormat = "yaml"
 pygmentsUseClasses = true
 pygmentCodeFences = true
@@ -23,6 +24,8 @@ pygmentCodeFences = true
   disableNextPrev = true
   ordersectionsby = "title"
   themeVariant = "mine"
+  editURL = "https://github.com/Bennyboy1695/ShadowNodeHugo/tree/master/content/"
+
 #  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 
 [outputs]
