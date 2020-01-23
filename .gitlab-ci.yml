@@ -6,13 +6,13 @@ variables:
 
 test:
   script:
-  - hugo
+  - hugo -t hugo-theme-learn
   except:
   - master
 
 pages:
   script:
-  - hugo
+  - hugo -t hugo-theme-learn
   artifacts:
     paths:
     - public
