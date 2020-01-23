@@ -1,4 +1,4 @@
-baseurl = "https://Bennyboy1695.gitlab.io/shadownode/"
+baseurl = "https://bennyboy1695.github.io/ShadowNode"
 contentdir    = "content"
 layoutdir     = "layouts"
 publishdir    = "public"
@@ -22,6 +22,7 @@ pygmentCodeFences = true
   comments = true
   disableNextPrev = true
   ordersectionsby = "title"
+  themeVariant = "mine"
 #  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 
 [outputs]
