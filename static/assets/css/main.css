@@ -1,0 +1,194 @@
+@charset "UTF-8";
+.players {
+    font-family: Dekar_Light;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ca90c8;
+    padding-top: 10px
+}
+
+@font-face {
+    font-family: Dekar_Light;
+    src: url(https://www.shadownode.ca/styles/shadownode/portal/fonts/Dekar_Light.otf) format("opentype")
+}
+
+@font-face {
+    font-family: Dekar;
+    src: url(https://www.shadownode.ca/styles/shadownode/portal/fonts/Dekar.otf) format("opentype")
+}
+
+@media all and (min-width: 640px) {
+}
+
+@-webkit-keyframes spin {
+    from {
+        -webkit-transform: translate(-50%, -50%) rotateZ(0deg);
+        -webkit-transform: translate(-50%, -50%) rotateZ(0deg);
+        -ms-transform: translate(-50%, -50%) rotateZ(0deg);
+        transform: translate(-50%, -50%) rotateZ(0deg)
+    }
+    to {
+        -webkit-transform: translate(-50%, -50%) rotateZ(360deg);
+        -webkit-transform: translate(-50%, -50%) rotateZ(360deg);
+        -ms-transform: translate(-50%, -50%) rotateZ(360deg);
+        transform: translate(-50%, -50%) rotateZ(360deg)
+    }
+}
+
+@keyframes spin {
+    from {
+        -webkit-transform: translate(-50%, -50%) rotateZ(0deg);
+        -webkit-transform: translate(-50%, -50%) rotateZ(0deg);
+        -ms-transform: translate(-50%, -50%) rotateZ(0deg);
+        transform: translate(-50%, -50%) rotateZ(0deg)
+    }
+    to {
+        -webkit-transform: translate(-50%, -50%) rotateZ(360deg);
+        -webkit-transform: translate(-50%, -50%) rotateZ(360deg);
+        -ms-transform: translate(-50%, -50%) rotateZ(360deg);
+        transform: translate(-50%, -50%) rotateZ(360deg)
+    }
+}
+
+.swirl.small {
+    z-index: -1;
+    width: 100%;
+    -webkit-animation: spin 40s linear infinite;
+    animation: spin 40s linear infinite
+}
+
+.swirl.big {
+    z-index: -1;
+    width: 120%;
+    -webkit-animation: spin 90s linear infinite;
+    animation: spin 90s linear infinite
+}
+
+@media (orientation: portrait) {
+    .swirl.small {
+        height: 100%;
+        width: auto
+    }
+
+    .swirl.big {
+        height: 120%;
+        width: auto
+    }
+}
+
+.swirl {
+    z-index: -1;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: fixed
+}
+
+.messageUserBlock,
+a.username {
+    color: #fff !important
+}
+
+body {
+    background: url('https://www.shadownode.ca/styles/shadownode/img/vortex.jpg') fixed center !important;
+    background-size: cover !important;
+    margin: 0;
+}
+
+.wrapper {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.wrapper > * {
+    flex-shrink: 1
+}
+
+nav button {
+    width: 125px;
+    height: 125px;
+    border: 0;
+    font-size: inherit;
+    /* -webkit-transition: -webkit-transform 100ms;
+     transition: transform 100ms;*/
+    background: none;
+    background-image: none;
+    background-size: auto;
+    background-size: cover;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 20px;
+}
+
+nav button.wiki {
+    background-image: url('../images/icons/forum_normal.png');
+}
+
+nav button.wiki:hover {
+    background-image: url('../images/icons/forum_highlighted.png');
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+nav button.vote {
+    background-image: url('../images/icons/vote_normal.png');
+}
+
+nav button.vote:hover {
+    background-image: url('../images/icons/vote_highlighted.png');
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+nav button.shop {
+    background-image: url('../images/icons/store_normal.png');
+}
+
+nav button.shop:hover {
+    background-image: url('../images/icons/store_highlighted.png');
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+footer {
+    font-size: 10px;
+    color: #aaa;
+    position: absolute;
+    text-align: center;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+}
