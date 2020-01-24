@@ -19,6 +19,8 @@ Also every rank inherits the commands/features from the previous ranks.
 
 ## Shade
 
+### <span style="color: #AAAAAA">[</span><span style="color: #AAAAAA">Shade</span><span style="color: #AAAAAA">]</span>
+
 #### Costs 5 USD
 
 ### Features:
@@ -35,6 +37,8 @@ And gives you the ability to upload pictures to discord.
 
 ## Night
 
+### <span style="color: #AAAAAA">[</span><span style="color: #555555">Night</span><span style="color: #AAAAAA">]</span>
+
 #### Costs 10 USD
 
 ### Features:
@@ -42,7 +46,7 @@ And gives you the ability to upload pictures to discord.
 `/jump or /j` Teleports you to the top of the block you're looking at.
 
 `/nick` Allows you to set a nickname but this time 'with' colors. (/info colors ingame for color codes) \
-	Example: /nick &5Shadows&dKitten = <span style="color: purple">Shadows</span><span style="color: #DEB4EA">Kitten </span>
+	Example: /nick &5Shadows&dKitten = <span style="color: #AA00AA">Shadows</span><span style="color: #FF55FF">Kitten </span>
 
 `/enderchest or /ec` Enables you to open your Vanilla Enderchest from anywhere in the world. 
 
@@ -51,6 +55,8 @@ And gives you the ability to upload pictures to discord.
 And 10 homes.
 
 ## Equinox
+
+### <span style="color: #AAAAAA">[</span><span style="color: #FFFF55">Equinox</span><span style="color: #AAAAAA">]</span>
 
 #### Costs 15 USD
 
@@ -70,6 +76,8 @@ And 15 homes.
 
 ## Eclipse
 
+### <span style="color: #AAAAAA">[</span><span style="color: #FFAA00">Eclipse</span><span style="color: #AAAAAA">]</span>
+
 #### Costs 30 USD
 
 ### Features 
@@ -84,18 +92,27 @@ As well as 30 Homes.
 
 # Extra Ranks
 
+### # Means a Randomly changing characters in Rank name
 ## Umbra
+
+### <span style="color: #AAAAAA">[</span><span style="color: #5555FF">Umbra</span><span style="color: #AAAAAA">]</span>
 
 #### 20 USD Upgrade from Eclipse
 
 ## Spectre
 
+### <span style="color: #AAAAAA">[</span><span style="color: #55FF55">Spectre</span><span style="color: #AAAAAA">]</span>
+
 #### 25 USD Upgrade from Umbra
 
 ## Wraith
 
+### <span style="color: #AAAAAA">[</span><span style="color: #AA0000">#Wraith#</span><span style="color: #AAAAAA">]</span>
+
 #### 25$ Upgrade from Spectre
 
-## Phantom 
+## Phantom
+
+### <span style="color: #000000">[</span><span style="color: #AA00AA">#Phantom#</span><span style="color: #000000">]</span>
 
 #### 100$ Upgrade from Wraith
