@@ -22,7 +22,7 @@ Read more at Hugo's [documentation][].
 If you clone or download this project to your local computer and run `hugo server`,
 your site can be accessed under `localhost:1313/hugo/`.
 
-The theme used is adapted from http://themes.gohugo.io/beautifulhugo/.
+The layout used is the same as https://learn.netlify.com/en/, but the theme is changed! 
 
 ## Troubleshooting
 
