@@ -27,38 +27,40 @@ Table of Contents
 
 
 # Chunk Loaders
-Modded Chuck Loaders have been disabled on ShadowNode servers globally, therefore we have added a plugin known as Better Chunk  Loaders to achieve their purpose. There are two types of Chunk Loaders, Always On and Online Only. To view chunk borders, hit ``F3+g``
+Modded Chunk Loaders have been disabled on ShadowNode servers globally, therefore we have added a plugin known as Better Chunk  Loaders to achieve their purpose. There are two types of Chunk Loaders, Always On and Online Only. To view chunk borders, hit ``F3+g``
 
-The most basic command in the plugin is ``betterchunkloader``, or just ``bcl`` for short. Executing this command will open an interface in the chat that the user may interact with. The interface will contain a list of active chunk loaders you currently own, along with some user-friendly icons. An example of the interface is below. 
-![Interface](https://www.shadownode.ca/attachments/upload_2018-7-1_23-49-25-png.305/)
+The most basic command in the plugin is ``/betterchunkloader``, or just ``/bcl`` for short. Executing this command will open an interface in the chat that the user may interact with. The interface will contain a list of active chunk loaders you currently own, along with some user-friendly icons. An example of the interface is below.
+![Interface](/assets/images/bcl/bcl_interface.png)
 
 ### Always On vs Online Only
 Always On is a chunk loader which is online 24/7 and will keep the chunk loaded. However, the chunk loader will stop loading the chunk after 3 days of activity. Once the owner returns, it will resume loading the chunk.The Online Only chunk loader will only load the chunk when the owner of the loader is online.
 
 ### Checking Your Balance
-To check the number of chunks you may use/have used, you can click the ``Balance`` or run ``bcl bal``. The interface will state the number of both Always Online and Online Only chunks that are currently active (used) and are available. 
-![Balance](https://www.shadownode.ca/attachments/upload_2018-7-1_23-54-41-png.306/)
+To check the number of chunks you may use/have used, you can click the ``Balance`` or run ``/bcl bal``. The interface will state the number of both Always Online and Online Only chunks that are currently active (used) and are available.
+![Balance](/assets/images/bcl/bcl_balance.png)
 
 ### How to Create Chunk Loaders
-From the main interface, you should click the ``Create`` icon to begin the process of creating a Chunk Loader. An interface will open and should look like the following image.
-![Create a Chunk Loader](https://www.shadownode.ca/attachments/upload_2018-7-2_0-2-38-png.307/)
+From the main interface, you should click the ``Create`` icon or run ``/bcl create`` to begin the process of creating a Chunk Loader. An interface will open and should look like the following image.
+![Create a Chunk Loader](/assets/images/bcl/bcl_create.png)
 
 The interface will state the name of the chunk loader Owner. It will also give you the coordinates of the chunk that you are currently standing in. Please note that these coordinates are different than regular XYZ coordinates. To create an Always Online chunk loader or Online Only chunk loader, click their respective icons. You should be prompted with the following interface.
-![Create a Chunk Loader](https://www.shadownode.ca/attachments/upload_2018-7-2_0-15-28-png.308/)
+![Create a Chunk Loader](/assets/images/bcl/bcl_create2.png)
 
 The ``Radius`` icons will determine the size of the chunk loader. You can only load as many chunks as your balance allows. Hovering over the icon will display how many chunks will be loaded with each radius upgrade.
-![Radius](https://www.shadownode.ca/attachments/upload_2018-7-2_0-27-8-png.309/)
+![Radius](/assets/images/bcl/bcl_create3.png)
 
 After you select your radius size, your chunk loader will be created. You will be shown a confirmation window which will display your name, loader id, and state. If you'd like to delete your loader and regain your chunk balance, click the ``Delete`` icon.
-![Chunk Confirmation](https://www.shadownode.ca/attachments/upload_2018-7-2_0-36-1-png.310/)
+![Chunk Confirmation](/assets/images/bcl/bcl_created.png)
 
 ## How to View Active Chunk Loaders
-Once you have Chunk Loaders active, running ``bcl`` will contain some information regarding regarding your active chunk loaders. You can hover over the ``Chunk`` icon to view the coordinates of the chunk loader. Clicking ``view`` will pull up the same prompt that was displayed after you created your loader originally. 
-![BCL Balance](https://www.shadownode.ca/attachments/upload_2018-7-2_0-53-17-png.311/)
+Once you have Chunk Loaders active, running ``/bcl`` will contain some information regarding regarding your active chunk loaders. You can hover over the ``Chunk`` icon to view the coordinates of the chunk loader. Clicking ``View`` will pull up the same prompt that was displayed after you created your loader originally.
+![BCL Balance](/assets/images/bcl/bcl_list.png)
 
 ## How to Read Chunk Coordinates
-to view the coordinates of the chunk you are currently in, press ``F3``. You will see the typical statistics of your game, which should resemble the image below. The value in the red box is your chunk coordinates.
-![Chunk Coordinates](https://www.shadownode.ca/attachments/upload_2018-7-2_0-58-15-png.313/)
+To view the coordinates of the chunk you are currently in, press ``F3``. You will see the typical statistics of your game, which should resemble the image below. The value in the red box is your chunk coordinates.
+![Chunk Coordinates](/assets/images/bcl/bcl_chunkcoords.png)
+
+___
 
 # Claiming
 All of our servers use the latest Grief Prevention plugin for claiming.
@@ -72,9 +74,13 @@ To claim you can either use a Golden Shovel you make, or one provide to you when
 ## How to Subdivide Claims
 Subdividing your claim means making smaller sections in the bigger claim to allow people to build/access certain parts of your base. To subdivide claims, hold your golden shovel and run the command ``subdivideclaims``. This changes your golden shovel to create smaller claims. This is always in 2D mode, but it reaches to the highest level of your main claim. When you select two corners you see iron blocks instead of golden blocks. To get out of subdivideclaims mode, scroll your mouse wheel off the golden shovel and then back onto it. This can be used to make towns and/or sell plots to other players for in-game currency.
 
+___
+
 # Crates
 
 We use a plugin called HuskyCrates to manage our crates. Crates contain items, the quality of which depends on the tier of the crate. To open a create you must hold the crate key in your hand and right click the corresponding crate. You can obtain crate keys by either purchasing them from our [store](https://shop.shadownode.ca), or buy buying them in our token shop. [This spreadsheet](https://goo.gl/9dXBT6) shows everything you can get from crates. It's listed by crate tier and mod. Some items on this list may not be on your server as some modpacks don't have all the mods as others. 
+
+___
 
 # MultiMC
 MultiMC is a Minecraft launcher. It can be used to launch vanilla Minecraft, custom modpacks, or regular modpacks. The launcher is very good for Linux users or those who don't like the Twitch Launcher. **We strongly recommend this launcher.**
@@ -96,8 +102,8 @@ MultiMC is a Minecraft launcher. It can be used to launch vanilla Minecraft, cus
 1. Click the settings, found at the top of your toolbar
 2. Head to Java on the left side
 3. Under the memory section you will be able to change your minimum and maximum allocation
-  - We do not suggest going above 6144mb
-  - 4096mb is the average selection
+  - We do not suggest going above 8192mb
+  - 6144mb is the average selection for 1.12+
 
 ## Setup an Instance
 ### With Link

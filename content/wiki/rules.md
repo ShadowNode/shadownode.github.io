@@ -13,7 +13,7 @@ ShadowNode was created in 2014 by our owner ShadowKitten. Aiming to provide play
 
 These rules apply for our Forums, Discord, servers and all other services. By using our services, you are agreeing to follow these rules. Ignorance of these rules is not an excuse. Staff are provided with a general guideline of punishments for each rule, however choose a punishment is at their discretion.
 
-##### Respect Staff and Staff Decisions
+#### Respect Staff and Staff Decisions
  * Do not in any way mock, abuse, argue with, or be disrespectful in general to any member of our staff. If you feel you have been mistreated by a staff member or believe a punishment you received is unjust, do not mock them or make a scene. Contact another member of the staff team to discuss the issue privately.
 
 #### No Harassment, Flaming or Trolling
@@ -74,7 +74,9 @@ These rules apply for our Forums, Discord, servers and all other services. By us
   * If a staff member mutes you, it's for a reason. Don't use our Discord services to bypass our punishment. Using the ban appeals forum to discuss your mute is allowed.
 
 #### Do Not Impersonate a Staff Member
-  * Impersonation means pretending to be someone else. This includes changing your nickname to a st aff member's username/nickname or adding Staff/Admin/Etc to nay part of your nickname or rank.
+  * Impersonation means pretending to be someone else. This includes changing your nickname to a staff member's username/nickname or adding Staff/Admin/Etc to nay part of your nickname or rank.
+
+___
 
 # Store Policies
 
