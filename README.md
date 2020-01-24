@@ -1,3 +1,10 @@
+# ShadowNode
+--
+Welcome to the ShadowNode site repository. In this repository, we host all of our documentation to successfully navigate through the maze that is ShadowNode! The goal of this site is to have the most accurate information related to all things ShadowNode at all times! Often though, things go out of date and/or are missing! If you notice this, and would like to fix this, please do! Look at [contributing](#contributing) to learn how to help update the site! 
+
+## Contributing
+We openly welcome contributions! If you would like to contribute, please head over to the site, and look under the "Wiki" section for a guide on contributing! 
+
 ## Building locally
 
 To work locally with this project, you'll have to follow the steps below:
