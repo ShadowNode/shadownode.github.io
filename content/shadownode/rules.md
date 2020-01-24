@@ -2,6 +2,7 @@
 title: Rules and Policies
 author: YourMCGeek
 ---
+<!-- We ask that you refrain from editing this file as a community member! Thank you! -->
 
 - [Rules](#rules)
 - [Store Policies](#store-policies)
