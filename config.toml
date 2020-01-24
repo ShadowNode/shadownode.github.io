@@ -14,11 +14,17 @@ pygmentCodeFences = true
 #disqusShortname = "XXX"
 #googleAnalytics = "XXX"
 
+#####################################
+#Allows for using html in markdown to do colored text etc.
+[markup.goldmark.renderer]
+unsafe= true
+#####################################
+
 [Params]
   subtitle = "Wiki containing info from things at ShadowNode"
   logo = "img/avatar-icon.png"
   favicon = "img/favicon.ico"
-  commit = false
+  commit = true
   rss = true
   comments = true
   disableNextPrev = true

@@ -3,23 +3,22 @@ title: Ranks
 author: Cosmic
 ---
 
-- [Ranks](#ranks)
-	- [Shade](#shade)
-	- [Night](#night)
-	- [Equinox](#equinox)
-	- [Eclipse](#eclipse)
-	- [Extra Ranks](extra-ranks)
-
-# Ranks
+##### Available Ranks:
+  * [Shade](#shade)
+  * [Night](#night)
+  * [Equinox](#equinox)
+  * [Eclipse](#eclipse)
+  * [Extra Ranks](#extra-ranks)
 
 On the server we have multiple ranks that you can [contribute](https://shop.shadownode.ca/) to acquire. \
 The first few include some commands with many being useful and some fun ones included with a few. \
 Each rank also has their own custom join/leave message. \
 Also every rank inherits the commands/features from the previous ranks.
 
+
 ## Shade
 
-### <span style="color: #AAAAAA">[</span><span style="color: #AAAAAA">Shade</span><span style="color: #AAAAAA">]</span>
+#### <span style="color: #AAAAAA">[</span><span style="color: #AAAAAA">Shade</span><span style="color: #AAAAAA">]</span>
 
 #### Costs 5 USD
 
@@ -37,7 +36,7 @@ And gives you the ability to upload pictures to discord.
 
 ## Night
 
-### <span style="color: #AAAAAA">[</span><span style="color: #555555">Night</span><span style="color: #AAAAAA">]</span>
+#### <span style="color: #AAAAAA">[</span><span style="color: #555555">Night</span><span style="color: #AAAAAA">]</span>
 
 #### Costs 10 USD
 
@@ -56,7 +55,7 @@ And 10 homes.
 
 ## Equinox
 
-### <span style="color: #AAAAAA">[</span><span style="color: #FFFF55">Equinox</span><span style="color: #AAAAAA">]</span>
+#### <span style="color: #AAAAAA">[</span><span style="color: #FFFF55">Equinox</span><span style="color: #AAAAAA">]</span>
 
 #### Costs 15 USD
 
@@ -76,7 +75,7 @@ And 15 homes.
 
 ## Eclipse
 
-### <span style="color: #AAAAAA">[</span><span style="color: #FFAA00">Eclipse</span><span style="color: #AAAAAA">]</span>
+#### <span style="color: #AAAAAA">[</span><span style="color: #FFAA00">Eclipse</span><span style="color: #AAAAAA">]</span>
 
 #### Costs 30 USD
 
@@ -95,24 +94,24 @@ As well as 30 Homes.
 ### # Means a Randomly changing characters in Rank name
 ## Umbra
 
-### <span style="color: #AAAAAA">[</span><span style="color: #5555FF">Umbra</span><span style="color: #AAAAAA">]</span>
+#### <span style="color: #AAAAAA">[</span><span style="color: #5555FF">Umbra</span><span style="color: #AAAAAA">]</span>
 
 #### 20 USD Upgrade from Eclipse
 
 ## Spectre
 
-### <span style="color: #AAAAAA">[</span><span style="color: #55FF55">Spectre</span><span style="color: #AAAAAA">]</span>
+#### <span style="color: #AAAAAA">[</span><span style="color: #55FF55">Spectre</span><span style="color: #AAAAAA">]</span>
 
 #### 25 USD Upgrade from Umbra
 
 ## Wraith
 
-### <span style="color: #AAAAAA">[</span><span style="color: #AA0000">#Wraith#</span><span style="color: #AAAAAA">]</span>
+#### <span style="color: #AAAAAA">[</span><span style="color: #AA0000">#Wraith#</span><span style="color: #AAAAAA">]</span>
 
 #### 25$ Upgrade from Spectre
 
 ## Phantom
 
-### <span style="color: #000000">[</span><span style="color: #AA00AA">#Phantom#</span><span style="color: #000000">]</span>
+#### <span style="color: #000000">[</span><span style="color: #AA00AA">#Phantom#</span><span style="color: #000000">]</span>
 
 #### 100$ Upgrade from Wraith

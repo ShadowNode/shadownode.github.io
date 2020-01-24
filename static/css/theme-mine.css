@@ -57,6 +57,7 @@ a {
 th {
     background: #161A1D;
     border-color: var(--MENU-SECTIONS-BG-color);
+    text-align: center;
 }
 
 td {
@@ -66,6 +67,7 @@ td {
 table {
     border-color: var(--MENU-SECTIONS-BG-color);
     color: var(--MAIN-TITLES-TEXT-color);
+    width: 50%;
 }
 
 #top-bar {
@@ -134,7 +136,14 @@ a:hover {
 }
 
 code + .copy-to-clipboard {
-    height: 20px;
+    height: 19px;
+    width: 21px;
     color: #f10202;
     background-color: #ffffff;
+}
+
+code  {
+    background-color: rgb(47, 50, 51);
+    color: var(--MENU-SEARCH-BOX-ICONS-color);
+    border-color: rgb(100, 106, 112)
 }
