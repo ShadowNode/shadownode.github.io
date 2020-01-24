@@ -132,3 +132,9 @@ a:hover {
 #sidebar hr {
     border-color: var(--MENU-SECTION-HR-color);
 }
+
+code + .copy-to-clipboard {
+    height: 20px;
+    color: #f10202;
+    background-color: #ffffff;
+}
