@@ -1,7 +1,9 @@
 ---
 title: Rules and Policies
 author: YourMCGeek
+tags: ["rules", "store", "shop"]
 ---
+<!-- We ask that you refrain from editing this file as a community member! Thank you! -->
 
 - [Rules](#rules)
 - [Store Policies](#store-policies)

@@ -44,10 +44,10 @@ And gives you the ability to upload pictures to discord.
 	
 `/jump or /j` Teleports you to the top of the block you're looking at.
 
-`/nick` Allows you to set a nickname but this time 'with' colors. (/info colors ingame for color codes) \
-	Example: /nick &5Shadows&dKitten = <span style="color: #AA00AA">Shadows</span><span style="color: #FF55FF">Kitten </span>
+`/nick` Allows you to set a nickname but this time 'with' colors. (`/info colors` for color codes) \
+	Example: `/nick &5Shadows&dKitten` = <span style="color: #AA00AA">Shadows</span><span style="color: #FF55FF">Kitten </span>
 
-`/enderchest or /ec` Enables you to open your Vanilla Enderchest from anywhere in the world. 
+`/enderchest` or `/ec` Enables you to open your Vanilla Enderchest from anywhere in the world. 
 
 `/hat` Lets you put any block/item that you're holding on your head as a hat.
 
@@ -90,8 +90,7 @@ And 15 homes.
 As well as 30 Homes.
 
 # Extra Ranks
-
-### # Means a Randomly changing characters in Rank name
+#### *``#`` Means a randomly changing characters in Rank name*
 ## Umbra
 
 #### <span style="color: #AAAAAA">[</span><span style="color: #5555FF">Umbra</span><span style="color: #AAAAAA">]</span>
@@ -108,10 +107,10 @@ As well as 30 Homes.
 
 #### <span style="color: #AAAAAA">[</span><span style="color: #AA0000">#Wraith#</span><span style="color: #AAAAAA">]</span>
 
-#### 25$ Upgrade from Spectre
+#### 25 USD Upgrade from Spectre
 
 ## Phantom
 
 #### <span style="color: #000000">[</span><span style="color: #AA00AA">#Phantom#</span><span style="color: #000000">]</span>
 
-#### 100$ Upgrade from Wraith
+#### 100 USD Upgrade from Wraith

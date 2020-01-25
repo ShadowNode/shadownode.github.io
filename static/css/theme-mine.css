@@ -147,3 +147,8 @@ code  {
     color: var(--MENU-SEARCH-BOX-ICONS-color);
     border-color: rgb(100, 106, 112)
 }
+
+.tags a.tag-link {
+    opacity: 0;
+    visibility: hidden;
+}
