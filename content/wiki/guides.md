@@ -24,6 +24,7 @@ Table of Contents
     - [With ZIP](#with-zip)
   - [Archive Cannot Find instance.cfg](#archive-cannot-find-instance.cfg)
   - [Adding Java Arguments](#adding-java-arguments)
+  - [Summoning the Ender Dragon](#summoning-the-ender-dragon)
 
 
 # Chunk Loaders
@@ -132,3 +133,9 @@ Ensure that you are running a version higher than or equal to 0.6.0. You can fin
 3. Locate JVM Arguments in the Java Runtime section
 4. Fill in your desired arguments in the blank
 5. Click test to verify everything is working properly.
+
+---
+
+# Summoning the Ender Dragon
+
+To summon the Ender Dragon, you will need 43 blocks of obsidian in your inventory and 4 end crystals. Simply go to The End, and run the command `/portalplace` with the required materials in your inventory. Once the structure is built, place the 4 end crystals on each side of the structure and the ender dragon should spawn!
