@@ -6,5 +6,5 @@ tags: ["lobby", "events", "skyfactory", "sf3", "sky factory", "sf4", "ultimate",
 
 <!-- We ask that you refrain from editing this page as a community member. Thank you for understanding --> 
 
-# Servers
+## Servers
 JS for https://shadownode.ca/servers

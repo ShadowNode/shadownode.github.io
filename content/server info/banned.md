@@ -19,7 +19,7 @@ This list is the **globally** banned list. To view additional item bans on your 
 | Actually Additions Player Interface | Duping | Craft |
 | Astral Sorcery Blockwell + Extra Utilities User | Server Crash | Near |
 | Biblocraft Fancy Workbench | Duping | Craft |
-| Chunk Loaders | Use our [Custom Chunkloaders](../wiki/guides#chunk-loaders) | Craft |
+| Chunk Loaders | Use our [Custom Chunkloaders](../../wiki/guides#chunk-loaders) | Craft |
 | Clearing Quarry | Causes Lag | Craft |
 | Draconic Evolution Celestial Manipulator | Changes Time and Weather | Craft |
 | Draconic Evolution Creative Exchanger | Creative Only Item | Craft |

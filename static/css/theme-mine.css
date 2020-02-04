@@ -70,6 +70,20 @@ table {
     width: 50%;
 }
 
+#footer p {
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 2px;
+}
+
+.belowsearchbutton {
+    margin-top: 15px;
+    margin-left: 0px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 1px solid rgb(100, 106, 112)
+}
+
 #top-bar {
     background: var(--MENU-SECTIONS-ACTIVE-BG-color);
 }
