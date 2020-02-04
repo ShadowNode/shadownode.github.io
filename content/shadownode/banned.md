@@ -4,7 +4,11 @@ author: YourMCGeek
 tags: ["banneditems"]
 ---
 
-We have banned a few items on our servers because of issues that required us to disable them. If you encounter a bug or any issue with items, please report it in our Discord support channel. If you notice an item is missing, please contact a staff member. We use a custom ban plugin, you can use ``/banneditems`` to view the banned items on your server. THe plugin allows us to ban items in ways that allow you to progress through the pack still. Craft, Place, Use and Near are all different ways items can be banned.
+
+We have banned certain items on our servers because of issues in the past that now require us to disable them. If you encounter a bug, or any issue with the items, please report it in our Discord Support channel. Our plugin allows us to ban the items in a way that allows you to still progress through the pack. Craft, Place, Use, and Near are all the different ways items can be banned. 
+{{% notice note %}}
+This list is the **globally** banned list. To view additional item bans on your server, please use ``/banneditems``.
+{{% /notice %}}
 
 ## Banned Generally on all Mod Packs
 | Item | Reason | Type of Ban |
@@ -15,9 +19,9 @@ We have banned a few items on our servers because of issues that required us to 
 | Actually Additions Player Interface | Duping | Craft |
 | Astral Sorcery Blockwell + Extra Utilities User | Server Crash | Near |
 | Biblocraft Fancy Workbench | Duping | Craft |
-| Chunk Loaders | Use our [Custom Chunkloaders](../wiki/guides.md#chunk-loaders) | Craft |
+| Chunk Loaders | Use our [Custom Chunkloaders](../wiki/guides#chunk-loaders) | Craft |
 | Clearing Quarry | Causes Lag | Craft |
-| Draconic Evolution Celestial Manipulator | Changes Weather | Craft |
+| Draconic Evolution Celestial Manipulator | Changes Time and Weather | Craft |
 | Draconic Evolution Creative Exchanger | Creative Only Item | Craft |
 | Draconic Evolution Creative RF Source | Creative Only Item | Craft |
 | EnderIO Conduits | Causes Lag | Place (if no alternatives for pipes) |
