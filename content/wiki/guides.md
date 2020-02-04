@@ -24,7 +24,7 @@ Table of Contents
     - [With ZIP](#with-zip)
   - [Archive Cannot Find instance.cfg](#archive-cannot-find-instance.cfg)
   - [Adding Java Arguments](#adding-java-arguments)
-  - [Summoning the Ender Dragon](#summoning-the-ender-dragon)
+- [Summoning the Ender Dragon](#summoning-the-ender-dragon)
 
 
 # Chunk Loaders
