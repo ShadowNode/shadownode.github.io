@@ -7,7 +7,7 @@ tags: ["banneditems"]
 
 We have banned certain items on our servers because of issues in the past that now require us to disable them. If you encounter a bug, or any issue with the items, please report it in our Discord Support channel. Our plugin allows us to ban the items in a way that allows you to still progress through the pack. Craft, Place, Use, and Near are all the different ways items can be banned. 
 {{% notice note %}}
-This list is the **globally** banned list. To view additional item bans on your server, please use ``/banneditems``.
+This list is the **globally** banned list. To view additional item bans on your server, please use ``/banneditems``
 {{% /notice %}}
 
 ## Banned Generally on all Mod Packs
