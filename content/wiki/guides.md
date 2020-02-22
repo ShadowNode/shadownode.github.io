@@ -3,7 +3,7 @@ title: Guides
 author: YourMCGeek
 ---
 
-Table of Contents
+{{%expand "Table of Contents (Click to expand)" %}}
 - [Chunk Loaders](#Chunk-Loaders)
   - [Always Online vs Online Only](#Always-On-vs-Online-Only)
   - [Checking Your Balance](#Checking-Your-Balance)
@@ -25,7 +25,7 @@ Table of Contents
   - [Archive Cannot Find instance.cfg](#archive-cannot-find-instance.cfg)
   - [Adding Java Arguments](#adding-java-arguments)
 - [Summoning the Ender Dragon](#summoning-the-ender-dragon)
-
+{{% /expand%}}
 
 # Chunk Loaders
 Modded Chunk Loaders have been disabled on ShadowNode servers globally, therefore we have added a plugin known as Better Chunk  Loaders to achieve their purpose. There are two types of Chunk Loaders, Always On and Online Only. To view chunk borders, hit ``F3+g``

@@ -81,7 +81,16 @@ table {
     margin-left: 0px;
     border-radius: 5px;
     font-size: 18px;
-    border: 1px solid rgb(100, 106, 112)
+    border: 1px solid rgb(100, 106, 112);
+    background-color: #252627;
+}
+
+div.notices.note p {
+    background: #161A1D;
+}
+
+div.notices p {
+    color: #E7F2FA;
 }
 
 #top-bar {
@@ -153,7 +162,7 @@ code + .copy-to-clipboard {
     height: 19px;
     width: 21px;
     color: #f10202;
-    background-color: #ffffff;
+    background-color: white;
 }
 
 code  {

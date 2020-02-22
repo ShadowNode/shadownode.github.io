@@ -4,12 +4,13 @@ author: YourMCGeek
 tags: ["area", "teleport", "banned", "island", "home", "tp", "msg", "ignore"]
 ---
 
-Table of Contents
+{{%expand "Table of Contents (Click to expand)" %}}
 - [Home](#home)
 - [Chat](#chat)
 - [Island/Cave Areas](#island/cave-area)
 - [Grief Prevention](#grief-prevention)
 - [Miscellaneous Commands](#miscellaneous-commands)
+{{% /expand%}}
 
 | Argument  | Required  |
 |:--------:	|:--------:	|
