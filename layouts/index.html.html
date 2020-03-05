@@ -71,16 +71,24 @@
         $temp.remove();
     }
     jQuery(function($) {
-        var playerCountURL = "https://shadownode.ca/servers/api/getPlayerCount.json?jsoncallback=?";
+        var playerCountURL = "https://shadownode.ca/servers/api/getPlayerCount.json";
         $('div.players')
             .mouseenter(function() {
                 $('div.players')
                     .text("IP: play.shadownode.ca");
             })
             .mouseleave(function() {
-                $.getJSON(playerCountURL, function ( json ) {
-                    console.log(json.toString())
-                }).fail(console.log())
+                $.ajax({
+                    dataType: "json",
+                    contentType: "text/json",
+                    url: playerCountURL,
+                    success: success,
+                    fail : success
+                });
+
+                function success(json) {
+                    console.log(json);
+                }
             })
             .on('click', function() {
                 copyToClipboard('#players');
