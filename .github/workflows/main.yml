@@ -1,9 +1,9 @@
-name: Auto update Sit using Hugo
+name: Auto update Site using Hugo
 
 on:
   push:
     branches:
-      - master
+      - site
 
 jobs:
   deploy:
@@ -27,5 +27,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          publish_branch: gh-pages
+          publish_branch: master
           commit_message: ${{ github.event.head_commit.message }}
