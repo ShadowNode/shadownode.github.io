@@ -73,7 +73,13 @@
 
     jQuery(function($) {
         $.getJSON('https://shadownode.ca/servers/api/getPlayerCount', {
-            format: JSON
+            format: JSON,
+            headers: {
+                "charset": "UTF-8",
+                "accept": "application/json",
+                "Access-Control-Allow-Origin": "shadownode.ca",
+                "Access-Control-Allow-Credentials": "true"
+            }
         }).done(function (data) {
             console.log(data.toString());
             $('div.players').text("There are " + data.players + " players online");
