@@ -1,4 +1,0 @@
-[submodule "public"]
-	path = public
-	url = https://github.com/Bennyboy1695/ShadowNode.git
-	branch = master
