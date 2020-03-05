@@ -73,13 +73,6 @@
 
         jQuery(function($) {
             $('div.players')
-                .mouseenter(function() {
-                    $('div.players')
-                        .text("IP: play.shadownode.ca");
-                })
-                .mouseleave(function() {
-                    $('div.players').text("There are 14 players online");
-                })
                 .on('click', function() {
                     copyToClipboard('#players');
                     alert("IP copied to clipboard");
