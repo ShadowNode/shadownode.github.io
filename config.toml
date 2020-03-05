@@ -1,4 +1,4 @@
-baseurl = "https://shadownode.github.io"
+baseurl = "https://beta.shadownode.ca"
 contentdir    = "content"
 layoutdir     = "layouts"
 publishdir    = "public"
@@ -30,7 +30,7 @@ unsafe= true
   disableNextPrev = true
   ordersectionsby = "title"
   themeVariant = "mine"
-  editURL = "https://github.com/ShadowNode/shadownode.github.io/tree/master/content/"
+  editURL = "https://github.com/ShadowNode/beta.shadownode.ca/tree/site/content/"
 
 #  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 
