@@ -72,13 +72,24 @@
     }
 
     jQuery(function($) {
+        $.getJSON('https://shadownode.ca/servers/api/getPlayerCount', {
+            format: JSON
+        }).done(function (data) {
+            console.log(data.toString());
+            $('div.players').text("There are " + data.players + " players online");
+        });
         $('div.players')
             .mouseenter(function() {
                 $('div.players')
                     .text("IP: play.shadownode.ca");
             })
             .mouseleave(function() {
-                $('div.players').text("There are 14 players online");
+                $.getJSON('https://shadownode.ca/servers/api/getPlayerCount', {
+                    format: JSON
+                }).done(function (data) {
+                    console.log(data.toString());
+                    $('div.players').text("There are " + data.players + " players online");
+                });
             })
             .on('click', function() {
                 copyToClipboard('#players');
