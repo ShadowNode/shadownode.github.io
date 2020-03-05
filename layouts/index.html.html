@@ -61,7 +61,7 @@
         </footer>
     </div>
 </div>
-<script src="assets/js/jquery-1.11.0.min.js" type="text/javascript"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" type="text/javascript"></script>
 <script type="text/javascript">
     function copyToClipboard(element) {
         var $temp = $("<input>");
@@ -70,26 +70,17 @@
         document.execCommand("copy");
         $temp.remove();
     }
-
     jQuery(function($) {
-        $.getJSON("https://shadownode.ca/servers/api/getPlayerCount.json?jsoncallback=?", {
-            format: JSON
-        }).done(function (data) {
-            console.log(data.toString());
-            $('div.players').text("There are " + data.players + " players online");
-        });
+        var playerCountURL = "https://shadownode.ca/servers/api/getPlayerCount.json?jsoncallback=?";
         $('div.players')
             .mouseenter(function() {
                 $('div.players')
                     .text("IP: play.shadownode.ca");
             })
             .mouseleave(function() {
-                $.getJSON("https://shadownode.ca/servers/api/getPlayerCount.json?jsoncallback=?", {
-                    format: JSON
-                }).done(function (data) {
-                    console.log(data.toString());
-                    $('div.players').text("There are " + data.players + " players online");
-                });
+                $.getJSON(playerCountURL, function ( json ) {
+                    console.log(json.toString())
+                }).fail(console.log())
             })
             .on('click', function() {
                 copyToClipboard('#players');
