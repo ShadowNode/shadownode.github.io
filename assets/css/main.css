@@ -7,6 +7,20 @@
     padding-top: 10px
 }
 
+:root{
+    scrollbar-base-color: #0079D3 !important;
+    scrollbar-width: thin !important;
+}
+
+#serversLogo {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
 #coming_soon {
     font-size: 40px;
     font-family: Dekar_Light;
@@ -208,4 +222,153 @@ footer {
     bottom: 5px;
     left: 0;
     right: 0;
+}
+
+#server-table {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+.col {
+    flex: 25%;
+    padding: 10px;
+    max-width: 240px;
+    box-sizing: border-box;
+}
+
+.table {
+    background: #2D3033;
+    padding: 0 20px;
+    font-family: Dekar_Light;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px #00000070;
+    align-items: center;
+    text-align: center;
+}
+
+.table h2 {
+    text-transform: uppercase;
+}
+
+.table ul {
+    margin: 0;
+    padding: 0;
+}
+
+.table ul li {
+    padding: 10px 0;
+    list-style: none;
+}
+
+.table a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid aqua;
+    display: block;
+    padding: 10px 0;
+    margin: 10px 0;
+    border-radius: 40px;
+    font-size: 14px;
+    transition: 0.5s linear;
+}
+
+.table a:hover {
+    background: aqua;
+    color: #2D3033;
+}
+
+@media screen and (max-width: 980px) {
+    .col {
+        flex: 50%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .col {
+        flex: 100%;
+    }
+}
+
+.tooltip-hover {
+    position: relative;
+    margin-bottom: 0px;
+}
+
+.tooltip-hover a {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 17px;
+}
+
+.tooltip-hover .tooltip-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip-hover .tooltip-text::after {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+.tooltip-hover:hover .tooltip-text {
+    visibility: visible;
+}
+
+.status {
+    padding-top: 2px;
+    padding-bottom: 1px;
+}
+
+.online {
+    background: #00bc8c;
+}
+
+.offline {
+    background: #e74c3c;
+}
+
+.info {
+    font-size: 16px;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: max-content auto;
+    color: white;
+}
+
+dt {
+    grid-column-start: 1;
+    text-align: left;
+    padding-bottom: 5px;
+    font-weight: bold;
+
+}
+
+dd {
+    grid-column-start: 2;
+    text-align: right;
+    padding-bottom: 5px;
 }
