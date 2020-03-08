@@ -12,6 +12,11 @@
     scrollbar-width: thin !important;
 }
 
+#servers-link {
+    color: white;
+    font-size: 30px;
+}
+
 #serversLogo {
     width: 75%;
     display: block;
