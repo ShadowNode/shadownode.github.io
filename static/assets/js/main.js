@@ -16,7 +16,7 @@ function playerCount(element) {
 
 playersEle.onloadstart = (playerCount(playersEle));
 playersEle.onmouseenter = function () {
-    playersEle.innerText = "Ip: play.shadownode.ca";
+    playersEle.innerText = "IP: play.shadownode.ca";
 };
 playersEle.onmouseleave = function () {
     playersEle.innerText = cachedCount;
