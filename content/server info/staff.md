@@ -21,12 +21,13 @@ tags: ["owner", "admin", "mod", "helper", "dev", "staff", "builder", "ranks"]
 
 </center>
 
-#### Notes
-> Members with (A) behind there name are in Away mode. They may or may not respond to a private message.
+{{% notice note's %}}
+Members with (A) behind there name are in Away mode. They may or may not respond to a private message.
 
-> Due to how Discord works you may need to be in the [ShadowNode official Discord server](../../wiki/commands/#discord) to private message staff.
+Due to how Discord works you may need to be in the [ShadowNode official Discord server](../../wiki/commands/#discord) to private message staff.
 
-> For quick help, [#support](https://discordapp.com/channels/124188711603798016/379181828302700547) or [#support-tickets](https://discordapp.com/channels/124188711603798016/379180312871043073) is still the best way to get support. (Provided you have joined [ShadowNode official Discord server](../../wiki/commands/#discord).)
+For quick help, [#support](https://discordapp.com/channels/124188711603798016/379181828302700547) or [#support-tickets](https://discordapp.com/channels/124188711603798016/379180312871043073) is still the best way to get support. (Provided you have joined [ShadowNode official Discord server](../../wiki/commands/#discord).)
+{{% /notice %}}
 
 # Staff Ranks and Responsibilities
 

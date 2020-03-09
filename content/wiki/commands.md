@@ -14,7 +14,7 @@ tags: ["area", "teleport", "banned", "island", "home", "tp", "msg", "ignore"]
 - [Miscellaneous Commands](#miscellaneous-commands)
 {{% /expand%}}
 <br>
-<br>
+
 
 | Argument  | Required  |
 |:--------:	|:--------:	|
