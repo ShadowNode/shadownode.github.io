@@ -21,7 +21,7 @@ tags: ["owner", "admin", "mod", "helper", "dev", "staff", "builder", "ranks"]
 
 </center>
 
-{{% notice "note's" %}}
+{{% notice info %}}
 Members with (A) behind there name are in Away mode. They may or may not respond to a private message.
 
 Due to how Discord works you may need to be in the [ShadowNode official Discord server](../../wiki/commands/#discord) to private message staff.
