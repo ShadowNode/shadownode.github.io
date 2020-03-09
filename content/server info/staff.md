@@ -11,8 +11,7 @@ tags: ["owner", "admin", "mod", "helper", "dev", "staff", "builder", "ranks"]
 
 | Position |          Name(s)         |
 |:--------:|:------------------------:|
-| <span style="color: #FF55FF">Owner</span>  |       HellFirePvP       |
-| <span style="color: #AA00AA">Kitty</span>  |       ShadowKitten       |
+| <span style="color: #FF55FF">Owner</span>  |       ShadowKitten       |
 | <span style="color: #AA0000">Senior Administrator</span> |  Aaron8059 <br>  Babymillie <br>  Dnsmasq <br>  RedSensei <br>  War_Horse |
 | <span style="color: #FF5555">Administrator</span>    |  Cosmic_Elemental <br>  InkEyes <br>  WSBSmurf |
 | <span style="color: #55FF55">Moderator</span>      |  2perry2 <br>  Apollo_Justice <br>  lakij <br>  Tenebrific |
