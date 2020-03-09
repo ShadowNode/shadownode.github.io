@@ -1,6 +1,7 @@
 ---
 title: Guides
 author: YourMCGeek
+tags = ["help"]
 ---
 
 {{%expand "Table of Contents (Click to expand)" %}}
