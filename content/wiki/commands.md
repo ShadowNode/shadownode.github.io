@@ -5,17 +5,25 @@ tags: ["area", "teleport", "banned", "island", "home", "tp", "msg", "ignore"]
 ---
 
 {{%expand "Table of Contents (Click to expand)" %}}
+- [Discord](#discord)
 - [Home](#home)
+- [Teleportation](#teleportation)
 - [Chat](#chat)
 - [Island/Cave Areas](#island/cave-area)
 - [Grief Prevention](#grief-prevention)
 - [Miscellaneous Commands](#miscellaneous-commands)
 {{% /expand%}}
+<br>
+<br>
 
 | Argument  | Required  |
 |:--------:	|:--------:	|
 |    <>    	| Required 	|
 |    []    	| Optional 	|
+
+## Discord
+
+In order to join discord, you need to run the command ``/discord`` in game, this will give you the invite link in your chat window.
 
 ## Home
 *These commands are affecting by your rank. For example a normal member gets only 1 home. See [Ranks](../ranks/) for more info!*
