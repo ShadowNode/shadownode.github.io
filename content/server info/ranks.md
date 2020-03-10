@@ -13,7 +13,7 @@ Price of each rank is also located on the [contribute](https://shop.shadownode.c
 
 {{% notice note %}}
 All ranks have access to there specific prefix in `/perks`. \
-Meaning if you have example eclipse rank you may use the prefix member/shade/night/Equinox/eclipse (like hide your rank or use another).
+Meaning if you have example eclipse rank you may use the prefix Member/Shade/Night/Equinox/Eclipse (like hide your rank or use another).
 {{% /notice %}}
 
 <div class="append"><span style="color: #AAAAAA">[</span><span style="color: #AAAAAA">Shade</span><span style="color: #AAAAAA">]</span></div>
