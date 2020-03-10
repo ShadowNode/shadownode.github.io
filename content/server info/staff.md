@@ -25,7 +25,6 @@ For quick help, [#support](https://discordapp.com/channels/124188711603798016/37
 {{% /notice %}}
 
 # Staff Ranks and Responsibilities
-## Staff Ranks and Responsibilities
 These are all of the staff ranks found ingame.
 
 ### <span style="color: #FF55FF">Owner</span>

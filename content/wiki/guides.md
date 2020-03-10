@@ -130,7 +130,7 @@ To summon the Ender Dragon, you will need 43 blocks of obsidian in your inventor
 
 ---
 
-# How to Use Github Gist
+## How to Use Github Gist
 While other copy and paste tools, like Pastebin or Hastebin, are more popular then Github Gist, Github Gist is one of the better copy and paste tools. It doesn't have a character count and it's just as easy to use as other tools. Using a copy and paste tool like Gist is recommended if you have issues with client crashes since it keeps the formatting of the log, and makes it easier to read the file without having to download it. 
 
 1. Use [this](https://gist.github.com/) link.
@@ -143,23 +143,23 @@ While other copy and paste tools, like Pastebin or Hastebin, are more popular th
 
 ---
 
-# Offensive Skins
+## Offensive Skins
 If you're reading this, there's a good chance that you've been hit with a ban that says "Your skin is offensive, please change it". You forgot to change your Hitler skin when you were trolling, don't worry! Even though you've quickly changed it, you still lost valuable playing time. 
 
 Don't want that to happen to you? Just do one quick thing: Check your skin! If you haven't changed it in a while, it might be good to take a quick look in game by using F5 or a site like [NameMC](https://namemc.com).
 
 If you've been banned, don't worry! Just create a ban appeal in the proper section of Discord and give us your username. Once staff verifies that your skin is no longer against our rules, you'll be unbanned!
 
-#### What qualifies as bad
+### What qualifies as bad
  1. Anything relating to Nazi's or Communists
  2. Nudity - visible genitals of any kind
  
  ---
  
- # Relocation
- Crate relocation is a method that we have created in order to compensate for wiping servers. it will hold a **limited** number of items for you to be able to access them later. 
+## Relocation
+Crate relocation is a method that we have created in order to compensate for wiping servers. it will hold a **limited** number of items for you to be able to access them later. 
  
- #### Conditions to be capable of relocating
+### Conditions to be capable of relocating
  1. Must be across servers wit the same mod pack, such as Stoneblock A to Stoneblock B
  2. May also be used to store some items to use after a map wipe
  3. **Cannot** be across different mod packs, such as Skyfactory to Beyond
@@ -178,10 +178,10 @@ If you run ``/relocate crate`` an inventory similar to a chest will appear on yo
 There will be a deadline to when you can access your relocate crate. This applies to both adding items, and removing items. If you are relocating after a reset and you fail to take your items out of the crate in time, they will be removed. The deadline will be posted in the Discord server. 
 {{% /notice %}}
 
-#### Items Inserted
+### Items Inserted
 
 ![Inserted Items](../../assets/images/relocate/relocate_insertion.png)
 
-#### Crate Reopened
+### Crate Reopened
 
 ![Inserted Items](../../assets/images/relocate/relocate_opening.png)
