@@ -3,19 +3,7 @@ title: Basic Commands
 author: YourMCGeek
 tags: ["area", "teleport", "banned", "island", "home", "tp", "msg", "ignore"]
 ---
-
-{{%expand "Table of Contents (Click to expand)" %}}
-- [Discord](#discord)
-- [Home](#home)
-- [Teleportation](#teleportation)
-- [Chat](#chat)
-- [Island/Cave Areas](#island/cave-area)
-- [Grief Prevention](#grief-prevention)
-- [Miscellaneous Commands](#miscellaneous-commands)
-{{% /expand%}}
-<br>
-
-
+### Basic Commands
 | Argument  | Required  |
 |:--------:	|:--------:	|
 |    <>    	| Required 	|
@@ -25,8 +13,10 @@ tags: ["area", "teleport", "banned", "island", "home", "tp", "msg", "ignore"]
 
 In order to join discord, you need to run the command ``/discord`` in game, this will give you the invite link in your chat window.
 
+___
+
 ## Home
-*These commands are affecting by your rank. For example a normal member gets only 1 home. See [Ranks](../ranks/) for more info!*
+*These commands are affecting by your rank. For example a normal member gets only 1 home. See [Ranks](../../server-info/ranks/) for more info!*
 
 ``/sethome [name] [-o]`` Sets your home at a current location. Failure to specify a name will set the home under the name ``home``. Adding ``-o`` to the end of your command will override the location of the previous home (e.g ``/sethome home -o`` will make your new home at the location you're currently at).
 

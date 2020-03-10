@@ -3,44 +3,20 @@ title: Guides
 author: YourMCGeek
 ---
 
-{{%expand "Table of Contents (Click to expand)" %}}
-- [Chunk Loaders](#Chunk-Loaders)
-  - [Always Online vs Online Only](#Always-On-vs-Online-Only)
-  - [Checking Your Balance](#Checking-Your-Balance)
-  - [Creating a Chunk Loader](#How-to-Create-Chunk-Loaders)
-  - [Viewing Active Chunk Loaders](#How-to-View-Active-Chunk-Loaders)
-  - [Reading Chunk Coordinates](#How-to-Read-Chunk-Coordinates)
-- [Claiming](#claiming)
-  - [How to Claim](#how-to-claim)  
-  - [2D vs 3D](#2d-vs-3d)
-  - [How to Subdivide](#how-to-subdivide-claims)
-- [Crates](#crates)
-- [MultiMC](#multimc)
-  - [How to Install](#how-to-install)
-  - [Login to your Profile](#login-to-your-profile)
-  - [Allocate More Ram](#allocate-more-ram)
-  - [Setup an Instance](#setup-an-instance)
-    - [With Link](#with-link)
-    - [With ZIP](#with-zip)
-  - [Archive Cannot Find instance.cfg](#archive-cannot-find-instance.cfg)
-  - [Adding Java Arguments](#adding-java-arguments)
-- [Summoning the Ender Dragon](#summoning-the-ender-dragon)
-{{% /expand%}}
-
-# Chunk Loaders
+### Chunk Loaders
 Modded Chunk Loaders have been disabled on ShadowNode servers globally, therefore we have added a plugin known as Better Chunk  Loaders to achieve their purpose. There are two types of Chunk Loaders, Always On and Online Only. To view chunk borders, hit ``F3+g``
 
 The most basic command in the plugin is ``/betterchunkloader``, or just ``/bcl`` for short. Executing this command will open an interface in the chat that the user may interact with. The interface will contain a list of active chunk loaders you currently own, along with some user-friendly icons. An example of the interface is below.
 ![Interface](../../assets/images/bcl/bcl_interface.png)
 
-### Always On vs Online Only
+## Always On vs Online Only
 Always On is a chunk loader which is online 24/7 and will keep the chunk loaded. However, the chunk loader will stop loading the chunk after 3 days of activity. Once the owner returns, it will resume loading the chunk.The Online Only chunk loader will only load the chunk when the owner of the loader is online.
 
-### Checking Your Balance
+## Checking Your Balance
 To check the number of chunks you may use/have used, you can click the ``Balance`` or run ``/bcl bal``. The interface will state the number of both Always Online and Online Only chunks that are currently active (used) and are available.
 ![Balance](../../assets/images/bcl/bcl_balance.png)
 
-### How to Create Chunk Loaders
+## How to Create Chunk Loaders
 From the main interface, you should click the ``Create`` icon or run ``/bcl create`` to begin the process of creating a Chunk Loader. An interface will open and should look like the following image.
 ![Create a Chunk Loader](../../assets/images/bcl/bcl_create.png)
 
@@ -63,13 +39,13 @@ To view the coordinates of the chunk you are currently in, press ``F3``. You wil
 
 ___
 
-# Claiming
+### Claiming
 All of our servers use the latest Grief Prevention plugin for claiming.
 
 ## How to Claim
 To claim you can either use a Golden Shovel you make, or one provide to you when you first join the server (some servers do not start with the golden shovel or have had their claim tool changed). Every block claimed is accounted for. You can buy claim blocks from the tokenshop, or from the store. Before claiming any land, please make sure to check which method of claiming you currently are using, [2D or 3D](#2D-vs-3D). Once your method of choice is confirmed, we can begin claiming. If you are in 2D mode, right click two opposite corners of the intended claim. For 3D mode, right click two opposite corners, one at the lowest point in the claim, and the other at the highest point in the claim. You can right click the air or ground with a stick to see who claims the block you are looking at.
 
-### 2D vs 3D
+## 2D vs 3D
 2D means that no what Y level you claim the blocks on, Grief Prevention will make your claim from bedrock to make build level. 3D will require you to claim your area in a cube and will only claim what is inside the cube.
 
 ## How to Subdivide Claims
@@ -77,7 +53,7 @@ Subdividing your claim means making smaller sections in the bigger claim to allo
 
 ___
 
-# Crates
+### Crates
 
 We use a plugin called HuskyCrates to manage our crates. Crates contain items, the quality of which depends on the tier of the crate. To open a create you must hold the crate key in your hand and right click the corresponding crate. You can obtain crate keys by either purchasing them from our [store](https://shop.shadownode.ca), or buy buying them in our token shop. 
 {{% notice note %}}
@@ -94,7 +70,8 @@ Some items on this list may not be on your server as some modpacks don't have al
 
 ___
 
-# MultiMC
+### MultiMC
+
 MultiMC is a Minecraft launcher. It can be used to launch vanilla Minecraft, custom modpacks, or regular modpacks. The launcher is very good for Linux users or those who don't like the Twitch Launcher. **We strongly recommend this launcher.**
 
 ## How to Install
@@ -118,7 +95,7 @@ MultiMC is a Minecraft launcher. It can be used to launch vanilla Minecraft, cus
   - 6144mb is the average selection for 1.12+
 
 ## Setup an Instance
-### With Link
+## With Link
 1. Copy the link address from the modpack download page
 2. In MultiMC, select the white blank paper at the top that says Add Instance
 3. Check the box next to Import Modpack (local file or link)
@@ -127,7 +104,7 @@ MultiMC is a Minecraft launcher. It can be used to launch vanilla Minecraft, cus
 6. Click on the instance and launch
 
 **To update you must reinstall the new update in the same manor as you downloaded the pack oringinally. Remember to save any world files for single player worlds.**
-### With Zip
+## With Zip
 1. Download a zip file of the modpack from the modpack download page
 2. In MultiMC, select the white blank paper at the top that says Add Instance
 3. Check the box next to Import Modpack (local file or link)
@@ -147,6 +124,6 @@ Ensure that you are running a version higher than or equal to 0.6.0. You can fin
 
 ---
 
-# Summoning the Ender Dragon
+### Summoning the Ender Dragon
 
 To summon the Ender Dragon, you will need 43 blocks of obsidian in your inventory and 4 end crystals. Simply go to The End, and run the command `/portalplace` with the required materials in your inventory. Once the structure is built, place the 4 end crystals on each side of the structure and the ender dragon should spawn!
