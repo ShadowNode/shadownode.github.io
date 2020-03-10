@@ -4,21 +4,21 @@ author: Cosmic
 ---
 
 ## Available Ranks
+
 On the server we have multiple ranks that you can [contribute](https://shop.shadownode.ca/) to acquire. \
 The first few include some commands with many being useful and some fun ones included with a few. \
 Each rank also has their own custom join/leave message. \
-Also every rank inherits the commands/features from the previous ranks.
+Also every rank inherits the commands/features from the previous ranks.\
+Price of each rank is also located on the [contribute](https://shop.shadownode.ca/) page.
 
 {{% notice note %}}
 All ranks have access to there specific prefix in `/perks`. \
 Meaning if you have example eclipse rank you may use the prefix member/shade/night/Equinox/eclipse (like hide your rank or use another).
 {{% /notice %}}
 
+<div class="append"><span style="color: #AAAAAA">[</span><span style="color: #AAAAAA">Shade</span><span style="color: #AAAAAA">]</span></div>
+
 ### Shade
-
-<span style="color: #AAAAAA">[</span><span style="color: #AAAAAA">Shade</span><span style="color: #AAAAAA">]</span>
-
-Costs 5 USD
 
 Features:
 
@@ -32,11 +32,10 @@ Features:
 
 And gives you the ability to upload pictures to discord.
 
+
+<div class="append"><span style="color: #AAAAAA">[</span><span style="color: #555555">Night</span><span style="color: #AAAAAA">]</span></div>
+
 ### Night
-
-<span style="color: #AAAAAA">[</span><span style="color: #555555">Night</span><span style="color: #AAAAAA">]</span>
-
-Costs 10 USD
 
 Features:
 	
@@ -51,11 +50,9 @@ Features:
 
 And 10 homes.
 
+<div class="append"><span style="color: #AAAAAA">[</span><span style="color: #FFFF55">Equinox</span><span style="color: #AAAAAA">]</span></div>
+
 ### Equinox
-
-<span style="color: #AAAAAA">[</span><span style="color: #FFFF55">Equinox</span><span style="color: #AAAAAA">]</span>
-
-Costs 15 USD
 
 Features
 
@@ -71,11 +68,9 @@ Access to Colored Chat (same codes for /nick just in chat)
 
 And 15 homes.
 
+<div class="append"><span style="color: #AAAAAA">[</span><span style="color: #FFAA00">Eclipse</span><span style="color: #AAAAAA">]</span></div>
+
 ### Eclipse
-
-<span style="color: #AAAAAA">[</span><span style="color: #FFAA00">Eclipse</span><span style="color: #AAAAAA">]</span>
-
-Costs 30 USD
 
 Features 
 
@@ -95,37 +90,38 @@ As well as 30 Homes.
 *``#`` Means a randomly changing characters in Rank name*
 {{% /notice %}}
 
+<div class="append"><span style="color: #AAAAAA">[</span><span style="color: #5555FF">Umbra</span><span style="color: #AAAAAA">]</span></div>
+
 ### Umbra
 
-<span style="color: #AAAAAA">[</span><span style="color: #5555FF">Umbra</span><span style="color: #AAAAAA">]</span>
+Upgrade from Eclipse
 
-20 USD Upgrade from Eclipse
+<div class="append"><span style="color: #AAAAAA">[</span><span style="color: #55FF55">Spectre</span><span style="color: #AAAAAA">]</span></div>
 
 ### Spectre
 
-<span style="color: #AAAAAA">[</span><span style="color: #55FF55">Spectre</span><span style="color: #AAAAAA">]</span>
+Upgrade from Umbra
 
-25 USD Upgrade from Umbra
+<div class="append"><span style="color: #AAAAAA">[</span><span style="color: #AA0000">#Wraith#</span><span style="color: #AAAAAA">]</span></div>
 
 ### Wraith
 
-<span style="color: #AAAAAA">[</span><span style="color: #AA0000">#Wraith#</span><span style="color: #AAAAAA">]</span>
+Upgrade from Spectre
 
-25 USD Upgrade from Spectre
+<div class="append"><span style="color: #000000">[</span><span style="color: #AA00AA">#Phantom#</span><span style="color: #000000">]</span></div>
 
 ### Phantom
 
-<span style="color: #000000">[</span><span style="color: #AA00AA">#Phantom#</span><span style="color: #000000">]</span>
-
-100 USD Upgrade from Wraith
+Upgrade from Wraith
 
 ----
 
 ## Sidenote Ranks
 
+<div class="append"><span style="color: #000000">[</span><span style="color: #5555FF">Streamer</span><span style="color: #000000">]</span></div>
+
 ### Creator
 
-<span style="color: #000000">[</span><span style="color: #5555FF">Streamer</span><span style="color: #000000">]</span>
 {{% notice note %}}
 To request a creator rank , you must be an active streamer on Twitch, Youtube or Mixer, Must at least create content for minecraft or stream on a regular basis\
 Having past content/streams from inside ShadowNode is a plus. Have a steady following count, and must not be toxic in game chat or have past issues with staff or ever got banned.\
@@ -144,9 +140,10 @@ You may post your video/stream in our [#content](https://discordapp.com/channels
 
 As well as 3 Homes. (if you had no rank before)
 
+<div class="append"><span style="color: #000000">[</span><span style="color: #FF55FF">Booster</span><span style="color: #000000">]</span></div>
+
 ### Booster
 
-<span style="color: #000000">[</span><span style="color: #FF55FF">Booster</span><span style="color: #000000">]</span>
 {{% notice note %}}
 You can only get the booster rank if you boost the [ShadowNode official Discord server](../../wiki/commands/#discord) with discord nitro or buy the boosts.\
 If you remove the boost on the discord server , we will remove the boost rank from your account to.\
