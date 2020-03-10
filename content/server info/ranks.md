@@ -3,26 +3,24 @@ title: Ranks
 author: Cosmic
 ---
 
-##### Available Ranks:
-  * [Shade](#shade)
-  * [Night](#night)
-  * [Equinox](#equinox)
-  * [Eclipse](#eclipse)
-  * [Extra Ranks](#extra-ranks)
-
+## Available Ranks
 On the server we have multiple ranks that you can [contribute](https://shop.shadownode.ca/) to acquire. \
 The first few include some commands with many being useful and some fun ones included with a few. \
 Each rank also has their own custom join/leave message. \
 Also every rank inherits the commands/features from the previous ranks.
 
+{{% notice note %}}
+All ranks have access to there specific prefix in `/perks`. \
+Meaning if you have example eclipse rank you may use the prefix member/shade/night/Equinox/eclipse (like hide your rank or use another).
+{{% /notice %}}
 
-## Shade
+### Shade
 
 #### <span style="color: #AAAAAA">[</span><span style="color: #AAAAAA">Shade</span><span style="color: #AAAAAA">]</span>
 
 #### Costs 5 USD
 
-### Features:
+#### Features:
 
 `/back` Returns you to the most recent location you teleported from with no cooldown. 
 
@@ -34,13 +32,13 @@ Also every rank inherits the commands/features from the previous ranks.
 
 And gives you the ability to upload pictures to discord.
 
-## Night
+### Night
 
 #### <span style="color: #AAAAAA">[</span><span style="color: #555555">Night</span><span style="color: #AAAAAA">]</span>
 
 #### Costs 10 USD
 
-### Features:
+#### Features:
 	
 `/jump or /j` Teleports you to the top of the block you're looking at.
 
@@ -53,13 +51,13 @@ And gives you the ability to upload pictures to discord.
 
 And 10 homes.
 
-## Equinox
+### Equinox
 
 #### <span style="color: #AAAAAA">[</span><span style="color: #FFFF55">Equinox</span><span style="color: #AAAAAA">]</span>
 
 #### Costs 15 USD
 
-### Features
+#### Features
 
 `/kittycannon` Shoots out Explosive Kittens (Non-Damaging)
 
@@ -73,13 +71,13 @@ Access to Colored Chat (same codes for /nick just in chat)
 
 And 15 homes.
 
-## Eclipse
+### Eclipse
 
 #### <span style="color: #AAAAAA">[</span><span style="color: #FFAA00">Eclipse</span><span style="color: #AAAAAA">]</span>
 
 #### Costs 30 USD
 
-### Features 
+#### Features 
 
 `/fly` Gives you the ability to use Creative Flight
 
@@ -89,28 +87,72 @@ And 15 homes.
 
 As well as 30 Homes.
 
-# Extra Ranks
-#### *``#`` Means a randomly changing characters in Rank name*
-## Umbra
+----
+
+## Extra Ranks
+
+{{% notice note %}}
+*``#`` Means a randomly changing characters in Rank name*
+{{% /notice %}}
+
+### Umbra
 
 #### <span style="color: #AAAAAA">[</span><span style="color: #5555FF">Umbra</span><span style="color: #AAAAAA">]</span>
 
 #### 20 USD Upgrade from Eclipse
 
-## Spectre
+### Spectre
 
 #### <span style="color: #AAAAAA">[</span><span style="color: #55FF55">Spectre</span><span style="color: #AAAAAA">]</span>
 
 #### 25 USD Upgrade from Umbra
 
-## Wraith
+### Wraith
 
 #### <span style="color: #AAAAAA">[</span><span style="color: #AA0000">#Wraith#</span><span style="color: #AAAAAA">]</span>
 
 #### 25 USD Upgrade from Spectre
 
-## Phantom
+### Phantom
 
 #### <span style="color: #000000">[</span><span style="color: #AA00AA">#Phantom#</span><span style="color: #000000">]</span>
 
 #### 100 USD Upgrade from Wraith
+
+----
+
+## Sidenote Ranks
+
+### Creator
+
+#### <span style="color: #000000">[</span><span style="color: #5555FF">Streamer</span><span style="color: #000000">]</span>
+{{% notice note %}}
+To request a creator rank , you must be an active streamer on Twitch, Youtube or Mixer, Must at least create content for minecraft or stream on a regular basis\
+Having past content/streams from inside ShadowNode is a plus. Have a steady following count, and must not be toxic in game chat or have past issues with staff or ever got banned.\
+Creators will be accepted or denied on case by case basis by one of the senior-admin staff.\
+If you wish to apply make a [#support-tickets](https://discordapp.com/channels/124188711603798016/379180312871043073) in the [ShadowNode official Discord server](../../wiki/commands/#discord)
+{{% /notice %}}
+
+#### Features 
+
+`/perks` Gets all Perks available in game. This is a way to show off our perks to your viewers. As bonus you may use them freely.
+
+`/nick` Allows you to set a nickname 'with' colors. (`/info colors` for color codes) \
+	Example: `/nick &5Shadows&dKitten` = <span style="color: #AA00AA">Shadows</span><span style="color: #FF55FF">Kitten </span>
+
+You may post your video/stream in our [#content](https://discordapp.com/channels/124188711603798016/383503183391096832) every time you stream or upload a video on youtube (Provided it is Shadownode Related).
+
+As well as 3 Homes. (if you had no rank before)
+
+### Booster
+
+#### <span style="color: #000000">[</span><span style="color: #FF55FF">Booster</span><span style="color: #000000">]</span>
+{{% notice note %}}
+You can only get the booster rank if you boost the [ShadowNode official Discord server](../../wiki/commands/#discord) with discord nitro or buy the boosts.\
+If you remove the boost on the discord server , we will remove the boost rank from your account to.\
+If you boosted the server and haven't received the rank make a [#support-tickets](https://discordapp.com/channels/124188711603798016/379180312871043073) in the [ShadowNode official Discord server](../../wiki/commands/#discord) so we can set you up.\
+Your booster title can only be activated in `/perks` under prefix.\
+While its not a direct contribution to ShadowNode it does help us to have Discord perks for ShadowNode Discord Server.
+{{% /notice %}}
+
+`/perks` Gets the light purple glow, and the rainbow wings for free.
