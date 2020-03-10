@@ -24,17 +24,6 @@
 </head>
 <body>
 
-<?php
-  $msg = "";
-  if (isset($_POST["submit"])) {
-    $username = $_POST["username"];
-    $discord = $_POST["discord";
-    $reason = $_POST["reason"];
-
-    $msg = "Your message has been submitted!";
-    echo $username . $discord . $reason;
-  ?>
-
 <img class="swirl big" alt="swirl_big" src="./assets/images/vortex_swirl.png" width="0">
 <img class="swirl small" alt="swirl_small" src="./assets/images/vortex_swirl.png" width="0">
 <div class="wrapper">
@@ -45,7 +34,6 @@
         </a>
     </header>
 
-    <?php echo $msg; ?>
     <form action="" method="post">
         <ul>
             <li>
