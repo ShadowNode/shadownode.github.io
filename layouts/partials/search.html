@@ -13,6 +13,12 @@
     <a href="#">
         <button id="Discord" class="belowsearchbutton"><i class="fab fa-discord"></i> Discord</button>
     </a>
+    <a href="{{ .Site.BaseURL }}/servers.html">
+        <button id="servers" class="belowsearchbutton"><i class="fas fa-server"></i> Servers</button>
+    </a>
+    <a href="{{ .Site.BaseURL }}/forms.html">
+        <button id="forms" class="belowsearchbutton"><i class="fas fa-edit"></i> Forms</button>
+    </a>
 </div>
 
 {{ $assetBusting := not .Site.Params.disableAssetsBusting }}
