@@ -185,3 +185,13 @@ div.notices.warning p {
     border-top: 30px solid rgb(255, 85, 85);
     background: rgba(217, 83, 79, 0.8);
 }
+
+#TableOfContents > ul > li > a   {
+    font-weight: bold;
+    padding: 0 3px;
+    margin: 0 2px;
+}
+
+.append {
+    visibility: hidden;
+}
