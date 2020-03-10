@@ -3,19 +3,19 @@ title: Basic Commands
 author: YourMCGeek
 tags: ["area", "teleport", "banned", "island", "home", "tp", "msg", "ignore"]
 ---
-### Basic Commands
+## Basic Commands
 | Argument  | Required  |
 |:--------:	|:--------:	|
 |    <>    	| Required 	|
 |    []    	| Optional 	|
 
-## Discord
+### Discord
 
 In order to join discord, you need to run the command ``/discord`` in game, this will give you the invite link in your chat window.
 
 ___
 
-## Home
+### Home
 *These commands are affecting by your rank. For example a normal member gets only 1 home. See [Ranks](../../server-info/ranks/) for more info!*
 
 ``/sethome [name] [-o]`` Sets your home at a current location. Failure to specify a name will set the home under the name ``home``. Adding ``-o`` to the end of your command will override the location of the previous home (e.g ``/sethome home -o`` will make your new home at the location you're currently at).
@@ -28,7 +28,7 @@ ___
 
 ___
 
-## Teleportation
+### Teleportation
 
 ``/tpa <name>`` Sends a request to teleport to the specified player. The player may respond to the request or ignore it.
 
@@ -46,7 +46,7 @@ ___
 
 ___
 
-## Chat
+### Chat
 
 ``/msg <name> <message>`` Sends your message privately to the specified user.
 
@@ -62,7 +62,7 @@ ___
 
 ___
 
-## Island/Cave Area
+### Island/Cave Area
 
 Any server that is a skyblock style or uses a predefined starting area will use this plugin to create your area. Along with the commands mentioned above, there are a few more commands for your island/cave.\
 *Servers that fit into this category are servers like: Stoneblock, SkyFactory, Glacial Awakening.*
@@ -95,7 +95,7 @@ Any server that is a skyblock style or uses a predefined starting area will use 
 
 ___
 
-## Grief Prevention
+### Grief Prevention
 *All these commands will work for subdivided claims as well*
 
 ``/claimsinfo`` Checks information of the claim such as trusted players or who owns the claim.
@@ -122,7 +122,7 @@ ___
 
 ___
 
-## Miscellaneous Commands
+### Miscellaneous Commands
 
 These are the commands that don't really fit into any section.
 

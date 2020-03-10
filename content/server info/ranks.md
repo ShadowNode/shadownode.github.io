@@ -3,7 +3,7 @@ title: Ranks
 author: Cosmic
 ---
 
-### Available Ranks
+## Available Ranks
 On the server we have multiple ranks that you can [contribute](https://shop.shadownode.ca/) to acquire. \
 The first few include some commands with many being useful and some fun ones included with a few. \
 Each rank also has their own custom join/leave message. \
@@ -14,7 +14,7 @@ All ranks have access to there specific prefix in `/perks`. \
 Meaning if you have example eclipse rank you may use the prefix member/shade/night/Equinox/eclipse (like hide your rank or use another).
 {{% /notice %}}
 
-## Shade
+### Shade
 
 #### <span style="color: #AAAAAA">[</span><span style="color: #AAAAAA">Shade</span><span style="color: #AAAAAA">]</span>
 
@@ -32,7 +32,7 @@ Meaning if you have example eclipse rank you may use the prefix member/shade/nig
 
 And gives you the ability to upload pictures to discord.
 
-## Night
+### Night
 
 #### <span style="color: #AAAAAA">[</span><span style="color: #555555">Night</span><span style="color: #AAAAAA">]</span>
 
@@ -51,7 +51,7 @@ And gives you the ability to upload pictures to discord.
 
 And 10 homes.
 
-## Equinox
+### Equinox
 
 #### <span style="color: #AAAAAA">[</span><span style="color: #FFFF55">Equinox</span><span style="color: #AAAAAA">]</span>
 
@@ -71,7 +71,7 @@ Access to Colored Chat (same codes for /nick just in chat)
 
 And 15 homes.
 
-## Eclipse
+### Eclipse
 
 #### <span style="color: #AAAAAA">[</span><span style="color: #FFAA00">Eclipse</span><span style="color: #AAAAAA">]</span>
 
@@ -89,31 +89,31 @@ As well as 30 Homes.
 
 ----
 
-### Extra Ranks
+## Extra Ranks
 
 {{% notice note %}}
 *``#`` Means a randomly changing characters in Rank name*
 {{% /notice %}}
 
-## Umbra
+### Umbra
 
 #### <span style="color: #AAAAAA">[</span><span style="color: #5555FF">Umbra</span><span style="color: #AAAAAA">]</span>
 
 #### 20 USD Upgrade from Eclipse
 
-## Spectre
+### Spectre
 
 #### <span style="color: #AAAAAA">[</span><span style="color: #55FF55">Spectre</span><span style="color: #AAAAAA">]</span>
 
 #### 25 USD Upgrade from Umbra
 
-## Wraith
+### Wraith
 
 #### <span style="color: #AAAAAA">[</span><span style="color: #AA0000">#Wraith#</span><span style="color: #AAAAAA">]</span>
 
 #### 25 USD Upgrade from Spectre
 
-## Phantom
+### Phantom
 
 #### <span style="color: #000000">[</span><span style="color: #AA00AA">#Phantom#</span><span style="color: #000000">]</span>
 
@@ -121,9 +121,9 @@ As well as 30 Homes.
 
 ----
 
-### Sidenote Ranks
+## Sidenote Ranks
 
-## Creator
+### Creator
 
 #### <span style="color: #000000">[</span><span style="color: #5555FF">Streamer</span><span style="color: #000000">]</span>
 {{% notice note %}}
@@ -144,7 +144,7 @@ You may post your video/stream in our [#content](https://discordapp.com/channels
 
 As well as 3 Homes. (if you had no rank before)
 
-## Booster
+### Booster
 
 #### <span style="color: #000000">[</span><span style="color: #FF55FF">Booster</span><span style="color: #000000">]</span>
 {{% notice note %}}
