@@ -127,3 +127,61 @@ Ensure that you are running a version higher than or equal to 0.6.0. You can fin
 ## Summoning the Ender Dragon
 
 To summon the Ender Dragon, you will need 43 blocks of obsidian in your inventory and 4 end crystals. Simply go to The End, and run the command `/portalplace` with the required materials in your inventory. Once the structure is built, place the 4 end crystals on each side of the structure and the ender dragon should spawn!
+
+---
+
+# How to Use Github Gist
+While other copy and paste tools, like Pastebin or Hastebin, are more popular then Github Gist, Github Gist is one of the better copy and paste tools. It doesn't have a character count and it's just as easy to use as other tools. Using a copy and paste tool like Gist is recommended if you have issues with client crashes since it keeps the formatting of the log, and makes it easier to read the file without having to download it. 
+
+1. Use [this](https://gist.github.com/) link.
+2. Give the gist a title in the small "filename" window above the large text window.
+3. Open the file you wish to share.
+4. Use Ctrl+A to select the whole text and Ctrl+C to copy it.
+5. Go on the Gist Page and use Ctrl+V to paste it in the large text window.
+6. Click on "Create Secret Gist". The file you have may not be that important, but it's not necessary to share it with the whole world.
+7. Copy the link from the gist website, and paste it anywhere you'd like!
+
+---
+
+# Offensive Skins
+If you're reading this, there's a good chance that you've been hit with a ban that says "Your skin is offensive, please change it". You forgot to change your Hitler skin when you were trolling, don't worry! Even though you've quickly changed it, you still lost valuable playing time. 
+
+Don't want that to happen to you? Just do one quick thing: Check your skin! If you haven't changed it in a while, it might be good to take a quick look in game by using F5 or a site like [NameMC](https://namemc.com).
+
+If you've been banned, don't worry! Just create a ban appeal in the proper section of Discord and give us your username. Once staff verifies that your skin is no longer against our rules, you'll be unbanned!
+
+#### What qualifies as bad
+ 1. Anything relating to Nazi's or Communists
+ 2. Nudity - visible genitals of any kind
+ 
+ ---
+ 
+ # Relocation
+ Crate relocation is a method that we have created in order to compensate for wiping servers. it will hold a **limited** number of items for you to be able to access them later. 
+ 
+ #### Conditions to be capable of relocating
+ 1. Must be across servers wit the same mod pack, such as Stoneblock A to Stoneblock B
+ 2. May also be used to store some items to use after a map wipe
+ 3. **Cannot** be across different mod packs, such as Skyfactory to Beyond
+ 
+If you run ``/relocate`` a message in chat will be triggered to warn you of a few common issues:
+ 1. It will warn you that if your player has a large number of items such as a full ME drive or a full bag, it **will crash** your game and you **may loose** the item/context of the items if the crash is not fixed. 
+    1. *Anything with a sub-inventory (such as armor with a modifier) has a risk of being lost. To prevent this, please put them in the crate separately.*
+2. If a certain mod/item has plans to be banned/removed from the pack there will be a warning.
+    1. The purpose of this warning is for you to **NOT** include them in your crate because you **WILL** lose them.
+
+![Warning](../../assets/images/relocate/relocate_command.png)
+
+If you run ``/relocate crate`` an inventory similar to a chest will appear on your screen. You may drag items that you wish to save into the chest. *The chest does not save the order in which you place the items.* You may run the command again to open this inventory to take items out of it or to add more. In order to access the items after the wipe, or on the other server, run ``/relocate crate``
+
+{{% notice warning %}}
+There will be a deadline to when you can access your relocate crate. This applies to both adding items, and removing items. If you are relocating after a reset and you fail to take your items out of the crate in time, they will be removed. The deadline will be posted in the Discord server. 
+{{% /notice %}}
+
+#### Items Inserted
+
+![Inserted Items](../../assets/images/relocate/relocate_insertion.png)
+
+#### Crate Reopened
+
+![Inserted Items](../../assets/images/relocate/relocate_opening.png)
