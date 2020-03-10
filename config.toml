@@ -18,6 +18,9 @@ pygmentCodeFences = true
 #Allows for using html in markdown to do colored text etc.
 [markup.goldmark.renderer]
 unsafe= true
+[markup.tableOfContents]
+endLevel = 3
+startLevel = 2
 #####################################
 
 [Params]
