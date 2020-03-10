@@ -15,7 +15,7 @@
     <meta name="twitter:site" content="@ShadowNodeMC">
     <meta name="keywords" content="shadownode, modded server, modded, game, servers, minecraft server, minecraft, shadownode server, ftb, feed the beast, atlauncher, sevtech, atm3, all the mods 3, revelation, ftb revelation, direwolf, infinity, beyond, beyond server, skyfactory, skyfactory 3, sky factory, age of engineering, aoe, crates, no banned items, banned items, vote shadownode, grief prevention, ftb server list, survivial, ark, ark ranarok, ragnarok, server list, vote, shop, networks, network, server networks, direwolf20, direwolf, direwolf server, infinity, infinity lite, infinity lite server, vanilla, vanilla server">
 
-    <title>Vote | ShadowNode Modded Game Servers</title>
+    <title>Ban Appeal | ShadowNode Modded Game Servers</title>
     <meta name="description" content="Welcome to ShadowNode! We specialize in modded game servers and strive to offer a friendly and comfortable environment for our players. Join now!">
 
     <link rel="stylesheet" href="assets/css/main.css">
@@ -23,56 +23,48 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
 </head>
 <body>
-<div id="wrapper">
-<!--    <img class="preload" alt="forum_highlighted" src="images/icons/forum_highlighted.png">
-    <img class="preload" alt="vote_highlighted" src="images/icons/vote_highlighted.png">
-    <img class="preload" alt="store_highlighted" src="images/icons/store_highlighted.png">-->
-    <img class="swirl big" alt="swirl_big" src="./assets/images/vortex_swirl.png" width="0">
-    <img class="swirl small" alt="swirl_small" src="./assets/images/vortex_swirl.png" width="0">
-    <div class="wrapper">
-        <header>
-            <a href="index.html" tabindex="3">
-                <img alt="logo" src="./assets/images/logo_vert.png">
-            </a>
-        </header>
-        <nav>
-            <p id="coming_soon">This page is coming soon!</p>
-        </nav>
-        <footer>
-            ©2014-2020 ShadowNode.
-            <div id="copyright">
 
-            </div>
-        </footer>
-    </div>
+<?php
+  $msg = "";
+  if (isset($_POST["submit"])) {
+    $username = $_POST["username"];
+    $discord = $_POST["discord";
+    $reason = $_POST["reason"];
+
+    $msg = "Your message has been submitted!";
+    echo $username . $discord . $reason;
+  ?>
+
+<img class="swirl big" alt="swirl_big" src="./assets/images/vortex_swirl.png" width="0">
+<img class="swirl small" alt="swirl_small" src="./assets/images/vortex_swirl.png" width="0">
+<div class="wrapper">
+    <header>
+
+        <a href="index.html" tabindex="3">
+            <img alt="logo" src="./assets/images/logo_vert.png">
+        </a>
+    </header>
+
+    <?php echo $msg; ?>
+    <form action="" method="post">
+        <ul>
+            <li>
+                <label for="username">What is your username?</label><br>
+                <input type="text" id="username" required><br>
+            </li>
+            <li>
+                <label for="reason">What is your ban reason?</label><br>
+                <input type="text" id="reason" required><br>
+            </li>
+            <li>
+                <label for="unbanned">Why should you be unbanned?</label><br>
+                <textarea id="unbanned" required></textarea><br>
+            </li>
+            <li class="button">
+                <button type="submit">Submit Ban Appeal</button>
+            </li>
+        </ul>
+    </form>
 </div>
-
-<script type="text/javascript">
-    /*
-      function copyToClipboard(element) {
-            var $temp = $("<input>");
-            $("body").append($temp);
-            $temp.val($(element).text().split(":")[1].trim()).select();
-            document.execCommand("copy");
-            $temp.remove();
-        }
-
-        jQuery(function($) {
-            $('div.players')
-                .mouseenter(function() {
-                    $('div.players')
-                        .text("IP: play.server info.ca");
-                })
-                .mouseleave(function() {
-                    $('div.players').text("There are 14 players online");
-                })
-                .on('click', function() {
-                    copyToClipboard('#players');
-                    alert("IP copied to clipboard");
-                });
-        });
-    */
-</script>
-
 </body>
 </html>
