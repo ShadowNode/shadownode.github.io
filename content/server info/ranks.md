@@ -16,11 +16,11 @@ Meaning if you have example eclipse rank you may use the prefix member/shade/nig
 
 ### Shade
 
-#### <span style="color: #AAAAAA">[</span><span style="color: #AAAAAA">Shade</span><span style="color: #AAAAAA">]</span>
+<span style="color: #AAAAAA">[</span><span style="color: #AAAAAA">Shade</span><span style="color: #AAAAAA">]</span>
 
-#### Costs 5 USD
+Costs 5 USD
 
-#### Features:
+Features:
 
 `/back` Returns you to the most recent location you teleported from with no cooldown. 
 
@@ -34,11 +34,11 @@ And gives you the ability to upload pictures to discord.
 
 ### Night
 
-#### <span style="color: #AAAAAA">[</span><span style="color: #555555">Night</span><span style="color: #AAAAAA">]</span>
+<span style="color: #AAAAAA">[</span><span style="color: #555555">Night</span><span style="color: #AAAAAA">]</span>
 
-#### Costs 10 USD
+Costs 10 USD
 
-#### Features:
+Features:
 	
 `/jump or /j` Teleports you to the top of the block you're looking at.
 
@@ -53,11 +53,11 @@ And 10 homes.
 
 ### Equinox
 
-#### <span style="color: #AAAAAA">[</span><span style="color: #FFFF55">Equinox</span><span style="color: #AAAAAA">]</span>
+<span style="color: #AAAAAA">[</span><span style="color: #FFFF55">Equinox</span><span style="color: #AAAAAA">]</span>
 
-#### Costs 15 USD
+Costs 15 USD
 
-#### Features
+Features
 
 `/kittycannon` Shoots out Explosive Kittens (Non-Damaging)
 
@@ -73,11 +73,11 @@ And 15 homes.
 
 ### Eclipse
 
-#### <span style="color: #AAAAAA">[</span><span style="color: #FFAA00">Eclipse</span><span style="color: #AAAAAA">]</span>
+<span style="color: #AAAAAA">[</span><span style="color: #FFAA00">Eclipse</span><span style="color: #AAAAAA">]</span>
 
-#### Costs 30 USD
+Costs 30 USD
 
-#### Features 
+Features 
 
 `/fly` Gives you the ability to use Creative Flight
 
@@ -97,27 +97,27 @@ As well as 30 Homes.
 
 ### Umbra
 
-#### <span style="color: #AAAAAA">[</span><span style="color: #5555FF">Umbra</span><span style="color: #AAAAAA">]</span>
+<span style="color: #AAAAAA">[</span><span style="color: #5555FF">Umbra</span><span style="color: #AAAAAA">]</span>
 
-#### 20 USD Upgrade from Eclipse
+20 USD Upgrade from Eclipse
 
 ### Spectre
 
-#### <span style="color: #AAAAAA">[</span><span style="color: #55FF55">Spectre</span><span style="color: #AAAAAA">]</span>
+<span style="color: #AAAAAA">[</span><span style="color: #55FF55">Spectre</span><span style="color: #AAAAAA">]</span>
 
-#### 25 USD Upgrade from Umbra
+25 USD Upgrade from Umbra
 
 ### Wraith
 
-#### <span style="color: #AAAAAA">[</span><span style="color: #AA0000">#Wraith#</span><span style="color: #AAAAAA">]</span>
+<span style="color: #AAAAAA">[</span><span style="color: #AA0000">#Wraith#</span><span style="color: #AAAAAA">]</span>
 
-#### 25 USD Upgrade from Spectre
+25 USD Upgrade from Spectre
 
 ### Phantom
 
-#### <span style="color: #000000">[</span><span style="color: #AA00AA">#Phantom#</span><span style="color: #000000">]</span>
+<span style="color: #000000">[</span><span style="color: #AA00AA">#Phantom#</span><span style="color: #000000">]</span>
 
-#### 100 USD Upgrade from Wraith
+100 USD Upgrade from Wraith
 
 ----
 
@@ -125,7 +125,7 @@ As well as 30 Homes.
 
 ### Creator
 
-#### <span style="color: #000000">[</span><span style="color: #5555FF">Streamer</span><span style="color: #000000">]</span>
+<span style="color: #000000">[</span><span style="color: #5555FF">Streamer</span><span style="color: #000000">]</span>
 {{% notice note %}}
 To request a creator rank , you must be an active streamer on Twitch, Youtube or Mixer, Must at least create content for minecraft or stream on a regular basis\
 Having past content/streams from inside ShadowNode is a plus. Have a steady following count, and must not be toxic in game chat or have past issues with staff or ever got banned.\
@@ -133,7 +133,7 @@ Creators will be accepted or denied on case by case basis by one of the senior-a
 If you wish to apply make a [#support-tickets](https://discordapp.com/channels/124188711603798016/379180312871043073) in the [ShadowNode official Discord server](../../wiki/commands/#discord)
 {{% /notice %}}
 
-#### Features 
+Features 
 
 `/perks` Gets all Perks available in game. This is a way to show off our perks to your viewers. As bonus you may use them freely.
 
@@ -146,7 +146,7 @@ As well as 3 Homes. (if you had no rank before)
 
 ### Booster
 
-#### <span style="color: #000000">[</span><span style="color: #FF55FF">Booster</span><span style="color: #000000">]</span>
+<span style="color: #000000">[</span><span style="color: #FF55FF">Booster</span><span style="color: #000000">]</span>
 {{% notice note %}}
 You can only get the booster rank if you boost the [ShadowNode official Discord server](../../wiki/commands/#discord) with discord nitro or buy the boosts.\
 If you remove the boost on the discord server , we will remove the boost rank from your account to.\

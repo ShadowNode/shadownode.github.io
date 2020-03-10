@@ -8,7 +8,6 @@ tags: ["rules", "store", "shop"]
 ShadowNode was created in 2014 by our owner ShadowKitten. Aiming to provide players with the best experience possible, ShadowNode is proud to host over 15 diverse servers!
 
 # Rules
-## Rules
 These rules apply for our Forums, Discord, servers and all other services. By using our services, you are agreeing to follow these rules. Ignorance of these rules is not an excuse. Staff are provided with a general guideline of punishments for each rule, however choose a punishment is at their discretion.
 
 ### Respect Staff and Staff Decisions
@@ -77,7 +76,6 @@ These rules apply for our Forums, Discord, servers and all other services. By us
 ___
 
 # Store Policies
-## Store Policies
 
 These policies apply for all purchases to ShadowNode and services or goods provided by ShadowNode. Punishments may include forfeiting of product or perks without refund permanently or for a given time. 
 
