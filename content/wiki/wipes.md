@@ -1,7 +1,7 @@
 ---
 title: Wipes and Restarts
 author: YourMCGeek
----
+-----------------------------
 
 Servers restart every once in a while to reduce lag. This does not mean that a restart will fix all kinds of lag so, please, **do not** as staff to restart a server due to lag. **Restarts are NOT wipes**, they are just a daily reboot to the server. *Ground items are cleared every 20 minutes (XX:10, XX:30, XX:50). There is a 1 minute warning before a clear.*
 
@@ -45,6 +45,6 @@ Compact Machines, Spectre, and the Void dimensions are not wiped. **The overworl
 
 {{% notice warning %}}
 Any items lost from these  wipes will not get refunded as there are many warnings before the wipe occurs. Overworld wipes will remove everything, and the server will start over fresh.
-{{% /notice %}} 
+{{% /notice %}}
 
 
