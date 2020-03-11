@@ -5,36 +5,18 @@ jQuery(document).ready(function() {
     //hide append class just in case
     $('.append').hide();
 
-    if ($('.append').length) {
-        $("h1~h2,h1~h3,h1~h4,h1~h5,h1~h6").append(function (index, html) {
-            var element = $(this);
-            var append;
-            var url = encodeURI(document.location.origin + document.location.pathname);
-            var link = url + "#" + element[0].id;
-            if ($(this).prev().attr('class') === "append") {
-                append = $(this).prev().html();
-            } else {
-                append = '';
-            }
-            return append + " <span class='anchor' data-clipboard-text='" + link + "'>" +
-                "<i class='fas fa-link fa-lg'></i>" +
-                "</span>"
-                ;
-        });
-    } else {
-        $("h1~h2,h1~h3,h1~h4,h1~h5,h1~h6").append(function (index, html) {
-            var element = $(this);
-            var url = encodeURI(document.location.origin + document.location.pathname);
-            var link = url + "#" + element[0].id;
-            return " <span class='anchor' data-clipboard-text='" + link + "'>" +
-                "<i class='fas fa-link fa-lg'></i>" +
-                "</span>"
-                ;
-        });
-    }
-
-    $("h1~h2,h1~h3,h1~h4,h1~h5,h1~h6,.rankPrefix").on('mouseover', function(e) {
-        $('.anchor').show();
+    $("h1~h2,h1~h3,h1~h4,h1~h5,h1~h6").append(function (index, html) {
+        var element = $(this);
+        var append = '';
+        var url = encodeURI(document.location.origin + document.location.pathname);
+        var link = url + "#" + element[0].id;
+        if ($(this).prev().attr('class') === "append") {
+            append = $(this).prev().html();
+        }
+        return append + " <span class='anchor' data-clipboard-text='" + link + "'>" +
+            "<i class='fas fa-link fa-lg'></i>" +
+            "</span>"
+            ;
     });
 
     var text, clip = new ClipboardJS('.anchor');
