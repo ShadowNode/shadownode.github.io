@@ -249,9 +249,8 @@ footer {
 .table {
     background: #2D3033;
     padding: 0 20px;
-    font-family: Dekar_Light;
+    font-family: sans-serif;
     color: white;
-    font-weight: bold;
     position: relative;
     overflow: hidden;
     box-shadow: 0 0 10px #00000070;
@@ -261,6 +260,7 @@ footer {
 
 .table h2 {
     text-transform: uppercase;
+    font-size: 15px;
 }
 
 .table ul {
@@ -269,7 +269,7 @@ footer {
 }
 
 .table ul li {
-    padding: 10px 0;
+    padding: 5px 0;
     list-style: none;
 }
 
@@ -278,8 +278,8 @@ footer {
     color: white;
     border: 2px solid aqua;
     display: block;
-    padding: 10px 0;
-    margin: 10px 0;
+    padding: 5px 0;
+    margin: 5px 0;
     border-radius: 40px;
     font-size: 14px;
     transition: 0.5s linear;
@@ -355,12 +355,14 @@ footer {
 }
 
 .info {
-    font-size: 16px;
+    font-size: 13px;
+    border: solid black;
 }
 
 dl {
     display: grid;
     grid-template-columns: max-content auto;
+    grid-column-gap: 0;
     color: white;
 }
 
@@ -369,7 +371,6 @@ dt {
     text-align: left;
     padding-bottom: 5px;
     font-weight: bold;
-
 }
 
 dd {
