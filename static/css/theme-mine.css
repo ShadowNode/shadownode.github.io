@@ -186,6 +186,10 @@ div.notices.warning p {
     background: rgba(217, 83, 79, 0.8);
 }
 
+#TableOfContents {
+    background-color: #262729;
+}
+
 #TableOfContents > ul > li > a   {
     font-weight: bold;
     padding: 0 3px;

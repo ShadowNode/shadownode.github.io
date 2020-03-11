@@ -28,7 +28,7 @@ pygmentCodeFences = true
 [Params]
   subtitle = "Wiki containing info from things at ShadowNode"
   logo = "img/avatar-icon.png"
-  favicon = "img/favicon.ico"
+  favicon = "assets/images/favicon.png"
   commit = true
   rss = true
   comments = true
