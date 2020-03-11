@@ -28,31 +28,40 @@
 <img class="swirl small" alt="swirl_small" src="./assets/images/vortex_swirl.png" width="0">
 <div class="wrapper">
     <header>
-
         <a href="index.html" tabindex="3">
-            <img alt="logo" src="./assets/images/logo_vert.png">
+            <img alt="logo" id="serversLogo" src="./assets/images/logo_vert.png">
         </a>
     </header>
+    <div class="form-selection">
+    <button class="form-switch" id="appeal">Appeals</button>
+    <button class="form-switch" id="staff-app">Staff Application</button>
+    </div>
+    <div class="form-container">
+        <form id="appeal-form">
+            <h2>Appeal</h2>
+            <div class="input-div">
+                <div class="i">
+                    <img class="mchead" src="https://crafatar.com/avatars/8667ba71b85a4004af54457a9734eed7??default=MHF_Steve&overlay">
+                </div>
+                <div>
+                    <h5>Minecraft Username</h5>
+                    <input class="minecraft-username" type="text" placeholder="Steve">
+                </div>
+            </div>
+            <div class="input-div">
+                <div class="i">
+                    <i class="fas fa-server"></i>
+                </div>
+                <div>
+                    <h5>Server</h5>
+                    <select class="server-select">
 
-    <form action="" method="post">
-        <ul>
-            <li>
-                <label for="username">What is your username?</label><br>
-                <input type="text" id="username" required><br>
-            </li>
-            <li>
-                <label for="reason">What is your ban reason?</label><br>
-                <input type="text" id="reason" required><br>
-            </li>
-            <li>
-                <label for="unbanned">Why should you be unbanned?</label><br>
-                <textarea id="unbanned" required></textarea><br>
-            </li>
-            <li class="button">
-                <button type="submit">Submit Ban Appeal</button>
-            </li>
-        </ul>
-    </form>
+                    </select>
+                </div>
+            </div>
+        </form>
+
+    </div>
 </div>
 </body>
 </html>
