@@ -185,3 +185,101 @@ There will be a deadline to when you can access your relocate crate. This applie
 ### Crate Reopened
 
 ![Inserted Items](../../assets/images/relocate/relocate_opening.png)
+
+---
+
+## The Store
+The store is a place where you can purchase upgrades to support us, besides using the voting system. 
+{{% notice note %}}
+All money received is used to improve our network for it's users who may or may not to choose to support us via the store or even through voting. Please make sure you have your parents permission to purchase upgrades on our stores if you're one of our younger users.
+{{% /notice %}}
+
+### Overview
+When you first open the [website](https://shop.shadownode.ca), it should be quite easy to understand.
+
+- Top Right Corner
+    - This little widget shows how much you currently have in your "Shopping Cart". You can also change the currency that the sum is displayed in.  The "Log Out" button only appears here if you have been viewing som of the items and entered your username.
+    
+{{% notice warning %}}
+When entering your username, please ensure that it is the same as your in-game name. A single typo will prohibit you from receiving your upgrade.
+{{% /notice %}}
+- Menu
+    - This bar shows you the different categories of the rewards we offer for your purchase. See below for descriptions of the categories. 
+- Welcome Message
+    - A brief message from our owner which you should read before browsing the store. Important information is listed here.
+- Top Customer 
+    - This shows the person who has supported us the most throughout the entire month.
+- Recent Payments
+    - This is the list of the most recent purchases that went through. If you purchase something, your name should be displayed within 20 minutes after confirming your payment. You should also receive your reward in this time. 
+
+### Categories
+
+- Ranks/Rank Upgrades
+    - These two categories are for changing your in-game prefix and giving you a few neat perks. No in-game features are locked or require you to have certain ranks to progress, these perks are all just quality-of-life enhancements like ```/feed```, ``/fly``, ``/back`` or multiple homes. See [rank overview](../server info/ranks.md) for all ranks and their perks.
+- Claimblocks
+    - Here you can find a few kits of Claimblocks you can buy to extend the amount of space you have to build on the server. You can also get them passively by playing on the server or in the ``/tokenshop``.
+- Chunkloaders
+    - A chunkloader keeps your base loaded while you are offline! They use a lot of server resources so we have to charge for this feature. See [chunk loaders](#chunk-loaders) for more detailed information about how to use the chunk loader plugin.
+- Misc. Items
+    - Currently we only have the "Pay What You Want" option in here. This item has no reward, so please only use this function if you really want to support us without expecting anything in return.
+    
+---
+
+## The Voting System
+Our voting system is relatively simple and easy to understand. 
+
+- We have 3 voting website we are listed on. Each of which you can use to vote on, once per day.
+- You vote by filling in your Minecraft username in the text window and completing the Captcha.
+- Voting gives you 100 Tokens per voting website, which can be used for in-game items or transactions with other users.
+
+### Why should you vote?
+
+- Voting increases our rank and reputation on those websites, which means there is a higher chance for new players to get interested in ShadowNode.
+- The tokens you get from voting are a global form of currency which you can trade in for claimblocks, chunkloaders and other goodies on the servers you play on.
+- We have a monthly giveaway of Steam Game Keys for permanent copies of certain games for the Top 3 Voters! Claim your key by making a support ticket in our Discord!
+- Every vote supports us and is just as valuable to us as you supporting us via our store!
+
+{{% notice note %}}
+Rewards redeemed from the token shop are usually not globally shared. Your token balance is globally shared between all servers however.
+{{% /notice %}}
+
+### Where can I redeem my rewards?
+
+- After voting you get a shoutout in-game confirming that your vote went through. This shoutout does not always show up client side, but other players see it.
+- The rewards for your tokens can be claimed in the ``/tokenshop`` on your server.
+- If you are one of the Top 3 Voters of the month message a staff member to get your Steam Game Key in the first week of the new month. The Voters can choose the game they want with Number 1 having the choice between all 3 titles and Number 2 being allowed to choose from the remaining games.
+
+{{% notice note %}}
+You can check the amount of tokens you have by using ``/tokenbal`` on any server.
+{{% /notice %}}
+
+---
+## The Market
+Our market plugin is a custom plugin created by our owner, ShadowKitten. Running ``/market help`` in game will return a list of commands. 
+
+### How to Access the Market
+To view the current listings, type the command ``/market``
+![Listings](../../assets/images/market/market_listings.jpg)
+
+### How to buy an item
+You can either browse the market or you can click on the ```Search Seller``` button to find a specific player's listening. Once you click on search, ``/market search seller <seller>`` will show up in your chat. Simply replace ```<seller>``` with the in game name of the person you'd like to search and hit enter. You can also click ```Search Item``` to check if a certain item is on the market. Once you click on it, ``/market search item <item>`` will appear. Replace ```<item>``` with the item id, and all listings that are relevant to you will be returned. If you decide to just browse the market, once you find an item you like, click on ```View```. From here you can decide to either message the user or buy the item.
+![View Item](../../assets/images/market/market_view.png)
+
+### How to Create a listing
+To create a listing, you type in ```/market``` in the chat and scroll down to find Create and click it. Once you click it ```/market create <quantity> <price>``` will show up in your chat, replace the ``<quantity>`` with how many of the item you would like to sell at a time and ``<price>`` with the price per quantity. It will take the items in your hand. Once that command is ran you can see the information on your listing.
+{{% notice note %}}
+All profits will automatically go into your balance. You can see your balance by running ```/bal```.​
+{{% /notice %}}
+
+### How to Add Stock
+To add stock to your listing you can search for your name to find the listing and click View then click Add Stock. It will take the items in your hand and add it to your listing.
+
+### How to Modify your Pricing
+To modify your listing price, find your listing and click Modify Price and ```/market modifyprice <number> <price>``` will show up in your chat, replace ``<price>`` with the new price. The ``<number>`` would already be filled in for you. That number represents your listing id.
+
+### How to Remove your Listing
+To remove your listing, find the listing and click Remove Listing and you will receive your extra items back.
+
+{{% notice note %}}
+All of these commands can be run raw, without going through the steps of clicking the menus. However, we recommend going through these steps as it is the most reliable way.
+{{% /notice %}}
