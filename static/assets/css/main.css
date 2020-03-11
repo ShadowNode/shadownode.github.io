@@ -249,7 +249,7 @@ footer {
 .table {
     background: #2D3033;
     padding: 0 20px;
-    font-family: sans-serif;
+    font-family: "Open Sans", Arial, Helvetica;
     color: white;
     position: relative;
     overflow: hidden;
@@ -275,13 +275,13 @@ footer {
 
 .table a {
     text-decoration: none;
-    color: white;
+    background: #2D3033 100%;
     border: 2px solid aqua;
     display: block;
     padding: 5px 0;
     margin: 5px 0;
-    border-radius: 40px;
-    font-size: 14px;
+    border-radius: 5px;
+    font-size: 13px;
     transition: 0.5s linear;
 }
 
@@ -310,7 +310,7 @@ footer {
 .tooltip-hover a {
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 17px;
+    font-size: 12px;
 }
 
 .tooltip-hover .tooltip-text {
@@ -355,8 +355,8 @@ footer {
 }
 
 .info {
-    font-size: 13px;
-    border: solid black;
+    font-size: 12px;
+    overflow: hidden;
 }
 
 dl {
@@ -371,12 +371,32 @@ dt {
     text-align: left;
     padding-bottom: 5px;
     font-weight: bold;
+    margin-right: 5px;
 }
 
 dd {
     grid-column-start: 2;
     text-align: right;
     padding-bottom: 5px;
+    margin-inline-start: unset;
+}
+
+.extendBtn {
+    background: none;
+    border: solid 1px #383b4c;
+    color: white;
+    outline: none 0;
+    width: 100%;
+}
+
+.extended-info {
+    visibility: hidden;
+    opacity: 1;
+}
+
+.active {
+    visibility: visible;
+    opacity: 1;
 }
 
 form {

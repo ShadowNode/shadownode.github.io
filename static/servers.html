@@ -22,7 +22,7 @@
           content="Welcome to ShadowNode! We specialize in modded game servers and strive to offer a friendly and comfortable environment for our players. Join now!">
 
     <link rel="stylesheet" href="assets/css/main.css">
-
+    <script src="https://kit.fontawesome.com/8310d2af6a.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -39,24 +39,30 @@
             </a>
         </header>
         <div id="server-table">
-            <div class="col">
-                <div class="table">
-                    <div class="status online">
-                        <h2>Example</h2>
-                    </div>
-                    <dl class="info">
-                        <dt>Pack:</dt><dd>Any</dd>
-                        <dt>Pack Version:</dt><dd>Any</dd>
-                        <dt>Players:</dt><dd>0/100</dd>
-                        <dt>Uptime:</dt><dd>100%</dd>
-                        <dt>This Week:</dt><dd>5 Players</dd>
-                    </dl>
-                    <div class="tooltip-hover">
-                        <a href="#">example.shadownode.ca</a>
-                        <span class="tooltip-text">Click to copy ip!</span>
+            <template id="server-template">
+                <div class="col">
+                    <div class="table">
+                        <div id="status" class="status">
+                            <h2 id="server-name">Example</h2>
+                        </div>
+                        <dl class="info">
+                            <dt>Pack:</dt><dd id="pack">Any</dd>
+                            <dt>Pack Version:</dt><dd id="pack-version">Any</dd>
+                            <dt>Players:</dt><dd id="players">0/100</dd>
+                            <dt>Uptime:</dt><dd id="uptime">100%</dd>
+                            <dt>This Week:</dt><dd id="this-week">5 Players</dd>
+                        </dl>
+                        <div class="tooltip-hover">
+                            <a id="ip">example.shadownode.ca</a>
+                            <span class="tooltip-text">Click to copy ip!</span>
+                        </div>
+                        <button id="extend" class="extendBtn" onclick="extendInfo(this)"><i class="fas fa-angle-down"></i></button>
+                        <div id="extended-info" class="extended-info">
+                            Extended Info!
+                        </div>
                     </div>
                 </div>
-            </div>
+            </template>
         </div>
         <footer>
             ©2014-2020 ShadowNode.
