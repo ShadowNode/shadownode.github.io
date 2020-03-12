@@ -227,7 +227,7 @@ function loaded() {
         $tempElement.val($(this)[0].innerText.replace('Click to copy ip!','')).select();
         document.execCommand("Copy");
         $tempElement.remove();
-        $(this).find( ".tooltip-text")[0].innerText = "Ip copy'd to clipboard";
+        $(this).find( ".tooltip-text")[0].innerText = "Ip copied to clipboard";
     });
     $( ".tooltip-hover" ).on( "mouseleave", function() {
         $(this).find( ".tooltip-text")[0].innerText = "Click to copy ip!";
