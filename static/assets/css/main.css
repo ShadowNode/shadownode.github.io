@@ -291,7 +291,7 @@ footer {
     border-top-right-radius: 2px;
     line-height: 20px;
     display: block;
-    font-size: 1em;
+    font-size: 0.9em;
     margin-block-start: 0;
     margin-block-end: 0;
     margin-inline-start: 0;
@@ -307,6 +307,8 @@ footer {
     margin: 0 0 0 1px;
     top: 4%;
     left: 4%;
+    font-family: "Open Sans", Arial, Helvetica, serif;
+    text-transform: uppercase;
 }
 .col {
     flex: 25%;
