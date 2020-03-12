@@ -22,7 +22,7 @@
           content="Welcome to ShadowNode! We specialize in modded game servers and strive to offer a friendly and comfortable environment for our players. Join now!">
 
     <link rel="stylesheet" href="assets/css/main.css">
-
+    <script src="https://kit.fontawesome.com/8310d2af6a.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -32,194 +32,55 @@
         <img class="preload" alt="store_highlighted" src="images/icons/store_highlighted.png">-->
     <img class="swirl big" alt="swirl_big" src="./assets/images/vortex_swirl.png" width="0">
     <img class="swirl small" alt="swirl_small" src="./assets/images/vortex_swirl.png" width="0">
-    <div class="wrapper">
+    <div id="loading" class="loading">
+        <p id="loading-text">Loading Servers ...</p>
+    </div>
+    <div class="wrapper" id="serversWrapper" style="display: none">
         <header>
             <a href="index.html" tabindex="3">
                 <img alt="logo" id="serversLogo" src="./assets/images/logo_vert.png">
             </a>
         </header>
         <div id="server-table">
-            <div class="col">
-                <div class="table">
-                    <div class="status online">
-                        <h2>Lobby A</h2>
-                    </div>
-                    <dl class="info">
-                        <dt>Pack:</dt><dd>Any</dd>
-                        <dt>Pack Version:</dt><dd>Any</dd>
-                        <dt>Players:</dt><dd>0/100</dd>
-                        <dt>Uptime:</dt><dd>100%</dd>
-                        <dt>This Week:</dt><dd>5 Players</dd>
-                    </dl>
-                    <div class="tooltip-hover">
-                        <a href="#">play.shadownode.ca</a>
-                        <span class="tooltip-text">Click to copy ip!</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="table">
-                    <div class="status online">
-                        <h2>Lobby B</h2>
-                    </div>
-                    <dl class="info">
-                        <dt>Pack:</dt><dd>Any</dd>
-                        <dt>Pack Version:</dt><dd>Any</dd>
-                        <dt>Players:</dt><dd>0/100</dd>
-                        <dt>Uptime:</dt><dd>100%</dd>
-                        <dt>This Week:</dt><dd>5 Players</dd>
-                    </dl>
-                    <div class="tooltip-hover">
-                        <a href="#">play.shadownode.ca</a>
-                        <span class="tooltip-text">Click to copy ip!</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="table">
-                    <div class="status offline">
-                        <h2>Lobby C</h2>
-                    </div>
-                    <dl class="info">
-                        <dt>Pack:</dt><dd>Any</dd>
-                        <dt>Pack Version:</dt><dd>Any</dd>
-                        <dt>Players:</dt><dd>0/100</dd>
-                        <dt>Uptime:</dt><dd>100%</dd>
-                        <dt>This Week:</dt><dd>5 Players</dd>
-                    </dl>
-                    <div class="tooltip-hover">
-                        <a href="#">play.shadownode.ca</a>
-                        <span class="tooltip-text">Click to copy ip!</span>
+            <template id="server-template">
+                <div class="col">
+                    <div class="table">
+                        <div id="status" class="status">
+                            <h2 id="server-name">Example</h2>
+                        </div>
+                        <dl class="info">
+                            <dt>Pack:</dt>
+                            <dd id="pack">Any</dd>
+                        </dl>
+                        <dl class="info">
+                            <dt>Pack Version:</dt>
+                            <dd id="pack-version">Any</dd>
+                        </dl>
+                        <dl class="info">
+                            <dt>Players:</dt>
+                            <dd id="players">0/100</dd>
+                        </dl>
+                        <dl class="info">
+                            <dt>Uptime:</dt>
+                            <dd id="uptime">100%</dd>
+                        </dl>
+                        <dl class="info">
+                            <dt>This Week:</dt>
+                            <dd id="this-week">5 Players</dd>
+                        </dl>
+                        <div class="tooltip-hover">
+                            <a id="ip">example.shadownode.ca</a>
+                            <span class="tooltip-text">Click to copy ip!</span>
+                        </div>
+                        <button id="extend" class="extendBtn" onclick="extendInfo(this)"><i
+                                class="fas fa-angle-down"></i></button>
+                        <div id="extended-info" class="extended-info">
+                            <div id="player-chart" class="chart"></div>
+                            <div id="tps-chart" class="chart"></div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col">
-            <div class="table">
-                <div class="status online">
-                    <h2>Lobby D</h2>
-                </div>
-                <dl class="info">
-                    <dt>Pack:</dt><dd>Any</dd>
-                    <dt>Pack Version:</dt><dd>Any</dd>
-                    <dt>Players:</dt><dd>0/100</dd>
-                    <dt>Uptime:</dt><dd>100%</dd>
-                    <dt>This Week:</dt><dd>5 Players</dd>
-                </dl>
-                <div class="tooltip-hover">
-                    <a href="#">play.shadownode.ca</a>
-                    <span class="tooltip-text">Click to copy ip!</span>
-                </div>
-            </div>
-        </div>
-            <div class="col">
-                <div class="table">
-                    <div class="status online">
-                        <h2>Lobby E</h2>
-                    </div>
-                    <dl class="info">
-                        <dt>Pack:</dt><dd>Any</dd>
-                        <dt>Pack Version:</dt><dd>Any</dd>
-                        <dt>Players:</dt><dd>0/100</dd>
-                        <dt>Uptime:</dt><dd>100%</dd>
-                        <dt>This Week:</dt><dd>5 Players</dd>
-                    </dl>
-                    <div class="tooltip-hover">
-                        <a href="#">play.shadownode.ca</a>
-                        <span class="tooltip-text">Click to copy ip!</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="table">
-                    <div class="status offline">
-                        <h2>Lobby F</h2>
-                    </div>
-                    <dl class="info">
-                        <dt>Pack:</dt><dd>Any</dd>
-                        <dt>Pack Version:</dt><dd>Any</dd>
-                        <dt>Players:</dt><dd>0/100</dd>
-                        <dt>Uptime:</dt><dd>100%</dd>
-                        <dt>This Week:</dt><dd>5 Players</dd>
-                    </dl>
-                    <div class="tooltip-hover">
-                        <a href="#">play.shadownode.ca</a>
-                        <span class="tooltip-text">Click to copy ip!</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="table">
-                    <div class="status online">
-                        <h2>Lobby G</h2>
-                    </div>
-                    <dl class="info">
-                        <dt>Pack:</dt><dd>Any</dd>
-                        <dt>Pack Version:</dt><dd>Any</dd>
-                        <dt>Players:</dt><dd>0/100</dd>
-                        <dt>Uptime:</dt><dd>100%</dd>
-                        <dt>This Week:</dt><dd>5 Players</dd>
-                    </dl>
-                    <div class="tooltip-hover">
-                        <a href="#">play.shadownode.ca</a>
-                        <span class="tooltip-text">Click to copy ip!</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="table">
-                    <div class="status online">
-                        <h2>Lobby H</h2>
-                    </div>
-                    <dl class="info">
-                        <dt>Pack:</dt><dd>Any</dd>
-                        <dt>Pack Version:</dt><dd>Any</dd>
-                        <dt>Players:</dt><dd>0/100</dd>
-                        <dt>Uptime:</dt><dd>100%</dd>
-                        <dt>This Week:</dt><dd>5 Players</dd>
-                    </dl>
-                    <div class="tooltip-hover">
-                        <a href="#">play.shadownode.ca</a>
-                        <span class="tooltip-text">Click to copy ip!</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="table">
-                    <div class="status online">
-                        <h2>Lobby I</h2>
-                    </div>
-                    <dl class="info">
-                        <dt>Pack:</dt><dd>Any</dd>
-                        <dt>Pack Version:</dt><dd>Any</dd>
-                        <dt>Players:</dt><dd>0/100</dd>
-                        <dt>Uptime:</dt><dd>100%</dd>
-                        <dt>This Week:</dt><dd>5 Players</dd>
-                    </dl>
-                    <div class="tooltip-hover">
-                        <a href="#">play.shadownode.ca</a>
-                        <span class="tooltip-text">Click to copy ip!</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="table">
-                    <div class="status online">
-                        <h2>Lobby J</h2>
-                    </div>
-                    <dl class="info">
-                        <dt>Pack:</dt><dd>Any</dd>
-                        <dt>Pack Version:</dt><dd>Any</dd>
-                        <dt>Players:</dt><dd>0/100</dd>
-                        <dt>Uptime:</dt><dd>100%</dd>
-                        <dt>This Week:</dt><dd>5 Players</dd>
-                    </dl>
-                    <canvas id="tpschart" width="230" height="80"></canvas>
-                    <div class="tooltip-hover">
-                        <a href="#">play.shadownode.ca</a>
-                        <span class="tooltip-text">Click to copy ip!</span>
-                    </div>
-                </div>
-            </div>
+            </template>
         </div>
         <footer>
             ©2014-2020 ShadowNode.
@@ -229,7 +90,7 @@
         </footer>
     </div>
 </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js" type="text/javascript"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" type="text/javascript"></script>
 <script src="assets/js/servers.js" type="text/javascript"></script>
 </body>
 </html>
