@@ -189,10 +189,7 @@ function getAllServers() {
 }
 
 function addServer(element, id, name, online, pack, packVersion, playerCount, uptime, serverIp, players, tps, week, max1d, max7d, max30d) {
-    element.getElementById('status').classList.add(online);
-    element.getElementById('status').id = id + "_status";
-    element.getElementById('server-status').innerText = online;
-    element.getElementById('server-status').id = id + "_server-status";
+    element.getElementById('server-name').classList.add(online);
     element.getElementById('server-name').innerText = name;
     element.getElementById('server-name').id = id + "_server-name";
     element.getElementById('pack').innerText = pack;
