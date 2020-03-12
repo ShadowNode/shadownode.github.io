@@ -243,10 +243,10 @@ footer {
     line-height: 20px;
     font-family: sans-serif;
     font-size: 20px;
-    color: #fff000;
+    color: #ca90c8;
     letter-spacing: 4px;
     text-transform: uppercase;
-    text-shadow: 0 0 10px #fff000;
+    text-shadow: 0 0 10px #ca90c8;
     box-shadow: 0 0 20px rgba(0, 0, 0, .5);
 }
 
@@ -262,8 +262,8 @@ footer {
     width: 100%;
     height: 100%;
     border: 3px solid transparent;
-    border-top: 3px solid #fff000;
-    border-right: 3px solid #fff000;
+    border-top: 3px solid #ca90c8;
+    border-right: 3px solid #ca90c8;
     border-radius: 50%;
     animation: animateCircle 2s linear infinite;
 }
@@ -295,7 +295,29 @@ footer {
     flex-wrap: wrap;
     padding-bottom: 20px;
 }
-
+.topbar {
+    color: #eee;
+    padding: 10px 20px;
+    margin: 0;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    line-height: 20px;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    background: #2D3033;
+    z-index: 999;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 0 2px #ca90c854;
+    align-items: center;
+    text-align: center;
+    border: 5px;
+    border-color: #0079d3;
+}
 .col {
     flex: 25%;
     padding: 10px;
@@ -305,7 +327,7 @@ footer {
 
 .table {
     background: #2D3033;
-    padding: 0 20px;
+    padding: 0 10px;
     font-family: "Open Sans", Arial, Helvetica;
     color: white;
     position: relative;
@@ -359,9 +381,25 @@ footer {
     }
 }
 
-.tooltip-hover {
+.tooltip {
     position: relative;
     margin-bottom: 0px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+    z-index: 10000;
+}
+
+.tooltip-hover {
+    position: relative;
+    margin-bottom: 0;
+    cursor: pointer;
 }
 
 .tooltip-hover a {
@@ -401,6 +439,7 @@ footer {
 .status {
     padding-top: 2px;
     padding-bottom: 1px;
+    border-radius: 5px;
 }
 
 .online {
@@ -414,6 +453,11 @@ footer {
 .info {
     font-size: 12px;
     overflow: hidden;
+    margin-block-end: 0em;
+    margin-inline-start: 0em;
+    margin-block-start: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 dl {
@@ -443,10 +487,10 @@ dd {
     color: white;
     outline: none 0;
     width: 100%;
+    margin-bottom: 10px;
 }
 
 .extended-info {
-    visibility: hidden;
     opacity: 1;
 }
 
@@ -501,5 +545,11 @@ textarea {
     height: 5em;
 }
 
+.chart {
+    width: 206px;
+    height: 80px;
 
-
+}
+.bottomchart {
+    padding-bottom: 20px !important;
+}
