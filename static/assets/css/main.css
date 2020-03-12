@@ -124,6 +124,7 @@ body {
     background: image('/assets/images/vortex.jpg') fixed center !important;
     background-size: cover !important;
     margin: 0;
+    background: #303030;
 }
 
 .wrapper {
