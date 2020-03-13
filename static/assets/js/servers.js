@@ -194,7 +194,7 @@ function addServer(element, id, name, pack_link, online, pack, packVersion, play
     element.getElementById('server-name').innerText = name;
     element.getElementById('server-name').id = id + "_server-name";
     if (pack_link !== "") {
-        element.getElementById('pack').innerHTML = "<a href='"+pack_link+"'  class='highlight' target='_blank'>"+name+"</a>";
+        element.getElementById('pack').innerHTML = "<a href='"+pack_link+"'  class='highlight' target='_blank'>"+ pack +"</a>";
     } else {
         element.getElementById('pack').innerText = pack;
     }
