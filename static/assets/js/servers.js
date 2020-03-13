@@ -49,9 +49,8 @@ function formatAMPM(date, type) {
     }
     return strTime;
 }
-var n = new Date().getTime();
-var y = new Date().getTime() - (24 * 60 * 60 * 1000);
-$.fn.PlayersChart = function(data) {
+
+$.fn.PlayersChart = function(data, player_min, player_max) {
     var plot = $.plot($(this), [{
         data: data,
         label: "Players"
@@ -72,8 +71,8 @@ $.fn.PlayersChart = function(data) {
             color: "#FFF"
         },
         xaxis: {
-            min: y,
-            max: n,
+            min: player_min,
+            max: player_max,
             mode: "time",
             timeformat: "%a",
             minTickSize: [1, "day"],
@@ -106,7 +105,7 @@ $.fn.PlayersChart = function(data) {
     $(this).ToolTip(plot);
 };
 
-$.fn.TpsChart = function(data) {
+$.fn.TpsChart = function(data, tps_min, tps_max) {
     var plot = $.plot($(this), [{
         data: data,
         label: "TPS"
@@ -128,8 +127,8 @@ $.fn.TpsChart = function(data) {
             color: "#FFF"
         },
         xaxis: {
-            min: y,
-            max: n,
+            min: tps_min,
+            max: tps_max,
             mode: "time",
             timeformat: "%H",
             minTickSize: [5, "minute"],
@@ -182,7 +181,7 @@ function getAllServers() {
         for (var key of Object.keys(servers)) {
             const section = servers[key];
             var template = document.getElementById('server-template');
-            addServer(template.content.cloneNode(true), key, section.name, (section.status ? "online" : "offline"), section.pack_name, section.pack_version, "?/" + section.maxplayers, section.uptime, section.address, section.players, section.tps, section.week, section.max1d, section.max7d, section.max30d);
+            addServer(template.content.cloneNode(true), key, section.name, section.pack_link, (section.status ? "online" : "offline"), section.pack_name, section.pack_version, "?/" + section.maxplayers, section.uptime, section.address, section.players, section.tps, section.week, section.max1d, section.max7d, section.max30d, section.player_min, section.player_max, section.tps_min, section.tps_max);
         }
         loaded();
     }).catch(function (err) {
@@ -190,11 +189,15 @@ function getAllServers() {
     });
 }
 
-function addServer(element, id, name, online, pack, packVersion, playerCount, uptime, serverIp, players, tps, week, max1d, max7d, max30d) {
+function addServer(element, id, name, pack_link, online, pack, packVersion, playerCount, uptime, serverIp, players, tps, week, max1d, max7d, max30d, player_min, player_max, tps_min, tps_max) {
     element.getElementById('server-name').classList.add(online);
     element.getElementById('server-name').innerText = name;
     element.getElementById('server-name').id = id + "_server-name";
-    element.getElementById('pack').innerText = pack;
+    if (pack_link !== "") {
+        element.getElementById('pack').innerHTML = "<a href='"+pack_link+"'  class='highlight' target='_blank'>"+name+"</a>";
+    } else {
+        element.getElementById('pack').innerText = pack;
+    }
     element.getElementById('pack').id = id + "_pack";
     element.getElementById('pack-version').innerText = packVersion;
     element.getElementById('pack-version').id = id + "_pack-version";
@@ -215,12 +218,8 @@ function addServer(element, id, name, online, pack, packVersion, playerCount, up
     element.getElementById('m-record').innerText = max30d.players;
     element.getElementById('m-record').id = id + "_m-record";
     divServerTable.appendChild(element);
-    // add fake data from last know data to current time
-    // Due to player count not having any data yet
-    var fakedata = [n, players[players.length - 1][1]];
-    players.push(fakedata);
-    $("#" + id + "_player-chart").PlayersChart(players);
-    $("#" + id + "_tps-chart").TpsChart(tps);
+    $("#" + id + "_player-chart").PlayersChart(players, player_min, player_max);
+    $("#" + id + "_tps-chart").TpsChart(tps, tps_min, tps_max);
 
 }
 
