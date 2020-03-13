@@ -108,6 +108,14 @@
     transform: translate(-50%, -50%);
     position: fixed
 }
+a {
+    outline : none;
+    cursor: pointer;
+}
+button {
+    outline : none;
+    cursor: pointer;
+}
 
 .messageUserBlock,
 a.username {
