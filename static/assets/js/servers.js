@@ -96,7 +96,8 @@ $.fn.PlayersChart = function(data) {
                 variant: "small-caps",
                 color: "#FFF"
             },
-            min: 0
+            min: 0,
+            tickDecimals: 0
         },
         legend: {
             show: false
