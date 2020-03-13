@@ -95,7 +95,8 @@ $.fn.PlayersChart = function(data) {
                 family: "sans-serif",
                 variant: "small-caps",
                 color: "#FFF"
-            }
+            },
+            min: 0
         },
         legend: {
             show: false
@@ -213,6 +214,10 @@ function addServer(element, id, name, online, pack, packVersion, playerCount, up
     element.getElementById('m-record').innerText = max30d.players;
     element.getElementById('m-record').id = id + "_m-record";
     divServerTable.appendChild(element);
+    // add fake data from last know data to current time
+    // Due to player count not having any data yet
+    var fakedata = [n, players[players.length - 1][1]];
+    players.push(fakedata);
     $("#" + id + "_player-chart").PlayersChart(players);
     $("#" + id + "_tps-chart").TpsChart(tps);
 
