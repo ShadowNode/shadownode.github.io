@@ -36,12 +36,12 @@
 
 @font-face {
     font-family: Dekar_Light;
-    src: url('/assets/fonts/Dekar_Light.otf') format("opentype")
+    src: url('../fonts/Dekar_Light.otf') format("opentype")
 }
 
 @font-face {
     font-family: Dekar;
-    src: url('/assets/fonts/Dekar.otf') format("opentype")
+    src: url('../fonts/Dekar.otf') format("opentype")
 }
 
 @media all and (min-width: 640px) {
@@ -129,7 +129,7 @@ a.username {
 }
 
 body {
-    background: image('/assets/images/vortex.jpg') fixed center !important;
+    background: image('../images/vortex.jpg') fixed center !important;
     background-size: cover !important;
     margin: 0;
     background: #303030;
@@ -395,6 +395,7 @@ footer {
 
 .iplink:hover {
     background: rgba(202, 144, 200, 0.61);
+    color: black;
 }
 
 @media screen and (max-width: 980px) {
