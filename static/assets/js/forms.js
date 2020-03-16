@@ -48,5 +48,40 @@ $(document).ready(function() {
 
         request.send(JSON.stringify(params));
     }
-    sendMessage();
+    //sendMessage();
+
+    function getUrlVars() {
+        var vars = {};
+        var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+            vars[key] = value;
+        });
+        return vars;
+    }
+
+    if (getUrlVars()["code"]) {
+        var discordTokenUrl = "https://discordapp.com/api/oauth2/token";
+        var discordMeUrl = "https://discordapp.com/api/users/@me";
+        var data = {
+            client_id: '688722644895268921', // make it github secret?
+            client_secret: 'Uy4D2G8LfFd79qus0DgdoWwfLKN0c9xq', // make it github secret?
+            grant_type: 'authorization_code',
+            code: getUrlVars()["code"],
+            redirect_uri: "http://localhost:1313/forms.html",
+            scope: 'identify'
+        };
+        $.post( discordTokenUrl, data, function(data, status) {
+            //do more check for errors
+            $.ajaxSetup({
+                headers: {
+                    "Authorization": `Bearer ` + data.access_token,
+                    "Content-Type": "application/x-www-form-urlencoded"
+                }
+            });
+            $.get( discordMeUrl, function(data, status) {
+                console.log(data);
+                $('#discord-username').html(data.username + '#' + data.discriminator);
+            });
+        });
+
+    }
 });
