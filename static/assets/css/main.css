@@ -583,3 +583,16 @@ textarea {
 .bottomchart {
     padding-bottom: 20px !important;
 }
+
+.discord-login {
+    background: #7289DA;
+    color: #FFFFFF;
+    border-radius: 4px;
+    text-decoration: none;
+    border-width: 1px;
+    cursor: pointer;
+    padding: calc(0.375em - 1px) .75em;
+    text-align: center;
+    white-space: nowrap;
+    position: relative;
+}
