@@ -551,6 +551,17 @@ form li + li {
     margin-top: 1em;
 }
 
+.form-switch {
+    margin-top: 0;
+    margin-left: 0;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    background-color: #2D3033;
+    color: white;
+    padding: 6px;
+}
+
 label {
     display: inline-block;
     text-align: right;

@@ -34,10 +34,19 @@
         </a>
     </header>
     <div class="form-selection">
-    <button class="form-switch" id="appeal">Appeals</button>
-    <button class="form-switch" id="staff-app">Staff Application</button>
+        <button class="form-switch" id="appeal">Appeals</button>
+        <button class="form-switch" id="staff-app">Staff Application</button>
     </div>
-    <div class="form-container" id="appeals">
+    <div class="form-container" id="notLoggedIn">
+        <form id="appeal-form">
+            <h2>In order to continue we need you to login into discord.</h2>
+            <div class="input-div">
+                <span style="color: red;" id="discordError"></span>
+                <a id="discord-login" class="discord-login" href="#"></a>
+            </div>
+        </form>
+    </div>
+    <div class="form-container" id="appeals" style="display: none;">
         <form id="appeal-form">
             <h2>Appeal</h2>
             <div class="input-div">
@@ -52,7 +61,6 @@
                     <h5>Discord Username</h5>
                     <input id="id-discord-username" class="minecraft-username" type="text" placeholder="" hidden>
                     <div id="discord-username">Not logged in</div>
-                    <a class="discord-login" href="#">Login with Discord</a>
                 </div>
             </div>
             <div class="input-div">
