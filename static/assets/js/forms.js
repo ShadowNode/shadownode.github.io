@@ -65,20 +65,43 @@ $(document).ready(function() {
         return atob(b);
     }
 
-    function sendMessage() {
+    $('#appeal-form').on('submit', function() {
         var request = new XMLHttpRequest();
         request.open("POST", a(w));
 
         request.setRequestHeader('Content-type', 'application/json');
 
         var params = {
-            username: "Babymillie👶🍼🚼#0001",
-            avatar_url: "https://minotar.net/helm/Babymillie",
-            content: "Simple test"
-        }
+            username: $('#discord-username').value,
+            avatar_url: "https://minotar.net/helm/" + $('#minecraft-username').value,
+            embeds: [
+                {
+                    "title": "Ban Appeal",
+                    "color": 11617720,
+                    "description": $('explanation').value,
+                    "fields": [
+                        {
+                            "name": "Minecraft Username",
+                            "value": $('#minecraft-username').value,
+                            "inline": true
+                        },
+                        {
+                            "name": "Server",
+                            "value": $('#server-select').value,
+                            "inline": true
+                        },
+                        {
+                            "name": "Ban Reason",
+                            "value": $('#banreason').value,
+                            "inline": true
+                        }
+                    ]
+                }
+            ]
+        };
 
         request.send(JSON.stringify(params));
-    }
+    });
     //sendMessage();
 
     if (getUrlVars()["code"]) {

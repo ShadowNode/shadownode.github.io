@@ -534,7 +534,7 @@ form {
     margin: 10px auto;
     width: 400px;
     padding: 1em;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(71, 71, 71);
     border-radius: 1em;
     color: white;
     background-color: #2D3033;
@@ -556,7 +556,7 @@ form li + li {
     margin-left: 0;
     border-radius: 5px;
     font-size: 18px;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(71, 71, 71);
     background-color: #2D3033;
     color: white;
     padding: 6px;
@@ -572,8 +572,10 @@ textarea {
     font: 1em sans-serif;
     width: 300px;
     box-sizing: border-box; 
-    border: 1px solid #999;
-    background-color: #777;
+    border: 1px solid rgb(71, 71, 71);
+    background-color: rgb(61, 64, 67);
+    color: var(--MAIN-TEXT-color);
+    padding: 3px;
 }
 
 input:focus,
@@ -605,5 +607,24 @@ textarea {
     padding: calc(0.375em - 1px) .75em;
     text-align: center;
     white-space: nowrap;
+    position: relative;
+}
+
+select {
+    background-color: #4d4d4d;
+    border: 1px solid rgb(71, 71, 71);
+    color: #cccccc;
+}
+
+.submit-appeal {
+    background: #7289DA;
+    color: var(--MAIN-TEXT-color);
+    text-decoration: none;
+    border-width: 1px;
+    border-radius: 4px;
+    text-align: center;
+    white-space: nowrap;
+    padding: calc(0.375em - 1px) .75em;
+    cursor: pointer;
     position: relative;
 }
