@@ -368,7 +368,7 @@ footer {
     display: block;
     content: "";
     height: 1px;
-    width: 0%;
+    width: 0;
     background-color: #B145B8; /*#CE3B2F*/
     -webkit-transition: width 0.5s ease;
     -moz-transition: width 0.5s ease;
@@ -541,7 +541,7 @@ form {
     text-align: center;
 }
 
-form ul {
+form ul, form ol {
     padding: 0;
     margin: 0;
     display: inline-block;
@@ -565,7 +565,7 @@ form li + li {
 
 label {
     display: inline-block;
-    text-align: right;
+    text-align: center;
 }
 
 input,
@@ -617,7 +617,7 @@ select {
     color: #cccccc;
 }
 
-#send {
+.send {
     background: #7289DA;
     color: var(--MAIN-TEXT-color);
     text-decoration: none;
@@ -639,5 +639,9 @@ select {
 }
 
 #staff-requirements > li {
+    text-align: left;
+}
+
+#refunds > li {
     text-align: left;
 }

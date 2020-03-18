@@ -68,7 +68,7 @@ $(document).ready(function() {
         return atob(b);
     }
 
-    function sendMessage() {
+    function sendAppealMessage() {
         var request = new XMLHttpRequest();
         request.open("POST", "https://151.80.26.186:34001");
 
@@ -89,8 +89,8 @@ $(document).ready(function() {
         e.preventDefault();
     });
 
-    $( "#send" ).click(function() {
-        sendMessage();
+    $( "#send-appeal" ).click(function() {
+        sendAppealMessage();
     });
 
     if (getUrlVars()["code"]) {
@@ -157,25 +157,50 @@ $(document).ready(function() {
         });
     }
 
-    $("#banreason").addEventListener("keyup", function (obj) {
+    /* Character Counters */
+
+    $("#banreason").keyup(function (obj) {
         var maxlength = obj.maxLength;
-        var strLength = obj.value.length;
+        var str = obj.value.length;
 
         if (strLength > maxlength) {
-            $('banChar').innerHTML = '<span style="color: red;">' + strLength + ' out of ' + maxlength + ' characters.</span>';
+            $('#banChar').innerHTML = '<span style="color: red;">' + strLength + ' out of ' + maxlength + ' characters.</span>';
         } else {
-            $('banChar').innerHTML = strLength + ' out of ' + maxlength + ' characters.';
+            $('#banChar').innerHTML = strLength + ' out of ' + maxlength + ' characters.';
         }
     });
 
-    $("#explanation").addEventListener("keyup", function (obj) {
+
+    $("#situational-friend").keyup(function (obj) {
         var maxlength = obj.maxLength;
         var strLength = obj.value.length;
 
         if (strLength > maxlength) {
-            $('explanationNum').innerHTML = '<span style="color: red;">' + strLength + ' out of ' + maxlength + ' characters.</span>';
+            $('#friendNum').innerHTML = '<span style="color: red;">' + strLength + ' out of ' + maxlength + ' characters.</span>';
         } else {
-            $('explanationNum').innerHTML = strLength + ' out of ' + maxlength + ' characters.';
+            $('#friendNum').innerHTML = strLength + ' out of ' + maxlength + ' characters.';
+        }
+    });
+
+    $("#situational-priority").keyup(function (obj) {
+        var maxlength = obj.maxLength;
+        var strLength = obj.value.length;
+
+        if (strLength > maxlength) {
+            $('#priorityNum').innerHTML = '<span style="color: red;">' + strLength + ' out of ' + maxlength + ' characters.</span>';
+        } else {
+            $('#priorityNum').innerHTML = strLength + ' out of ' + maxlength + ' characters.';
+        }
+    });
+
+    $("#situational-complicated").keyup(function (obj) {
+        var maxlength = obj.maxLength;
+        var strLength = obj.value.length;
+
+        if (strLength > maxlength) {
+            $('#complicatedNum').innerHTML = '<span style="color: red;">' + strLength + ' out of ' + maxlength + ' characters.</span>';
+        } else {
+            $('#complicatedNum').innerHTML = strLength + ' out of ' + maxlength + ' characters.';
         }
     });
 

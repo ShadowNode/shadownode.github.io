@@ -89,7 +89,7 @@
             <br>
             <div class="input-div">
                 <div>
-                    <button id="send">Send</button>
+                    <button class="send" id="send-appeal">Send</button>
                 </div>
             </div>
         </form>
@@ -148,6 +148,81 @@
                     <h5>Are you unable to connect to any servers? If so list them</h5>
                     <input id="unable-connect" type="text" placeholder="N/A if none" required>
                 </div>
+            </div>
+            <h4>Multiple Choice Questions</h4>
+            <div class="input-div">
+                <h5>What is Minimodding?</h5>
+                <select>
+                    <option>A. Adding client-side mods</option>
+                    <option>B. Helping other players with basic mod questions</option>
+                    <option>C. Telling a player details of the rules without consulting the staff</option>
+                    <option>D. All of the above</option>
+                </select>
+            </div>
+            <div class="input-div">
+                <h5>Refunds are granted if items are lost due to a:</h5>
+                <ol id="refunds">
+                    <li>Server Bug</li>
+                    <li>General mod bugs</li>
+                    <li>Accidentally throwing an item into a trash can</li>
+                </ol>
+                <h5>Which is true?</h5>
+                <select>
+                    <option>A. 1 only</option>
+                    <option>B. 1 & 2 only</option>
+                    <option>C. 1, 2, 3 only</option>
+                    <option>D. We do not grant refunds</option>
+                </select>
+            </div>
+            <div class="input-div">
+                <h5>What are all the places the basic rules can be found?</h5>
+                <select>
+                    <option>A. In server spawns</option>
+                    <option>B. The website</option>
+                    <option>C. The Discord</option>
+                    <option>D. All of the above</option>
+                </select>
+            </div>
+            <h4>True or False</h4>
+            <div class="input-div">
+                <h5>Mob spawners do not need to autokill/autoloot if mobs do not spawn rapidly.</h5>
+                <select>
+                    <option>True</option>
+                    <option>False</option>
+                </select>
+            </div>
+            <div class="input-div">
+                <h5>Automining systems are allowing in mining dimensions</h5>
+                <select>
+                    <option>True</option>
+                    <option>False</option>
+                </select>
+            </div>
+            <div class="input-div">
+                <h5>Griefing is allowed if a base is NOT claimed</h5>
+                <select>
+                    <option>True</option>
+                    <option>False</option>
+                </select>
+            </div>
+            <h4>Situational Questions</h4>
+            <div class="input-div">
+                <h5>If your friend was breaking our server rules and you (as a staff member) know about it, what do you do?</h5>
+                <textarea id="situational-friend" class="situational-friend" rows="10" cols="30" maxlength="1000" required></textarea>
+                <p id="friendNum" class="charCount">0 Characters</p>
+            </div>
+            <div class="input-div">
+                <h5>You are on Stone Block assisting one player with a past grief, another player on the server has found a game-breaking bug and a player on DW20 is griefing players/killing them and it requires immediate attention, you are the only staff online right now, what is AN efficient course of action to take in your given situation?</h5>
+                <textarea id="situational-priority" class="situational-priority" rows="10" cols="30" maxlength="1000" required></textarea>
+                <p id="priorityNum" class="charCount">0 Characters</p>
+            </div>
+            <div class="input-div">
+                <h5>You are dealing with a player who has repeated their question to numerous members of staff via Dms and a number of different channels as well as in-game, the member becomes a little hostile in their frustration and efforts but DOES NOT break any rules which would warrant a ban/removal, what is a possible way you can step in and resolve this situation?</h5>
+                <textarea id="situational-complicated" class="complicated" rows="10" cols="30" maxlength="1000" required></textarea>
+                <p id="complicatedNum" class="charCount">0 Characters</p>
+            </div>
+            <div class="input-div">
+                <button class="send" id="send-application">Send</button>
             </div>
         </form>
     </div>
