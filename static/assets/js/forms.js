@@ -67,7 +67,7 @@ $(document).ready(function() {
 
     function sendMessage() {
         var request = new XMLHttpRequest();
-        request.open("POST", "http://151.80.26.186:34001");
+        request.open("POST", "https://151.80.26.186:34001");
 
         var params = {
             id: $('#discord-id').val(),
