@@ -6,11 +6,13 @@ $(document).ready(function() {
     var shadownodeGuildId = "124188711603798016";
     var s = "VXk0RDJHOExmRmQ3OXF1czBEZ2RvV3dmTEtOMGM5eHE";
     var c = "Njg4NzIyNjQ0ODk1MjY4OTIx";
+    var w = "aHR0cHM6Ly9kZXYuY29yZS1zZXJ2ZXIuYmU6MzQwMDEv";
+    var m = "aHR0cHM6Ly9zaGllbGRlZC13YXRlcnMtODczOTcuaGVyb2t1YXBwLmNvbS9odHRwczovL2FwaS5tb2phbmcuY29tL3VzZXJzL3Byb2ZpbGVzL21pbmVjcmFmdC8=";
     var redirectUri = "http://" + window.location.host + "/forms" + (window.location.hostname === "localhost" ? ".html" : ""); // Update this on release
     var discordAuthUrl = "https://discordapp.com/oauth2/authorize?client_id=688722644895268921&redirect_uri=" + encodeURI(redirectUri) + "&response_type=code&scope=identify+guilds";
     var stats = "https://shadownode.ca/servers/api/getAll";
     var minecraft = "https://minotar.net/helm/";
-    var w = "aHR0cHM6Ly9kaXNjb3JkYXBwLmNvbS9hcGkvd2ViaG9va3MvNjg4NzE0ODUwMjc2MzQzODExLzN4WlZYQ0xXek9DSnJqVFZmUkhucGNJandCdWtGV210WW5lM21MTGdkUnJhOTVBcDdMcGdwNlpsWGdXdjVCVkxjZjNU";
+
 
     $('#discord-login').attr("href", discordAuthUrl).text('Login with Discord');
     var error = false;
@@ -40,24 +42,31 @@ $(document).ready(function() {
     /* Function to get ?url=parameters&and=these */
     function getUrlVars() {
         var vars = {};
-        var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+        var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
             vars[key] = value;
         });
         return vars;
     }
 
-    $( "#minecraft-username" ).change(function() {
-        $('#minecraft-image').attr("src",minecraft + $( this ).val());
+    $("#minecraft-username-appeal").change(function () {
+        $.get(a(m) + $(this).val(), function (data, status) {
+            if (typeof data === 'undefined') {
+                $('#minecraft-username-appeal').css('border', '2px solid red');
+            } else {
+                $('#minecraft-username-appeal').css('border', '2px solid green');
+                $('#minecraft-image').attr("src", minecraft + $('#minecraft-username-appeal').val());
+            }
+        });
     });
 
-    $( "#appeal" ).click(function() {
+    $("#appeal").click(function () {
         if (getUrlVars()["code"] && !error) {
             $("#application").fadeOut('fast');
             $("#appeals").fadeIn('fast');
         }
     });
 
-    $( "#staff-app" ).click(function() {
+    $("#staff-app").click(function () {
         if (getUrlVars()["code"] && !error) {
             $("#appeals").fadeOut('fast');
             $("#application").fadeIn('fast');
@@ -69,11 +78,9 @@ $(document).ready(function() {
     }
 
     function sendAppealMessage() {
-        var request = new XMLHttpRequest();
-        request.open("POST", "https://151.80.26.186:34001");
-
         var params = {
-            id: $('#discord-id').val(),
+            application: 'appeal',
+            id: $('.discord-id').val(),
             mcusername: $('#minecraft-username-appeal').val(),
             username: $('#discord-username-appeal').text(),
             avatar_url: $('#minecraft-image').attr('src'),
@@ -81,15 +88,63 @@ $(document).ready(function() {
             reason: $('#banreason').val(),
             content: $('#explanation').val()
         };
-
-        request.send(JSON.stringify(params));
+        $.ajax({
+            beforeSend: function (xhrObj) {
+                xhrObj.setRequestHeader("Content-Type", "application/json");
+                xhrObj.setRequestHeader("Accept", "application/json");
+            },
+            type: "GET",
+            data: params,
+            dataType: "json",
+            url: a(w),
+            complete: function (data) {
+                $('#appeals,#application').fadeOut('slow', function () {
+                    $("#success").fadeIn('slow');
+                });
+            }
+        });
     }
 
-    $("form").submit(function(e){
+    function sendApplicationMessage() {
+        //TODO: Finish
+        var params = {
+            application: 'application'/*,
+            id: $('.discord-id').val(),
+            mcusername: $('#minecraft-username-appeal').val(),
+            username: $('#discord-username-appeal').text(),
+            avatar_url: $('#minecraft-image').attr('src'),
+            server: $('#server-select').val(),
+            reason: $('#banreason').val(),
+            content: $('#explanation').val()*/
+        };
+        $.ajax({
+            beforeSend: function (xhrObj) {
+                xhrObj.setRequestHeader("Content-Type", "application/json");
+                xhrObj.setRequestHeader("Accept", "application/json");
+            },
+            type: "GET",
+            data: params,
+            dataType: "json",
+            url: a(w),
+            complete: function (data) {
+                $('#appeals,#application').fadeOut('slow', function () {
+                    $("#success").fadeIn('slow');
+                });
+            }
+        });
+    }
+
+    $("form").submit(function (e) {
         e.preventDefault();
     });
 
+    $( "#send-application" ).click(function() {
+        //TODO: parse all values and check if valid
+        sendApplicationMessage();
+    });
+
     $( "#send-appeal" ).click(function() {
+        //TODO: parse all values and check if valid
         sendAppealMessage();
     });
 
@@ -105,38 +160,48 @@ $(document).ready(function() {
         };
         $.post( discordTokenUrl, data, function(data, status) {
             if (data.error === undefined) {
-                $.ajaxSetup({
-                    headers: {
-                        "Authorization": `Bearer ` + data.access_token,
-                        "Content-Type": "application/x-www-form-urlencoded"
-                    }
-                });
-                $.get(discordMeUrl, function (data, status) {
-                    $('.discord-id').attr('value',data.id);
-                    $('.discord-username').html(data.username + '#' + data.discriminator);
-                    $.get(discordGuilsUrl, function (data, status) {
-                        var i = 0;
-                        var inguild = false;
-                        while (data[i]) {
-                            if (data[i].id === shadownodeGuildId) {
-                                inguild = true;
+                $.ajax({
+                    beforeSend: function (xhrObj) {
+                        xhrObj.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+                        xhrObj.setRequestHeader("Authorization", "Bearer " + data.access_token);
+                    },
+                    type: "GET",
+                    url: discordMeUrl,
+                    complete: function (data1) {
+                        $('.discord-id').attr('value', data1.responseJSON.id);
+                        $('.discord-username').html(data1.responseJSON.username + '#' + data1.responseJSON.discriminator);
+                        $.ajax({
+                            beforeSend: function (xhrObj) {
+                                xhrObj.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+                                xhrObj.setRequestHeader("Authorization", "Bearer " + data.access_token);
+                            },
+                            type: "GET",
+                            url: discordGuilsUrl,
+                            complete: function (data2) {
+                                var i = 0;
+                                var inguild = false;
+                                while (data2.responseJSON[i]) {
+                                    if (data2.responseJSON[i].id === shadownodeGuildId) {
+                                        inguild = true;
+                                    }
+                                    i++;
+                                }
+                                if (inguild) {
+                                    error = false;
+                                    $('#notLoggedIn').fadeOut('slow', function () {
+                                        $("#appeals").fadeIn('slow');
+                                    });
+                                } else {
+                                    error = true;
+                                    $('.discord-login').attr("href", discordAuthUrl).text('Login with Discord');
+                                    $('#appeals,#application').fadeOut('slow', function () {
+                                        $('.discordError').html("You have not joined Shadownode Discord.<br><br>");
+                                        $("#notLoggedIn").fadeIn('slow');
+                                    });
+                                }
                             }
-                            i++;
-                        }
-                        if (inguild) {
-                            error = false;
-                            $('#notLoggedIn').fadeOut('slow', function () {
-                                $("#appeals").fadeIn('slow');
-                            });
-                        } else {
-                            error = true;
-                            $('.discord-login').attr("href", discordAuthUrl).text('Login with Discord');
-                            $('#appeals,#application').fadeOut('slow', function () {
-                                $('.discordError').html("You have not joined Shadownode Discord.<br><br>");
-                                $("#notLoggedIn").fadeIn('slow');
-                            });
-                        }
-                    });
+                        });
+                    }
                 });
             } else {
                 error = true;
@@ -160,47 +225,57 @@ $(document).ready(function() {
     /* Character Counters */
 
     $("#banreason").keyup(function (obj) {
-        var maxlength = obj.maxLength;
-        var str = obj.value.length;
+        var maxlength = obj.target.maxLength;
+        var strLength = obj.target.value.length;
 
         if (strLength > maxlength) {
-            $('#banChar').innerHTML = '<span style="color: red;">' + strLength + ' out of ' + maxlength + ' characters.</span>';
+            $('#banChar').html('<span style="color: red;">' + strLength + ' out of ' + maxlength + ' characters.</span>');
         } else {
-            $('#banChar').innerHTML = strLength + ' out of ' + maxlength + ' characters.';
+            $('#banChar').html(strLength + ' out of ' + maxlength + ' characters.');
         }
     });
 
-
-    $("#situational-friend").keyup(function (obj) {
-        var maxlength = obj.maxLength;
-        var strLength = obj.value.length;
+    $("#explanation").keyup(function (obj) {
+        var maxlength = obj.target.maxLength;
+        var strLength = obj.target.value.length;
 
         if (strLength > maxlength) {
-            $('#friendNum').innerHTML = '<span style="color: red;">' + strLength + ' out of ' + maxlength + ' characters.</span>';
+            $('#explanationNum').html('<span style="color: red;">' + strLength + ' out of ' + maxlength + ' characters.</span>');
         } else {
-            $('#friendNum').innerHTML = strLength + ' out of ' + maxlength + ' characters.';
+            $('#explanationNum').html(strLength + ' out of ' + maxlength + ' characters.');
+        }
+    });
+
+    $("#situational-friend").keyup(function (obj) {
+        var maxlength = obj.target.maxLength;
+        var strLength = obj.target.value.length;
+
+        if (strLength > maxlength) {
+            $('#friendNum').html('<span style="color: red;">' + strLength + ' out of ' + maxlength + ' characters.</span>');
+        } else {
+            $('#friendNum').html(strLength + ' out of ' + maxlength + ' characters.');
         }
     });
 
     $("#situational-priority").keyup(function (obj) {
-        var maxlength = obj.maxLength;
-        var strLength = obj.value.length;
+        var maxlength = obj.target.maxLength;
+        var strLength = obj.target.value.length;
 
         if (strLength > maxlength) {
-            $('#priorityNum').innerHTML = '<span style="color: red;">' + strLength + ' out of ' + maxlength + ' characters.</span>';
+            $('#priorityNum').html('<span style="color: red;">' + strLength + ' out of ' + maxlength + ' characters.</span>');
         } else {
-            $('#priorityNum').innerHTML = strLength + ' out of ' + maxlength + ' characters.';
+            $('#priorityNum').html(strLength + ' out of ' + maxlength + ' characters.');
         }
     });
 
     $("#situational-complicated").keyup(function (obj) {
-        var maxlength = obj.maxLength;
-        var strLength = obj.value.length;
+        var maxlength = obj.target.maxLength;
+        var strLength = obj.target.value.length;
 
         if (strLength > maxlength) {
-            $('#complicatedNum').innerHTML = '<span style="color: red;">' + strLength + ' out of ' + maxlength + ' characters.</span>';
+            $('#complicatedNum').html('<span style="color: red;">' + strLength + ' out of ' + maxlength + ' characters.</span>');
         } else {
-            $('#complicatedNum').innerHTML = strLength + ' out of ' + maxlength + ' characters.';
+            $('#complicatedNum').html(strLength + ' out of ' + maxlength + ' characters.');
         }
     });
 
