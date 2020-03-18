@@ -17,7 +17,7 @@ $(document).ready(function() {
 
     function getAllServers() {
         var statsUrl = stats + "?rand=" + new Date().getTime();
-        var serverSelect = $('#server-select');
+        var serverSelect = $('.server-select');
         fetch(statsUrl, {
             method: 'get'
         }).then(async function (response) {
@@ -74,8 +74,8 @@ $(document).ready(function() {
 
         var params = {
             id: $('#discord-id').val(),
-            mcusername: $('#minecraft-username').val(),
-            username: $('#discord-username').text(),
+            mcusername: $('#minecraft-username-appeal').val(),
+            username: $('#discord-username-appeal').text(),
             avatar_url: $('#minecraft-image').attr('src'),
             server: $('#server-select').val(),
             reason: $('#banreason').val(),
@@ -94,7 +94,7 @@ $(document).ready(function() {
     });
 
     if (getUrlVars()["code"]) {
-        $('#discord-login').attr("href", "#").text('Loading data...');
+        $('.discord-login').attr("href", "#").text('Loading data...');
         var data = {
             client_id: a(c),
             client_secret: a(s),
@@ -112,8 +112,8 @@ $(document).ready(function() {
                     }
                 });
                 $.get(discordMeUrl, function (data, status) {
-                    $('#discord-id').attr('value',data.id);
-                    $('#discord-username').html(data.username + '#' + data.discriminator);
+                    $('.discord-id').attr('value',data.id);
+                    $('.discord-username').html(data.username + '#' + data.discriminator);
                     $.get(discordGuilsUrl, function (data, status) {
                         var i = 0;
                         var inguild = false;
@@ -130,9 +130,9 @@ $(document).ready(function() {
                             });
                         } else {
                             error = true;
-                            $('#discord-login').attr("href", discordAuthUrl).text('Login with Discord');
+                            $('.discord-login').attr("href", discordAuthUrl).text('Login with Discord');
                             $('#appeals,#application').fadeOut('slow', function () {
-                                $('#discordError').html("You have not joined Shadownode Discord.<br><br>");
+                                $('.discordError').html("You have not joined Shadownode Discord.<br><br>");
                                 $("#notLoggedIn").fadeIn('slow');
                             });
                         }
@@ -140,17 +140,17 @@ $(document).ready(function() {
                 });
             } else {
                 error = true;
-                $('#discord-login').attr("href", discordAuthUrl).text('Login with Discord');
+                $('.discord-login').attr("href", discordAuthUrl).text('Login with Discord');
                 $('#appeals,#application').fadeOut('slow', function () {
-                    $('#discordError').html(data.error_description);
+                    $('.discordError').html(data.error_description);
                     $("#notLoggedIn").fadeIn('slow');
                 });
             }
         }).fail(function(data) {
             if (data.responseJSON.error_description === 'Invalid "code" in request.') data.responseJSON.error_description = "Discord auth code expired<br><br>";
             error = true;
-            $('#discord-login').attr("href", discordAuthUrl).text('Login with Discord');
-            $('#discordError').html(data.responseJSON.error_description);
+            $('.discord-login').attr("href", discordAuthUrl).text('Login with Discord');
+            $('.discordError').html(data.responseJSON.error_description);
             $('#appeals,#application').fadeOut('slow', function () {
                 $("#notLoggedIn").fadeIn('slow');
             });

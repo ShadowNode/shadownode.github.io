@@ -41,7 +41,7 @@
         <form id="appeal-form">
             <h2>In order to continue we need you to login into discord.</h2>
             <div class="input-div">
-                <span style="color: red;" id="discordError"></span>
+                <span style="color: red;" class="discordError"></span>
                 <a id="discord-login" class="discord-login" href="#"></a>
             </div>
         </form>
@@ -55,12 +55,12 @@
                 </div>
                 <div>
                     <h5>Minecraft Username</h5>
-                    <input id="minecraft-username" class="minecraft-username" type="text" placeholder="Steve" required>
+                    <input id="minecraft-username-appeal" class="minecraft-username" type="text" placeholder="Steve" required>
                 </div>
                 <div>
                     <h5>Discord Username</h5>
-                    <input id="discord-id" type="text" hidden>
-                    <div id="discord-username">Not logged in</div>
+                    <input id="discord-id-appeal" type="text" hidden>
+                    <div id="discord-username-appeal" class="discord-username">Not logged in</div>
                 </div>
             </div>
             <div class="input-div">
@@ -114,12 +114,12 @@
                 </div>
                 <div>
                     <h5>Minecraft Username</h5>
-                    <input id="minecraft-username" class="minecraft-username" type="text" placeholder="Steve" required>
+                    <input id="minecraft-username-application" class="minecraft-username" type="text" placeholder="Steve" required>
                 </div>
                 <div>
                     <h5>Discord Username</h5>
-                    <input id="discord-id" type="text" hidden>
-                    <div id="discord-username">Not logged in</div>
+                    <input id="discord-id-application" type="text" hidden>
+                    <div id="discord-username-application" class="discord-username">Not logged in</div>
                 </div>
                 <div>
                     <h5>Timezone</h5>
@@ -140,7 +140,7 @@
                 <div>
                     <h5>What server are you most active in</h5>
                     <label>
-                        <select id="server-select" class="server-select" required>
+                        <select class="server-select" required>
                         </select>
                     </label>
                 </div>
