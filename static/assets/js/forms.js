@@ -81,6 +81,7 @@ $(document).ready(function() {
 
         request.send(JSON.stringify(params));
     }
+
     $("form").submit(function(e){
         e.preventDefault();
     });
