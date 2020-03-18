@@ -87,8 +87,9 @@ $(document).ready(function() {
     });
 
     $( "#send" ).click(function() {
-        //todo validate
-        sendMessage();
+        if (!($("$server-select").value === "ShadowNode Servers")) {
+            sendMessage();
+        }
     });
 
     if (getUrlVars()["code"]) {

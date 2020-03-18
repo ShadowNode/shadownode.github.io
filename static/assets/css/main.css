@@ -616,12 +616,13 @@ select {
     color: #cccccc;
 }
 
-.submit-appeal {
+.send {
     background: #7289DA;
     color: var(--MAIN-TEXT-color);
     text-decoration: none;
     border-width: 1px;
     border-radius: 4px;
+    border-color: #435186;
     text-align: center;
     white-space: nowrap;
     padding: calc(0.375em - 1px) .75em;
