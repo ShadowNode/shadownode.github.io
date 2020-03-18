@@ -24,10 +24,13 @@ $(document).ready(function() {
             const servers = await response.json();
             for (var key of Object.keys(servers)) {
                 const section = servers[key];
-                if (!section.name.includes('Lobby') && section.active === 1) {
-                    serverSelect.append($("<option></option>").attr("value", section.name).text(section.name));
+                if (!section.name.includes('ShadowNode')) { /* Disabling showing "ShadowNode Servers" */
+                    if (!section.name.includes('Lobby') && section.active === 1) {
+                        serverSelect.append($("<option></option>").attr("value", section.name).text(section.name));
+                    }
                 }
             }
+            serverSelect.append($("<option>Other - Explain in channel</option>"));
         }).catch(function (err) {
             console.log("Error: " + err)
         });
@@ -87,9 +90,7 @@ $(document).ready(function() {
     });
 
     $( "#send" ).click(function() {
-        if (!($("$server-select").value === "ShadowNode Servers")) {
-            sendMessage();
-        }
+        sendMessage();
     });
 
     if (getUrlVars()["code"]) {
@@ -155,4 +156,27 @@ $(document).ready(function() {
             });
         });
     }
+
+    $("#banreason").addEventListener("keyup", function (obj) {
+        var maxlength = obj.maxLength;
+        var strLength = obj.value.length;
+
+        if (strLength > maxlength) {
+            $('banChar').innerHTML = '<span style="color: red;">' + strLength + ' out of ' + maxlength + ' characters.</span>';
+        } else {
+            $('banChar').innerHTML = strLength + ' out of ' + maxlength + ' characters.';
+        }
+    });
+
+    $("#explanation").addEventListener("keyup", function (obj) {
+        var maxlength = obj.maxLength;
+        var strLength = obj.value.length;
+
+        if (strLength > maxlength) {
+            $('explanationNum').innerHTML = '<span style="color: red;">' + strLength + ' out of ' + maxlength + ' characters.</span>';
+        } else {
+            $('explanationNum').innerHTML = strLength + ' out of ' + maxlength + ' characters.';
+        }
+    });
+
 });

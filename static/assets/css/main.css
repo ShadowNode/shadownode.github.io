@@ -542,9 +542,10 @@ form {
 }
 
 form ul {
-    list-style: none;
     padding: 0;
     margin: 0;
+    display: inline-block;
+    align-content: center;
 }
 
 form li + li {
@@ -616,7 +617,7 @@ select {
     color: #cccccc;
 }
 
-.send {
+#send {
     background: #7289DA;
     color: var(--MAIN-TEXT-color);
     text-decoration: none;
@@ -628,4 +629,15 @@ select {
     padding: calc(0.375em - 1px) .75em;
     cursor: pointer;
     position: relative;
+    width: 300px;
+}
+
+.charCount {
+    text-align: right;
+    margin-right: 50px;
+    margin-top: unset;
+}
+
+#staff-requirements > li {
+    text-align: left;
 }

@@ -76,27 +76,78 @@
                 <div>
                     <h5>Ban Reason</h5>
                     <input id="banreason" class="banreason" type="text" placeholder="Griefing" maxlength="200" required>
+                    <p id="banChar" class="charCount">0 Characters</p>
                 </div>
             </div>
             <div class="input-div">
                 <div>
                     <h5>Explanation</h5>
                     <textarea id="explanation" class="explanation" rows="10" cols="30" maxlength="2000" required></textarea>
+                    <p id="explanationNum" class="charCount">0 Characters</p>
                 </div>
             </div>
             <br>
             <div class="input-div">
                 <div>
-                    <button class="send" id="send">Send</button>
+                    <button id="send">Send</button>
                 </div>
             </div>
         </form>
     </div>
     <div class="form-container" id="application" style="display: none;">
         <form id="application-form">
-            <h2>Staff Application stuff</h2>
+            <h2>Staff Application</h2>
             <div class="input-div">
-                <!-- do things -->
+                <p>By continuing this application you agree you agree to the following:</p>
+                <ul id="staff-requirements">
+                    <li>Own and Use a Microphone</li>
+                    <li>Are at least 16 years of age</li>
+                    <li>Have played on the network for at least 1 month</li>
+                    <li>Have a role on our Discord</li>
+                </ul>
+            </div>
+            <h4>Identification Questions</h4>
+            <div class="input-div">
+                <div>
+                    <h5>First/Common Name</h5>
+                    <input type="text" placeholder="Optional">
+                </div>
+                <div>
+                    <h5>Minecraft Username</h5>
+                    <input id="minecraft-username" class="minecraft-username" type="text" placeholder="Steve" required>
+                </div>
+                <div>
+                    <h5>Discord Username</h5>
+                    <input id="discord-id" type="text" hidden>
+                    <div id="discord-username">Not logged in</div>
+                </div>
+                <div>
+                    <h5>Timezone</h5>
+                    <input id="timezone" type="text" required>
+                </div>
+                <div>
+                    <h5>Length playing in the ShadowNode Community</h5>
+                    <input id="length" type="text" required>
+                </div>
+                <div>
+                    <h5>Any experiences in leadership situations</h5>
+                    <input id="leadership" type="text" required>
+                </div>
+                <div>
+                    <h5>Any experiences in game server moderation/administration</h5>
+                    <input id="gameserver" type="text" required>
+                </div>
+                <div>
+                    <h5>What server are you most active in</h5>
+                    <label>
+                        <select id="server-select" class="server-select" required>
+                        </select>
+                    </label>
+                </div>
+                <div>
+                    <h5>Are you unable to connect to any servers? If so list them</h5>
+                    <input id="unable-connect" type="text" placeholder="N/A if none" required>
+                </div>
             </div>
         </form>
     </div>
