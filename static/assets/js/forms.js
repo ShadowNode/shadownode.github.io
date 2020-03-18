@@ -67,19 +67,28 @@ $(document).ready(function() {
 
     function sendMessage() {
         var request = new XMLHttpRequest();
-        request.open("POST", a(w));
-
-        request.setRequestHeader('Content-type', 'application/json');
+        request.open("POST", "http://151.80.26.186:34001");
 
         var params = {
-            username: "Babymillie👶🍼🚼#0001",
-            avatar_url: "https://minotar.net/helm/Babymillie",
-            content: "Simple test"
-        }
+            id: $('#discord-id').val(),
+            mcusername: $('#minecraft-username').val(),
+            username: $('#discord-username').text(),
+            avatar_url: $('#minecraft-image').attr('src'),
+            server: $('#server-select').val(),
+            reason: $('#banreason').val(),
+            content: $('#explanation').val()
+        };
 
         request.send(JSON.stringify(params));
     }
-    //sendMessage();
+    $("form").submit(function(e){
+        e.preventDefault();
+    });
+
+    $( "#send" ).click(function() {
+        //todo validate
+        sendMessage();
+    });
 
     if (getUrlVars()["code"]) {
         $('#discord-login').attr("href", "#").text('Loading data...');
@@ -100,6 +109,7 @@ $(document).ready(function() {
                     }
                 });
                 $.get(discordMeUrl, function (data, status) {
+                    $('#discord-id').attr('value',data.id);
                     $('#discord-username').html(data.username + '#' + data.discriminator);
                     $.get(discordGuilsUrl, function (data, status) {
                         var i = 0;

@@ -47,7 +47,7 @@
         </form>
     </div>
     <div class="form-container" id="appeals" style="display: none;">
-        <form id="appeal-form">
+        <form id="appeal-form" action="#">
             <h2>Appeal</h2>
             <div class="input-div">
                 <div class="i">
@@ -59,7 +59,7 @@
                 </div>
                 <div>
                     <h5>Discord Username</h5>
-                    <input id="id-discord-username" class="minecraft-username" type="text" placeholder="" hidden>
+                    <input id="discord-id" type="text" hidden>
                     <div id="discord-username">Not logged in</div>
                 </div>
             </div>
@@ -75,13 +75,18 @@
             <div class="input-div">
                 <div>
                     <h5>Ban Reason</h5>
-                    <input class="banreason" type="text" placeholder="Griefing" required>
+                    <input id="banreason" class="banreason" type="text" placeholder="Griefing" maxlength="200" required>
                 </div>
             </div>
             <div class="input-div">
                 <div>
                     <h5>Explanation</h5>
-                    <textarea class="explanation" rows="10" cols="30" required></textarea>
+                    <textarea id="explanation" class="explanation" rows="10" cols="30" maxlength="2000" required></textarea>
+                </div>
+            </div>
+            <div class="input-div">
+                <div>
+                    <button id="send" class="form-switch">Send</button>
                 </div>
             </div>
         </form>
