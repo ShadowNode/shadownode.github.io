@@ -645,3 +645,32 @@ select {
 #refunds > li {
     text-align: left;
 }
+
+.mediaViewInfo {
+    --web-scale-on-resize: true;
+}
+
+.header {
+    position: absolute;
+    width: 650px;
+    height: 193px;
+    left: 635px;
+    top: 35px;
+}
+
+.rectangle {
+    position: absolute;
+    overflow: visible;
+    width: 1400px;
+    height: 768px;
+    left: 260px;
+    top: 247px;
+    background: rgba(37,38,39,1);
+    border: solid 1px rgba(100,106,112,1);
+}
+
+.box-header {
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: row;
+}
