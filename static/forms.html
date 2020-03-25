@@ -27,11 +27,13 @@
 <body>
 <img class="swirl big" alt="swirl_big" src="./assets/images/vortex_swirl.png" width="0">
 <img class="swirl small" alt="swirl_small" src="./assets/images/vortex_swirl.png" width="0">
-<img class="header" alt="header" src="./assets/images/ShadowNode_Test_alt3.png" width="650" height="193">
+<a href="./home/">
+    <img class="header" alt="header" src="./assets/images/ShadowNode_Test_alt3.png" width="650" height="193">
+</a>
 <div class="grid" id="forms">
     <div class="rectangle">
-        <div class="section active">
-            <div class="row center-md center-sm">
+        <div id="identification">
+            <div class="row center-md center-sm center-xs">
                 <div class="col-md">
                     <div class="staffapp">
                         <h1>Staff Application</h1>
@@ -59,12 +61,12 @@
                     </div>
 
                     <div class="box">
-                        <label for="discorduser">
+                        <label for="discord">
                             <!-- TODO Change to auto fill because form requires Discord Auth before access -->
                             Discord Username
                         </label>
                         <br>
-                        <input id="discorduser" readonly required type="text">
+                        <input class="discorduser" id="discord" readonly required type="text">
                     </div>
 
                     <div class="box">
@@ -131,7 +133,7 @@
                         </label>
                         <br>
                         <textarea id="leadership" maxlength="500" required></textarea>
-                        <p class="charCount" id="leadershipNum">0 Characters</p>
+                        <p class="charCount" id="leadershipChar">0 characters</p>
                     </div>
 
                     <div class="box">
@@ -140,23 +142,274 @@
                         </label>
                         <br>
                         <textarea id="moderation" maxlength="500" required></textarea>
-                        <p class="charCount" id="moderationNum">0 Characters</p>
+                        <p class="charCount" id="moderationChar">0 characters</p>
                     </div>
                 </div>
             </div>
 
-            <button class="continue" type="button">Continue</button>
+            <button class="continue" id="identificationContinue" type="button">Continue</button>
         </div>
-        <div class="section inactive">
+        <div id="multiplechoice" style="display: none;">
             <div class="row center-md center-sm staffapp">
                 <div class="col-md">
                     <div>
                         <h1>Staff Application</h1>
                         <hr id="mc-hr">
                         <h2>Multiple Choice Questions</h2>
+                        <p id="subheader"><i>May be more than 1 answer, select all correct answers</i></p>
                     </div>
                 </div>
             </div>
+
+            <div class="row center-md center-sm center-xs">
+                <div class="col-md col-sm col-xs">
+                    <div class="box">
+                        <label for="minimodding">
+                            What is Minimodding?
+                        </label>
+                        <br>
+                        <div id="minimodding" class="mcoptions">
+                            <label>
+                                <input type="checkbox" value="Adding client-side mods">
+                                Adding client-side mods
+                            </label>
+                            <br>
+                            <label>
+                                <input type="checkbox" value="Helping other players with basic mod questions">
+                                Helping other players with basic mod questions
+                            </label>
+                            <br>
+                            <label>
+                                <input type="checkbox" value="Telling a player details of the rules without consulting staff">
+                                Telling a player details of the rules without consulting staff
+                            </label>
+                            <br>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <label for="rules">
+                            What are all the places that the rules can be found:
+                        </label>
+                        <br>
+                        <div id="rules" class="mcoptions">
+                            <label>
+                                <input type="checkbox" value="Spawns">
+                                In server spawns
+                            </label>
+                            <br>
+                            <label>
+                                <input type="checkbox" value="Website">
+                                On the website
+                            </label>
+                            <br>
+                            <label>
+                                <input type="checkbox" value="Discord">
+                                In the Discord
+                            </label>
+                            <br>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <label for="refunds">
+                            Refunds are only granted if items are lost due to:
+                        </label>
+                        <br>
+                        <div id="refunds" class="mcoptions">
+                            <label>
+                                <input type="checkbox" value="ServerBug">
+                                Server bug
+                            </label>
+                            <br>
+                            <label>
+                                <input type="checkbox" value="ModBug">
+                                Mod bug
+                            </label>
+                            <br>
+                            <label>
+                                <input type="checkbox" value="Trash">
+                                Accidentally throwing an item into a trash can
+                            </label>
+                            <br>
+                            <label>
+                                <input type="checkbox" value="None">
+                                Refunds are not given
+                            </label>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="continue" id="mcContinue" type="button">Continue</button>
+            <button class="back" id="mcBack" type="button">Back</button>
+        </div>
+        <div id="truefalse" style="display: none;">
+            <div class="row center-md center-sm staffapp">
+                <div class="col-md">
+                    <div>
+                        <h1>Staff Application</h1>
+                        <hr id="tf-hr">
+                        <h2>True or False Questions</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row center-md center-sm center-xs">
+                <div class="col-md col-sm col-xs">
+                    <div class="box">
+                        <label>
+                            Mob spawners do not need to autokill/autoloot if mobs do not spawn rapidly
+                        </label>
+                        <label>
+                            <input type="checkbox" value="true">
+                            True
+                        </label>
+                        <label>
+                            <input type="checkbox" value="false">
+                            False
+                        </label>
+                    </div>
+
+                    <div class="box">
+                        <label>
+                            Automining systems are allowed in mining dimensions
+                        </label>
+                        <label>
+                            <input type="checkbox" value="true">
+                            True
+                        </label>
+                        <label>
+                            <input type="checkbox" value="false">
+                            False
+                        </label>
+                    </div>
+
+                    <div class="box">
+                        <label>
+                            Griefing is allowed if a base is NOT claimed
+                        </label>
+                        <label>
+                            <input type="checkbox" value="true">
+                            True
+                        </label>
+                        <label>
+                            <input type="checkbox" value="false">
+                            False
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <button class="continue" id="tfContinue" type="button">Continue</button>
+            <button class="back" id="tfBack" type="button">Back</button>
+        </div>
+        <div id="sit1" style="display: none;">
+            <div class="row center-md center-sm staffapp">
+                <div class="col-md">
+                    <div>
+                        <h1>Staff Application</h1>
+                        <hr class="sit-hr">
+                        <h2>Situational Questions</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row center-md center-sm center-xs">
+                <div class="col-md col-sm col-xs">
+                    <div class="box">
+                        <label>
+                            If your friend was breaking our server rules and you (as a staff member) know about it, what do you do?
+                        </label>
+                        <textarea id="friend" maxlength="1000" required></textarea>
+                        <p class="charCount" id="friendChar">0 characters</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row center-md center-sm center-xs">
+                <div class="col-md col-sm col-xs">
+                    <div class="box">
+                        <label>
+                            You are on Stone Block assisting one player with a past grief, another player on the server has found a game-breaking bug and a player on DW20 is griefing players/killing them and it requires immediate attention, you are the only staff online right now, what is AN efficient course of action to take in your given situation?
+                        </label>
+                        <textarea id="priorities" maxlength="1000" required></textarea>
+                        <p class="charCount" id="priorityChar">0 characters</p>
+                    </div>
+                </div>
+            </div>
+            <button class="continue" id="sit1Continue" type="button">Continue</button>
+            <button class="back" id="sit1Back" type="button">Back</button>
+        </div>
+
+        <div id="sit2" style="display: none;">
+            <div class="row center-md center-sm staffapp">
+                <div class="col-md">
+                    <div>
+                        <h1>Staff Application</h1>
+                        <hr class="sit-hr">
+                        <h2>Situational Questions</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row center-md center-sm center-xs">
+                <div class="col-md col-sm col-sm">
+                    <div class="box">
+                        <label>
+                            You are dealing with a player who has repeated their question to numerous members of staff via Dms and a number of different channels as well as in-game, the member becomes a little hostile in their frustration and efforts but DOES NOT break any rules which would warrant a ban/removal, what is a possible way you can step in and resolve this situation?
+                        </label>
+                        <textarea id="complicated" maxlength="1000" required></textarea>
+                        <p class="charCount" id="complicatedChar">0 characters</p>
+                    </div>
+                </div>
+            </div>
+            <button class="continue" id="sit2Continue" type="button">Continue</button>
+            <button class="back" id="sit2Back" type="button">Back</button>
+        </div>
+
+        <div id="terms" style="display: none;">
+            <div class="row center-md center-sm staffapp">
+                <div class="col-md">
+                    <div>
+                        <h1>Staff Application</h1>
+                        <hr id="terms-hr">
+                        <h2>Terms and Agreement</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row confirm">
+                <div class="box" style="width: 100%">
+                    <h3>By clicking on the "Send App" button, you are agreeing to the following terms:</h3>
+                    <h4>1. All information entered is your own and is accurate.</h4>
+                    <h4>2. You own and use a microphone.</h4>
+                    <h4>3. You are at least 16 years of age.</h4>
+                    <h4>4. You have played on our network for at least 1 month.</h4>
+                    <h4>5. You are in good standing with the staff team (not banned, muted, etc.)</h4>
+                </div>
+            </div>
+            <button class="send" id="sendapp" type="submit">Send App</button>
+            <button class="back" id="termsBack" type="button">Back</button>
+        </div>
+
+        <div id="success" style="display: none;">
+            <div class="row center-md center-sm staffapp">
+                <div class="col-md">
+                    <div>
+                        <h1>Staff Application</h1>
+                        <hr id="success-hr" style="width: 35%">
+                        <h2>Success</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row confirm">
+                <div class="box" style="width: 100%">
+                    <h3>Your application has been sent! A channel will be created in the Discord where staff can view your application and ask you questions. If a channel has not been made within 15 minutes, please contact staff in the support channel. We wish you the best of luck on your application!</h3>
+                </div>
+            </div>
+            <a href="./home">
+                <button class="home" id="home" type="button">Home</button>
+            </a>
         </div>
     </div>
 </div>

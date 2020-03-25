@@ -105,42 +105,8 @@ $(document).ready(function() {
         });
     }
 
-    function sendApplicationMessage() {
-        //TODO: Finish
-        var params = {
-            application: 'application'/*,
-            id: $('.discord-id').val(),
-            mcusername: $('#minecraft-username-appeal').val(),
-            username: $('#discord-username-appeal').text(),
-            avatar_url: $('#minecraft-image').attr('src'),
-            server: $('#server-select').val(),
-            reason: $('#banreason').val(),
-            content: $('#explanation').val()*/
-        };
-        $.ajax({
-            beforeSend: function (xhrObj) {
-                xhrObj.setRequestHeader("Content-Type", "application/json");
-                xhrObj.setRequestHeader("Accept", "application/json");
-            },
-            type: "GET",
-            data: params,
-            dataType: "json",
-            url: a(w),
-            complete: function (data) {
-                $('#appeals,#application').fadeOut('slow', function () {
-                    $("#success").fadeIn('slow');
-                });
-            }
-        });
-    }
-
     $("form").submit(function (e) {
         e.preventDefault();
-    });
-
-    $( "#send-application" ).click(function() {
-        //TODO: parse all values and check if valid
-        sendApplicationMessage();
     });
 
     $( "#send-appeal" ).click(function() {
@@ -224,15 +190,14 @@ $(document).ready(function() {
 
     /* Character Counters */
 
-
     $("#leadership").keyup(function (obj) {
         var maxlength = obj.target.maxLength;
         var strLength = obj.target.value.length;
 
         if (strLength > maxlength) {
-            $('#leadershipNum').html('<span style="color: red;">' + strLength + ' out of ' + maxlength + ' characters.</span>');
+            $('#leadershipChar').html('<span style="color: red;">' + strLength + ' out of ' + maxlength + ' characters</span>');
         } else {
-            $('#leadershipNum').html(strLength + ' out of ' + maxlength + ' characters.');
+            $('#leadershipChar').html(strLength + ' out of ' + maxlength + ' characters');
         }
     });
 
@@ -241,9 +206,9 @@ $(document).ready(function() {
         var strLength = obj.target.value.length;
 
         if (strLength > maxlength) {
-            $('#moderationChar').html('<span style="color: red;">' + strLength + ' out of ' + maxlength + ' characters.</span>');
+            $('#moderationChar').html('<span style="color: red;">' + strLength + ' out of ' + maxlength + ' characters</span>');
         } else {
-            $('#moderationChar').html(strLength + ' out of ' + maxlength + ' characters.');
+            $('#moderationChar').html(strLength + ' out of ' + maxlength + ' characters');
         }
     });
 
@@ -253,9 +218,9 @@ $(document).ready(function() {
         var strLength = obj.target.value.length;
 
         if (strLength > maxlength) {
-            $('#banChar').html('<span style="color: red;">' + strLength + ' out of ' + maxlength + ' characters.</span>');
+            $('#banChar').html('<span style="color: red;">' + strLength + ' out of ' + maxlength + ' characters</span>');
         } else {
-            $('#banChar').html(strLength + ' out of ' + maxlength + ' characters.');
+            $('#banChar').html(strLength + ' out of ' + maxlength + ' characters');
         }
     });
 
@@ -264,52 +229,147 @@ $(document).ready(function() {
         var strLength = obj.target.value.length;
 
         if (strLength > maxlength) {
-            $('#explanationNum').html('<span style="color: red;">' + strLength + ' out of ' + maxlength + ' characters.</span>');
+            $('#explanationNum').html('<span style="color: red;">' + strLength + ' out of ' + maxlength + ' characters</span>');
         } else {
-            $('#explanationNum').html(strLength + ' out of ' + maxlength + ' characters.');
+            $('#explanationNum').html(strLength + ' out of ' + maxlength + ' characters');
         }
     });
 
-    $("#situational-friend").keyup(function (obj) {
+    $("#friend").keyup(function (obj) {
         var maxlength = obj.target.maxLength;
         var strLength = obj.target.value.length;
 
         if (strLength > maxlength) {
-            $('#friendNum').html('<span style="color: red;">' + strLength + ' out of ' + maxlength + ' characters.</span>');
+            $('#friendChar').html('<span style="color: red;">' + strLength + ' out of ' + maxlength + ' characters</span>');
         } else {
-            $('#friendNum').html(strLength + ' out of ' + maxlength + ' characters.');
+            $('#friendChar').html(strLength + ' out of ' + maxlength + ' characters');
         }
     });
 
-    $("#situational-priority").keyup(function (obj) {
+    $("#priorities").keyup(function (obj) {
         var maxlength = obj.target.maxLength;
         var strLength = obj.target.value.length;
 
         if (strLength > maxlength) {
-            $('#priorityNum').html('<span style="color: red;">' + strLength + ' out of ' + maxlength + ' characters.</span>');
+            $('#priorityChar').html('<span style="color: red;">' + strLength + ' out of ' + maxlength + ' characters</span>');
         } else {
-            $('#priorityNum').html(strLength + ' out of ' + maxlength + ' characters.');
+            $('#priorityChar').html(strLength + ' out of ' + maxlength + ' characters');
         }
     });
 
-    $("#situational-complicated").keyup(function (obj) {
+    $("#complicated").keyup(function (obj) {
         var maxlength = obj.target.maxLength;
         var strLength = obj.target.value.length;
 
         if (strLength > maxlength) {
-            $('#complicatedNum').html('<span style="color: red;">' + strLength + ' out of ' + maxlength + ' characters.</span>');
+            $('#complicatedChar').html('<span style="color: red;">' + strLength + ' out of ' + maxlength + ' characters</span>');
         } else {
-            $('#complicatedNum').html(strLength + ' out of ' + maxlength + ' characters.');
+            $('#complicatedChar').html(strLength + ' out of ' + maxlength + ' characters');
         }
     });
 
-    /* Continue Btn */
-    $(".continue").click(function (e) {
-        $(".section active").removeClass("active");
+    /* Continue Button */
 
-        var $parent = $(this).parent();
-        $parent.addClass("active");
-        e.preventDefault();
-    })
+    $("#identificationContinue").click(function () {
+            $("#identification").fadeOut('fast');
+            $("#multiplechoice").fadeIn('fast');
+    });
 
+    $("#mcContinue").click(function () {
+        $("#multiplechoice").fadeOut('fast');
+        $("#truefalse").fadeIn('fast');
+    });
+
+    $("#tfContinue").click(function () {
+        $("#truefalse").fadeOut('fast');
+        $("#sit1").fadeIn('fast');
+    });
+
+    $("#sit1Continue").click(function () {
+        $("#sit1").fadeOut('fast');
+        $("#sit2").fadeIn('fast');
+    });
+
+    $("#sit2Continue").click(function () {
+        $("#sit2").fadeOut('fast');
+        $("#terms").fadeIn('fast');
+    });
+
+    /* Back Button */
+
+    $("#mcBack").click(function () {
+        $("#multiplechoice").fadeOut('fast');
+        $("#identification").fadeIn('fast');
+    });
+
+    $("#tfBack").click(function () {
+        $("#truefalse").fadeOut('fast');
+        $("#multiplechoice").fadeIn('fast');
+    });
+
+    $("#sit1Back").click(function () {
+        $("#sit1").fadeOut('fast');
+        $("#truefalse").fadeIn('fast');
+    });
+
+    $("#sit2Back").click(function () {
+        $("#sit2").fadeOut('fast');
+        $("#sit1").fadeIn('fast');
+    });
+
+    $("#termsBack").click(function () {
+        $("#terms").fadeOut('fast');
+        $("#sit2").fadeIn('fast');
+    });
+
+    /* Send Staff Application */
+    function sendApplicationMessage() {
+        //TODO: Finish
+        var params = {
+            application: 'application',
+            // id: $('.discord-id').val(),
+            mcusername: $('#mcuser').val(),
+            // username: $('.disc').text(),
+            // avatar_url: $('#minecraft-image').attr('src'),
+            timezone: $('#timezone').val(),
+            lengthplaying: $('#length-playing').val(),
+            unableconnect: $('#unable-connect').val(),
+            primary: $('#primary').val(),
+            leadership: $('#leadership').val(),
+            moderation: $('#moderation').val()
+        };
+        $.ajax({
+            beforeSend: function (xhrObj) {
+                xhrObj.setRequestHeader("Content-Type", "application/json");
+                xhrObj.setRequestHeader("Accept", "application/json");
+            },
+            type: "GET",
+            data: params,
+            dataType: "json",
+            url: a(w),
+            complete: function (data) {
+                $('#forms').fadeOut('slow', function () {
+                    $("#success").fadeIn('slow');
+                });
+            }
+        });
+    }
+
+    $( "#sendapp" ).click(function() {
+        //TODO: parse all values and check if valid
+        sendApplicationMessage();
+        const params = {
+            mcusername: $('#mcuser').val(),
+            timezone: $('#timezone').val(),
+            lengthplaying: $('#length-playing').val(),
+            unableconnect: $('#unable-connect').val(),
+            primary: $('#primary').val(),
+            leadership: $('#leadership').val(),
+            moderation: $('#moderation').val(),
+            friend: $('#friend').val(),
+            priority: $('#priorities').val(),
+            complicated: $('#complicated').val()
+        };
+        console.log(Object.entries(params));
+    });
 });

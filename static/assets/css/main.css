@@ -184,11 +184,11 @@ nav li {
     margin: 20px;
 }
 
-nav button.wiki {
+nav button.home {
     background-image: url('../images/icons/forum_normal.png');
 }
 
-nav button.wiki:hover {
+nav button.home:hover {
     background-image: url('../images/icons/forum_highlighted.png');
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
@@ -635,7 +635,6 @@ select {
 .charCount {
     text-align: right;
     margin: 0 0;
-    padding-right: 75px;
     font-size: 18px;
 }
 
@@ -690,6 +689,10 @@ h1 {
     font-family: "Open Sans", serif;
 }
 
+.rectangle hr {
+    margin: 0 auto;
+}
+
 .box {
     background: #323232;
     border-radius: 5px;
@@ -701,9 +704,11 @@ h1 {
     /*flex: 0 0 280px;*/
 }
 
-input, textarea {
+input,
+textarea {
     display: block;
     margin: 0 auto;
+    width: 100%;
 }
 
 .grid .col-md, .grid .col-sm {
@@ -717,7 +722,6 @@ input, textarea {
 
 #identification-hr {
     width: 40%;
-    margin: 0 auto;
 }
 
 .staffapp {
@@ -741,18 +745,81 @@ input, textarea {
     display: none;
 }
 
-.continue {
+.continue,
+.send,
+.home {
     background-color: #2D3033;
     border-color: #707070;
-    position: absolute;
     color: white;
     border-radius: 5px;
     font-size: 26px;
     height: 51px;
     width: 154px;
-    right: 9px;
-    bottom: 13px;
-    margin: auto;
+    margin: 0 10px 10px 0;
     text-decoration: none;
     text-align: center;
+    float: right;
+}
+
+.back {
+    background-color: #2D3033;
+    border-color: #707070;
+    color: white;
+    border-radius: 5px;
+    font-size: 26px;
+    height: 51px;
+    width: 97px;
+    margin: 0 0 10px 10px;
+    text-decoration: none;
+    text-align: center;
+    float: left;
+}
+
+#mc-hr {
+    width: 45%;
+}
+
+#subheader {
+    font-size: 25px;
+    margin: 0 0;
+}
+
+input[type=checkbox] {
+    display: inline;
+    margin: 0 5px 0 0;
+    width: 25px !important;
+    padding: 20px;
+}
+
+.mcoptions {
+    display: inline-table;
+    text-align: left;
+}
+
+.mcoptions label {
+    display: inline;
+}
+
+#tf-hr {
+    width: 44%;
+}
+
+.sit-hr {
+    width: 38%;
+}
+
+#terms-hr {
+    width: 50%;
+}
+
+.terms h3 {
+    font-size: 50px;
+}
+
+.terms h4 {
+    font-size: 40px;
+}
+
+.confirm {
+    margin: 0 0 0 20px;
 }
