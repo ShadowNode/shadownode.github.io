@@ -224,6 +224,30 @@ $(document).ready(function() {
 
     /* Character Counters */
 
+
+    $("#leadership").keyup(function (obj) {
+        var maxlength = obj.target.maxLength;
+        var strLength = obj.target.value.length;
+
+        if (strLength > maxlength) {
+            $('#leadershipNum').html('<span style="color: red;">' + strLength + ' out of ' + maxlength + ' characters.</span>');
+        } else {
+            $('#leadershipNum').html(strLength + ' out of ' + maxlength + ' characters.');
+        }
+    });
+
+    $("#moderation").keyup(function (obj) {
+        var maxlength = obj.target.maxLength;
+        var strLength = obj.target.value.length;
+
+        if (strLength > maxlength) {
+            $('#moderationChar').html('<span style="color: red;">' + strLength + ' out of ' + maxlength + ' characters.</span>');
+        } else {
+            $('#moderationChar').html(strLength + ' out of ' + maxlength + ' characters.');
+        }
+    });
+
+
     $("#banreason").keyup(function (obj) {
         var maxlength = obj.target.maxLength;
         var strLength = obj.target.value.length;
@@ -278,5 +302,14 @@ $(document).ready(function() {
             $('#complicatedNum').html(strLength + ' out of ' + maxlength + ' characters.');
         }
     });
+
+    /* Continue Btn */
+    $(".continue").click(function (e) {
+        $(".section active").removeClass("active");
+
+        var $parent = $(this).parent();
+        $parent.addClass("active");
+        e.preventDefault();
+    })
 
 });
