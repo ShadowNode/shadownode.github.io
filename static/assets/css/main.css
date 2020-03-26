@@ -184,11 +184,11 @@ nav li {
     margin: 20px;
 }
 
-nav button.home {
+nav button.homebtn {
     background-image: url('../images/icons/forum_normal.png');
 }
 
-nav button.home:hover {
+nav button.homebtn:hover {
     background-image: url('../images/icons/forum_highlighted.png');
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
@@ -823,3 +823,4 @@ input[type=checkbox] {
 .confirm {
     margin: 0 0 0 20px;
 }
+
