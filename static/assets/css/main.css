@@ -572,7 +572,7 @@ input,
 textarea {
     font: 1em sans-serif;
     width: 300px;
-    box-sizing: border-box; 
+    box-sizing: border-box;
     border: 1px solid rgb(71, 71, 71);
     background-color: rgb(61, 64, 67);
     color: var(--MAIN-TEXT-color);
@@ -652,25 +652,37 @@ select {
 
 .header {
     position: absolute;
-    width: 650px;
-    height: 193px;
+    max-width: 650px;
+    max-height: 193px;
     left: 635px;
     top: 35px;
+    /*top: 2.188em;*/
+}
+
+.header:empty {
+    top: 15%;
+    /*top: 50%;*/
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .rectangle {
     position: absolute;
     overflow: auto;
     overflow-x: hidden;
-    width: 1400px;
-    /*height: 768px;*/
-    left: 260px;
-    top: 247px;
+    max-width: 1400px;
+    /* height: 768px; */
+    left: 50%;
+    top: 30%;
     background: rgba(37, 38, 39, 1);
     border: solid 1px rgba(100, 106, 112, 1);
     display: grid;
     margin: 0 0 16px 0;
-    /*flex-wrap: wrap;*/
+    transform: translate(-50%, -10%);
 }
 
 .col-md,
@@ -685,7 +697,7 @@ body {
 
 h1 {
     font-weight: bold;
-    font-size: 86px;
+    max-font-size: 86px;
     font-family: "Open Sans", serif;
 }
 
@@ -697,7 +709,7 @@ h1 {
     background: #323232;
     border-radius: 5px;
     padding: 20px;
-    font-size: 28px;
+    max-font-size: 28px;
     display: inline-grid;
     margin: 20px;
     /*column-gap: 30px;*/
@@ -735,7 +747,7 @@ textarea {
 }
 
 .staffapp h2 {
-    font-size: 57px;
+    max-font-size: 57px;
     font-family: "Open Sans SemiBold", serif;
     margin: 0 auto;
 }
@@ -761,6 +773,18 @@ textarea {
     float: right;
 }
 
+.formhome {
+    background-color: #2D3033;
+    border-color: #707070;
+    color: white;
+    border-radius: 5px;
+    font-size: 26px;
+    height: 50px;
+    width: 90px;
+    margin: 10px 10px 0 0;
+    float: right;
+}
+
 .back {
     background-color: #2D3033;
     border-color: #707070;
@@ -780,7 +804,7 @@ textarea {
 }
 
 #subheader {
-    font-size: 25px;
+    max-font-size: 25px;
     margin: 0 0;
 }
 
@@ -813,14 +837,95 @@ input[type=checkbox] {
 }
 
 .terms h3 {
-    font-size: 50px;
+    max-font-size: 50px;
 }
 
 .terms h4 {
-    font-size: 40px;
+    max-font-size: 40px;
 }
 
 .confirm {
     margin: 0 0 0 20px;
 }
 
+@media (max-width: 1333px) {
+    .box {
+        flex-basis: 33.33%;
+    }
+
+    .header {
+        display: none;
+    }
+}
+
+@media (max-width: 1073px) {
+    .box {
+        flex-basis: 33.33%;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .header {
+        display: none;
+    }
+}
+
+@media (max-width: 815px) {
+    .box {
+        flex-basis: 50%;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .header {
+        display: none;
+    }
+}
+
+@media (max-width: 620px) {
+    .col {
+        clear: both;
+        float: none;
+        margin-right: auto;
+        margin-left: auto;
+        width: auto !important;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .header {
+        display: none;
+    }
+}
+
+@media (max-width: 555px) {
+    .box {
+        flex-basis: 100%;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .header {
+        display: none;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    .header {
+        max-width: 90%;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    .header {
+        max-width: 90%;
+    }
+}
