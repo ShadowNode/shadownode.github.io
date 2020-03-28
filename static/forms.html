@@ -160,7 +160,7 @@
                         <h1>Staff Application</h1>
                         <hr id="mc-hr">
                         <h2>Multiple Choice Questions</h2>
-                        <p id="subheader"><i>May be more than 1 answer, select all correct answers</i></p>
+                        <p id="subheader"><i>Select one or more answers.</i></p>
                     </div>
                 </div>
             </div>
@@ -173,21 +173,13 @@
                         </label>
                         <br>
                         <div id="minimodding" class="mcoptions">
-                            <label>
-                                <input type="checkbox" value="Adding client-side mods">
-                                Adding client-side mods
-                            </label>
-                            <br>
-                            <label>
-                                <input type="checkbox" value="Helping other players with basic mod questions">
-                                Helping other players with basic mod questions
-                            </label>
-                            <br>
-                            <label>
-                                <input type="checkbox" value="Telling a player details of the rules without consulting staff">
-                                Telling a player details of the rules without consulting staff
-                            </label>
-                            <br>
+                            <input id="mma" type="checkbox" value="Adding client-side mods">
+                            <label for="mma">Adding client-side mods</label>
+                            <input id="mmb" type="checkbox" value="Helping other players with basic mod questions">
+                            <label for="mmb">Helping other players with basic mod questions</label>
+                            <input id="mmc" type="checkbox"
+                                   value="Telling a player details of the rules without consulting staff">
+                            <label for="mmc">Telling a player details of the rules without consulting staff</label>
                         </div>
                     </div>
 
@@ -197,21 +189,12 @@
                         </label>
                         <br>
                         <div id="rules" class="mcoptions">
-                            <label>
-                                <input type="checkbox" value="Spawns">
-                                In server spawns
-                            </label>
-                            <br>
-                            <label>
-                                <input type="checkbox" value="Website">
-                                On the website
-                            </label>
-                            <br>
-                            <label>
-                                <input type="checkbox" value="Discord">
-                                In the Discord
-                            </label>
-                            <br>
+                            <input id="ra" type="checkbox" value="Spawns">
+                            <label for="ra">In server spawns</label>
+                            <input id="rb" type="checkbox" value="Website">
+                            <label for="rb">On the website</label>
+                            <input id="rc" type="checkbox" value="Discord">
+                            <label for="rc">In the Discord</label>
                         </div>
                     </div>
 
@@ -221,26 +204,15 @@
                         </label>
                         <br>
                         <div id="refunds" class="mcoptions">
-                            <label>
-                                <input type="checkbox" value="ServerBug">
-                                Server bug
-                            </label>
+                            <input id="rea" type="checkbox" value="ServerBug">
+                            <label for="rea">Server bug</label>
+                            <input id="reb" type="checkbox" value="ModBug">
+                            <label for="reb">Mod bug</label>
                             <br>
-                            <label>
-                                <input type="checkbox" value="ModBug">
-                                Mod bug
-                            </label>
-                            <br>
-                            <label>
-                                <input type="checkbox" value="Trash">
-                                Accidentally throwing an item into a trash can
-                            </label>
-                            <br>
-                            <label>
-                                <input type="checkbox" value="None">
-                                Refunds are not given
-                            </label>
-                            <br>
+                            <input id="rec" type="checkbox" value="Trash">
+                            <label for="rec">Accidentally throwing an item into a trash can</label>
+                            <input id="red" type="checkbox" value="None">
+                            <label for="red">Refunds are not given</label>
                         </div>
                     </div>
                 </div>
@@ -267,42 +239,48 @@
                         <label>
                             Mob spawners do not need to autokill/autoloot if mobs do not spawn rapidly
                         </label>
-                        <label>
-                            <input type="checkbox" value="true">
-                            True
-                        </label>
-                        <label>
-                            <input type="checkbox" value="false">
-                            False
-                        </label>
+                        <div class="mcoptions">
+                            <label>
+                                <input type="checkbox" value="true">
+                                <span>True</span>
+                            </label>
+                            <label>
+                                <input type="checkbox" value="false">
+                                <span>False</span>
+                            </label>
+                        </div>
                     </div>
 
                     <div class="box">
                         <label>
                             Automining systems are allowed in mining dimensions
                         </label>
-                        <label>
-                            <input type="checkbox" value="true">
-                            True
-                        </label>
-                        <label>
-                            <input type="checkbox" value="false">
-                            False
-                        </label>
+                        <div class="mcoptions">
+                            <label>
+                                <input type="checkbox" value="true">
+                                <span>True</span>
+                            </label>
+                            <label>
+                                <input type="checkbox" value="false">
+                                <span>False</span>
+                            </label>
+                        </div>
                     </div>
 
                     <div class="box">
                         <label>
                             Griefing is allowed if a base is NOT claimed
                         </label>
-                        <label>
-                            <input type="checkbox" value="true">
-                            True
-                        </label>
-                        <label>
-                            <input type="checkbox" value="false">
-                            False
-                        </label>
+                        <div class="mcoptions">
+                            <label>
+                                <input type="checkbox" value="true">
+                                <span>True</span>
+                            </label>
+                            <label>
+                                <input type="checkbox" value="false">
+                                <span>False</span>
+                            </label>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -325,8 +303,9 @@
             <div class="row center-md center-sm center-xs">
                 <div class="col-md col-sm col-xs">
                     <div class="box">
-                        <label>
-                            If your friend was breaking our server rules and you (as a staff member) know about it, what do you do?
+                        <label for='friend'>
+                            If your friend was breaking our server rules and you (as a staff member) know about it, what
+                            do you do?
                         </label>
                         <textarea id="friend" maxlength="1000" required></textarea>
                         <p class="charCount" id="friendChar">0 characters</p>
@@ -336,8 +315,11 @@
             <div class="row center-md center-sm center-xs">
                 <div class="col-md col-sm col-xs">
                     <div class="box">
-                        <label>
-                            You are on Stone Block assisting one player with a past grief, another player on the server has found a game-breaking bug and a player on DW20 is griefing players/killing them and it requires immediate attention, you are the only staff online right now, what is AN efficient course of action to take in your given situation?
+                        <label for="priorities">
+                            You are on Stone Block assisting one player with a past grief, another player on the server
+                            has found a game-breaking bug and a player on DW20 is griefing players/killing them and it
+                            requires immediate attention, you are the only staff online right now, what is AN efficient
+                            course of action to take in your given situation?
                         </label>
                         <textarea id="priorities" maxlength="1000" required></textarea>
                         <p class="charCount" id="priorityChar">0 characters</p>
@@ -363,8 +345,11 @@
             <div class="row center-md center-sm center-xs">
                 <div class="col-md col-sm col-sm">
                     <div class="box">
-                        <label>
-                            You are dealing with a player who has repeated their question to numerous members of staff via Dms and a number of different channels as well as in-game, the member becomes a little hostile in their frustration and efforts but DOES NOT break any rules which would warrant a ban/removal, what is a possible way you can step in and resolve this situation?
+                        <label for="complicated">
+                            You are dealing with a player who has repeated their question to numerous members of staff
+                            via Dms and a number of different channels as well as in-game, the member becomes a little
+                            hostile in their frustration and efforts but DOES NOT break any rules which would warrant a
+                            ban/removal, what is a possible way you can step in and resolve this situation?
                         </label>
                         <textarea id="complicated" maxlength="1000" required></textarea>
                         <p class="charCount" id="complicatedChar">0 characters</p>
@@ -389,7 +374,7 @@
             </div>
 
             <div class="row confirm">
-                <div class="box" style="width: 100%">
+                <div class="box" style="flex-basis: 100% !important;">
                     <h3>By clicking on the "Send App" button, you are agreeing to the following terms:</h3>
                     <h4>1. All information entered is your own and is accurate.</h4>
                     <h4>2. You own and use a microphone.</h4>
