@@ -59,18 +59,19 @@ $(document).ready(function() {
         });
     });
 
-    $("#appeal").click(function () {
-        if (getUrlVars()["code"] && !error) {
-            $("#application").fadeOut('fast');
-            $("#appeals").fadeIn('fast');
-        }
+    $("#appealbtn").click(function () {
+        $("#staffapp").fadeOut('fast');
+        $("#banappeal").fadeIn('fast');
+        $("#appealbtn").fadeOut('fast');
+        $("#appbtn").fadeIn('fast');
+
     });
 
-    $("#staff-app").click(function () {
-        if (getUrlVars()["code"] && !error) {
-            $("#appeals").fadeOut('fast');
-            $("#application").fadeIn('fast');
-        }
+    $("#appbtn").click(function () {
+        $("#banappeal").fadeOut('fast');
+        $("#staffapp").fadeIn('fast');
+        $("#appbtn").fadeOut('fast');
+        $("#appealbtn").fadeIn('fast');
     });
 
     function a(b) {
@@ -268,11 +269,22 @@ $(document).ready(function() {
         }
     });
 
+    $("#explanation").keyup(function (obj) {
+       var maxLength = obj.target.maxLength;
+       var strLength = obj.target.value.length;
+
+       if (strLength > maxLength) {
+           $("#explanationChar").html('<span style="color: red;">' + strLength + ' out of ' + maxLength + ' characters</span>');
+       } else {
+           $("#explanationChar").html(strLength + ' out of ' + maxLength + ' characters');
+       }
+    });
+
     /* Continue Button */
 
     $("#identificationContinue").click(function () {
-            $("#identification").fadeOut('fast');
-            $("#multiplechoice").fadeIn('fast');
+        $("#identification").fadeOut('fast');
+        $("#multiplechoice").fadeIn('fast');
     });
 
     $("#mcContinue").click(function () {
@@ -372,4 +384,16 @@ $(document).ready(function() {
         };
         console.log(Object.entries(params));
     });
+
+    $("#sendappeal").click(function() {
+        $("#appeal-success").fadeIn('fast');
+        $("#appeal1").fadeOut('fast');
+        const params = {
+            mcusername: $('#mcuser-appeal').val(),
+            server: $('#server').val(),
+            banreason: $('#banreason').val(),
+            explanation: $('#explanation').val()
+        };
+        console.log(Object.entries(params));
+    })
 });

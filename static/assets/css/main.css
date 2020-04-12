@@ -695,7 +695,7 @@ h1 {
     border-radius: 5px;
     padding: 20px;
     max-font-size: 28px;
-    display: inline-grid;
+    display: inline-block;
     margin: 20px;
     /*column-gap: 30px;*/
     /*flex: 0 0 280px;*/
@@ -725,7 +725,8 @@ textarea {
     margin: 0 auto;
 }
 
-.staffapp h1 {
+.staffapp h1,
+.banappeal h1{
     padding: 0 20px;
     margin: 0 auto;
     font-family: "Open Sans ExtraBold", serif;
@@ -751,7 +752,7 @@ textarea {
     border-radius: 5px;
     font-size: 26px;
     max-height: 51px;
-    max-width: 154px;
+    max-width: 100%;
     margin: 0 10px 10px 0;
     text-decoration: none;
     text-align: center;
@@ -768,6 +769,18 @@ textarea {
     max-width: 90px;
     margin: 10px 10px 0 0;
     float: right;
+}
+
+.formswitch {
+    background-color: #2D3033;
+    border-color: #707070;
+    color: white;
+    border-radius: 5px;
+    font-size: 26px;
+    max-height: 50px;
+    max-width: 100%;
+    margin: 10px 0 0 10px;
+    float: left;
 }
 
 .back {
@@ -852,6 +865,19 @@ input[type=checkbox] {
 
 .confirm {
     margin: 0 0 0 20px;
+}
+
+#appeal-hr, #appeal-success-hr {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.banappeal h1 {
+    margin: 0 auto;
+}
+
+#btn {
+    display: inline-block;
 }
 
 @media (max-width: 1333px) {
