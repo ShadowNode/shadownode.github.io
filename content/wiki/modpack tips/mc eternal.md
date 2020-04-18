@@ -4,7 +4,7 @@ author: Fayettemat
 ---
 
 ## Disable Agricraft Particles 
-A lot of players use Agricraft as way to enchance the speed at which their crops grow. Typically a single Agricarft spinkler can be used to multiply the speed, however, the effect does stack. This does pose a problem as all the particles from this causes a considerable amount of client-side render issues. This means that you will need to disable the for optimal FPS and to not lag out while around some bases. Thankfully, doing so is simple.
+A lot of players use Agricraft as way to enchance the speed at which their crops grow. Typically a single Agricarft spinkler can be used to multiply the speed, however, the effect does stack. This can pose a problem as all the particles from this causes a considerable amount of client-side render time/lag. This means that you will need to disable the particles for optimal FPS and to not lag out while around some bases. Thankfully, doing so is simple.
 
 To disable the particles simply follow these steps while in game.
 
@@ -16,8 +16,8 @@ To disable the particles simply follow these steps while in game.
   6. Click the `Disable particles button` if it says "false" it should turn green and display "true"
   7. Click done and enjoy the disabled particles.
 
-## Disable Dynmaic Surroundings Fog
-The impact of these changes will be most noticable in any case there's fog on the server. While this typically impacts FPS more than anything else it has been shown to reduce crashing from Night Vision in a few cases. Please note that this currently doesn't solve Night Vision crashses and ShadowNode does not recommend using it.
+## Disable Dynamic Surroundings Fog
+The impact of these changes will be most noticable in any situation there's visual fog on the server. While this typically impacts FPS more than anything else it has been shown to reduce crashing from Night Vision in a few cases. Please note that this currently doesn't solve Night Vision crashses and ShadowNode does not recommend using it.
 
 To disable the fog effects and improve your FPS you can do so by the following steps while in game.
 
