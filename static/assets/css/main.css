@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .players {
-    font-family: Dekar_Light;
+    font-family: Dekar_Light, serif;
     font-size: 30px;
     font-weight: 700;
     color: #ca90c8;
@@ -28,7 +28,7 @@
 
 #coming_soon {
     font-size: 40px;
-    font-family: Dekar_Light;
+    font-family: Dekar_Light, serif;
     font-weight: 700;
     color: #ca90c8;
     padding-top: 10px
@@ -36,12 +36,12 @@
 
 @font-face {
     font-family: Dekar_Light;
-    src: url('/assets/fonts/Dekar_Light.otf') format("opentype")
+    src: url('../fonts/Dekar_Light.otf') format("opentype")
 }
 
 @font-face {
     font-family: Dekar;
-    src: url('/assets/fonts/Dekar.otf') format("opentype")
+    src: url('../fonts/Dekar.otf') format("opentype")
 }
 
 @media all and (min-width: 640px) {
@@ -50,12 +50,10 @@
 @-webkit-keyframes spin {
     from {
         -webkit-transform: translate(-50%, -50%) rotateZ(0deg);
-        -webkit-transform: translate(-50%, -50%) rotateZ(0deg);
         -ms-transform: translate(-50%, -50%) rotateZ(0deg);
         transform: translate(-50%, -50%) rotateZ(0deg)
     }
     to {
-        -webkit-transform: translate(-50%, -50%) rotateZ(360deg);
         -webkit-transform: translate(-50%, -50%) rotateZ(360deg);
         -ms-transform: translate(-50%, -50%) rotateZ(360deg);
         transform: translate(-50%, -50%) rotateZ(360deg)
@@ -65,12 +63,10 @@
 @keyframes spin {
     from {
         -webkit-transform: translate(-50%, -50%) rotateZ(0deg);
-        -webkit-transform: translate(-50%, -50%) rotateZ(0deg);
         -ms-transform: translate(-50%, -50%) rotateZ(0deg);
         transform: translate(-50%, -50%) rotateZ(0deg)
     }
     to {
-        -webkit-transform: translate(-50%, -50%) rotateZ(360deg);
         -webkit-transform: translate(-50%, -50%) rotateZ(360deg);
         -ms-transform: translate(-50%, -50%) rotateZ(360deg);
         transform: translate(-50%, -50%) rotateZ(360deg)
@@ -109,10 +105,16 @@
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     position: fixed
+}
+a {
+    outline : none;
+    cursor: pointer;
+}
+button {
+    outline : none;
+    cursor: pointer;
 }
 
 .messageUserBlock,
@@ -123,14 +125,14 @@ a.username {
 @media (prefers-color-scheme: dark) {
     body {
         background: #303030;
-        /*color: white;*/
     }
 }
 
 body {
-    background: image('/assets/images/vortex.jpg') fixed center !important;
+    background: image('../images/vortex.jpg') fixed center !important;
     background-size: cover !important;
     margin: 0;
+    background: #303030;
 }
 
 .wrapper {
@@ -165,11 +167,7 @@ nav button {
     height: 125px;
     border: 0;
     font-size: inherit;
-    /* -webkit-transition: -webkit-transform 100ms;
-     transition: transform 100ms;*/
     background: none;
-    background-image: none;
-    background-size: auto;
     background-size: cover;
 }
 
@@ -239,19 +237,29 @@ footer {
     background: transparent;
     border: 3px solid #3c3c3c;
     border-radius: 50%;
-    text-align: center;
     line-height: 20px;
     font-family: sans-serif;
     font-size: 20px;
+<<<<<<< HEAD
     color: #633884;
     letter-spacing: 4px;
     text-transform: uppercase;
     text-shadow: 0 0 10px #633884;
+=======
+    color: #ca90c8;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #ca90c8;
+>>>>>>> upstream/site
     box-shadow: 0 0 20px rgba(0, 0, 0, .5);
 }
 
 #loading-text {
-    margin-top: 100px;
+    margin-top: 120px;
+    left: 72%;
+    position: relative;
+    float: left;
+    transform: translate(-50%, -50%);
 }
 
 .loading:before {
@@ -295,7 +303,32 @@ footer {
     flex-wrap: wrap;
     padding-bottom: 20px;
 }
-
+.topbar {
+    color: #eee;
+    padding: 10px 20px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    line-height: 20px;
+    display: block;
+    font-size: 0.9em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    background: #2D3033;
+    z-index: 999;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+    border: 5px #0079d3;
+    width: 180px;
+    margin: 0 0 0 1px;
+    top: 4%;
+    left: 4%;
+    font-family: "Open Sans", Arial, Helvetica, serif;
+    text-transform: uppercase;
+}
 .col {
     flex: 25%;
     padding: 10px;
@@ -305,8 +338,8 @@ footer {
 
 .table {
     background: #2D3033;
-    padding: 0 20px;
-    font-family: "Open Sans", Arial, Helvetica;
+    padding: 4px 10px;
+    font-family: "Open Sans", Arial, Helvetica, serif;
     color: white;
     position: relative;
     overflow: hidden;
@@ -329,11 +362,36 @@ footer {
     padding: 5px 0;
     list-style: none;
 }
-
+.table a.highlight, #body a.highlight:hover, #body a.highlight:focus {
+    text-decoration: none;
+    outline: none;
+    outline: 0;
+}
+.table a.highlight {
+    line-height: 1.1;
+    display: inline-block;
+}
+.table a.highlight:after {
+    display: block;
+    content: "";
+    height: 1px;
+    width: 0%;
+    background-color: #B145B8; /*#CE3B2F*/
+    -webkit-transition: width 0.5s ease;
+    -moz-transition: width 0.5s ease;
+    -ms-transition: width 0.5s ease;
+    transition: width 0.5s ease;
+}
+.table a.highlight:hover:after, #body a.highlight:focus:after {
+    width: 100%;
+}
 .table a {
+    color: #b75fcc;
+}
+.iplink {
     text-decoration: none;
     background: #2D3033 100%;
-    border: 2px solid aqua;
+    border: 2px solid rgba(202, 144, 200, 0.61);
     display: block;
     padding: 5px 0;
     margin: 5px 0;
@@ -342,9 +400,9 @@ footer {
     transition: 0.5s linear;
 }
 
-.table a:hover {
-    background: aqua;
-    color: #2D3033;
+.iplink:hover {
+    background: rgba(202, 144, 200, 0.61);
+    color: black;
 }
 
 @media screen and (max-width: 980px) {
@@ -359,9 +417,25 @@ footer {
     }
 }
 
+.tooltip {
+    position: relative;
+    margin-bottom: 0;
+    width: 150px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+    z-index: 10000;
+}
+
 .tooltip-hover {
     position: relative;
-    margin-bottom: 0px;
+    margin-bottom: 0;
+    cursor: pointer;
 }
 
 .tooltip-hover a {
@@ -401,19 +475,27 @@ footer {
 .status {
     padding-top: 2px;
     padding-bottom: 1px;
+    border-radius: 5px;
 }
 
 .online {
     background: #00bc8c;
+    box-shadow: 0 0 0 2px #00bc8c;
 }
 
 .offline {
     background: #e74c3c;
+    box-shadow: 0 0 0 2px #e74c3c;
 }
 
 .info {
     font-size: 12px;
     overflow: hidden;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-block-start: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 dl {
@@ -443,10 +525,10 @@ dd {
     color: white;
     outline: none 0;
     width: 100%;
+    margin-bottom: 10px;
 }
 
 .extended-info {
-    visibility: hidden;
     opacity: 1;
 }
 
@@ -478,7 +560,6 @@ form li + li {
 
 label {
     display: inline-block;
-    /* width: 90px; */
     text-align: right;
 }
 
@@ -501,5 +582,11 @@ textarea {
     height: 5em;
 }
 
+.chart {
+    width: 206px;
+    height: 80px;
 
-
+}
+.bottomchart {
+    padding-bottom: 20px !important;
+}

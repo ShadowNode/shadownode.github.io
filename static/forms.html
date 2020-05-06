@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="assets/css/main.css">
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
@@ -45,22 +46,47 @@
                 </div>
                 <div>
                     <h5>Minecraft Username</h5>
-                    <input class="minecraft-username" type="text" placeholder="Steve">
+                    <input class="minecraft-username" type="text" placeholder="Steve" required>
                 </div>
             </div>
             <div class="input-div">
-                <div class="i">
-                    <i class="fas fa-server"></i>
-                </div>
                 <div>
                     <h5>Server</h5>
-                    <select class="server-select">
-
-                    </select>
+                    <label>
+                        <select class="server-select" required>
+                            <option value="SkyFactory 3">SkyFactory 3</option>
+                            <option value="SkyFactory 4">SkyFactory 4</option>
+                            <option value="Ultimate Reloaded">Ultimate Reloaded</option>
+                            <option value="Chemical Exchange">Chemical Exchange</option>
+                            <option value="Crackpack 3">Crackpack 3</option>
+                            <option value="MC.Eternal">MC.Eternal</option>
+                            <option value="Engineer's Life">Engineer's Life</option>
+                            <option value="Stoneblock 2">Stoneblock 2</option>
+                            <option value="Infinity Evolved">Infinity Evolved</option>
+                            <option value="Interactions">Interactions</option>
+                            <option value="All The Mods 3 Expert">All The Mods 3 Expert</option>
+                            <option value="Revelation">Revelation</option>
+                            <option value="Direwolf20">Direwolf20</option>
+                            <option value="Project Ozone 3 - Titan">Project Ozone 3 - Titan</option>
+                            <option value="Vanilla">Vanilla</option>
+                            <option value="Planetary">Planetary</option>
+                        </select>
+                    </label>
+                </div>
+            </div>
+            <div class="input-div">
+                <div>
+                    <h5>Ban Reason</h5>
+                    <input class="banreason" type="text" placeholder="Griefing" required>
+                </div>
+            </div>
+            <div class="input-div">
+                <div>
+                    <h5>Explanation</h5>
+                    <textarea class="explanation" rows="10" cols="30" required></textarea>
                 </div>
             </div>
         </form>
-
     </div>
 </div>
 </body>
