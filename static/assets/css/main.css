@@ -185,11 +185,11 @@ nav li {
     margin: 20px;
 }
 
-nav button.wiki {
+nav button.homebtn {
     background-image: url('../images/icons/forum_normal.png');
 }
 
-nav button.wiki:hover {
+nav button.homebtn:hover {
     background-image: url('../images/icons/forum_highlighted.png');
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
@@ -369,7 +369,7 @@ footer {
     display: block;
     content: "";
     height: 1px;
-    width: 0%;
+    width: 0;
     background-color: #B145B8; /*#CE3B2F*/
     -webkit-transition: width 0.5s ease;
     -moz-transition: width 0.5s ease;
@@ -535,35 +535,49 @@ form {
     margin: 10px auto;
     width: 400px;
     padding: 1em;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(71, 71, 71);
     border-radius: 1em;
     color: white;
     background-color: #2D3033;
     text-align: center;
 }
 
-form ul {
-    list-style: none;
+form ul, form ol {
     padding: 0;
     margin: 0;
+    display: inline-block;
+    align-content: center;
 }
 
 form li + li {
     margin-top: 1em;
 }
 
+.form-switch {
+    margin-top: 0;
+    margin-left: 0;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 1px solid rgb(71, 71, 71);
+    background-color: #2D3033;
+    color: white;
+    padding: 6px;
+}
+
 label {
     display: inline-block;
-    text-align: right;
+    text-align: center;
 }
 
 input,
 textarea {
     font: 1em sans-serif;
     width: 300px;
-    box-sizing: border-box; 
-    border: 1px solid #999;
-    background-color: #777;
+    box-sizing: border-box;
+    border: 1px solid rgb(71, 71, 71);
+    background-color: rgb(61, 64, 67);
+    color: var(--MAIN-TEXT-color);
+    padding: 3px;
 }
 
 input:focus,
@@ -585,6 +599,369 @@ textarea {
     padding-bottom: 20px !important;
 }
 
+.discord-login {
+    background: #7289DA;
+    color: #FFFFFF;
+    border-radius: 4px;
+    text-decoration: none;
+    border-width: 1px;
+    cursor: pointer;
+    padding: calc(0.375em - 1px) .75em;
+    text-align: center;
+    white-space: nowrap;
+    position: relative;
+}
+
+select {
+    background-color: #4d4d4d;
+    border: 1px solid rgb(71, 71, 71);
+    color: #cccccc;
+}
+
+.charCount {
+    text-align: right;
+    margin: 0 0;
+    font-size: 18px;
+}
+
+#staff-requirements > li {
+    text-align: left;
+}
+
+#refunds > li {
+    text-align: left;
+}
+
+.mediaViewInfo {
+    --web-scale-on-resize: true;
+}
+
+.header {
+    position: absolute;
+    max-width: 650px;
+    max-height: 193px;
+    left: 635px;
+    top: 35px;
+    /*top: 2.188em;*/
+}
+
+.header:empty {
+    top: 15%;
+    /*top: 50%;*/
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.rectangle {
+    position: absolute;
+    overflow: auto;
+    overflow-x: hidden;
+    max-width: 1400px;
+    /* height: 768px; */
+    left: 50%;
+    top: 30%;
+    background: rgba(37, 38, 39, 1);
+    border: solid 1px rgba(100, 106, 112, 1);
+    display: grid;
+    margin: 0 0 16px 0;
+    transform: translate(-50%, -10%);
+}
+
+.col-md,
+.col-sm {
+    justify-content: space-between;
+}
+
+body {
+    color: white;
+    display: flex;
+}
+
+h1 {
+    font-weight: bold;
+    max-font-size: 86px;
+    font-family: "Open Sans", serif;
+}
+
+.rectangle hr {
+    margin: 0 auto;
+}
+
+.box {
+    background: #323232;
+    border-radius: 5px;
+    padding: 20px;
+    max-font-size: 28px;
+    display: inline-block;
+    margin: 20px;
+    /*column-gap: 30px;*/
+    /*flex: 0 0 280px;*/
+}
+
+input,
+textarea {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.grid .col-md, .grid .col-sm {
+    width: 32%;
+}
+
+.grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+#identification-hr {
+    width: 40%;
+}
+
+.staffapp {
+    margin: 0 auto;
+}
+
+.staffapp h1,
+.banappeal h1{
+    padding: 0 20px;
+    margin: 0 auto;
+    font-family: "Open Sans ExtraBold", serif;
+}
+
+.staffapp h2 {
+    max-font-size: 57px;
+    font-family: "Open Sans SemiBold", serif;
+    margin: 0 auto;
+}
+
+.inactive {
+    visibility: hidden;
+    display: none;
+}
+
+.continue,
+.send,
+.home {
+    background-color: #2D3033;
+    border-color: #707070;
+    color: white;
+    border-radius: 5px;
+    font-size: 26px;
+    max-height: 51px;
+    max-width: 100%;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    text-align: center;
+    float: right;
+}
+
+.formhome {
+    background-color: #2D3033;
+    border-color: #707070;
+    color: white;
+    border-radius: 5px;
+    font-size: 26px;
+    max-height: 50px;
+    max-width: 90px;
+    margin: 10px 10px 0 0;
+    float: right;
+}
+
+.formswitch {
+    background-color: #2D3033;
+    border-color: #707070;
+    color: white;
+    border-radius: 5px;
+    font-size: 26px;
+    max-height: 50px;
+    max-width: 100%;
+    margin: 10px 0 0 10px;
+    float: left;
+}
+
+.back {
+    background-color: #2D3033;
+    border-color: #707070;
+    color: white;
+    border-radius: 5px;
+    font-size: 26px;
+    max-height: 51px;
+    max-width: 97px;
+    margin: 0 0 10px 10px;
+    text-decoration: none;
+    text-align: center;
+    float: left;
+}
+
+#mc-hr {
+    width: 45%;
+}
+
+#subheader {
+    max-font-size: 25px;
+    margin: 0 0;
+}
+
+input[type=checkbox] {
+    display: inline;
+    margin: 0 5px 0 0;
+    width: 25px !important;
+    padding: 20px;
+}
+
+/*.mcoptions {
+    display: inline-block;
+    text-align: left;
+}
+
+.mcoptions label {
+    display: block;
+    padding-right: 10px;
+    padding-left: 22px;
+    text-indent: -22px;
+}
+
+.mcoptions input {
+    vertical-align: middle;
+}
+
+.mcoptions label span {
+    vertical-align: middle;
+} */
+
+.mcoptions input,
+.mcoptions label {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.mcoptions label {
+    margin-right: 20px;
+}
+
+#tf-hr {
+    width: 44%;
+}
+
+.sit-hr {
+    width: 38%;
+}
+
+#terms-hr {
+    width: 50%;
+}
+
+.terms h3 {
+    max-font-size: 50px;
+}
+
+.terms h4 {
+    max-font-size: 40px;
+}
+
+.confirm {
+    margin: 0 0 0 20px;
+}
+
+#appeal-hr, #appeal-success-hr {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.banappeal h1 {
+    margin: 0 auto;
+}
+
+#btn {
+    display: inline-block;
+}
+
+@media (max-width: 1333px) {
+    .box {
+        flex-basis: 33.33%;
+    }
+
+    .header {
+        display: none;
+    }
+}
+
+@media (max-width: 1073px) {
+    .box {
+        flex-basis: 33.33%;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .header {
+        display: none;
+    }
+}
+
+@media (max-width: 815px) {
+    .box {
+        flex-basis: 50%;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .header {
+        display: none;
+    }
+}
+
+@media (max-width: 620px) {
+    .col {
+        clear: both;
+        float: none;
+        margin-right: auto;
+        margin-left: auto;
+        width: auto !important;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .header {
+        display: none;
+    }
+}
+
+@media (max-width: 555px) {
+    .box {
+        flex-basis: 100%;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .header {
+        display: none;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    .header {
+        max-width: 90%;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    .header {
+        max-width: 90%;
+    }
+}
 #copy {
     font-family: "Roboto", serif;
     color: #ca90c8;
