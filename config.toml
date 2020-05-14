@@ -1,4 +1,4 @@
-baseurl = "https://shadownode.github.io"
+baseurl = "https://beta.shadownode.ca"
 contentdir    = "content"
 layoutdir     = "layouts"
 publishdir    = "public"
