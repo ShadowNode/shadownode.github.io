@@ -183,7 +183,7 @@ function getAllServers() {
             var template = document.getElementById('server-template');
             if (section.onlineplayers === undefined) section.onlineplayers = 0;
             else section.onlineplayers = String(section.onlineplayers).split(",").length;
-            addServer(template.content.cloneNode(true), key, section.name, section.pack_link, (section.status ? "online" : "offline"), section.pack_name, section.pack_version, "?/" + section.maxplayers, section.uptime, section.address, section.players, section.tps, section.week, section.max1d, section.max7d, section.max30d, section.player_min, section.player_max, section.tps_min, section.tps_max, section.staff_last_seen);
+            addServer(template.content.cloneNode(true), key, section.name, section.pack_link, (section.status ? "online" : "offline"), section.pack_name, section.pack_version, section.onlineplayers + /" + section.maxplayers, section.uptime, section.address, section.players, section.tps, section.week, section.max1d, section.max7d, section.max30d, section.player_min, section.player_max, section.tps_min, section.tps_max, section.staff_last_seen);
         }
         loaded();
     }).catch(function (err) {
