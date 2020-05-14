@@ -241,17 +241,10 @@ footer {
     line-height: 20px;
     font-family: sans-serif;
     font-size: 20px;
-<<<<<<< HEAD
     color: #633884;
     letter-spacing: 4px;
     text-transform: uppercase;
     text-shadow: 0 0 10px #633884;
-=======
-    color: #ca90c8;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    text-shadow: 0 0 10px #ca90c8;
->>>>>>> upstream/site
     box-shadow: 0 0 20px rgba(0, 0, 0, .5);
 }
 
