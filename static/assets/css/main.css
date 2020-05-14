@@ -4,7 +4,8 @@
     font-size: 30px;
     font-weight: 700;
     color: #ca90c8;
-    padding-top: 10px
+    padding-top: 10px;
+    letter-spacing: 3px;
 }
 
 :root{
@@ -960,4 +961,9 @@ input[type=checkbox] {
     .header {
         max-width: 90%;
     }
+}
+#copy {
+    font-family: "Roboto", serif;
+    color: #ca90c8;
+    font-size: 1em;
 }
