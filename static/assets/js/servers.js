@@ -181,7 +181,7 @@ function getAllServers() {
         for (var key of Object.keys(servers)) {
             const section = servers[key];
             var template = document.getElementById('server-template');
-            addServer(template.content.cloneNode(true), key, section.name, section.pack_link, (section.status ? "online" : "offline"), section.pack_name, section.pack_version, "?/" + section.maxplayers, section.uptime, section.address, section.players, section.tps, section.week, section.max1d, section.max7d, section.max30d, section.player_min, section.player_max, section.tps_min, section.tps_max);
+            addServer(template.content.cloneNode(true), key, section.name, section.pack_link, (section.status ? "online" : "offline"), section.pack_name, section.pack_version, "?/" + section.maxplayers, section.uptime, section.address, section.players, section.tps, section.week, section.max1d, section.max7d, section.max30d, section.player_min, section.player_max, section.tps_min, section.tps_max, section.staff_last_seen);
         }
         loaded();
     }).catch(function (err) {
@@ -189,7 +189,7 @@ function getAllServers() {
     });
 }
 
-function addServer(element, id, name, pack_link, online, pack, packVersion, playerCount, uptime, serverIp, players, tps, week, max1d, max7d, max30d, player_min, player_max, tps_min, tps_max) {
+function addServer(element, id, name, pack_link, online, pack, packVersion, playerCount, uptime, serverIp, players, tps, week, max1d, max7d, max30d, player_min, player_max, tps_min, tps_max, staffTime) {
     element.getElementById('server-name').classList.add(online);
     element.getElementById('server-name').innerText = name;
     element.getElementById('server-name').id = id + "_server-name";
@@ -217,10 +217,16 @@ function addServer(element, id, name, pack_link, online, pack, packVersion, play
     element.getElementById('w-record').id = id + "_w-record";
     element.getElementById('m-record').innerText = max30d.players;
     element.getElementById('m-record').id = id + "_m-record";
+    element.getElementById('staff-time').innerText = formatTime(staffTime);
+    element.getElementById('staff-time').id = id + "_staff-time";
     divServerTable.appendChild(element);
     $("#" + id + "_player-chart").PlayersChart(players, player_min, player_max);
     $("#" + id + "_tps-chart").TpsChart(tps, tps_min, tps_max);
 
+}
+
+function formatTime(milliTime) {
+return "soon"
 }
 
 function loaded() {
