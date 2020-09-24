@@ -3,6 +3,10 @@ title: Crash Reports
 author: Bennyboy1695
 ---
 
+{{% notice note %}}
+This page is still a work in progress and has yet to be finished!
+{{% /notice %}}
+
 Here you will find how to get your crash report for your specific launcher of choice.
 
 ## MultiMC

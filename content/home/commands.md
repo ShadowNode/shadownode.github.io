@@ -16,7 +16,7 @@ In order to join discord, you need to run the command ``/discord`` in game, this
 ___
 
 ### Home
-*These commands are affecting by your rank. For example a normal member gets only 1 home. See [Ranks](../../server-info/ranks/) for more info!*
+*These commands are affecting by your rank. For example a normal member gets only 1 home. See [Ranks](../../server-info/ranks) for more info!*
 
 ``/sethome [name] [-o]`` Sets your home at a current location. Failure to specify a name will set the home under the name ``home``. Adding ``-o`` to the end of your command will override the location of the previous home (e.g ``/sethome home -o`` will make your new home at the location you're currently at).
 

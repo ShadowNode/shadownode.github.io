@@ -13,20 +13,15 @@ All times listed are in Eastern Standard Time (EST). This is the same as GMT-5. 
 
 | Server Name | Item Clearing Enabled | Restart Time | Restart Time |
 | :---------: | :-------------------: | :----------: | :----------: |
-| Chemical Exchange | Yes | 12:00 | N/A |
-| Crackpack 3 | Yes | 6:00 | 12:00 |
 | SkyFactory 3 | Yes | 1:00 | 7:00 |
 | All the Mods 3: Expert | Yes | 1:30 | 7:30 |
 | Direwolf20 | Yes | 2:00 | 8:00 |
 | SkyFactory 4 | Yes | 2:30 | 8:30 |
-| Interactions | Yes | 3:00 | 9:00 |
 | Revelation | Yes | 3:30 | 9:30 | 
 | Ultimate Reloaded | Yes | 4:00 | 10:00 |
-| Glacial Awakening | Yes | 4:30 | 10:30 |
 | Project Ozone 3 | Yes | 5:00 | 11:00 |
 | Infinity Evolved | Yes | 6:30 | 12:30 |
 | Stoneblock 2 | Yes | 6:00 | 12:00 |
-| Engineers Life | Yes | 12:30 | N/A |
 
 ## Wipes 
 

@@ -41,7 +41,6 @@ This list is the **globally** banned list. To view additional item bans on your 
 | Quantum Quarry | Causes Lag | Craft |
 | RFTools Clearing Cards | Causes Lag | Craft |
 | RFTools Crafter Tier 1/2/3 | Causes Lag | Craft<br>Place<br>Use |
-| RFTools Crafters | Causes Insane Lag  | Craft |
 | RFTools Dimensions | Causes Lag | Craft |
 | RFTools Quarry Cards | Causes Lag | Craft |
 | RFTools Storage Scanner | Bypass Claims<br>PvP | Craft |

@@ -7,7 +7,7 @@ contributors: Babymillie
 ## The Store
 The store is a place where you can purchase upgrades to support us, besides using the voting system. 
 {{% notice note %}}
-All money received is used to improve our network for it's users who may or may not to choose to support us via the store or even through voting. Please make sure you have your parents permission to purchase upgrades on our stores if you're one of our younger users.
+All money received is used to improve our network for its users who may or may not to choose to support us via the store or even through voting. Please make sure you have your parents permission to purchase upgrades on our stores if you're one of our younger users.
 {{% /notice %}}
 
 ### Overview

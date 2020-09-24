@@ -12,7 +12,7 @@ Also every rank inherits the commands/features from the previous ranks.\
 Price of each rank is also located on the [contribute](https://shop.shadownode.ca/) page.
 
 {{% notice note %}}
-All ranks have access to there specific prefix in `/perks`. \
+All ranks have access to their specific prefix in `/perks`. \
 Meaning if you have example eclipse rank you may use the prefix Member/Shade/Night/Equinox/Eclipse (like hide your rank or use another).
 {{% /notice %}}
 
