@@ -14,6 +14,7 @@ All times listed are in Eastern Standard Time (EST). This is the same as GMT-5. 
 
 | Server Name | Item Clearing Enabled | Restart Time | Restart Time | Restart Time |
 | :---------: | :-------------------: | :----------: | :----------: | :----------: |
+| FTB OceanBlock | Yes | 6:30 | 12:30 | N/A |
 | Engineer's Life 2 | Yes | 5:30 | 11:30 | N/A |
 | Enigmatica 6 | Yes | 6:00 | 12:00 | N/A |
 | Stacia Expert | Yes | 1:30 | 7:30 | N/A |
