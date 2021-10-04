@@ -228,7 +228,7 @@ function addServer(element, id, name, pack_link, online, pack, packVersion, play
 }
 
 function formatTime(milliTime) {
-return "soon"
+return "soon™"
 }
 
 function loaded() {
