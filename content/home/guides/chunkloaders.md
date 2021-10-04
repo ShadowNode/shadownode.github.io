@@ -16,16 +16,22 @@ Always On is a chunk loader which is online 24/7 and will keep the chunk loaded.
 
 #### Checking your Balance
 
-To check the number of chunks you have and may use on 1.16 servers you can run the following command to see your current chunkloaders `/ifcilt balance`
+To check the number of chunks you have and may use on 1.16 servers you can run the following command to see your current chunkloaders `/ificlt balance`
 
 ![Balance](../../../assets/images/ificlt/ificlt_balance.png)
 
 #### Creating Chunkloaders
 
-To create a chunkloader in 1.16 servers you will now need a physical block to do so as well as a blaze rod. The block that you need depends on the type of loader you have. The following blocks are used for the following type of loaders:
+To create a chunkloader in 1.16 servers you will now need a physical block to do so as well as a blaze rod. The block that you need depends on the type of loader you have. The following blocks are used for the following type of loaders by default:
 
 * Always Online - Diamond Block
-* Online Only - Iron Block
+* Online Only - Gold Block
+
+{{% notice note %}}
+
+Please note that these blocks can change per pack. You can also view the current blocks for your pack by typing `/ificlt info`.
+
+{{% /notice %}}
 
 Once you place the correct block in the chunk you wish to load (or radius load) you need to right click it with a Blaze Rod. If you have enough free chunk loaders you can create a radius chunk loader by right clicking the chunk loader block again. Please note that you can only assign a radius up to the maximum amount of chunk loaders you have and not larger than a radius of 4 per chunk loader. Once you are happy with your chunk loader set up shift-right click it to activate the loader. 
 ![Placing a chunk loader](../../../assets/images/ificlt/ificlt_alwaysonline_prompt.png)
