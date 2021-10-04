@@ -16,7 +16,9 @@ Always On is a chunk loader which is online 24/7 and will keep the chunk loaded.
 
 #### Checking your Balance
 
-To check the number of chunks you have and may use on 1.16 servers you can run the following command to see your current chunkloaders `/ifcit balance`
+To check the number of chunks you have and may use on 1.16 servers you can run the following command to see your current chunkloaders `/ifcilt balance`
+
+![Balance](../../../assets/images/ificlt/ificlt_balance.png)
 
 #### Creating Chunkloaders
 
@@ -25,9 +27,15 @@ To create a chunkloader in 1.16 servers you will now need a physical block to do
 * Always Online - Diamond Block
 * Online Only - Iron Block
 
-Once you place the correct block in the chunk you wish to load (or radius load) you need to right click it with a Blaze Rod. If you have enough free chunk loaders you can create a radius chunk loader by right clicking the chunk loader block again. Please note that you can only assign a radius up to the maximum amount of chunk loaders you have and not larger than a radius of 4 per chunk loader. Once you are happy with your chunk loader set up shift-right click it to activate the loader. You can shift-right click one of your own loaders to disable it as well.
+Once you place the correct block in the chunk you wish to load (or radius load) you need to right click it with a Blaze Rod. If you have enough free chunk loaders you can create a radius chunk loader by right clicking the chunk loader block again. Please note that you can only assign a radius up to the maximum amount of chunk loaders you have and not larger than a radius of 4 per chunk loader. Once you are happy with your chunk loader set up shift-right click it to activate the loader. 
+![Placing a chunk loader](../../../assets/images/ificlt/ificlt_alwaysonline_prompt.png)
+![Radius](../../../assets/images/ificlt/ificlt_radius_prompt.png)
+![Enabled](../../../assets/images/ificlt/ificlt_enabled.png)
 
-{{% notice note %}}
+You can shift-right click one of your own loaders to disable it as well.
+![Disabled](../../../assets/images/ificlt/ificlt_disabled.png)
+
+{{% notice warning %}}
 If you need to break a chunk loader to move it or want the resources back you need to first shift-right click the chunk loader block with a blaze rod. Doing so will show that you have disabled the loader and it's been returned to your balance. Doing so will also delete the chunk loader so you will no longer have it loaded!.
 {{% /notice %}}
 
