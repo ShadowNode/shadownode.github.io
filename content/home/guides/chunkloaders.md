@@ -39,6 +39,10 @@ You can shift-right click one of your own loaders to disable it as well.
 If you need to break a chunk loader to move it or want the resources back you need to first shift-right click the chunk loader block with a blaze rod. Doing so will show that you have disabled the loader and it's been returned to your balance. Doing so will also delete the chunk loader so you will no longer have it loaded!.
 {{% /notice %}}
 
+#### Showing Loaded Chunks
+
+You can see the loaded chunks by right clicking on the loader with a peice of glow stone dust. This will create an effect that looks like a world border going out from the loader block and creating a square box of loaded chunks going out. This is super helpful with knowing what all you have loaded on radius loaders.
+
 ### 1.10 And 1.12 Chunkloaders
 
 The most basic command in the plugin is ``/betterchunkloader``, or just ``/bcl`` for short. Executing this command will open an interface in the chat that the user may interact with. The interface will contain a list of active chunk loaders you currently own, along with some user-friendly icons. An example of the interface is below.
