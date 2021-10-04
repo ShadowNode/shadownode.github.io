@@ -172,7 +172,7 @@ function showTooltip(x, y, contents) {
 const divServerTable = document.getElementById("server-table");
 
 function getAllServers() {
-    var statsUrl = "https://shadownode.ca/servers/api/getStatsData.json?rand=" + new Date().getTime();
+    var statsUrl = "https://shadownode.ca/servers/api/getStatsData?rand=" + new Date().getTime();
     fetch(statsUrl, {
         method: 'get'
     }).then(async function (response) {
