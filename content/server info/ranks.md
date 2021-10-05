@@ -1,6 +1,7 @@
 ---
-title: Ranks
-author: Cosmic
+Title: Ranks
+Author: Cosmic
+Contributors: Dnsmasq
 ---
 
 ## Available Ranks
@@ -94,11 +95,23 @@ As well as 30 Homes.
 
 ### Umbra
 
+Features
+
+- Creating custom Discord voice channels that Shade+ can join.
+
+- Streaming in custom voice channels.
+
 Upgrade from Eclipse
 
 <div class="append"><span style="color: #AAAAAA">[</span><span style="color: #55FF55">Spectre</span><span style="color: #AAAAAA">]</span></div>
 
 ### Spectre
+
+Features
+
+- Creating custom Discord voice channels that Shade+ can join.
+
+- Streaming in custom voice channels.
 
 Upgrade from Umbra
 
@@ -106,13 +119,49 @@ Upgrade from Umbra
 
 ### Wraith
 
+Features
+
+- Creating custom Discord voice channels that Shade+ can join.
+
+- Streaming in custom voice channels.
+
 Upgrade from Spectre
 
 <div class="append"><span style="color: #000000">[</span><span style="color: #AA00AA">#Phantom#</span><span style="color: #000000">]</span></div>
 
 ### Phantom
 
+Features
+
+- Creating custom Discord voice channels that Shade+ can join.
+
+- Streaming in custom voice channels.
+
 Upgrade from Wraith
+
+<div class="append"><span style="color: #000000;">[</span><span style="color: #5c92ab;">#A<span style="color: #28b7d5;">d<span style="color: #5c92ab;">u<span style="color: #28b7d5;">m<span style="color: #5c92ab;">b<span style="color: #28b7d5;">r<span style="color: #5c92ab;">a<span style="color: #28b7d5;">t<span style="color: #5c92ab;">e#</span><span style="color: #000000;">]</span></span></span></span></span></span></span></span></span></div>
+
+### Adumbrate
+
+Features
+
+- Creating custom Discord voice channels that Shade+ can join.
+
+- Streaming in custom voice channels.
+
+Upgrade from Phantom
+
+<div class="append"><span style="color: #000000">[</span><span style="color: #D24860">#E<span style="color: #D7CD64">d<span style="color: #D24860">o<span style="color: #D7CD64">l<span style="color: #D24860">o<span style="color: #D7CD64">n<span style="color: #D24860">#</span><span style="color: #000000">]</span></div>
+
+### Edidolon
+
+Features
+
+- Creating custom Discord voice channels that Shade+ can join.
+
+- Streaming in custom voice channels.
+
+Upgrade from Adumbrate
 
 ----
 
