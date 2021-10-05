@@ -18,8 +18,376 @@
     <title>Vote | ShadowNode Modded Game Servers</title>
     <meta name="description" content="Welcome to ShadowNode! We specialize in modded game servers and strive to offer a friendly and comfortable environment for our players. Join now!">
 
-    <link rel="stylesheet" href="assets/css/main.css">
-
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./css/theme-mine.css">
+    <style>       
+        svg {
+          position: absolute;
+          top: -4000px;
+          left: -4000px;
+        }
+        
+        #gooey-button {
+          padding: 1rem;
+          font-size: 2rem;
+          border: none;
+          color: #0c1016;
+          filter: url("#gooey");
+          position: relative;
+          background-color: #8451a1;
+        }
+        #gooey-button:focus {
+          outline: none;
+        }
+        #gooey-button .bubbles {
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+        }
+        #gooey-button .bubbles .bubble {
+          background-color: #8451a1;
+          border-radius: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          display: block;
+          z-index: -1;
+        }
+        #gooey-button .bubbles .bubble:nth-child(1) {
+          left: 53px;
+          width: 25px;
+          height: 25px;
+          -webkit-animation: move-1 3.02s infinite;
+                  animation: move-1 3.02s infinite;
+          -webkit-animation-delay: 0.2s;
+                  animation-delay: 0.2s;
+        }
+        #gooey-button .bubbles .bubble:nth-child(2) {
+          left: 97px;
+          width: 25px;
+          height: 25px;
+          -webkit-animation: move-2 3.04s infinite;
+                  animation: move-2 3.04s infinite;
+          -webkit-animation-delay: 0.4s;
+                  animation-delay: 0.4s;
+        }
+        #gooey-button .bubbles .bubble:nth-child(3) {
+          left: 74px;
+          width: 25px;
+          height: 25px;
+          -webkit-animation: move-3 3.06s infinite;
+                  animation: move-3 3.06s infinite;
+          -webkit-animation-delay: 0.6s;
+                  animation-delay: 0.6s;
+        }
+        #gooey-button .bubbles .bubble:nth-child(4) {
+          left: 97px;
+          width: 25px;
+          height: 25px;
+          -webkit-animation: move-4 3.08s infinite;
+                  animation: move-4 3.08s infinite;
+          -webkit-animation-delay: 0.8s;
+                  animation-delay: 0.8s;
+        }
+        #gooey-button .bubbles .bubble:nth-child(5) {
+          left: 28px;
+          width: 25px;
+          height: 25px;
+          -webkit-animation: move-5 3.1s infinite;
+                  animation: move-5 3.1s infinite;
+          -webkit-animation-delay: 1s;
+                  animation-delay: 1s;
+        }
+        #gooey-button .bubbles .bubble:nth-child(6) {
+          left: 74px;
+          width: 25px;
+          height: 25px;
+          -webkit-animation: move-6 3.12s infinite;
+                  animation: move-6 3.12s infinite;
+          -webkit-animation-delay: 1.2s;
+                  animation-delay: 1.2s;
+        }
+        #gooey-button .bubbles .bubble:nth-child(7) {
+          left: 56px;
+          width: 25px;
+          height: 25px;
+          -webkit-animation: move-7 3.14s infinite;
+                  animation: move-7 3.14s infinite;
+          -webkit-animation-delay: 1.4s;
+                  animation-delay: 1.4s;
+        }
+        #gooey-button .bubbles .bubble:nth-child(8) {
+          left: 91px;
+          width: 25px;
+          height: 25px;
+          -webkit-animation: move-8 3.16s infinite;
+                  animation: move-8 3.16s infinite;
+          -webkit-animation-delay: 1.6s;
+                  animation-delay: 1.6s;
+        }
+        #gooey-button .bubbles .bubble:nth-child(9) {
+          left: 50px;
+          width: 25px;
+          height: 25px;
+          -webkit-animation: move-9 3.18s infinite;
+                  animation: move-9 3.18s infinite;
+          -webkit-animation-delay: 1.8s;
+                  animation-delay: 1.8s;
+        }
+        #gooey-button .bubbles .bubble:nth-child(10) {
+          left: 100px;
+          width: 25px;
+          height: 25px;
+          -webkit-animation: move-10 3.2s infinite;
+                  animation: move-10 3.2s infinite;
+          -webkit-animation-delay: 2s;
+                  animation-delay: 2s;
+        }
+        
+        @-webkit-keyframes move-1 {
+          0% {
+            transform: translate(0, 0);
+          }
+          99% {
+            transform: translate(0, -55px);
+          }
+          100% {
+            transform: translate(0, 0);
+            opacity: 0;
+          }
+        }
+        
+        @keyframes move-1 {
+          0% {
+            transform: translate(0, 0);
+          }
+          99% {
+            transform: translate(0, -55px);
+          }
+          100% {
+            transform: translate(0, 0);
+            opacity: 0;
+          }
+        }
+        @-webkit-keyframes move-2 {
+          0% {
+            transform: translate(0, 0);
+          }
+          99% {
+            transform: translate(0, -96px);
+          }
+          100% {
+            transform: translate(0, 0);
+            opacity: 0;
+          }
+        }
+        @keyframes move-2 {
+          0% {
+            transform: translate(0, 0);
+          }
+          99% {
+            transform: translate(0, -96px);
+          }
+          100% {
+            transform: translate(0, 0);
+            opacity: 0;
+          }
+        }
+        @-webkit-keyframes move-3 {
+          0% {
+            transform: translate(0, 0);
+          }
+          99% {
+            transform: translate(0, -51px);
+          }
+          100% {
+            transform: translate(0, 0);
+            opacity: 0;
+          }
+        }
+        @keyframes move-3 {
+          0% {
+            transform: translate(0, 0);
+          }
+          99% {
+            transform: translate(0, -51px);
+          }
+          100% {
+            transform: translate(0, 0);
+            opacity: 0;
+          }
+        }
+        @-webkit-keyframes move-4 {
+          0% {
+            transform: translate(0, 0);
+          }
+          99% {
+            transform: translate(0, -121px);
+          }
+          100% {
+            transform: translate(0, 0);
+            opacity: 0;
+          }
+        }
+        @keyframes move-4 {
+          0% {
+            transform: translate(0, 0);
+          }
+          99% {
+            transform: translate(0, -121px);
+          }
+          100% {
+            transform: translate(0, 0);
+            opacity: 0;
+          }
+        }
+        @-webkit-keyframes move-5 {
+          0% {
+            transform: translate(0, 0);
+          }
+          99% {
+            transform: translate(0, -106px);
+          }
+          100% {
+            transform: translate(0, 0);
+            opacity: 0;
+          }
+        }
+        @keyframes move-5 {
+          0% {
+            transform: translate(0, 0);
+          }
+          99% {
+            transform: translate(0, -106px);
+          }
+          100% {
+            transform: translate(0, 0);
+            opacity: 0;
+          }
+        }
+        @-webkit-keyframes move-6 {
+          0% {
+            transform: translate(0, 0);
+          }
+          99% {
+            transform: translate(0, -95px);
+          }
+          100% {
+            transform: translate(0, 0);
+            opacity: 0;
+          }
+        }
+        @keyframes move-6 {
+          0% {
+            transform: translate(0, 0);
+          }
+          99% {
+            transform: translate(0, -95px);
+          }
+          100% {
+            transform: translate(0, 0);
+            opacity: 0;
+          }
+        }
+        @-webkit-keyframes move-7 {
+          0% {
+            transform: translate(0, 0);
+          }
+          99% {
+            transform: translate(0, -121px);
+          }
+          100% {
+            transform: translate(0, 0);
+            opacity: 0;
+          }
+        }
+        @keyframes move-7 {
+          0% {
+            transform: translate(0, 0);
+          }
+          99% {
+            transform: translate(0, -121px);
+          }
+          100% {
+            transform: translate(0, 0);
+            opacity: 0;
+          }
+        }
+        @-webkit-keyframes move-8 {
+          0% {
+            transform: translate(0, 0);
+          }
+          99% {
+            transform: translate(0, -79px);
+          }
+          100% {
+            transform: translate(0, 0);
+            opacity: 0;
+          }
+        }
+        @keyframes move-8 {
+          0% {
+            transform: translate(0, 0);
+          }
+          99% {
+            transform: translate(0, -79px);
+          }
+          100% {
+            transform: translate(0, 0);
+            opacity: 0;
+          }
+        }
+        @-webkit-keyframes move-9 {
+          0% {
+            transform: translate(0, 0);
+          }
+          99% {
+            transform: translate(0, -109px);
+          }
+          100% {
+            transform: translate(0, 0);
+            opacity: 0;
+          }
+        }
+        @keyframes move-9 {
+          0% {
+            transform: translate(0, 0);
+          }
+          99% {
+            transform: translate(0, -109px);
+          }
+          100% {
+            transform: translate(0, 0);
+            opacity: 0;
+          }
+        }
+        @-webkit-keyframes move-10 {
+          0% {
+            transform: translate(0, 0);
+          }
+          99% {
+            transform: translate(0, -60px);
+          }
+          100% {
+            transform: translate(0, 0);
+            opacity: 0;
+          }
+        }
+        @keyframes move-10 {
+          0% {
+            transform: translate(0, 0);
+          }
+          99% {
+            transform: translate(0, -60px);
+          }
+          100% {
+            transform: translate(0, 0);
+            opacity: 0;
+          }
+        }
+        </style>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -35,11 +403,49 @@
                 <img alt="logo" src="./assets/images/logo_vert.png">
             </a>
         </header>
-        <nav>
-            <p id="coming_soon">This page is coming soon!</p>
-        </nav>
+            <div class="" style="text-align: center;">
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                    <defs>
+                        <filter id="gooey">
+                            <!-- in="sourceGraphic" -->
+                            <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur" />
+                            <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="highContrastGraphic" />
+                            <feComposite in="SourceGraphic" in2="highContrastGraphic" operator="atop" />
+                        </filter>
+                    </defs>
+                </svg>
+                <h1 style="z-index: 999;position:relative">Earn tokens by voting here</h1>
+                    <a href="https://ftbservers.com/server/z7RYUyxE/vote" target="_blank"><button id="gooey-button">FTB Servers                    
+                    <span class="bubbles">
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                </span></button></a>
+                <a href="http://minecraft-mp.com/server/156002/vote/" target="_blank"><button id="gooey-button">Minecraft-MP                    
+                    <span class="bubbles">
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                </span></button></a>
+                <h2><b>Want to spend your tokens? You can spend them in-game using the command /tokenshop</b></h2>
+                <h2><b>Every month we give away free games to the top 3 voters of the month!</b></h2>
+                </div>
         <footer>
-            ©2014-2020 ShadowNode.
+            ©2014-2021 ShadowNode.
             <div id="copyright">
 
             </div>
