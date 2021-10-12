@@ -50,3 +50,12 @@ Using GDLauncher is almost as easy as MultiMC but this will likely get even easi
 5. Repeat Steps 3 and 4 for any mods you'd like to disable.
 6. Click the X at the top of the window titled `Instance Manager`
 7. Launch your modpack to play.
+
+
+### Backup Modpacks with GDLauncher
+If you're wanting to modify the mods in your pack it's highly recommend you backup your instance first. This prevents you from having to do a completely clean reinstall.
+
+1. Right click on your modpack and select "Duplicate"
+![GDLauncher Rightclick Modpack](../../../../assets/images/gdlauncher/gdlauncher-rightclick.png) 
+2. Enter a name for the duplicated modpack and press the duplicate button.
+![GDLauncher Duplicate Modpack](../../../../assets/images/gdlauncher/gdlauncher-duplicate.png)
