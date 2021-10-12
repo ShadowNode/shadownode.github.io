@@ -17,17 +17,17 @@ Using [MultiMC](https://multimc.org/) is by far the easiest and simplest method 
 
 Below is an example of how to remove/disable a mod with MultiMC. In the below example we will be removing `FTB Auxilium`.
 
-1. Right Click on the modpack instance and select `Edit Instance` from the menu that pops up.
-
+1. Right Click on the modpack and select `Edit Instance` from the menu that pops up.
+![MultiMC Right Click](../../../assets/images/multimc/multimc-rightclick.png) 
 2. On the left hand of the window you will see a list of icons and options. Click `Loader Mods`.
-3. At the bottom of this new section there's a text box that is labeled filter type in  the name of the mod you wish to disable. For example to disable FTB Auxiium you would type `FTB Auxilium`. You should then see only one mod listed. Uncheck the check box for this mod.
+![MultiMC Loader Mods](../../../assets/images/multimc/multimc-loadermods.png) 
+3. At the bottom of this new section there's a text box that is labeled filter type in the first part of name of the mod you wish to disable. For example to disable FTB Auxiium you would type in `FTB`. You should then see only one mod listed. Uncheck the check box for this mod.
+![MultiMC Filtered Mods](../../../assets/images/multimc/multimc-filtered.png) 
 4. Repeat for any other mods you neeed to remove.
 5. Click "Close" when done.
 6. Launch your modpack to play.
 
 Below is an example of what the MultiMC Loader Mods section looks like for FTB Ocean Block.
-
-![Loader Mods](../../../assets/images/multimc/multimc-loadermods.png) 
 
 ### Managing Mods with GDLauncher
 Using GDLauncher is almost as easy as MultiMC but this will likely get even easier in the future. The current hardships is that you have to enable the beta channel for GDLauncher to get it work correctly at this time. Please follow the steps below if you'd like to manage your mods with GDLauncher.
@@ -45,8 +45,6 @@ Using GDLauncher is almost as easy as MultiMC but this will likely get even easi
 7. Launch your modpack to play.
 
 ## Suggested Changes
-
-### MineTogether
 
 #### FTB Auxilium
 All new FTB Packs seem to have this mod and we highly recommend you remove it because it sends computer and usage stats back to the FTB Team. 
