@@ -3,7 +3,7 @@ title: GDLauncher
 author: Fayettemat
 ---
 
-## GDLauncher
+## About GDLauncher
 
 GDLauncher is a Minecraft launcher. It can be used to launch vanilla Minecraft, custom modpacks, or regular modpacks. This launcher is one of our recommended options for installing modpacks and managing mods. GDLauncher works on all major platforms - Windows, Linux and macOS.
 
@@ -15,7 +15,7 @@ GDLauncher is a Minecraft launcher. It can be used to launch vanilla Minecraft, 
 5. After this process is done you should be greeted by a mostly blank window telling you no instance has been installed. See below for more details on adding mod packs.
 
 
-### Adding a Mod Pack
+### Adding a Modpack
 1. Click the + button in GDLaunchers Main Window. 
 ![GDLauncher Main Window](../../../../assets/images/gdlauncher/gdlauncher-main.png)
 2. Click the type of instance you like. If you're looking to install general Minecraft you're looking for Vanilla otherwise you're likely looking for CurseForge or FTB. If you're using a FTB Pack please click the FTB Tab.

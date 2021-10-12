@@ -4,7 +4,7 @@ author: YourMCGeek
 contributors: Babymillie, Fayettemat
 ---
 
-## MultiMC
+## About MultiMC
 
 MultiMC is a Minecraft launcher. It can be used to launch vanilla Minecraft, custom modpacks, or regular modpacks. The launcher is very good for Linux users or those who don't like the Twitch Launcher. **We strongly recommend this launcher.**
 
