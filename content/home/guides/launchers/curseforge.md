@@ -10,7 +10,7 @@ CurseForge is a popular Minecraft launcher. It can be used to launch vanilla Min
 ### How to Install
 Head to [CurseForge](https://download.curseforge.com/) and download the CurseForge Beta Launcher for your OS. The steps below are taken from a Windows install so it might be different if you're on macOS. 
 
-Once you've downloaded the pack  go to your downloads folder and open the installer and follow the instructions below to get setup.
+Once you've downloaded the launcher  go to your downloads folder and open the installer and follow the instructions below to get setup.
 
 1. Select your language and click next.
 ![CurseForge Installer 1](../../../../assets/images/curseforge/installer_1.png)
