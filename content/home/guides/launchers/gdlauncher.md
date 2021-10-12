@@ -5,7 +5,7 @@ author: Fayettemat
 
 ## GDLauncher
 
-GDLauncher is a Minecraft launcher. It can be used to launch vanilla Minecraft, custom modpacks, or regular modpacks. This launcher is one of our recommended options for installing modpacks and managing mods. GDLauncher works on all major platforms - Windows, Linux and Mac OS.
+GDLauncher is a Minecraft launcher. It can be used to launch vanilla Minecraft, custom modpacks, or regular modpacks. This launcher is one of our recommended options for installing modpacks and managing mods. GDLauncher works on all major platforms - Windows, Linux and macOS.
 
 ### How to Install
 1. Head to [GDevs](https://gdevs.io) and select which software is most appropriate for you. Typically you want to click the "Download Now!" button.
@@ -36,6 +36,7 @@ GDLauncher is a Minecraft launcher. It can be used to launch vanilla Minecraft, 
 {{% notice warning %}}
 Removing and adding mods can cause pack instablity. Please consult your launcher's documentation on backing up your instance prior to preforming any of the tips below.
 {{% /notice %}}
+
 Using GDLauncher is almost as easy as MultiMC but this will likely get even easier in the future. The current hardships is that you have to enable the beta channel for GDLauncher to get it work correctly at this time. Please follow the steps below if you'd like to manage your mods with GDLauncher.
 
 1. Right Click on the modpack and select `Manage`.
