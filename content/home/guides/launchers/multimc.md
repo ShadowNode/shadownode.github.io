@@ -1,7 +1,7 @@
 ---
 title: MultiMC
 author: YourMCGeek
-contributors: Babymillie
+contributors: Babymillie, Fayettemat
 ---
 
 ## MultiMC
@@ -55,3 +55,22 @@ Ensure that you are running a version higher than or equal to 0.6.0. You can fin
 3. Locate JVM Arguments in the Java Runtime section
 4. Fill in your desired arguments in the blank
 5. Click test to verify everything is working properly.
+
+### Managing Mods With MultiMC
+{{% notice warning %}}
+Removing and adding mods can cause pack instablity. Please consult your launcher's documentation on backing up your instance prior to preforming any of the tips below.
+{{% /notice %}}
+
+Using [MultiMC](https://multimc.org/) is by far the easiest and simplest method for updating and managing your mods. 
+
+Below is an example of how to remove/disable a mod with MultiMC. In the below example we will be removing `FTB Auxilium`.
+
+1. Right Click on the modpack and select `Edit Instance` from the menu that pops up.
+![MultiMC Right Click](../../../../assets/images/multimc/multimc-rightclick.png) 
+2. On the left hand of the window you will see a list of icons and options. Click `Loader Mods`.
+![MultiMC Loader Mods](../../../../assets/images/multimc/multimc-loadermods.png) 
+3. At the bottom of this new section there's a text box that is labeled filter type in the first part of name of the mod you wish to disable. For example to disable FTB Auxiium you would type in `FTB`. You should then see only one mod listed. Uncheck the check box for this mod.
+![MultiMC Filtered Mods](../../../../assets/images/multimc/multimc-filtered.png) 
+4. Repeat for any other mods you neeed to remove.
+5. Click "Close" when done.
+6. Launch your modpack to play.
