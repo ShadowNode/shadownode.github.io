@@ -1,10 +1,10 @@
 ---
 title: MultiMC
 author: YourMCGeek
-contributors: Babymillie
+contributors: Babymillie, Fayettemat
 ---
 
-## MultiMC
+## About MultiMC
 
 MultiMC is a Minecraft launcher. It can be used to launch vanilla Minecraft, custom modpacks, or regular modpacks. The launcher is very good for Linux users or those who don't like the Twitch Launcher. **We strongly recommend this launcher.**
 
@@ -55,3 +55,31 @@ Ensure that you are running a version higher than or equal to 0.6.0. You can fin
 3. Locate JVM Arguments in the Java Runtime section
 4. Fill in your desired arguments in the blank
 5. Click test to verify everything is working properly.
+
+### Managing Mods With MultiMC
+{{% notice warning %}}
+Removing and adding mods can cause pack instablity. Please consult your launcher's documentation on backing up your instance prior to preforming any of the tips below.
+{{% /notice %}}
+
+Using [MultiMC](https://multimc.org/) is by far the easiest and simplest method for updating and managing your mods. 
+
+Below is an example of how to remove/disable a mod with MultiMC. In the below example we will be removing `FTB Auxilium`.
+`
+1. Right Click on the modpack and select `Edit Instance` from the menu that pops up.
+![MultiMC Right Click](../../../../assets/images/multimc/multimc-rightclick.png) 
+2. On the left hand of the window you will see a list of icons and options. Click `Loader Mods`.
+![MultiMC Loader Mods](../../../../assets/images/multimc/multimc-loadermods.png) 
+3. At the bottom of this new section there's a text box that is labeled filter type in the first part of name of the mod you wish to disable. For example to disable FTB Auxiium you would type in `FTB`. You should then see only one mod listed. Uncheck the check box for this mod.
+![MultiMC Filtered Mods](../../../../assets/images/multimc/multimc-filtered.png) 
+4. Repeat for any other mods you neeed to remove.
+5. Click "Close" when done.
+6. Launch your modpack to play.
+
+### Backing up your modpacks
+If you're wanting to modify the mods in your pack it's highly recommend you backup your instance first. This prevents you from having to do a completely clean reinstall.
+
+1. Select your modpack and right click it. Select copy instance.
+![MultiMC Right Click Menu](../../../../assets/images/multimc/multimc-rightclick.png) 
+2. Type a new name for the copied modpack in and click ok. Optionally you can also copy your saves and keep your play time. This is great if you want to try out a mod or two that you have a feeling will break your pack.
+![MultiMC Copy Modpack](../../../../assets/images/multimc/multimc-copy-instance.png) 
+3. You will now have a duplicate modpack ready for backup purposes.
