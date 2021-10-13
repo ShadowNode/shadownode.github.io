@@ -51,6 +51,17 @@ Using GDLauncher is almost as easy as MultiMC but this will likely get even easi
 6. Click the X at the top of the window titled `Instance Manager`
 7. Launch your modpack to play.
 
+### Upgrading Modpacks
+{{% notice warning%}}
+Please backup your modpacks before upgrading incase something goes wrong
+{{% /notice %}}
+
+1. CLick on your modpad and select "Manage"
+![GDLauncher Rightclick Modpack](../../../../assets/images/gdlauncher/gdlauncher-rightclick.png) 
+2. In the Instance Manager window click "Mod Pack"
+![GDLauncher Instance Overview](../../../../assets/images/gdlauncher/gdlauncher-instance-overview.png)
+3. Click the drop down menu in the middle of the window to select the version you're looking to upgrade to. Click switch version after you confirm you've selected the right version.
+![GDLauncher Instance Modpack Version](../../../../assets/images/gdlauncher/gdlauncher-instance-modpack.png)
 
 ### Backup Modpacks with GDLauncher
 If you're wanting to modify the mods in your pack it's highly recommend you backup your instance first. This prevents you from having to do a completely clean reinstall.
