@@ -6,11 +6,24 @@ contributors: Babymillie, Fayettemat
 
 ## Chunk Loaders
 
-Modded Chunk Loaders have been disabled on ShadowNode servers globally, therefore we have added a plugin known as Better Chunk  Loaders to achieve their purpose. There are two types of Chunk Loaders, Always On and Online Only. To view chunk borders, hit ``F3+g``
+Modded Chunk Loaders have been disabled on ShadowNode servers globally, therefore we have added a plugin known as Better Chunk Loaders to achieve their purpose. There are two types of Chunk Loaders, Always On and Online Only. To view chunk borders, hit ``F3+g``
 
 ### Always On vs Online Only
 
-Always On is a chunk loader which is online 24/7 and will keep the chunk loaded. However, the chunk loader will stop loading the chunk after 3 days of activity. Once the owner returns, it will resume loading the chunk.The Online Only chunk loader will only load the chunk when the owner of the loader is online.
+Always On is a chunk loader which is online 24/7 and will keep the chunk loaded. However, the chunk loader will stop loading the chunk after 48 (1.16 packs) or 72 (1.12 packs)  hours of activity. Once the owner returns, it will resume loading the chunk.The Online Only chunk loader will only load the chunk when the owner of the loader is online.
+
+### Token-earned Loaders vs Shop bought Loaders
+
+Token Loaders are always online-only and cannot be transfered between servers. They are also reset when the server is reset so you will need to earn them again through voting. Also, please keep in mind that token loaders are currently not working on 1.16 packs, however, are still avaliable on 1.12 packs.
+
+Shop Loaders are avalaible in Online Only as well as Always On. You can get Shop loaders transfered  between servers and reinstated after a server reset. 
+
+You will need to open a ticket in our Discord server to accomplish this.
+
+{{% notice note %}}
+Shop bought loaders being moved must already be deactivated to be moved to a new server. Please note that on 1.16 packs the loader block must also have been removed.
+{{% /notice %}}
+
 
 ### 1.16 Chunkloaders
 
