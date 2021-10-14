@@ -10,10 +10,6 @@ This list is current as of the time of writing this but might not always be up-t
 {{% /notice %}}
 Below is a current list of known issues with Ocean Block and work arounds (if any)
 
-### Crate Quest Wont Progress
-
-There is no current work around and this is a mod bug. We're waiting on the ModDev and pack to update.
-
 ### Joining an Island Wipes Inventory and Progress
 
 Currently if you join a team or island after you're already started the game you will lose all of your currently unlocked quest progress as well as having everything in your inventory wiped.
@@ -47,3 +43,10 @@ Please follow these diretions for any launcher other than MultiMC please follow 
 2. Open in the new file browser window go to the following path `mods`, scroll down till you see a file named like the following `minetogether-1.16.5-x.x.x-forge.jar` and rename it to `minetogether-1.16.5-x.x.x-forge.jar.disabled`.
 If you don't have file extensions enabled in Windows Explorer I highly recommend simply pressing CTRL+X and then going up to the instance folder and pasting the mod there with CTRL+V.
 3. Relaunch your game.
+
+## Fixed Issues
+
+We're compiling a list of issues that have either been resolved by the pack's author or Shadownode staff here rather than simply removing them all together for histocial reasons.
+
+* Crate Quests
+* Draconic Chest is now craftable
