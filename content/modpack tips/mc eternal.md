@@ -2,6 +2,13 @@
 title: MC Eternal Tips
 author: Fayettemat
 ---
+## Recommended Java Arguments
+Eternal is a heavier pack and tends to use a lot of RAM and resources we have compiled a list of suggested arugments from the pack's Discord server and are adding them here for ease of use.
+
+* 6.5GB -> 8GB of RAM allocated to Eternal 
+  * Please use the following arguments `-XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:MaxNewSize=2000m -XX:+DisableExplicitGC -XX:SurvivorRatio=1 -XX:InitialSurvivorRatio=1 -XX:NewRatio=2`
+* 9GB+ of RAM allocated to Eternal
+  * Please use the following arguments `XX:MaxNewSize=1800m -XX:+DisableExplicitGC -XX:SurvivorRatio=1 -XX:InitialSurvivorRatio=1 -XX:NewRatio=2`
 
 ## Disable Agricraft Particles 
 A lot of players use Agricraft as way to enchance the speed at which their crops grow. Typically a single Agricarft spinkler can be used to multiply the speed, however, the effect does stack. This can pose a problem as all the particles from this causes a considerable amount of client-side render time/lag. This means that you will need to disable the particles for optimal FPS and to not lag out while around some bases. Thankfully, doing so is simple.
