@@ -76,13 +76,12 @@ If you're wanting to modify the mods in your pack it's highly recommend you back
 2. Enter a name for the duplicated modpack and press the duplicate button.
 ![GDLauncher Duplicate Modpack](../../../../assets/images/gdlauncher/gdlauncher-duplicate.png)
 
-### Enabling the Beta Launcher
+### Setting Java Arguments
+Some packs have Java Arguments (args) that we recommend you the pack with. The other reasons you might want to change this is you have a set of arguments that you want to run or someone suggested a set of Java arguments. The below assumes you're setting it per instance.
 
-Sometimes Forge installations will fail when trying to download modpacks with GDLauncher. Luckily there's a way around this. You will need to enable the beta release of the launcher for this. To do so simply follow the steps below.
-
-1. Click the settings icon at the top of the screen.
-![Settings Menu](../../../../assets/images/gdlauncher/gdlauncher-beta-1.png)
-2. Change Release Channel to "Beta". Click the "X" button at the top when done.
-![Changing Release Channel](../../../../assets/images/gdlauncher/gdlauncher-beta-2.png)
-3. You will now need to restart your GDLauncher and relaunch it. Once you've done so give it a few and you should be prompted to update to the newest release.
-4. Update to the newer release and retry your pack install clean.
+1. Right Click on your instance and select "Manage"
+![GDLauncher Rightclick Modpack](../../../../assets/images/gdlauncher/gdlauncher-rightclick.png) 
+2. On the "Overview" tab, click the toggle next to "Override Java Arguments" it should look like the below when done.
+![GDLauncher Java Args](../../../../assets/images/gdlauncher/gdlauncher-java-args.png)
+3. Paste in your Java arguments into the text box that appeared. Click the "X" on the window to save.
+4. Launch your modpack. If any mistakes have happened you can go back to the previous window and click the reset button.

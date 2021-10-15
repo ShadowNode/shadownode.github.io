@@ -31,3 +31,12 @@ Now that ATLauncher is installed you likely want to install a modpack to get pla
 2. On the search result page click "New Instance" and then you'll be prompted by a popup. In this window select the version you wish to install.
 ![AT Modpack Install 2](../../../../assets/images/atlauncher/at_modpack_install_2.png)
 3. Once the install completes you'll be able to play by clicking "Instances" on the right hand bar then clicking Play for the pack in question.
+
+### Setting Java Arguments
+Some packs have Java Arguments (args) that we recommend you the pack with. The other reasons you might want to change this is you have a set of arguments that you want to run or someone suggested a set of Java arguments. The below assumes you're setting it per instance.
+
+1. Go to your "Instance Tab" and click the "Settings" button to open a pack configuration window.
+![AT Setings](../../../../assets/images/atlauncher/at_settings_1.png)
+2. Click "Java/Minecraft" and paste the arguments you wish to use in the "Java Parameters" that you wish to use. We've highlighted the box in red.
+![AT Java Arguments](../../../../assets/images/atlauncher/at_java_arguments.png)
+3. Once you've happy with your changes, click "Save" and you'll be good to go. Please note that if you make a mistake and your pack won't launch you can always click the "Reset" button.

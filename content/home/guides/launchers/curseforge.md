@@ -45,3 +45,6 @@ The steps below assume you're continuing from the above setup and on the Minecra
 ![CurseForge Setup 5.2](../../../../assets/images/curseforge/curseforge_setup_5_2.png)
 4. Wait for the pack to install then click the Minecraft icon on the left hand side. You should see the following. Hover over the pack and click play.
 ![CurseForge Setup 6](../../../../assets/images/curseforge/curseforge_setup_6.png)
+
+### Setting Java Arguments
+Some packs have Java Arguments (args) that we recommend you the pack with. The other reasons you might want to change this is you have a set of arguments that you want to run or someone suggested a set of Java arguments. Sadly, it's currently not possible to do so with this launcher.
