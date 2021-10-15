@@ -85,3 +85,16 @@ Some packs have Java Arguments (args) that we recommend you the pack with. The o
 ![GDLauncher Java Args](../../../../assets/images/gdlauncher/gdlauncher-java-args.png)
 3. Paste in your Java arguments into the text box that appeared. Click the "X" on the window to save.
 4. Launch your modpack. If any mistakes have happened you can go back to the previous window and click the reset button.
+
+![GDLauncher Duplicate Modpack](../../../../assets/images/gdlauncher/gdlauncher-duplicate.png)
+
+### Enabling the Beta Launcher
+
+Sometimes Forge installations will fail when trying to download modpacks with GDLauncher. Luckily there's a way around this. You will need to enable the beta release of the launcher for this. To do so simply follow the steps below.
+
+1. Click the settings icon at the top of the screen.
+![Settings Menu](../../../../assets/images/gdlauncher/gdlauncher-beta-1.png)
+2. Change Release Channel to "Beta". Click the "X" button at the top when done.
+![Changing Release Channel](../../../../assets/images/gdlauncher/gdlauncher-beta-2.png)
+3. You will now need to restart your GDLauncher and relaunch it. Once you've done so give it a few and you should be prompted to update to the newest release.
+4. Update to the newer release and retry your pack install clean.
