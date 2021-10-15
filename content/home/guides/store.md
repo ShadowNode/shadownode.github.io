@@ -1,7 +1,7 @@
 ---
 title: The Store
 author: YourMCGeek
-contributors: Babymillie
+contributors: Babymillie, Fayettemat
 ---
 
 ## The Store
@@ -31,11 +31,24 @@ When entering your username, please ensure that it is the same as your in-game n
 ### Categories
 
 - Ranks/Rank Upgrades
-    - These two categories are for changing your in-game prefix and giving you a few neat perks. No in-game features are locked or require you to have certain ranks to progress, these perks are all just quality-of-life enhancements like ```/feed```, ``/fly``, ``/back`` or multiple homes. See [rank overview](../server info/ranks.md) for all ranks and their perks.
+    - These two categories are for changing your in-game prefix and giving you a few neat perks. No in-game features are locked or require you to have certain ranks to progress, these perks are all just quality-of-life enhancements like ```/feed```, ``/fly``, ``/back`` or multiple homes. See [rank overview](/server-info/ranks/) for all ranks and their perks.
 - Claimblocks
     - Here you can find a few kits of Claimblocks you can buy to extend the amount of space you have to build on the server. You can also get them passively by playing on the server or in the ``/tokenshop``.
 - Chunkloaders
-    - A chunkloader keeps your base loaded while you are offline! They use a lot of server resources so we have to charge for this feature. See [chunk loaders](#chunk-loaders) for more detailed information about how to use the chunk loader plugin.
+    - A chunkloader keeps your base loaded while you are offline! They use a lot of server resources so we have to charge for this feature. See [chunk loaders](/home/guides/chunkloaders) for more detailed information about how to use the chunk loader plugin.
 - Misc. Items
     - Currently we only have the "Pay What You Want" option in here. This item has no reward, so please only use this function if you really want to support us without expecting anything in return.
-    
+
+- Perks
+{{% notice note%}}
+All of these shop perks have commands that must be run on a 1.12 client to use. We recommend joining our lobby server at `play.shadownode.ca` with a 1.12 Vanilla install to use them.
+{{% /notice %}}
+    - Glows
+      - Greats a glow for your character. Can be seen through walls!
+      - These currently only work on our 1.12 servers, however, we're hoping to get them ported to 1.16 in the future. You can access them by typing `/perks` on any of our modded 1.12 servers.
+    - Particle effects
+      - Will create a particle effect around your character. Can add some flare to your user.      - - These currently only work on our 1.12 servers, however, we're hoping to get them ported to 1.16 in the future. You can access them by typing `/perks` on any of our modded 1.12 servers.
+    - Custom Status
+      - Allows you to have a custom join / leave message. Buying this item gives you a join / leave message that you can set.
+      - To set a custom join or leave message you'll need to type `/status`. This will give you the following screen. You can set, unset, preview, enable and disable the messages. Do not forget to enable it the first time you use it!
+      ![Custom Status](../../../assets/images/shop/custom-status.png)
