@@ -1,7 +1,7 @@
 ---
 title: The Store
 author: YourMCGeek
-contributors: Babymillie
+contributors: Babymillie, Fayettemat
 ---
 
 ## The Store
@@ -31,11 +31,11 @@ When entering your username, please ensure that it is the same as your in-game n
 ### Categories
 
 - Ranks/Rank Upgrades
-    - These two categories are for changing your in-game prefix and giving you a few neat perks. No in-game features are locked or require you to have certain ranks to progress, these perks are all just quality-of-life enhancements like ```/feed```, ``/fly``, ``/back`` or multiple homes. See [rank overview](../server info/ranks.md) for all ranks and their perks.
+    - These two categories are for changing your in-game prefix and giving you a few neat perks. No in-game features are locked or require you to have certain ranks to progress, these perks are all just quality-of-life enhancements like ```/feed```, ``/fly``, ``/back`` or multiple homes. See [rank overview](/server-info/ranks/) for all ranks and their perks.
 - Claimblocks
     - Here you can find a few kits of Claimblocks you can buy to extend the amount of space you have to build on the server. You can also get them passively by playing on the server or in the ``/tokenshop``.
 - Chunkloaders
-    - A chunkloader keeps your base loaded while you are offline! They use a lot of server resources so we have to charge for this feature. See [chunk loaders](#chunk-loaders) for more detailed information about how to use the chunk loader plugin.
+    - A chunkloader keeps your base loaded while you are offline! They use a lot of server resources so we have to charge for this feature. See [chunk loaders](/home/guides/chunkloaders) for more detailed information about how to use the chunk loader plugin.
 - Misc. Items
     - Currently we only have the "Pay What You Want" option in here. This item has no reward, so please only use this function if you really want to support us without expecting anything in return.
     
