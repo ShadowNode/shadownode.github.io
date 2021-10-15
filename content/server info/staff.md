@@ -11,10 +11,10 @@ tags: ["owner", "admin", "mod", "mit", "dev", "staff", "builder", "ranks"]
 | <span style="color: #FF55FF">Owner</span>  |       [ShadowKitten](http://discordapp.com/users/106221569897922560)       |
 | <span style="color: #AA0000">Senior Administrator</span> |  [Aaron8059](http://discordapp.com/users/244215942114967553) <br>  [Babymillie](http://discordapp.com/users/150809903089451008) <br>  [Dnsmasq](http://discordapp.com/users/220218217145171969) <br>  [RedSensei](http://discordapp.com/users/318557661081632768) <br>  [War_Horse](http://discordapp.com/users/675429391513419816) <br> [pipie(A)](http://discordapp.com/users/104993532896350208) <br> [Endercorps_Alpha](http://discordapp.com/users/142748655294742528) |
 | <span style="color: #FF5555">Administrator</span>    |  [Cosmic_Elemental](http://discordapp.com/users/356530058908925965) <br>  [InkEyes](http://discordapp.com/users/147137133495189505) <br>  [Moody_420](http://discordapp.com/users/262778042760298497) <br>  [Zyion](http://discordapp.com/users/99358692054405120)  |
-| <span style="color: #1a7939">Moderator</span>      |  [ItsAFauxyKitty](http://discordapp.com/users/272454142201692160) <br>  [hachiimann](http://discordapp.com/users/346423675869724675) <br>  [ItsNora_](http://discordapp.com/users/191989517408927744) <br>  [PopularSean](http://discordapp.com/users/240924570809270273) |
-| <span style="color: #FFAA00">Developer</span>      |  [Bennyboy1695](http://discordapp.com/users/97995963137802240) <br>  [YourMCGeek](http://discordapp.com/users/102762443767287808) <br> [Babymillie](http://discordapp.com/users/150809903089451008) |
+| <span style="color: #1a7939">Moderator</span>      |  [ItsAFauxyKitty](http://discordapp.com/users/272454142201692160) <br>  [hachiimann](http://discordapp.com/users/346423675869724675) <br>  [ItsNora_](http://discordapp.com/users/191989517408927744) <br>   [PopularSean](http://discordapp.com/users/240924570809270273) <br>[Fayettemat](http://discordapp.com/users/93226934015647744) |
+| <span style="color: #FFAA00">Developer</span>   |  [Bennyboy1695](http://discordapp.com/users/97995963137802240) <br>  [YourMCGeek](http://discordapp.com/users/102762443767287808) <br> [Babymillie](http://discordapp.com/users/150809903089451008) |
 | <span style="color: #FFFF55">Builders</span>  |  [ItsNora_](http://discordapp.com/users/191989517408927744) <br> [ItsAFauxyKitty](http://discordapp.com/users/272454142201692160) |
-| <span style="color: #25c059">MIT</span> | [Apollo](http://discordapp.com/users/207206527214419968) <br> [Fayettemat](http://discordapp.com/users/93226934015647744) <br> [InfernalShadow](http://discordapp.com/users/359487680385515521) <br> [Radicaljim](http://discordapp.com/users/137023583208603650) <br>|
+| <span style="color: #25c059">MIT</span> | [Apollo](http://discordapp.com/users/207206527214419968)  <br> [InfernalShadow](http://discordapp.com/users/359487680385515521) <br> [Radicaljim](http://discordapp.com/users/137023583208603650) <br>|
 
 </center>
 
@@ -34,13 +34,13 @@ This rank is for the ShadowNode owner only and will always be ShadowKitten. Has 
 These select members of our staff team get the dark red name colour. They are responsible in managing the staff team, discord server, and network. Hand picked by ShadowKitten, these members are some of the most trusted members in the entire network.
 
 ### <span style="color: #FF5555">Administrator</span>
-As an Admin, you get the fancy red name! Admins are responsible for managing the background functions of the servers, such as setting up new packs and managing the current ones. Furthermore, admins assist in the training of mods and helpers to ensure that our staff team is running at tip-top shape!
+Admins are responsible for managing the background functions of the servers, such as setting up new packs and managing the current ones. Furthermore, admins assist in the training of mods and helpers to ensure that our staff team is running at tip-top shape!
 
 ### <span style="color: #FFAA00">Developer</span>
 Developers are the meat and potatoes of the networks. Creating, updating, and optimizing plugins, mods, and their respective packs, developers ensure that the servers are running as fast and smoothly as possible. They have Admin level permissions and write access to Shadownode's github/gitlab projects and more
 
 ### <span style="color: #1a7939">Moderator</span>
-Mods are represented by their dark green role in the Discord server. After proving themselves as helpers, they now have many more responsibilities such as enforcing bans, refunding items and fixing griefs. Most often you will see mods active in the support tickets section of our Discord making sure everything is running smoothly. 
+Mods are represented by their dark green role in the Discord server. After proving themselves as MITs, they now have many more responsibilities such as enforcing bans, refunding items and fixing griefs. Most often you will see mods active in the support tickets section of our Discord making sure everything is running smoothly. 
 
 ### <span style="color: #25c059">Moderator in training (MIT)</span>
 MIT are identified by their ligt green colour in our Discord server. As the starting block of the staff team, MIT assist in game and in Discord by answering basic questions related to mods or server features. Furthermore, they can assist is most tickets like griefs and missing items. MIT are meant to learn about how the staff team is run, and how punishments are handled!

@@ -8,6 +8,7 @@ author: Fayettemat
 GDLauncher is a Minecraft launcher. It can be used to launch vanilla Minecraft, custom modpacks, or regular modpacks. This launcher is one of our recommended options for installing modpacks and managing mods. GDLauncher works on all major platforms - Windows, Linux and macOS.
 
 ### How to Install
+
 1. Head to [GDevs](https://gdevs.io) and select which software is most appropriate for you. Typically you want to click the "Download Now!" button.
 2. Click the download link related to your OS and then save it to your Downloads folder for easy access.
 3. Click the downloaded installer link and it will prompt you to install Java 8 and Java 16. This should be done automatically by the launcher with no intervention needed on your part. 
@@ -16,6 +17,7 @@ GDLauncher is a Minecraft launcher. It can be used to launch vanilla Minecraft, 
 
 
 ### Adding a Modpack
+
 1. Click the + button in GDLaunchers Main Window. 
 ![GDLauncher Main Window](../../../../assets/images/gdlauncher/gdlauncher-main.png)
 2. Click the type of instance you like. If you're looking to install general Minecraft you're looking for Vanilla otherwise you're likely looking for CurseForge or FTB. If you're using a FTB Pack please click the FTB Tab.
@@ -28,11 +30,12 @@ GDLauncher is a Minecraft launcher. It can be used to launch vanilla Minecraft, 
 ![GDLauncher Add Instance Step 4](../../../../assets/images/gdlauncher/gdlauncher-instance-step-4.png)
 5. Give your modpack download / instance a name. Click the next arrow.
 ![GDLauncher Add Instance Step 5](../../../../assets/images/gdlauncher/gdlauncher-instance-step-5.png)
-6. Your modpack will now download. If you have issues with downloading Forge you might need to switch to the beta channel.
+6. Your modpack will now download. If you have issues with downloading Forge you might need to switch to the [beta channel](#enabling-the-beta-launcher).
 7. Click "Play" after hovering over the modpacks name and it will launch the pack. Enjoy!
 ![GDLauncher Add Instance Step 7](../../../../assets/images/gdlauncher/gdlauncher-instance-step-7.png)
 
 ### Managing Mods with GDLauncher
+
 {{% notice warning %}}
 Removing and adding mods can cause pack instablity. Please consult your launcher's documentation on backing up your instance prior to preforming any of the tips below.
 {{% /notice %}}
@@ -52,8 +55,9 @@ Using GDLauncher is almost as easy as MultiMC but this will likely get even easi
 7. Launch your modpack to play.
 
 ### Upgrading Modpacks
+
 {{% notice warning%}}
-Please backup your modpacks before upgrading incase something goes wrong
+Please backup your modpacks before upgrading incase something goes wrong. If your upgradse fails please create a new instance of the modpack.
 {{% /notice %}}
 
 1. CLick on your modpad and select "Manage"
@@ -64,6 +68,7 @@ Please backup your modpacks before upgrading incase something goes wrong
 ![GDLauncher Instance Modpack Version](../../../../assets/images/gdlauncher/gdlauncher-instance-modpack.png)
 
 ### Backup Modpacks with GDLauncher
+
 If you're wanting to modify the mods in your pack it's highly recommend you backup your instance first. This prevents you from having to do a completely clean reinstall.
 
 1. Right click on your modpack and select "Duplicate"
