@@ -1,7 +1,7 @@
 ---
 title: MultiMC
 author: YourMCGeek
-contributors: Babymillie, Fayettemat
+contributors: Babymillie, LethalMrM
 ---
 
 ## About MultiMC
@@ -9,10 +9,18 @@ contributors: Babymillie, Fayettemat
 MultiMC is a Minecraft launcher. It can be used to launch vanilla Minecraft, custom modpacks, or regular modpacks. The launcher is very good for Linux users or those who don't like the Twitch Launcher. **We strongly recommend this launcher.**
 
 ### How to Install
+
+  {{% notice note %}}
+  Please note that you should not attempt to run the program from within the zip file. You will need to extract it first.
+  {{% /notice %}}
+
 1. Head to [MultiMC](https://multimc.org) and select which software is most appropriate for you.
-2. Locate the downloaded zip file and export it into a folder.
-  - On most machines, you can right click the folder, click export files and select your destination. If your machine does not have this option, head to Google!
-3. Open the MultiMC folder generated at the location specified during export and double click the MultiMC executable.
+2. Locate the downloaded zip file and extract it into a folder.
+  - On most machines, you can right click the folder, click extract files and select your destination. If your machine does not have this option, head to Google!
+  - As an example on Windows 10 you can right click and select "Extract All.." and select a destination to extract the files to.
+  - We recommend only using the systems built in tools to extract compressed files.
+
+3. Open the MultiMC folder generated at the location specified during extract and double click the MultiMC executable.
 4. Complete the final setup details that it asks for, such as your preferred language and java version.
 
 ### Login to your Profile
