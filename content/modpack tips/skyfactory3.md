@@ -9,9 +9,11 @@ This list is current as of the time of writing this but might not always be up-t
 
 ## Important Rules
 
-Our Skyfactory 3 server follows all global rules that are appliciable to all of our other servers. You can find our [global rules](/rules) on our wiki and at `/spawn`.
+Our Skyfactory 3 server follows all global rules that are appliciable to all of our other servers and has a couple additional rules. You can find our [global rules](/rules) on our wiki and at `/spawn`.
 
-As an improtant note, do not build a 1 chunk bases or farms. ShadowNode staff will take action as required. Staff response will depend on the situation.
+  * You can have a max of **4** of each chicken. 
+  * You **NEED** a  vacuum hopper or item collector setup for chickens.
+  * Do not build 1 chunk bases or farms. ShadowNode staff will take action as required. Staff response will depend on the situation.
 
 ## Commands
 
