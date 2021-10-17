@@ -182,13 +182,8 @@ function getAllServers() {
             const section = servers[key];
             var template = document.getElementById('server-template');
             if (section.onlineplayers === undefined) section.onlineplayers = 0;
-            if (section.players === undefined) section.players = [];
-            if (section.tps === undefined) section.tps = [];
-            if (section.max1d === undefined) section.max1d = 0;
-            if (section.max7d === undefined) section.max7d = 0;
-            if (section.max30d === undefined) section.max30d = 0;
             else section.onlineplayers = String(section.onlineplayers).split(",").length;
-            addServer(template.content.cloneNode(true), key, section.name, section.pack_link, (section.status ? "online" : "offline"), section.pack_name, section.pack_version, section.onlineplayers + "/" + section.maxplayers, section.uptime, section.address, section.players, section.tps, section.week, section.max1d, section.max7d, section.max30d, section.player_min, section.player_max, section.tps_min, section.tps_max, section.staff_last_seen);
+            addServer(template.content.cloneNode(true), key, getSafe(section.name, "Unknown"), getSafe(section.pack_link, "Unknown"), getSafe(section.status ? "online" : "offline", "offline"), getSafe(section.pack_name, "Unknown"), getSafe(section.pack_version, "Unknown"), getSafe(section.onlineplayers, 0) + "/" + getSafe( section.maxplayers, 0), getSafe( section.uptime,"Unknown"), getSafe( section.address, "Unknown"), getSafe( section.players, ["Unknown"]), getSafe( section.tps, ["Unknown"]), getSafe( section.week, 0), getSafe( section.max1d, {players: 0, time:0}), getSafe( section.max7d, {players: 0, time:0}), getSafe( section.max30d, {players: 0, time:0}), getSafe( section.player_min, 0), getSafe( section.player_max, 0), getSafe( section.tps_min, 0), getSafe( section.tps_max, 0), getSafe( section.staff_last_seen, 0));
         }
         loaded();
     }).catch(function (err) {
@@ -230,6 +225,14 @@ function addServer(element, id, name, pack_link, online, pack, packVersion, play
     $("#" + id + "_player-chart").PlayersChart(players, player_min, player_max);
     $("#" + id + "_tps-chart").TpsChart(tps, tps_min, tps_max);
 
+}
+
+function getSafe(fn, defaultVal) {
+    if (fn === undefined) {
+        return defaultVal;
+    } else {
+        return fn;
+    }
 }
 
 function formatTime(milliTime) {
