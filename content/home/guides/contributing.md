@@ -1,7 +1,7 @@
 ---
 title: Contributing
 author: Bennyboy1695
-Contributors: Fayettemat
+Contributors: LethalMrM
 ---
 
 

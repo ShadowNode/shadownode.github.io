@@ -1,6 +1,6 @@
 ---
 title: ATLauncher
-author: Fayettemat
+author: LethalMrM
 ---
 
 ## About ATLauncher

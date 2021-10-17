@@ -1,6 +1,6 @@
 ---
 title: Managing Mods
-author: Fayettemat
+author: LethalMrM
 ---
 
 ## Managing Your Mods

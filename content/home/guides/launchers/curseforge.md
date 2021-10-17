@@ -1,6 +1,6 @@
 ---
 title: CurseForge
-author: Fayettemat
+author: LethalMrM
 ---
 
 ## CurseForge

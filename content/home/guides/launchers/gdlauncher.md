@@ -1,6 +1,6 @@
 ---
 title: GDLauncher
-author: Fayettemat
+author: LethalMrM
 ---
 
 ## About GDLauncher
