@@ -1,5 +1,5 @@
 ---
-title: FTB Stoneblock 2 Tips
+title: FTB Stoneblock 2
 author: LethalMrM
 ---
 
@@ -7,6 +7,20 @@ author: LethalMrM
 This list is current as of the time of writing this but might not always be up-to-date. Take advice here with that knoweldge.
 {{% /notice %}}
 
+
+## Important Rules
+
+Our Stoneblock 2 server has some additional rules on the server apart from the [general rules](/rules) you find on all our servers.
+
+* Max **2** Imaginary Time Blocks. This applies per team/base/area.
+* Max **2** Growth Crystals. This applies per team/base/area.
+* Cows and Chickens
+  * Cows and Chickens must _always_ be in their respective pens. If they are not in one for a set time limit they will despawn.
+    * Chickens - 5 minutes
+    * Cows - 30 minutes
+  * You can have a max of **4** of each chicken/cow. _This is a stack of 4 per roost_. Large amounts of roosts will be removed.
+  * You **NEED** a  vacuum hopper or item collector setup for chickens. And a  tank setup for cows. 
+    * If the pens get full they likely will spit out items / fluids and this will result in the removal of all chickens/cows from your area.
 
 ## Commands
 
