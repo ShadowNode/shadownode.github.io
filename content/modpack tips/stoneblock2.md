@@ -10,7 +10,7 @@ This list is current as of the time of writing this but might not always be up-t
 
 ## Important Rules
 
-Our Stoneblock 2 server has some additional rules on the server apart from the [general rules](/rules) you find on all our servers.
+Our Stoneblock 2 server has some additional rules on the server apart from the [global rules](/rules) you find on all our servers.
 
 * Max **2** Imaginary Time Blocks. This applies per team/base/area.
 * Max **2** Growth Crystals. This applies per team/base/area.
@@ -21,10 +21,17 @@ Our Stoneblock 2 server has some additional rules on the server apart from the [
   * You can have a max of **4** of each chicken/cow. _This is a stack of 4 per roost_. Large amounts of roosts will be removed.
   * You **NEED** a  vacuum hopper or item collector setup for chickens. And a  tank setup for cows. 
     * If the pens get full they likely will spit out items / fluids and this will result in the removal of all chickens/cows from your area.
+* Do not build 1 chunk bases or farms. Action will be taken by staff as necessary. 
 
 ## Commands
 
 There's a good number of commands that you should be aware of for using this pack, espcially in group play and you can find them on our commands page under the [Island/Cave](/home/commands/#islandcave-area) section. 
+
+#### Getting Started
+
+{{% notice warning %}}
+Creating or resetting an area will wipe your inventory and progress
+{{% /notice %}}
 
 If you've never played on ShadowNode's Stoneblock 2 server, the way you get started is to run `/area create`. Make sure you read the rules in spawn first.
 

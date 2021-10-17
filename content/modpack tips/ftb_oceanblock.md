@@ -1,7 +1,17 @@
 ---
-title: FTB Oceanblock Tips
-author: Fayettemat
+title: FTB Oceanblock
+author: LethalMrM
 ---
+
+## Important Rules
+
+Our OceanBlock server follows all global rules that are appliciable to all of our other servers. You can find our [global rules](/rules) on our wiki and at `/spawn`.
+
+As an improtant note, do not build a 1 chunk bases or farms. ShadowNode staff will take action as required. Staff response will depend on the situation.
+
+#### Getting Started
+
+If you've never played on ShadowNode's OceanBlock server, the way you get started is to run `/is create`. Make sure you read the rules in spawn first.
 
 ## Known Issues
 
