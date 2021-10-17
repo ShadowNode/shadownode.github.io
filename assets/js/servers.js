@@ -183,7 +183,13 @@ function getAllServers() {
             var template = document.getElementById('server-template');
             if (section.onlineplayers === undefined) section.onlineplayers = 0;
             else section.onlineplayers = String(section.onlineplayers).split(",").length;
-            addServer(template.content.cloneNode(true), key, getSafe(section.name, "Unknown"), getSafe(section.pack_link, "Unknown"), getSafe(section.status ? "online" : "offline", "offline"), getSafe(section.pack_name, "Unknown"), getSafe(section.pack_version, "Unknown"), getSafe(section.onlineplayers, 0) + "/" + getSafe( section.maxplayers, 0), getSafe( section.uptime,"Unknown"), getSafe( section.address, "Unknown"), getSafe( section.players, ["Unknown"]), getSafe( section.tps, ["Unknown"]), getSafe( section.week, 0), getSafe( section.max1d, {players: 0, time:0}), getSafe( section.max7d, {players: 0, time:0}), getSafe( section.max30d, {players: 0, time:0}), getSafe( section.player_min, 0), getSafe( section.player_max, 0), getSafe( section.tps_min, 0), getSafe( section.tps_max, 0), getSafe( section.staff_last_seen, 0));
+            addServer(template.content.cloneNode(true), key, getSafe(section.name, "Unknown"), getSafe(section.pack_link, "Unknown"),
+                getSafe(section.status ? "online" : "offline", "offline"), getSafe(section.pack_name, "Unknown"), getSafe(section.pack_version, "Unknown"),
+                getSafe(section.onlineplayers, 0) + "/" + getSafe( section.maxplayers, 0), getSafe( section.uptime,"Unknown"),
+                getSafe( section.address, "Unknown"), getSafe( section.players, [[0,0]]), getSafe(section.tps, [[0,0]]), getSafe( section.week, 0),
+                getSafe( section.max1d, {players: 0, time:0}), getSafe( section.max7d, {players: 0, time:0}), getSafe( section.max30d, {players: 0, time:0}),
+                getSafe( json.player_min, 0), getSafe( json.player_max, 0), getSafe(json.tps_min, 0), getSafe( json.tps_max, 0),
+                getSafe( section.staff_last_seen, 0));
         }
         loaded();
     }).catch(function (err) {
@@ -213,11 +219,11 @@ function addServer(element, id, name, pack_link, online, pack, packVersion, play
     element.getElementById('tps-chart').id = id + "_tps-chart";
     element.getElementById('t-week').innerText = week;
     element.getElementById('t-week').id = id + "_t-week";
-    element.getElementById('t-record').innerText = (max1d===0?0:max1d.players);
+    element.getElementById('t-record').innerText = max1d.players;
     element.getElementById('t-record').id = id + "_t-record";
-    element.getElementById('w-record').innerText = (max7d===0?0:max7d.players);
+    element.getElementById('w-record').innerText = max7d.players;
     element.getElementById('w-record').id = id + "_w-record";
-    element.getElementById('m-record').innerText = (max30d===0?0:max30d.players);
+    element.getElementById('m-record').innerText = max30d.players;
     element.getElementById('m-record').id = id + "_m-record";
     element.getElementById('staff-time').innerText = formatTime(staffTime);
     element.getElementById('staff-time').id = id + "_staff-time";

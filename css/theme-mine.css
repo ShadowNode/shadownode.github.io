@@ -1,22 +1,22 @@
-:root{
+:root {
 
     --MAIN-TEXT-color: white; /* Color of text by default */
     --MAIN-TITLES-TEXT-color: #D8D8D8; /* Color of titles h2-h3-h4-h5 */
-    --MAIN-LINK-color:#B75FCC; /* Color of links */
-    --MAIN-LINK-HOVER-color:#B145B8; /* Color of hovered links */
+    --MAIN-LINK-color: #B75FCC; /* Color of links */
+    --MAIN-LINK-HOVER-color: #B145B8; /* Color of hovered links */
     --MAIN-ANCHOR-color: #33a1ff; /* color of anchors on titles */
 
-    --MENU-HEADER-BG-color:#633884; /* Background color of menu header */
-    --MENU-HEADER-BORDER-color:#4A2A63; /*Color of menu header border */
+    --MENU-HEADER-BG-color: #633884; /* Background color of menu header */
+    --MENU-HEADER-BORDER-color: #4A2A63; /*Color of menu header border */
 
-    --MENU-SEARCH-BG-color:#4A2A63; /* Search field background color (by default borders + icons) */
+    --MENU-SEARCH-BG-color: #4A2A63; /* Search field background color (by default borders + icons) */
     --MENU-SEARCH-BOX-color: #385984; /* Override search field border color */
     --MENU-SEARCH-BOX-ICONS-color: #a1d2fd; /* Override search field icons color */
 
-    --MENU-SECTIONS-ACTIVE-BG-color:#20272b; /* Background color of the active section and its children */
-    --MENU-SECTIONS-BG-color:#161A1D; /* Background color of other sections */
+    --MENU-SECTIONS-ACTIVE-BG-color: #20272b; /* Background color of the active section and its children */
+    --MENU-SECTIONS-BG-color: #161A1D; /* Background color of other sections */
     --MENU-SECTIONS-LINK-color: #ccc; /* Color of links in menu */
-    --MENU-SECTIONS-LINK-HOVER-color: #e6e6e6;  /* Color of links in menu, when hovered */
+    --MENU-SECTIONS-LINK-HOVER-color: #e6e6e6; /* Color of links in menu, when hovered */
     --MENU-SECTION-ACTIVE-CATEGORY-color: aqua; /* Color of active category text */
     --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #161A1D; /* Color of background for the active category (only) */
 
@@ -85,8 +85,23 @@ table {
     background-color: #252627;
 }
 
+div.notices.note {
+    background-color: #151f1f;
+    border-color: #ffa01e;
+}
+
 div.notices.note p {
     background: #161A1D;
+}
+
+div.notices.warning p {
+    border-top: none !important;
+    background: none !important;
+}
+
+div.notices.warning {
+    background: #161A1D;
+    border-color: #fb1b17;
 }
 
 div.notices p {
@@ -120,22 +135,27 @@ a:hover {
     transition: width 0.5s ease;
     background-color: var(--MAIN-LINK-HOVER-color);
 }
+
 #sidebar {
     background-color: var(--MENU-SECTIONS-BG-color);
 }
+
 #sidebar #header-wrapper {
     background: var(--MENU-HEADER-BG-color);
     color: var(--MENU-SEARCH-BOX-color);
     border-color: var(--MENU-HEADER-BORDER-color);
 }
+
 #sidebar .searchbox {
     border-color: var(--MENU-SEARCH-BOX-color);
     background: var(--MENU-SEARCH-BG-color);
 }
+
 #sidebar ul.topics > li.parent, #sidebar ul.topics > li.active {
     background: var(--MENU-SECTIONS-ACTIVE-BG-color);
 
 }
+
 #sidebar .searchbox * {
     color: var(--MENU-SEARCH-BOX-ICONS-color);
 }
@@ -165,7 +185,7 @@ code + .copy-to-clipboard {
     background-color: white;
 }
 
-code  {
+code {
     background-color: rgb(47, 50, 51);
     color: var(--MENU-SEARCH-BOX-ICONS-color);
     border-color: rgb(100, 106, 112)
@@ -177,8 +197,8 @@ code  {
 }
 
 div.notices.note p {
-  background: rgb(21, 31, 31);
-  color: rgb(228, 235, 241);
+    background: rgb(21, 31, 31);
+    color: rgb(228, 235, 241);
 }
 
 div.notices.warning p {
@@ -190,7 +210,7 @@ div.notices.warning p {
     background-color: #262729;
 }
 
-#TableOfContents > ul > li > a   {
+#TableOfContents > ul > li > a {
     font-weight: bold;
     padding: 0 3px;
     margin: 0 2px;
