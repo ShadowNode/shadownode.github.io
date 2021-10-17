@@ -182,6 +182,11 @@ function getAllServers() {
             const section = servers[key];
             var template = document.getElementById('server-template');
             if (section.onlineplayers === undefined) section.onlineplayers = 0;
+            if (section.players === undefined) section.players = [];
+            if (section.tps === undefined) section.tps = [];
+            if (section.max1d === undefined) section.max1d = 0;
+            if (section.max7d === undefined) section.max7d = 0;
+            if (section.max30d === undefined) section.max30d = 0;
             else section.onlineplayers = String(section.onlineplayers).split(",").length;
             addServer(template.content.cloneNode(true), key, section.name, section.pack_link, (section.status ? "online" : "offline"), section.pack_name, section.pack_version, section.onlineplayers + "/" + section.maxplayers, section.uptime, section.address, section.players, section.tps, section.week, section.max1d, section.max7d, section.max30d, section.player_min, section.player_max, section.tps_min, section.tps_max, section.staff_last_seen);
         }
@@ -213,11 +218,11 @@ function addServer(element, id, name, pack_link, online, pack, packVersion, play
     element.getElementById('tps-chart').id = id + "_tps-chart";
     element.getElementById('t-week').innerText = week;
     element.getElementById('t-week').id = id + "_t-week";
-    element.getElementById('t-record').innerText = max1d.players;
+    element.getElementById('t-record').innerText = (max1d===0?0:max1d.players);
     element.getElementById('t-record').id = id + "_t-record";
-    element.getElementById('w-record').innerText = max7d.players;
+    element.getElementById('w-record').innerText = (max7d===0?0:max7d.players);
     element.getElementById('w-record').id = id + "_w-record";
-    element.getElementById('m-record').innerText = max30d.players;
+    element.getElementById('m-record').innerText = (max30d===0?0:max30d.players);
     element.getElementById('m-record').id = id + "_m-record";
     element.getElementById('staff-time').innerText = formatTime(staffTime);
     element.getElementById('staff-time').id = id + "_staff-time";
