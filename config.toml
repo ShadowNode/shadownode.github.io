@@ -6,7 +6,7 @@ title = "ShadowNode Modded Game Servers"
 canonifyurls  = true
 
 DefaultContentLanguage = "en"
-theme = "hugo-theme-learn"
+theme = "hugo-theme-relearn"
 enableGitInfo = true
 metaDataFormat = "yaml"
 pygmentsUseClasses = true
@@ -36,6 +36,8 @@ pygmentCodeFences = true
   ordersectionsby = "title"
   themeVariant = "mine"
   editURL = "https://github.com/ShadowNode/shadownode.github.io/tree/site/content/"
+  disableLandingPageButton = true
+  titleSeparator = "|"
 
 #  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 
