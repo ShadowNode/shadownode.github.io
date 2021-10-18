@@ -1,6 +1,7 @@
 ---
 title: Basic Commands
 author: YourMCGeek
+contributors: LethalMrM
 tags: ["area", "teleport", "banned", "island", "home", "tp", "msg", "ignore"]
 ---
 ## Basic Commands
@@ -92,6 +93,24 @@ Any server that is a skyblock style or uses a predefined starting area will use 
 ``/area leave`` Removes your access to the area you are standing in, if you've been previously invited.
 
 ``/area kick <name>`` Revoke all permissions of the player in your area.
+
+___
+
+### FTB OceanBlock
+
+All these commands work for general use on OceanBlock and some of them are specific to OceanBlock.
+
+``/is create`` Creates and island for you. Will prompt you for the type that you wish to use. There's many choices to choose from but choose wisely as if you change your mind you have to start over! **Will  wipe your inventory.**
+
+``/is spawn`` Takes you to your or your team's island.
+
+``/is join`` Joins a team island. **Wipes joining players quests and inventory.**
+
+``/is kick <player>``  Invites a player to join your island.
+
+``/is reset`` Resets your island and allows you to recreate it. **This will fully wipe your inventory, island and quests.**
+
+``/ftbteamislands change_spawn`` While standing on your island this will change the location of the spawn point that you teleport to with `/is spawn`.
 
 ___
 
