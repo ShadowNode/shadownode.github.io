@@ -1,75 +1,67 @@
-<div id="loading" class="loading">
-    <p id="loading-text">Loading Servers ...</p>
-</div>
-<div class="wrapper" id="serversWrapper" style="display: none">
-    <header>
-        <a href="/" tabindex="3">
-            <img alt="logo" id="serversLogo" src="../../../assets/images/logo_vert.png">
-        </a>
-    </header>
-    <div id="server-table">
-        <template id="server-template">
-            <div class="col">
-                <div class="topbar" id="server-name"></div>
-                <div class="table">
-                    <br>
-                    <dl class="info">
-                        <dt>Pack:</dt>
-                        <dd id="pack"></dd>
-                    </dl>
-                    <dl class="info">
-                        <dt>Pack Version:</dt>
-                        <dd id="pack-version"></dd>
-                    </dl>
-                    <dl class="info">
-                        <dt>Players:</dt>
-                        <dd id="players"></dd>
-                    </dl>
-                    <dl class="info">
-                        <dt>Uptime:</dt>
-                        <dd id="uptime"></dd>
-                    </dl>
-                    <div class="tooltip-hover">
-                        <a id="ip" class="iplink"></a>
-                        <span class="tooltip-text">Click to copy ip!</span>
-                    </div>
-                    <dl class="info">
-                        <dt>This Week:</dt>
-                        <dd id="t-week"></dd>
-                    </dl>
-                    <dl class="info">
-                        <dt>Todays Record:</dt>
-                        <dd id="t-record"></dd>
-                    </dl>
-                    <dl class="info">
-                        <dt>Weekly Record:</dt>
-                        <dd id="w-record"></dd>
-                    </dl>
-                    <dl class="info">
-                        <dt>Monthly Record:</dt>
-                        <dd id="m-record"></dd>
-                    </dl>
-                    <dl class="info">
-                        <dt>Staff last seen:</dt>
-                        <dd id="staff-time"></dd>
-                    </dl>
-                    <div id="player-chart" class="info chart"></div>
-                    <div id="tps-chart" class="info bottomchart chart"></div>
-                </div>
-            </div>
-        </template>
+<div class="wrapper">
+    <!-- <div id="loading" class="loading">
+        <p id="loading-text">Loading Servers ...</p>
+    </div> -->
+    <div id="loading" class="loading">
+        <p id="loading-text">Loading Servers ...</p>
     </div>
-    <footer>
-        ©2014-2020 ShadowNode.
-        <div id="copyright">
-
+    <div class="wrapper" id="serversWrapper" style="display: none">
+        <div id="server-table">
+            <template id="server-template">
+                <div class="col">
+                    <div class="topbar" id="server-name"></div>
+                    <div class="table">
+                        <br>
+                        <dl class="info">
+                            <dt>Pack:</dt>
+                            <dd id="pack"></dd>
+                        </dl>
+                        <dl class="info">
+                            <dt>Pack Version:</dt>
+                            <dd id="pack-version"></dd>
+                        </dl>
+                        <dl class="info">
+                            <dt>Players:</dt>
+                            <dd id="players"></dd>
+                        </dl>
+                        <dl class="info">
+                            <dt>Uptime:</dt>
+                            <dd id="uptime"></dd>
+                        </dl>
+                        <div class="tooltip-hover">
+                            <a id="ip" class="iplink"></a>
+                            <span class="tooltip-text">Click to copy ip!</span>
+                        </div>
+                        <dl class="info">
+                            <dt>This Week:</dt>
+                            <dd id="t-week"></dd>
+                        </dl>
+                        <dl class="info">
+                            <dt>Todays Record:</dt>
+                            <dd id="t-record"></dd>
+                        </dl>
+                        <dl class="info">
+                            <dt>Weekly Record:</dt>
+                            <dd id="w-record"></dd>
+                        </dl>
+                        <dl class="info">
+                            <dt>Monthly Record:</dt>
+                            <dd id="m-record"></dd>
+                        </dl>
+                        <dl class="info">
+                            <dt>Staff last seen:</dt>
+                            <dd id="staff-time"></dd>
+                        </dl>
+                        <div id="player-chart" class="info chart"></div>
+                        <div id="tps-chart" class="info bottomchart chart"></div>
+                    </div>
+                </div>
+            </template>
         </div>
-    </footer>
+    </div>
 </div>
-</div>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js" type="text/javascript"></script>
-<script data-cfasync="false" type="text/javascript" src="../../../assets/js/jquery.flot.js"></script>
-<script data-cfasync="true" type="text/javascript" src="../../../assets/js/jquery.flot.crosshair.js"></script>
-<script data-cfasync="true" type="text/javascript" src="../../../assets/js/jquery.flot.tooltip.js"></script>
-<script data-cfasync="false" type="text/javascript" src="../../../assets/js/jquery.flot.time.js"></script>
-<script src="../../../assets/js/servers.js" type="text/javascript"></script>
+<script data-cfasync="false" type="text/javascript" src="/assets/js/jquery.flot.js"></script>
+<script data-cfasync="true" type="text/javascript" src="/assets/js/jquery.flot.crosshair.js"></script>
+<script data-cfasync="true" type="text/javascript" src="/assets/js/jquery.flot.tooltip.js"></script>
+<script data-cfasync="false" type="text/javascript" src="/assets/js/jquery.flot.time.js"></script>
+<script src="/assets/js/servers.js" type="text/javascript"></script>
