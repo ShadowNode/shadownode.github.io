@@ -1,7 +1,7 @@
 ---
 title: Vote
 author: Fayettemat
-aliases: ["/vote", "/server-info/voting"]
+aliases: ["/vote", "/votes", "/server-info/voting"]
 ---
 
 {{< vote >}}

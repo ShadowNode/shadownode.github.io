@@ -733,7 +733,7 @@ svg {
   margin-inline-start: 0;
   margin-inline-end: 0;
   background: #2D3033;
-  z-index: 999;
+  z-index: 998;
   position: relative;
   overflow: hidden;
   align-items: center;
