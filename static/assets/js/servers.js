@@ -105,60 +105,60 @@ $.fn.PlayersChart = function(data, player_min, player_max) {
     $(this).ToolTip(plot);
 };
 
-// $.fn.TpsChart = function(data, tps_min, tps_max) {
-//     var plot = $.plot($(this), [{
-//         data: data,
-//         label: "TPS"
-//     }], {
-//         series: {
-//             lines: {
-//                 show: true,
-//                 fill: true
-//             },
-//             color: "#bfff80"
-//         },
-//         crosshair: {
-//             mode: "x"
-//         },
-//         grid: {
-//             hoverable: true,
-//             autoHighlight: false,
-//             borderWidth: 1,
-//             color: "#FFF"
-//         },
-//         xaxis: {
-//             min: tps_min,
-//             max: tps_max,
-//             mode: "time",
-//             timeformat: "%H",
-//             minTickSize: [5, "minute"],
-//             font: {
-//                 size: 10,
-//                 lineHeight: 10,
-//                 weight: "bold",
-//                 family: "sans-serif",
-//                 variant: "small-caps",
-//                 color: "#FFF"
-//             }
-//         },
-//         yaxis: {
-//             font: {
-//                 size: 10,
-//                 lineHeight: 10,
-//                 weight: "bold",
-//                 family: "sans-serif",
-//                 variant: "small-caps",
-//                 color: "#FFF"
-//             },
-//             min: 0,
-//             max: 21
-//         },
-//         legend: {
-//             show: false
-//         }
-//     });
-//     $(this).ToolTip(plot);
-// };
+$.fn.TpsChart = function(data, tps_min, tps_max) {
+    var plot = $.plot($(this), [{
+        data: data,
+        label: "TPS"
+    }], {
+        series: {
+            lines: {
+                show: true,
+                fill: true
+            },
+            color: "#bfff80"
+        },
+        crosshair: {
+            mode: "x"
+        },
+        grid: {
+            hoverable: true,
+            autoHighlight: false,
+            borderWidth: 1,
+            color: "#FFF"
+        },
+        xaxis: {
+            min: tps_min,
+            max: tps_max,
+            mode: "time",
+            timeformat: "%H",
+            minTickSize: [5, "minute"],
+            font: {
+                size: 10,
+                lineHeight: 10,
+                weight: "bold",
+                family: "sans-serif",
+                variant: "small-caps",
+                color: "#FFF"
+            }
+        },
+        yaxis: {
+            font: {
+                size: 10,
+                lineHeight: 10,
+                weight: "bold",
+                family: "sans-serif",
+                variant: "small-caps",
+                color: "#FFF"
+            },
+            min: 0,
+            max: 21
+        },
+        legend: {
+            show: false
+        }
+    });
+    $(this).ToolTip(plot);
+};
 
 function showTooltip(x, y, contents) {
     $('<div id="tooltip" class="tooltip">' + contents + '</div>').css({
@@ -229,8 +229,8 @@ function addServer(element, id, name, pack_link, online, pack, packVersion, play
     element.getElementById('staff-time').innerText = formatTime(staffTime);
     element.getElementById('staff-time').id = id + "_staff-time";
     divServerTable.appendChild(element);
-    // $("#" + id + "_player-chart").PlayersChart(players, player_min, player_max);
-    // $("#" + id + "_tps-chart").TpsChart(tps, tps_min, tps_max);
+    $("#" + id + "_player-chart").PlayersChart(players, player_min, player_max);
+    $("#" + id + "_tps-chart").TpsChart(tps, tps_min, tps_max);
 
 }
 

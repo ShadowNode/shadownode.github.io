@@ -752,6 +752,18 @@ svg {
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 980px) {
+  .col {
+      flex: 50%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .col {
+      flex: 100%;
+  }
+}
+
 .table {
   background: #2D3033;
   padding: 4px 10px;
