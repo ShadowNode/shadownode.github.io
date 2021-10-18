@@ -1,6 +1,6 @@
 ---
 Title: Advanced Claim Management
-Author: Fayettemat
+Author: LethalMrM
 Contributors: Toxic_Goblin
 ---
  

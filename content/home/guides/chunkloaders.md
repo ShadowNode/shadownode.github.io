@@ -1,7 +1,7 @@
 ---
 title: Chunkloaders
 author: YourMCGeek
-contributors: Babymillie, Fayettemat
+contributors: Babymillie, LethalMrM
 ---
 
 ## Chunk Loaders

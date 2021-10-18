@@ -1,7 +1,7 @@
 ---
 title: MultiMC
 author: YourMCGeek
-contributors: Babymillie, Fayettemat
+contributors: Babymillie, LethalMrM
 ---
 
 ## About MultiMC

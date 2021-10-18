@@ -1,7 +1,7 @@
 ---
 title: The Store
 author: YourMCGeek
-contributors: Babymillie, Fayettemat
+contributors: Babymillie, LethalMrM
 ---
 
 ## The Store

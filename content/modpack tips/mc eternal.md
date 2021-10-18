@@ -1,7 +1,18 @@
 ---
-title: MC Eternal Tips
-author: Fayettemat
+title: MC Eternal
+author: LethalMrM
 ---
+
+{{% notice note %}}
+This list is current as of the time of writing this but might not always be up-to-date. Take advice here with that knoweldge.
+{{% /notice %}}
+
+## Important Rules
+
+Our MC Eternal server follows all global rules that are appliciable to all of our other servers. You can find our [global rules](/rules) on our wiki and at `/spawn`.
+
+As an improtant note, do not build a 1 chunk bases or farms. ShadowNode staff will take action as required. Staff response will depend on the situation.
+
 ## Recommended Java Arguments
 Eternal is a heavier pack and tends to use a lot of RAM and resources we have compiled a list of suggested arugments from the pack's Discord server and are adding them here for ease of use.
 
