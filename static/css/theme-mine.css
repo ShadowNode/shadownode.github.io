@@ -718,7 +718,7 @@ svg {
 }
 
 #server-table {
-  max-width: 1300px;
+  /* max-width: 1300px; */
   margin: auto;
   display: flex;
   justify-content: center;
@@ -762,7 +762,14 @@ svg {
   max-width: 260px;
   box-sizing: border-box;
 }
-
+@media screen and (min-width: 2000px) {
+  #body-inner {
+    max-width: 1300px !important;
+  }
+  .col  {
+    flex: 20% !important;
+  }
+}
 @media screen and (max-width: 980px) {
   .col {
       flex: 50% !important;
@@ -871,6 +878,20 @@ svg {
 .iplink:hover {
   background: rgba(202, 144, 200, 0.61);
   color: black;
+}
+.tooltip {
+  position: relative;
+  margin-bottom: 0;
+  width: 150px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+  z-index: 10000;
 }
 
 .tooltip-hover {
