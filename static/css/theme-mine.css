@@ -879,6 +879,7 @@ svg {
   background: rgba(202, 144, 200, 0.61);
   color: black;
 }
+
 .tooltip {
   position: relative;
   margin-bottom: 0;
@@ -891,7 +892,13 @@ svg {
   bottom: 150%;
   left: 50%;
   margin-left: -60px;
-  z-index: 10000;
+  z-index: 10000 !important;
+}
+
+
+#tooltip {
+    position: absolute !important;
+    margin-bottom: 150% !important;
 }
 
 .tooltip-hover {

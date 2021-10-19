@@ -161,12 +161,14 @@ $.fn.TpsChart = function(data, tps_min, tps_max) {
 };
 
 function showTooltip(x, y, contents) {
-    $('<div id="tooltip" class="tooltip">' + contents + '</div>').css({
+    $('<div id="tooltip" class="tooltip">' + contents + '</div>').appendTo("body").show();
+    var tooltipHeight = $("#tooltip").height();
+    $("#tooltip").css({
         top: y + 12,
         left: x - 50,
-        position: "relative"
-    }).appendTo("body").show();
-
+        height: tooltipHeight,
+        position: "absolute",
+    });
 }
 
 const divServerTable = document.getElementById("server-table");
