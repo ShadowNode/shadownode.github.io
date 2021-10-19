@@ -727,6 +727,9 @@ svg {
   padding-bottom: 20px;
 }
 
+#serversWrapper > * {
+  flex-shrink: 1;
+}
 
 .topbar {
   color: #eee;
@@ -762,13 +765,45 @@ svg {
 
 @media screen and (max-width: 980px) {
   .col {
-      flex: 50%;
+      flex: 50% !important;
+  }
+  .chart {
+    width: 206px !important;
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen  and (max-width: 800px) {
   .col {
-      flex: 100%;
+    flex: 30% !important;
+    max-width: 30% !important;
+    zoom: 0.60;
+  }
+  .chart {
+    /* width: 280px !important; */
+    /* zoom: 0.9 !important; */
+    zoom: 1.0 !important;
+  }
+}
+
+@media screen and (max-width: 700px) and (orientation: portrait) {
+  .col {
+      flex: 35% !important;
+      max-width: 35% !important;
+      zoom: 0.6 !important;
+  }
+  .chart {
+    max-width: 140px !important;
+    zoom: 1 !important;
+  }
+
+}
+
+@media screen and (max-width: 700px) and (orientation: landscape) {
+  .chart {
+    padding: 10 0;
+  }
+  .chart > .flot-base {
+    zoom: 1.25 !important;
   }
 }
 
@@ -897,7 +932,7 @@ svg {
   box-shadow: 0 0 0 2px #e74c3c;
 }
 
-.info {
+.server-info {
   font-size: 12px;
   overflow: hidden;
   margin-block-end: 0;
