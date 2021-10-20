@@ -161,12 +161,14 @@ $.fn.TpsChart = function(data, tps_min, tps_max) {
 };
 
 function showTooltip(x, y, contents) {
-    $('<div id="tooltip" class="tooltip">' + contents + '</div>').css({
+    $('<div id="tooltip" class="tooltip">' + contents + '</div>').appendTo("body").show();
+    var tooltipHeight = $("#tooltip").height();
+    $("#tooltip").css({
         top: y + 12,
         left: x - 50,
-        position: "relative"
-    }).appendTo("body").show();
-
+        height: tooltipHeight,
+        position: "absolute",
+    });
 }
 
 const divServerTable = document.getElementById("server-table");
@@ -191,6 +193,7 @@ function getAllServers() {
                 getSafe( json.player_min, 0), getSafe( json.player_max, 0), getSafe(json.tps_min, 0), getSafe( json.tps_max, 0),
                 getSafe( section.staff_last_seen, 0));
         }
+
         loaded();
     }).catch(function (err) {
         console.log("Error: " + err)
@@ -230,7 +233,6 @@ function addServer(element, id, name, pack_link, online, pack, packVersion, play
     divServerTable.appendChild(element);
     $("#" + id + "_player-chart").PlayersChart(players, player_min, player_max);
     $("#" + id + "_tps-chart").TpsChart(tps, tps_min, tps_max);
-
 }
 
 function getSafe(fn, defaultVal) {
@@ -259,6 +261,7 @@ function loaded() {
     $( ".tooltip-hover" ).on( "mouseleave", function() {
         $(this).find( ".tooltip-text")[0].innerText = "Click to copy ip!";
     });
+    $('.chart').css({width: "100% !important", margin: 'auto', padding: '0 !important' });
 }
 
 getAllServers();
