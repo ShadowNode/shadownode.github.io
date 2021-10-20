@@ -3,10 +3,9 @@
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1">
 <meta name=generator content="Hugo 0.88.1">
-<link rel=alternate type=application/rss+xml href=https://beta.shadownode.ca/tags/mit/index.xml title="ShadowNode Modded Game Servers">
 <meta name=description content>
 <link rel="shortcut icon" href=https://beta.shadownode.ca/assets/images/favicon.png type=image/x-icon>
-<title>mit | ShadowNode Modded Game Servers</title>
+<title>Servers | ShadowNode Modded Game Servers</title>
 <link href=https://beta.shadownode.ca/css/nucleus.css?1634767813 rel=stylesheet>
 <link href=https://beta.shadownode.ca/css/fontawesome-all.min.css?1634767813 rel=stylesheet>
 <link href=https://beta.shadownode.ca/css/featherlight.min.css?1634767813 rel=stylesheet>
@@ -19,7 +18,7 @@
 <script src=https://beta.shadownode.ca/js/jquery.min.js?1634767813></script>
 <style>:root #header+#content>#left>#rlblock_left{display:none!important}</style>
 </head>
-<body data-url=https://beta.shadownode.ca/tags/mit/>
+<body data-url=https://beta.shadownode.ca/server-info/server/>
 <nav id=sidebar>
 <div id=header-wrapper>
 <div id=header>
@@ -64,11 +63,11 @@
 <li data-nav-id=/modpack-tips/poz3/ title="Project Ozone 3" class=dd-item><a href=https://beta.shadownode.ca/modpack-tips/poz3/>Project Ozone 3</a></li>
 <li data-nav-id=/modpack-tips/skyfactory3/ title="Skyfactory 3" class=dd-item><a href=https://beta.shadownode.ca/modpack-tips/skyfactory3/>Skyfactory 3</a></li>
 <li data-nav-id=/modpack-tips/skyfactory4/ title="Skyfactory 4" class=dd-item><a href=https://beta.shadownode.ca/modpack-tips/skyfactory4/>Skyfactory 4</a></li></ul></li>
-<li data-nav-id=/server-info/ title="Server Info" class=dd-item><a href=https://beta.shadownode.ca/server-info/>Server Info</a><ul>
+<li data-nav-id=/server-info/ title="Server Info" class="dd-item parent"><a href=https://beta.shadownode.ca/server-info/>Server Info</a><ul>
 <li data-nav-id=/server-info/banned/ title="Banned Items" class=dd-item><a href=https://beta.shadownode.ca/server-info/banned/>Banned Items</a></li>
 <li data-nav-id=/server-info/ranks/ title=Ranks class=dd-item><a href=https://beta.shadownode.ca/server-info/ranks/>Ranks</a></li>
 <li data-nav-id=/server-info/rules/ title="Rules and Policies" class=dd-item><a href=https://beta.shadownode.ca/server-info/rules/>Rules and Policies</a></li>
-<li data-nav-id=/server-info/server/ title=Servers class=dd-item><a href=https://beta.shadownode.ca/server-info/server/>Servers</a></li>
+<li data-nav-id=/server-info/server/ title=Servers class="dd-item active"><a href=https://beta.shadownode.ca/server-info/server/>Servers</a></li>
 <li data-nav-id=/server-info/staff/ title=Staff class=dd-item><a href=https://beta.shadownode.ca/server-info/staff/>Staff</a></li>
 <li data-nav-id=/server-info/vote/ title=Vote class=dd-item><a href=https://beta.shadownode.ca/server-info/vote/>Vote</a></li></ul></li>
 <li data-nav-id=/home/ title=Wiki class=dd-item><a href=https://beta.shadownode.ca/home/>Wiki</a><ul>
@@ -105,6 +104,12 @@
 <div id=overlay></div>
 <div class="padding highlightable">
 <div id=top-bar>
+<div id=top-github-link>
+<a class=github-link title="Edit this page" href=https://github.com/ShadowNode/shadownode.github.io/tree/site/content/server%20info/server.md target=blank>
+<i class="fas fa-code-branch"></i>
+<span id=top-github-link-text>Edit this page</span>
+</a>
+</div>
 <div id=breadcrumbs>
 <span id=sidebar-toggle-span>
 <a href=# id=sidebar-toggle data-sidebar-toggle>
@@ -115,22 +120,85 @@
 <ol class=links itemscope itemtype=http://schema.org/BreadcrumbList>
 <meta itemprop=itemListOrder content="Descending">
 <li itemscope itemtype=https://schema.org/ListItem itemprop=itemListElement><meta itemprop=position content="3"><a itemprop=item href=https://beta.shadownode.ca/><span itemprop=name>ShadowNode Modded Game Servers</span></a> > </li>
-<li itemscope itemtype=https://schema.org/ListItem itemprop=itemListElement><meta itemprop=position content="2"><a itemprop=item href=https://beta.shadownode.ca/tags/><span itemprop=name>Tags</span></a> > </li>
-<li itemscope itemtype=https://schema.org/ListItem itemprop=itemListElement><meta itemprop=position content="1"><a itemprop=item href=https://beta.shadownode.ca/tags/mit/ aria-disabled=true><span itemprop=name>mit</span></a></li>
+<li itemscope itemtype=https://schema.org/ListItem itemprop=itemListElement><meta itemprop=position content="2"><a itemprop=item href=https://beta.shadownode.ca/server-info/><span itemprop=name>Server Info</span></a> > </li>
+<li itemscope itemtype=https://schema.org/ListItem itemprop=itemListElement><meta itemprop=position content="1"><a itemprop=item href=https://beta.shadownode.ca/server-info/server/ aria-disabled=true><span itemprop=name>Servers</span></a></li>
 </ol>
 </div>
 <div class=progress>
 <div class=wrapper>
+<nav id=TableOfContents></nav>
 </div>
 </div>
 </div>
 <div id=head-tags>
 </div>
 <main id=body-inner>
-<h1>tag :: mit</h1>
-<ul>
-<li><a href=https://beta.shadownode.ca/server-info/staff/>Staff</a></li>
-</ul>
+<h1>Servers</h1>
+<div class=wrapper>
+<div id=loading class=loading>
+<p id=loading-text>Loading</p>
+</div>
+<div id=serversWrapper style=display:none>
+<div id=server-table>
+<template id=server-template>
+<div class=col>
+<div class=topbar id=server-name></div>
+<div class=table>
+<br>
+<dl class=server-info>
+<dt>Pack:</dt>
+<dd id=pack></dd>
+</dl>
+<dl class=server-info>
+<dt>Pack Version:</dt>
+<dd id=pack-version></dd>
+</dl>
+<dl class=server-info>
+<dt>Players:</dt>
+<dd id=players></dd>
+</dl>
+<dl class=server-info>
+<dt>Uptime:</dt>
+<dd id=uptime></dd>
+</dl>
+<div class=tooltip-hover>
+<a id=ip class=iplink></a>
+<span class=tooltip-text>Click to copy ip!</span>
+</div>
+<dl class=server-info>
+<dt>This Week:</dt>
+<dd id=t-week></dd>
+</dl>
+<dl class=server-info>
+<dt>Todays Record:</dt>
+<dd id=t-record></dd>
+</dl>
+<dl class=server-info>
+<dt>Weekly Record:</dt>
+<dd id=w-record></dd>
+</dl>
+<dl class=server-info>
+<dt>Monthly Record:</dt>
+<dd id=m-record></dd>
+</dl>
+<dl class="server-info staff-time">
+<dt>Staff last seen:</dt>
+<dd id=staff-time></dd>
+</dl>
+<div id=player-chart class="info chart"></div>
+<div id=tps-chart class="info bottomchart chart"></div>
+</div>
+</div>
+</template>
+</div>
+</div>
+</div>
+<script data-cfasync=false type=text/javascript src=https://beta.shadownode.ca/assets/js/jquery.flot.js></script>
+<script data-cfasync=true type=text/javascript src=https://beta.shadownode.ca/assets/js/jquery.flot.crosshair.js></script>
+<script data-cfasync=true type=text/javascript src=https://beta.shadownode.ca/assets/js/jquery.flot.tooltip.js></script>
+<script data-cfasync=false type=text/javascript src=https://beta.shadownode.ca/assets/js/jquery.flot.time.js></script>
+<script src=https://beta.shadownode.ca/assets/js/servers.js type=text/javascript></script>
+<script src=https://beta.shadownode.ca/assets/js/remove-pagetitle.js type=text/javascript></script>
 <footer class=footline>
 </footer>
 </main>
