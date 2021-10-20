@@ -671,8 +671,8 @@ svg {
 }
 
 #loading-text {
-  margin-top: 120px;
-  left: 72%;
+  margin-top: 45%;
+  left: 50%;
   position: relative;
   float: left;
   transform: translate(-50%, -50%);
@@ -781,26 +781,13 @@ svg {
 
 @media screen  and (max-width: 800px) {
   .col {
-    flex: 30% !important;
-    max-width: 30% !important;
-    zoom: 0.60;
-  }
-  .chart {
-    /* width: 280px !important; */
-    /* zoom: 0.9 !important; */
-    zoom: 1.0 !important;
+    flex: 100% !important;
   }
 }
 
 @media screen and (max-width: 700px) and (orientation: portrait) {
   .col {
-      flex: 35% !important;
-      max-width: 35% !important;
-      zoom: 0.6 !important;
-  }
-  .chart {
-    max-width: 140px !important;
-    zoom: 1 !important;
+      flex: 100%;
   }
 }
 

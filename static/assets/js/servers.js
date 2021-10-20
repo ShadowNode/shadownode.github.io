@@ -233,7 +233,6 @@ function addServer(element, id, name, pack_link, online, pack, packVersion, play
     divServerTable.appendChild(element);
     $("#" + id + "_player-chart").PlayersChart(players, player_min, player_max);
     $("#" + id + "_tps-chart").TpsChart(tps, tps_min, tps_max);
-
 }
 
 function getSafe(fn, defaultVal) {
@@ -262,6 +261,7 @@ function loaded() {
     $( ".tooltip-hover" ).on( "mouseleave", function() {
         $(this).find( ".tooltip-text")[0].innerText = "Click to copy ip!";
     });
+    $('.chart').css({width: "100% !important", margin: 'auto', padding: '0 !important' });
 }
 
 getAllServers();
