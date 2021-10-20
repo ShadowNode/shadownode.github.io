@@ -649,9 +649,9 @@ svg {
 
 
 
-.loading {
-  position: absolute;
-  margin: 25% 0;
+.loading {  
+  position: relative;
+  margin: 50% 0;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
@@ -668,6 +668,20 @@ svg {
   text-transform: uppercase;
   text-shadow: 0 0 10px #633884;
   box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+  z-index: 1000;
+}
+@media screen and (max-width: 600px) {
+  .loading  {
+    position: relative;
+    margin: 70% 0;
+    left: 50%;
+  }
+}
+@media screen and (min-width: 601px) {
+  .loading {
+    position: relative;
+    margin: 40% 0;
+  }
 }
 
 #loading-text {
@@ -785,16 +799,9 @@ svg {
   }
 }
 
-@media screen and (max-width: 700px) and (orientation: portrait) {
+@media screen and (max-width: 700px) {
   .col {
       flex: 100%;
-  }
-}
-
-@media screen and (max-width: 700px) and (orientation: landscape) {
-
-  .chart {
-    margin: auto;
   }
 }
 
