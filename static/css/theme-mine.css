@@ -1070,3 +1070,65 @@ textarea {
 .bottomchart {
   padding-bottom: 20px !important;
 }
+
+/* Voters */
+#voter-wrapper {
+  display: block;
+
+}
+
+#voter-table {
+  /* max-width: 1300px; */
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+}
+
+#voter-wrapper > * {
+  flex-shrink: 1;
+}
+
+.voter-heading {
+  text-align: center;
+}
+
+#voter-table {
+  display: flex;
+  padding-top: 25px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.voter-heading {
+  clear: both;
+}
+
+.voter-data {
+  text-align: left;
+}
+
+.player-head {
+  justify-content: center;
+  padding-bottom: 20px;
+  width: 75% !important;
+  max-width: 200px;
+}
+
+.voter-col {
+  flex: 33%;
+  /* width: 33%; */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 800px) {
+  .voter-col {
+    flex: 100% !important;
+  }
+  .voter-info > * {
+    text-align: center !important;
+  }
+}
