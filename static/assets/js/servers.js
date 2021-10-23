@@ -173,7 +173,7 @@ function showTooltip(x, y, contents) {
 
 const divServerTable = document.getElementById("server-table");
 
-function getAllServers() {
+function getAllServers(serverName) {
     var statsUrl = "https://shadownode.ca/servers/api/getStatsData?rand=" + new Date().getTime();
     fetch(statsUrl, {
         method: 'get'
@@ -181,23 +181,38 @@ function getAllServers() {
         const json = await response.json();
         const servers = json.servers;
         for (var key of Object.keys(servers)) {
-            const section = servers[key];
-            var template = document.getElementById('server-template');
-            if (section.onlineplayers === undefined) section.onlineplayers = 0;
-            else section.onlineplayers = String(section.onlineplayers).split(",").length;
-            addServer(template.content.cloneNode(true), key, getSafe(section.name, "Unknown"), getSafe(section.pack_link, "Unknown"),
-                getSafe(section.status ? "online" : "offline", "offline"), getSafe(section.pack_name, "Unknown"), getSafe(section.pack_version, "Unknown"),
-                getSafe(section.onlineplayers, 0) + "/" + getSafe( section.maxplayers, 0), getSafe( section.uptime,"Unknown"),
-                getSafe( section.address, "Unknown"), getSafe( section.players, [[0,0]]), getSafe(section.tps, [[0,0]]), getSafe( section.week, 0),
-                getSafe( section.max1d, {players: 0, time:0}), getSafe( section.max7d, {players: 0, time:0}), getSafe( section.max30d, {players: 0, time:0}),
-                getSafe( json.player_min, 0), getSafe( json.player_max, 0), getSafe(json.tps_min, 0), getSafe( json.tps_max, 0),
-                getSafe( section.staff_last_seen, 0));
-        }
+            var section = servers[key];
 
+            console.log(section);
+
+            if (serverName) {
+                if (section.id == serverName.toLowerCase()) { 
+                    getServer(section, key, json);
+                }
+            } 
+            else {
+                getServer(section, key, json);
+            }
+        }
         loaded();
+
     }).catch(function (err) {
         console.log("Error: " + err)
     });
+}
+
+function getServer(serverSection, key, json) {
+    var template = document.getElementById('server-template');
+    if (serverSection.onlineplayers === undefined) serverSection.onlineplayers = 0;
+    else serverSection.onlineplayers = String(serverSection.onlineplayers).split(",").length;
+    addServer(template.content.cloneNode(true), key, getSafe(serverSection.name, "Unknown"), getSafe(serverSection.pack_link, "Unknown"),
+        getSafe(serverSection.status ? "online" : "offline", "offline"), getSafe(serverSection.pack_name, "Unknown"), getSafe(serverSection.pack_version, "Unknown"),
+        getSafe(serverSection.onlineplayers, 0) + "/" + getSafe( serverSection.maxplayers, 0), getSafe( serverSection.uptime,"Unknown"),
+        getSafe( serverSection.address, "Unknown"), getSafe( serverSection.players, [[0,0]]), getSafe(serverSection.tps, [[0,0]]), getSafe( serverSection.week, 0),
+        getSafe( serverSection.max1d, {players: 0, time:0}), getSafe( serverSection.max7d, {players: 0, time:0}), getSafe( serverSection.max30d, {players: 0, time:0}),
+        getSafe( json.player_min, 0), getSafe( json.player_max, 0), getSafe(json.tps_min, 0), getSafe( json.tps_max, 0),
+        getSafe( serverSection.staff_last_seen, 0));
+
 }
 
 function addServer(element, id, name, pack_link, online, pack, packVersion, playerCount, uptime, serverIp, players, tps, week, max1d, max7d, max30d, player_min, player_max, tps_min, tps_max, staffTime) {
@@ -264,4 +279,30 @@ function loaded() {
     $('.chart').css({width: "100% !important", margin: 'auto', padding: '0 !important' });
 }
 
-getAllServers();
+function checkURL(url) {
+    if  (url) {
+        const urlParams = new URLSearchParams(url);
+        // console.log(url);
+        
+        const queryServer = urlParams.get('server');
+        // console.log(queryServer);
+
+        if (queryServer) {
+            var serverName = queryServer;
+            console.log("Query Server: " + queryServer);
+            getAllServers(serverName);
+        }
+        
+    }
+}
+
+const urlQueryString = window.location.search;
+const statsUrl = "https://shadownode.ca/servers/api/getStatsData?rand=" + new Date().getTime();
+
+if (urlQueryString) {
+    checkURL(urlQueryString);
+
+} else {
+    getAllServers();
+}
+
