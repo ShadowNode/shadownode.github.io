@@ -20,6 +20,7 @@ function getTop3() {
         {
             uuid: "a97174eb-9e37-4035-b751-f7601488528d",
             pname: "Bennyboy1695",
+            votes: 100
         }
     ];
     for (var key of Object.keys(top3)) {
