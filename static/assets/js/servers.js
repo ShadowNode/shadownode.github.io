@@ -173,39 +173,42 @@ function showTooltip(x, y, contents) {
 
 const divServerTable = document.getElementById("server-table");
 
-function getAllServers(serverName) {
+function getAllServers() {
+    var serverName = false
+    if (urlQueryString) {
+        serverName = urlQueryString.toLowerCase();
+    }
+
     var statsUrl = "https://shadownode.ca/servers/api/getStatsData?rand=" + new Date().getTime();
+
     fetch(statsUrl, {
         method: 'get'
     }).then(async function (response) {
         const json = await response.json();
         const servers = json.servers;
+
         for (var key of Object.keys(servers)) {
             var section = servers[key];
 
             if (serverName) {
-                if (section.id == serverName.toLowerCase()) { 
+                if (section.id == serverName) { 
                     getServer(section, key, json, true);
                 } else {
                     getServer(section, key, json, false);
                 }
             } 
             else {
-                getServer(section, key, false);
+                getServer(section, key, json, false);
             }
         }
-
-        if (serverName) {
-            loaded(serverName);
-        } else {
-            loaded();
-        }
+        
+        loaded();
     }).catch(function (err) {
         console.log("Error: " + err)
     });
 }
 
-function getServer(serverSection, key, json, highlight) {
+function getServer(serverSection, key, json, highlightServer) {
     var template = document.getElementById('server-template');
     if (serverSection.onlineplayers === undefined) serverSection.onlineplayers = 0;
     else serverSection.onlineplayers = String(serverSection.onlineplayers).split(",").length;
@@ -216,20 +219,24 @@ function getServer(serverSection, key, json, highlight) {
         getSafe( serverSection.max1d, {players: 0, time:0}), getSafe( serverSection.max7d, {players: 0, time:0}), getSafe( serverSection.max30d, {players: 0, time:0}),
         getSafe( json.player_min, 0), getSafe( json.player_max, 0), getSafe(json.tps_min, 0), getSafe( json.tps_max, 0),
         getSafe( serverSection.staff_last_seen, 0),
-        getSafe( highlight, false));
+        getSafe( highlightServer, false));
 
 }
 
-function addServer(element, id, name, pack_link, online, pack, packVersion, playerCount, uptime, serverIp, players, tps, week, max1d, max7d, max30d, player_min, player_max, tps_min, tps_max, staffTime, highlight) {
+function addServer(element, id, name, pack_link, online, pack, packVersion, playerCount, uptime, serverIp, players, tps, week, max1d, max7d, max30d, player_min, player_max, tps_min, tps_max, staffTime, highlightServer) {
     var serverCol = element.getElementById('server-block');
-    if (highlight) {
+    var statusLink = encodeURI(document.location.origin +  document.location.pathname) + '#/' + id;
+
+    if (highlightServer) {
         serverCol.classList.add('server-glow');
     }
     serverCol.id = id;
 
     element.getElementById('server-name').classList.add(online);
-    element.getElementById('server-name').innerText = name;
+
+    element.getElementById('server-name').innerHTML = name + '&nbsp;<span class="server-anchor" data-status-link="' + statusLink + '"> <i class="fas fa-link"/></span>';
     element.getElementById('server-name').id = id + "_server-name";
+        
     if (pack_link !== "") {
         element.getElementById('pack').innerHTML = "<a href='"+pack_link+"'  class='highlight' target='_blank'>"+ pack +"</a>";
     } else {
@@ -256,6 +263,7 @@ function addServer(element, id, name, pack_link, online, pack, packVersion, play
     element.getElementById('m-record').id = id + "_m-record";
     element.getElementById('staff-time').innerText = formatTime(staffTime);
     element.getElementById('staff-time').id = id + "_staff-time";
+
     divServerTable.appendChild(element);
     $("#" + id + "_player-chart").PlayersChart(players, player_min, player_max);
     $("#" + id + "_tps-chart").TpsChart(tps, tps_min, tps_max);
@@ -273,9 +281,11 @@ function formatTime(milliTime) {
 return "soon™"
 }
 
-function loaded(server) {
+function loaded() {
     document.getElementById('loading').style.display = 'none';
     document.getElementById('serversWrapper').style.display = 'flex';
+
+    /* Copy Server IP */
     $(".tooltip-hover").on( "click", function() {
         var $tempElement = $("<input>");
         $("body").append($tempElement);
@@ -287,8 +297,25 @@ function loaded(server) {
     $( ".tooltip-hover" ).on( "mouseleave", function() {
         $(this).find( ".tooltip-text")[0].innerText = "Click to copy ip!";
     });
+
+    /* Copy Status Link  */
+    $('.server-anchor').click(function() {
+        if (!document.getElementById('temp')) {
+            var tip = $('<div class="server-tooltip" id="temp">Copied link to clipboard</div>');  
+            setTimeout(function() {
+                tip.fadeOut(500);
+            }, 3000);
+            $(this).append(tip);
+        }
+        var statusLink = $(this).data('status-link');
+
+        navigator.clipboard.writeText(statusLink);
+    });
+
+
     $('.chart').css({width: "100% !important", margin: 'auto', padding: '0 !important' });
 
+    /*  If direct server status, scroll to correct server, if needed */
     if (urlQueryString) {
         try {
             document.getElementById(urlQueryString).scrollIntoView(false);
@@ -298,17 +325,6 @@ function loaded(server) {
     }
 }
 
-function checkURL(serverName) {
-    getAllServers(serverName);
-}
+const urlQueryString = window.location.hash.substr(1).replace(/^\/|\/$/g, '');
 
-const urlQueryString = window.location.hash.substr(1).replace(/^\/|\/$/g, '').toLowerCase();
-const statsUrl = "https://shadownode.ca/servers/api/getStatsData?rand=" + new Date().getTime();
-
-if (urlQueryString) {
-    checkURL(urlQueryString);
-} else {
-    getAllServers();
-}
-
-
+getAllServers();

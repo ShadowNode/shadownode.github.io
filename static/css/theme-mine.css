@@ -771,6 +771,30 @@ svg {
   font-family: "Open Sans", Arial, Helvetica, serif;
 }
 
+.topbar:hover .server-anchor {
+  display: inline-block;
+}
+
+.server-anchor {
+  display: none;
+}
+
+.server-tooltip {
+  display: block;
+  position: absolute;
+  margin-bottom: 0;
+  width: 150px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+  z-index: 10000 !important;
+}
+
 .highlight-server {
   background-color:darkorchid !important;
 }
