@@ -183,25 +183,29 @@ function getAllServers(serverName) {
         for (var key of Object.keys(servers)) {
             var section = servers[key];
 
-            console.log(section);
-
             if (serverName) {
                 if (section.id == serverName.toLowerCase()) { 
-                    getServer(section, key, json);
+                    getServer(section, key, json, true);
+                } else {
+                    getServer(section, key, json, false);
                 }
             } 
             else {
-                getServer(section, key, json);
+                getServer(section, key, false);
             }
         }
-        loaded();
 
+        if (serverName) {
+            loaded(serverName);
+        } else {
+            loaded();
+        }
     }).catch(function (err) {
         console.log("Error: " + err)
     });
 }
 
-function getServer(serverSection, key, json) {
+function getServer(serverSection, key, json, highlight) {
     var template = document.getElementById('server-template');
     if (serverSection.onlineplayers === undefined) serverSection.onlineplayers = 0;
     else serverSection.onlineplayers = String(serverSection.onlineplayers).split(",").length;
@@ -211,11 +215,18 @@ function getServer(serverSection, key, json) {
         getSafe( serverSection.address, "Unknown"), getSafe( serverSection.players, [[0,0]]), getSafe(serverSection.tps, [[0,0]]), getSafe( serverSection.week, 0),
         getSafe( serverSection.max1d, {players: 0, time:0}), getSafe( serverSection.max7d, {players: 0, time:0}), getSafe( serverSection.max30d, {players: 0, time:0}),
         getSafe( json.player_min, 0), getSafe( json.player_max, 0), getSafe(json.tps_min, 0), getSafe( json.tps_max, 0),
-        getSafe( serverSection.staff_last_seen, 0));
+        getSafe( serverSection.staff_last_seen, 0),
+        getSafe( highlight, false));
 
 }
 
-function addServer(element, id, name, pack_link, online, pack, packVersion, playerCount, uptime, serverIp, players, tps, week, max1d, max7d, max30d, player_min, player_max, tps_min, tps_max, staffTime) {
+function addServer(element, id, name, pack_link, online, pack, packVersion, playerCount, uptime, serverIp, players, tps, week, max1d, max7d, max30d, player_min, player_max, tps_min, tps_max, staffTime, highlight) {
+    var serverCol = element.getElementById('server-block');
+    if (highlight) {
+        serverCol.classList.add('server-glow');
+    }
+    serverCol.id = id;
+
     element.getElementById('server-name').classList.add(online);
     element.getElementById('server-name').innerText = name;
     element.getElementById('server-name').id = id + "_server-name";
@@ -262,7 +273,7 @@ function formatTime(milliTime) {
 return "soon™"
 }
 
-function loaded() {
+function loaded(server) {
     document.getElementById('loading').style.display = 'none';
     document.getElementById('serversWrapper').style.display = 'flex';
     $(".tooltip-hover").on( "click", function() {
@@ -277,32 +288,27 @@ function loaded() {
         $(this).find( ".tooltip-text")[0].innerText = "Click to copy ip!";
     });
     $('.chart').css({width: "100% !important", margin: 'auto', padding: '0 !important' });
-}
 
-function checkURL(url) {
-    if  (url) {
-        const urlParams = new URLSearchParams(url);
-        // console.log(url);
-        
-        const queryServer = urlParams.get('server');
-        // console.log(queryServer);
-
-        if (queryServer) {
-            var serverName = queryServer;
-            console.log("Query Server: " + queryServer);
-            getAllServers(serverName);
+    if (urlQueryString) {
+        try {
+            document.getElementById(urlQueryString).scrollIntoView(false);
+        } catch { 
+            console.log("Debug: Couldn't find the element " + urlQueryString.trim())
         }
-        
     }
 }
 
-const urlQueryString = window.location.search;
+function checkURL(serverName) {
+    getAllServers(serverName);
+}
+
+const urlQueryString = window.location.hash.substr(1).replace(/^\/|\/$/g, '').toLowerCase();
 const statsUrl = "https://shadownode.ca/servers/api/getStatsData?rand=" + new Date().getTime();
 
 if (urlQueryString) {
     checkURL(urlQueryString);
-
 } else {
     getAllServers();
 }
+
 
