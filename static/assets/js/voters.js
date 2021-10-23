@@ -20,7 +20,6 @@ function getTop3() {
         {
             uuid: "a97174eb-9e37-4035-b751-f7601488528d",
             pname: "Bennyboy1695",
-            votes: 6
         }
     ];
     for (var key of Object.keys(top3)) {
@@ -37,11 +36,15 @@ function getTop3() {
 
 function addVoter(element, voterPos, uuid, pname, voteCount) {
 
-    element.getElementById('voter-head').innerHTML = 
-        '<img src="' + headAPI + uuid + '" class="player-head" alt="'+ pname + '"/>' +
-        '<div class="tooltip-text">' + pname + ' voted ' + voteCount + ' times.</div>';
-    element.getElementById('voter-head').id = pname + "_voter-head";
+    var voterHead = element.getElementById('voter-head');
+    var voterData = element.getElementById('voter-data');    
+
+    voterHead.innerHTML = '<img src="' + headAPI + uuid + '" class="player-head" alt="'+ pname + '"/>';
+    voterHead.id = pname + "_voter-head";
     
+    voterData.innerHTML = pname + "<br/>Voted " + voteCount + " times!";
+    voterData.id = pname + "_voter-data";
+
     voterTable.appendChild(element);
 }
 

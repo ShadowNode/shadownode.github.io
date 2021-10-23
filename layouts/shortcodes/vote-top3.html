@@ -1,14 +1,16 @@
-<div class="voter-heading">
-    <h3>Top 3 Voters</h3>
-</div>
-
 <div id="voter-warpper">
     <div id="voter-table">
+        <div class="voter-heading">
+            <h3>Top 3 Voters</h3>
+        </div>
         <template id="voter-template">
             <div class="voter-col">
                 <div class="table">
-                    <br/>
-                    <div class="voter-info" class="player-head voter-tooltip" id="voter-head">
+                    <div class="voter-container">
+                        <div class="single-voter">
+                            <div class="voter-info" id="voter-head"></div>
+                            <div class="voter-data" id="voter-data"></div>
+                        </div>
                     </div>
                 </div>
             </div>
