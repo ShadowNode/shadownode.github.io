@@ -777,10 +777,12 @@ svg {
 
 .server-anchor {
   display: none;
+  position: relative;
 }
 
 .server-tooltip {
-  display: block;
+  display: inline;
+  font-size: 0.8em;
   position: absolute;
   margin-bottom: 0;
   width: 150px;
@@ -789,8 +791,6 @@ svg {
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
-  bottom: 150%;
-  left: 50%;
   margin-left: -60px;
   z-index: 10000 !important;
 }

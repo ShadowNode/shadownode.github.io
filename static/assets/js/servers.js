@@ -299,19 +299,24 @@ function loaded() {
     });
 
     /* Copy Status Link  */
-    $('.server-anchor').click(function() {
+    $('.server-anchor').click(function(e) {
         if (!document.getElementById('temp')) {
-            var tip = $('<div class="server-tooltip" id="temp">Copied link to clipboard</div>');  
+            var elementID = $(this).attr('id');
+            var tip = $('<span class="server-tooltip" id="temp">Copied link to clipboard</span>');  
+            var parent = $(this).parent().parent();
+
+
             setTimeout(function() {
                 tip.fadeOut(500);
+                document.getElementById('temp').remove();
             }, 3000);
-            $(this).append(tip);
+            $(parent).prepend(tip);
+            // $(this).append(tip);
         }
         var statusLink = $(this).data('status-link');
 
         navigator.clipboard.writeText(statusLink);
     });
-
 
     $('.chart').css({width: "100% !important", margin: 'auto', padding: '0 !important' });
 
