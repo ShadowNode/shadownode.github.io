@@ -7,51 +7,52 @@
         <div id="server-table">
             <template id="server-template">
                 <div class="col">
-                    <div class="topbar" id="server-name"></div>
-                    <div class="table">
-                        <br>
-                        <dl class="server-info">
-                            <dt>Pack:</dt>
-                            <dd id="pack"></dd>
-                        </dl>
-                        <dl class="server-info">
-                            <dt>Pack Version:</dt>
-                            <dd id="pack-version"></dd>
-                        </dl>
-                        <dl class="server-info">
-                            <dt>Players:</dt>
-                            <dd id="players"></dd>
-                        </dl>
-                        <dl class="server-info">
-                            <dt>Uptime:</dt>
-                            <dd id="uptime"></dd>
-                        </dl>
-                        <div class="tooltip-hover">
-                            <a id="ip" class="iplink"></a>
-                            <span class="tooltip-text">Click to copy ip!</span>
+                    <div id='server-block'>
+                        <div class="topbar" id="server-name"></div>
+                        <div class="table">
+                            <dl class="server-info">
+                                <dt>Pack:</dt>
+                                <dd id="pack"></dd>
+                            </dl>
+                            <dl class="server-info">
+                                <dt>Pack Version:</dt>
+                                <dd id="pack-version"></dd>
+                            </dl>
+                            <dl class="server-info">
+                                <dt>Players:</dt>
+                                <dd id="players"></dd>
+                            </dl>
+                            <dl class="server-info">
+                                <dt>Uptime:</dt>
+                                <dd id="uptime"></dd>
+                            </dl>
+                            <div class="tooltip-hover">
+                                <a id="ip" class="iplink"></a>
+                                <span class="tooltip-text">Click to copy ip!</span>
+                            </div>
+                            <dl class="server-info">
+                                <dt>This Week:</dt>
+                                <dd id="t-week"></dd>
+                            </dl>
+                            <dl class="server-info">
+                                <dt>Todays Record:</dt>
+                                <dd id="t-record"></dd>
+                            </dl>
+                            <dl class="server-info">
+                                <dt>Weekly Record:</dt>
+                                <dd id="w-record"></dd>
+                            </dl>
+                            <dl class="server-info">
+                                <dt>Monthly Record:</dt>
+                                <dd id="m-record"></dd>
+                            </dl>
+                            <dl class="server-info staff-time">
+                                <dt>Staff last seen:</dt>
+                                <dd id="staff-time"></dd>
+                            </dl>
+                            <div id="player-chart" class="info chart"></div>
+                            <div id="tps-chart" class="info bottomchart chart"></div>
                         </div>
-                        <dl class="server-info">
-                            <dt>This Week:</dt>
-                            <dd id="t-week"></dd>
-                        </dl>
-                        <dl class="server-info">
-                            <dt>Todays Record:</dt>
-                            <dd id="t-record"></dd>
-                        </dl>
-                        <dl class="server-info">
-                            <dt>Weekly Record:</dt>
-                            <dd id="w-record"></dd>
-                        </dl>
-                        <dl class="server-info">
-                            <dt>Monthly Record:</dt>
-                            <dd id="m-record"></dd>
-                        </dl>
-                        <dl class="server-info staff-time">
-                            <dt>Staff last seen:</dt>
-                            <dd id="staff-time"></dd>
-                        </dl>
-                        <div id="player-chart" class="info chart"></div>
-                        <div id="tps-chart" class="info bottomchart chart"></div>
                     </div>
                 </div>
             </template>
