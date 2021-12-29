@@ -14,7 +14,7 @@ tags: ["owner", "admin", "mod", "mit", "dev", "staff", "builder", "ranks"]
 | <span style="color: #1a7939">Moderator</span>      |  [Apollo](http://discordapp.com/users/207206527214419968)  <br> [Radicaljim](http://discordapp.com/users/137023583208603650) <br> [ItsAFauxyKitty](http://discordapp.com/users/272454142201692160) <br>  [hachiimann](http://discordapp.com/users/346423675869724675) <br>  [ItsNora_](http://discordapp.com/users/191989517408927744) <br>   [PopularSean](http://discordapp.com/users/240924570809270273) <br>[LethalMrM](http://discordapp.com/users/93226934015647744) |
 | <span style="color: #FFAA00">Developer</span>   |  [Bennyboy1695](http://discordapp.com/users/97995963137802240) <br>  [YourMCGeek](http://discordapp.com/users/102762443767287808) <br> [Babymillie](http://discordapp.com/users/150809903089451008) |
 | <span style="color: #FFFF55">Builders</span>  |  [neoneix](http://discordapp.com/users/168941686368501760) <br> [ItsNora_](http://discordapp.com/users/191989517408927744) <br> [Skull Lady Malady](http://discordapp.com/users/144051995051950080) <br> [ItsAFauxyKitty](http://discordapp.com/users/272454142201692160) |
-| <span style="color: #25c059">MIT</span> | [InfernalShadow](http://discordapp.com/users/359487680385515521) <br> |
+| <span style="color: #25c059">MIT</span> | [InfernalShadow](http://discordapp.com/users/359487680385515521) <br> [neoneix](http://discordapp.com/users/168941686368501760)
 
 </center>
 
