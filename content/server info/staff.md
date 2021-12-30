@@ -37,13 +37,13 @@ These select members of our staff team get the dark red name colour. They are re
 Admins are responsible for managing the background functions of the servers, such as setting up new packs and managing the current ones. Furthermore, admins assist in the training of mods and helpers to ensure that our staff team is running at tip-top shape!
 
 ### <span style="color: #FFAA00">Developer</span>
-Developers are the meat and potatoes of the networks. Creating, updating, and optimizing plugins, mods, and their respective packs, developers ensure that the servers are running as fast and smoothly as possible. They have Admin level permissions and write access to Shadownode's github/gitlab projects and more
+Developers are the meat and potatoes of the networks. Creating, updating, and optimizing plugins, mods, and their respective packs, developers ensure that the servers are running as fast and smoothly as possible. They have Admin level permissions and write access to Shadownode's github/gitlab projects and more.
 
 ### <span style="color: #1a7939">Moderator</span>
 Mods are represented by their dark green role in the Discord server. After proving themselves as MITs, they now have many more responsibilities such as enforcing bans, refunding items and fixing griefs. Most often you will see mods active in the support tickets section of our Discord making sure everything is running smoothly. 
 
 ### <span style="color: #25c059">Moderator in training (MIT)</span>
-MIT are identified by their ligt green colour in our Discord server. As the starting block of the staff team, MIT assist in game and in Discord by answering basic questions related to mods or server features. Furthermore, they can assist is most tickets like griefs and missing items. MIT are meant to learn about how the staff team is run, and how punishments are handled!
+MIT are identified by their light green colour in our Discord server. As the starting block of the staff team, MIT assist in game and in Discord by answering basic questions related to mods or server features. Furthermore, they can assist is most tickets like griefs and missing items. MIT are meant to learn about how the staff team is run, and how punishments are handled!
 
 ### <span style="color: #FFFF55">Builders</span>
 Builders help create the vision that the staff team wants ShadowNode to be! Designing our spawns, hubs, and sometimes events, the builders put our ideas to life and allow us to have a beautiful network.
