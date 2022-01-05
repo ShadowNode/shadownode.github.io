@@ -179,7 +179,7 @@ function getAllServers() {
         serverName = urlQueryString.toLowerCase();
     }
 
-    var statsUrl = "https://api.shadownode.ca/stats/";
+    var statsUrl = "https://api.shadownode.ca/stats/?rand=" + new Date().getTime();
     fetch(statsUrl, {
         method: 'get'
     }).then(async function (response) {
