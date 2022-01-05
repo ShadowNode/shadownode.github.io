@@ -179,8 +179,7 @@ function getAllServers() {
         serverName = urlQueryString.toLowerCase();
     }
 
-    var statsUrl = "https://shadownode.ca/servers/api/getStatsData?rand=" + new Date().getTime();
-
+    var statsUrl = "https://api.shadownode.ca/stats/";
     fetch(statsUrl, {
         method: 'get'
     }).then(async function (response) {
@@ -205,6 +204,7 @@ function getAllServers() {
         loaded();
     }).catch(function (err) {
         console.log("Error: " + err)
+
     });
 }
 
@@ -237,7 +237,7 @@ function addServer(element, id, name, pack_link, online, pack, packVersion, play
     element.getElementById('server-name').innerHTML = name + '&nbsp;<span class="server-anchor" data-status-link="' + statusLink + '"> <i class="fas fa-link"/></span>';
     element.getElementById('server-name').id = id + "_server-name";
         
-    if (pack_link !== "") {
+    if (pack_link !== "" || pack_link != null) {
         element.getElementById('pack').innerHTML = "<a href='"+pack_link+"'  class='highlight' target='_blank'>"+ pack +"</a>";
     } else {
         element.getElementById('pack').innerText = pack;
@@ -277,8 +277,38 @@ function getSafe(fn, defaultVal) {
     }
 }
 
+var periods = {
+    month: 30 * 24 * 60 * 60 * 1000,
+    week: 7 * 24 * 60 * 60 * 1000,
+    day: 24 * 60 * 60 * 1000,
+    hour: 60 * 60 * 1000,
+    minute: 60 * 1000
+};
+
 function formatTime(milliTime) {
-return "soon™"
+    if (milliTime === "0") {
+        return "Never"
+    }
+    var diff = Date.now() - milliTime;
+
+    if (diff > periods.month) {
+        // it was at least a month ago
+        const month = Math.floor(diff / periods.month);
+        return month + (month === 1 ? " month ago" : " months ago")
+    } else if (diff > periods.week) {
+        const week = Math.floor(diff / periods.week);
+        return week + (week === 1 ? " week ago" : " weeks ago")
+    } else if (diff > periods.day) {
+        const day = Math.floor(diff / periods.day);
+        return day + (day === 1 ? " day ago" : " days ago")
+    } else if (diff > periods.hour) {
+        const hour = Math.floor(diff / periods.hour);
+        return hour + (hour === 1 ? " hour ago" : " hours ago")
+    } else if (diff > periods.minute) {
+        const minute = Math.floor(diff / periods.minute);
+        return minute + (minute === 1 ? " minute ago" : " minutes ago")
+    }
+    return "Just now";
 }
 
 function loaded() {
