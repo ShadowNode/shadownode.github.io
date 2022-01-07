@@ -770,6 +770,34 @@ svg {
   /* left: 4%; */
   font-family: "Open Sans", Arial, Helvetica, serif;
 }
+
+.topbar:hover .server-anchor {
+  display: inline-block;
+}
+
+.server-anchor {
+  display: none;
+  position: relative;
+}
+
+.server-tooltip {
+  display: inline;
+  font-size: 0.8em;
+  position: absolute;
+  margin-bottom: 0;
+  width: 150px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  margin-left: -60px;
+  z-index: 10000 !important;
+}
+
+.highlight-server {
+  background-color:darkorchid !important;
+}
 .col {
   flex: 25%;
   padding: 10px;
@@ -1156,4 +1184,18 @@ textarea {
   .voter-heading {
     clear: none;
   }
+}
+
+.server-glow {
+  -webkit-animation: glow 4s ease-in-out infinite alternate;
+  -moz-animation: glow 4s ease-in-out infinite alternate;
+  animation: glow 4s ease-in-out infinite alternate;
+}
+@keyframes glow {
+    0%,100% {
+      box-shadow: 1px 1px #b75fcc, 0 0 20px 5px #b75fcc, inset 2px 2px #b75fcc;
+    }
+    50% {
+      box-shadow: 1px 1px #b75fcc, 0 0 16px 8px #333, inset 2px 2px #D3FFEC;
+    }
 }

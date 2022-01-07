@@ -9,7 +9,7 @@ aliases: ["/rules/", "/server-info/rules/"]
 ShadowNode was created in 2014 by our owner ShadowKitten. Aiming to provide players with the best experience possible, ShadowNode is proud to host over 15 diverse servers!
 
 # Rules
-These rules apply for our Forums, Discord, servers and all other services. By using our services, you are agreeing to follow these rules. Ignorance of these rules is not an excuse. Staff are provided with a general guideline of punishments for each rule, however choose a punishment is at their discretion.
+These rules apply to our Discord, servers and all other services. By using our services, you are agreeing to follow these rules. Ignorance of these rules is not an excuse. Staff are provided with a general guideline of punishments for each rule, however choose a punishment is at their discretion.
 
 ### Respect Staff and Staff Decisions
  * Do not in any way mock, abuse, argue with, or be disrespectful in general to any member of our staff. If you feel you have been mistreated by a staff member or believe a punishment you received is unjust, do not mock them or make a scene. Contact another member of the staff team to discuss the issue privately.
@@ -58,7 +58,7 @@ These rules apply for our Forums, Discord, servers and all other services. By us
   * You may use a Quarry and/or similar devices for clearing space during base-building. 2x2 chunks maximum, with a 20 Y-level maximum.
 
 ### Use English Only in the Main Chat
-  * This is purely to help the staff troubleshoot thing sand keep the chat clear of confusing messages. Talking in other langues via private messages is allowed.
+  * This is purely to help the staff troubleshoot things and keep the chat clear of confusing messages. Talking in other langues via private messages is allowed.
 
 ### No Griefing
   * Griefing means to negatively change a building or area which you do not own or have permission to use. This includes, but is not limited to the following:
@@ -68,11 +68,11 @@ These rules apply for our Forums, Discord, servers and all other services. By us
   * Includes all resource types.
     * Mana, power and livestock are also considered resources.
   
-### Do Not Use Discord to Evade Mute Punishments
-  * If a staff member mutes you, it's for a reason. Don't use our Discord services to bypass our punishment. Using the ban appeals forum to discuss your mute is allowed.
+### Do Not Use Discord to Evade Punishments
+  * If a staff member mutes/bans you, it's for a reason. Don't use our Discord services to bypass our punishment. Create a support ticket to appeal/discuss it.
 
 ### Do Not Impersonate a Staff Member
-  * Impersonation means pretending to be someone else. This includes changing your nickname to a staff member's username/nickname or adding Staff/Admin/Etc to nay part of your nickname or rank.
+  * Impersonation means pretending to be someone else. This includes changing your nickname to a staff member's username/nickname or adding Staff/Admin/Etc to any part of your nickname or rank. This also applies to custom join/leave messages.
 
 ___
 

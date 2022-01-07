@@ -9,57 +9,44 @@ This page is still a work in progress and has yet to be finished!
 
 Here you will find how to get your crash report for your specific launcher of choice.
 
-## MultiMC
-While other copy and paste tools, like Pastebin or Hastebin, are more popular then Github Gist, Github Gist is one of the better copy and paste tools. It doesn't have a character count and it's just as easy to use as other tools. Using a copy and paste tool like Gist is recommended if you have issues with client crashes since it keeps the formatting of the log, and makes it easier to read the file without having to download it. 
+FTB Launcher
+============
 
-1. Use [this](https://gist.github.com/) link.
-2. Give the gist a title in the small "filename" window above the large text window.
-3. Open the file you wish to share.
-4. Use Ctrl+A to select the whole text and Ctrl+C to copy it.
-5. Go on the Gist Page and use Ctrl+V to paste it in the large text window.
-6. Click on "Create Secret Gist". The file you have may not be that important, but it's not necessary to share it with the whole world.
-7. Copy the link from the gist website, and paste it anywhere you'd like!
+1. Open the Launcher
+2. Select the modpack, click on ``Edit Modpack`` and on ``Open Folder``.
+3. Now you are in the ``mods`` folder, go back to the ``minecraft`` folder.
+4. Open the ``crash-reports`` folder.
+5. Paste the content of the latest crash-report on `Pastebin <http://pastebin.com>`_.
+6. Click on the ``Create new paste`` button and copy the web link.
+7. Paste the link in the forum thread/discord/ticket.
 
-## FTB App
-While other copy and paste tools, like Pastebin or Hastebin, are more popular then Github Gist, Github Gist is one of the better copy and paste tools. It doesn't have a character count and it's just as easy to use as other tools. Using a copy and paste tool like Gist is recommended if you have issues with client crashes since it keeps the formatting of the log, and makes it easier to read the file without having to download it. 
 
-1. Use [this](https://gist.github.com/) link.
-2. Give the gist a title in the small "filename" window above the large text window.
-3. Open the file you wish to share.
-4. Use Ctrl+A to select the whole text and Ctrl+C to copy it.
-5. Go on the Gist Page and use Ctrl+V to paste it in the large text window.
-6. Click on "Create Secret Gist". The file you have may not be that important, but it's not necessary to share it with the whole world.
-7. Copy the link from the gist website, and paste it anywhere you'd like!
+Technic Launcher
+================
 
-## CurseForge
-While other copy and paste tools, like Pastebin or Hastebin, are more popular then Github Gist, Github Gist is one of the better copy and paste tools. It doesn't have a character count and it's just as easy to use as other tools. Using a copy and paste tool like Gist is recommended if you have issues with client crashes since it keeps the formatting of the log, and makes it easier to read the file without having to download it. 
+1. Open the Launcher
+2. Select the modpack and click on the small `gearwheel <https://i.imgur.com/23B1fW9.png>`_ below the modapck on the right site
+3. Now you click on ``OpenFolder`` and open the ``crash-reports`` folder.
+4. Paste the content of the latest crash-report on `Pastebin <http://pastebin.com>`_.
+5. Click on the ``Create new paste`` button and copy the web link.
+6. Paste the link in the forum thread/discord/ticket.
 
-1. Use [this](https://gist.github.com/) link.
-2. Give the gist a title in the small "filename" window above the large text window.
-3. Open the file you wish to share.
-4. Use Ctrl+A to select the whole text and Ctrl+C to copy it.
-5. Go on the Gist Page and use Ctrl+V to paste it in the large text window.
-6. Click on "Create Secret Gist". The file you have may not be that important, but it's not necessary to share it with the whole world.
-7. Copy the link from the gist website, and paste it anywhere you'd like!
+ATLauncher
+==========
 
-## GDLauncher
-While other copy and paste tools, like Pastebin or Hastebin, are more popular then Github Gist, Github Gist is one of the better copy and paste tools. It doesn't have a character count and it's just as easy to use as other tools. Using a copy and paste tool like Gist is recommended if you have issues with client crashes since it keeps the formatting of the log, and makes it easier to read the file without having to download it. 
+1. Open the Launcher
+2. Select ``instances``, and locate your pack. and 
+3. Click ``Open Folder``and locate the ``crash-report`` folder.
+4. Paste the content of the latest crash-report on `Pastebin <http://pastebin.com>`_.
+5. Click on the ``Create new paste`` button and copy the web link.
+6. Paste the link in the forum thread/discord/ticket.
 
-1. Use [this](https://gist.github.com/) link.
-2. Give the gist a title in the small "filename" window above the large text window.
-3. Open the file you wish to share.
-4. Use Ctrl+A to select the whole text and Ctrl+C to copy it.
-5. Go on the Gist Page and use Ctrl+V to paste it in the large text window.
-6. Click on "Create Secret Gist". The file you have may not be that important, but it's not necessary to share it with the whole world.
-7. Copy the link from the gist website, and paste it anywhere you'd like!
+Curseforge Launcher
+===================
 
-## Minecraft
-While other copy and paste tools, like Pastebin or Hastebin, are more popular then Github Gist, Github Gist is one of the better copy and paste tools. It doesn't have a character count and it's just as easy to use as other tools. Using a copy and paste tool like Gist is recommended if you have issues with client crashes since it keeps the formatting of the log, and makes it easier to read the file without having to download it. 
-
-1. Use [this](https://gist.github.com/) link.
-2. Give the gist a title in the small "filename" window above the large text window.
-3. Open the file you wish to share.
-4. Use Ctrl+A to select the whole text and Ctrl+C to copy it.
-5. Go on the Gist Page and use Ctrl+V to paste it in the large text window.
-6. Click on "Create Secret Gist". The file you have may not be that important, but it's not necessary to share it with the whole world.
-7. Copy the link from the gist website, and paste it anywhere you'd like!
+1. Open the launcher.
+2. Select ``Minecraft`` on the left bar, and locate your modpack.
+3. Right click it and select ``Open folder``, then locate the ``crash-reports`` folder.
+4. Paste the contents of the latest crash-report on `Pastebin <http://pastebin.com>`_.
+5. Click on the ``Create new paste`` button and copy the web link.
+6. Paste the link in the forum thread/discord/ticket.

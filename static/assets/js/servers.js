@@ -174,37 +174,70 @@ function showTooltip(x, y, contents) {
 const divServerTable = document.getElementById("server-table");
 
 function getAllServers() {
-    var statsUrl = "https://shadownode.ca/servers/api/getStatsData?rand=" + new Date().getTime();
+    var serverName = false
+    if (urlQueryString) {
+        serverName = urlQueryString.toLowerCase();
+    }
+
+    var statsUrl = "https://api.shadownode.ca/stats/?rand=" + new Date().getTime();
     fetch(statsUrl, {
         method: 'get'
     }).then(async function (response) {
         const json = await response.json();
         const servers = json.servers;
-        for (var key of Object.keys(servers)) {
-            const section = servers[key];
-            var template = document.getElementById('server-template');
-            if (section.onlineplayers === undefined) section.onlineplayers = 0;
-            else section.onlineplayers = String(section.onlineplayers).split(",").length;
-            addServer(template.content.cloneNode(true), key, getSafe(section.name, "Unknown"), getSafe(section.pack_link, "Unknown"),
-                getSafe(section.status ? "online" : "offline", "offline"), getSafe(section.pack_name, "Unknown"), getSafe(section.pack_version, "Unknown"),
-                getSafe(section.onlineplayers, 0) + "/" + getSafe( section.maxplayers, 0), getSafe( section.uptime,"Unknown"),
-                getSafe( section.address, "Unknown"), getSafe( section.players, [[0,0]]), getSafe(section.tps, [[0,0]]), getSafe( section.week, 0),
-                getSafe( section.max1d, {players: 0, time:0}), getSafe( section.max7d, {players: 0, time:0}), getSafe( section.max30d, {players: 0, time:0}),
-                getSafe( json.player_min, 0), getSafe( json.player_max, 0), getSafe(json.tps_min, 0), getSafe( json.tps_max, 0),
-                getSafe( section.staff_last_seen, 0));
-        }
 
+        for (var key of Object.keys(servers)) {
+            var section = servers[key];
+
+            if (serverName) {
+                if (section.id == serverName) { 
+                    getServer(section, key, json, true);
+                } else {
+                    getServer(section, key, json, false);
+                }
+            } 
+            else {
+                getServer(section, key, json, false);
+            }
+        }
+        
         loaded();
     }).catch(function (err) {
         console.log("Error: " + err)
+
     });
 }
 
-function addServer(element, id, name, pack_link, online, pack, packVersion, playerCount, uptime, serverIp, players, tps, week, max1d, max7d, max30d, player_min, player_max, tps_min, tps_max, staffTime) {
+function getServer(serverSection, key, json, highlightServer) {
+    var template = document.getElementById('server-template');
+    if (serverSection.onlineplayers === undefined) serverSection.onlineplayers = 0;
+    else serverSection.onlineplayers = String(serverSection.onlineplayers).split(",").length;
+    addServer(template.content.cloneNode(true), key, getSafe(serverSection.name, "Unknown"), getSafe(serverSection.pack_link, "Unknown"),
+        getSafe(serverSection.status ? "online" : "offline", "offline"), getSafe(serverSection.pack_name, "Unknown"), getSafe(serverSection.pack_version, "Unknown"),
+        getSafe(serverSection.onlineplayers, 0) + "/" + getSafe( serverSection.maxplayers, 0), getSafe( serverSection.uptime,"Unknown"),
+        getSafe( serverSection.address, "Unknown"), getSafe( serverSection.players, [[0,0]]), getSafe(serverSection.tps, [[0,0]]), getSafe( serverSection.week, 0),
+        getSafe( serverSection.max1d, {players: 0, time:0}), getSafe( serverSection.max7d, {players: 0, time:0}), getSafe( serverSection.max30d, {players: 0, time:0}),
+        getSafe( json.player_min, 0), getSafe( json.player_max, 0), getSafe(json.tps_min, 0), getSafe( json.tps_max, 0),
+        getSafe( serverSection.staff_last_seen, 0),
+        getSafe( highlightServer, false));
+
+}
+
+function addServer(element, id, name, pack_link, online, pack, packVersion, playerCount, uptime, serverIp, players, tps, week, max1d, max7d, max30d, player_min, player_max, tps_min, tps_max, staffTime, highlightServer) {
+    var serverCol = element.getElementById('server-block');
+    var statusLink = encodeURI(document.location.origin +  document.location.pathname) + '#/' + id;
+
+    if (highlightServer) {
+        serverCol.classList.add('server-glow');
+    }
+    serverCol.id = id;
+
     element.getElementById('server-name').classList.add(online);
-    element.getElementById('server-name').innerText = name;
+
+    element.getElementById('server-name').innerHTML = name + '&nbsp;<span class="server-anchor" data-status-link="' + statusLink + '"> <i class="fas fa-link"/></span>';
     element.getElementById('server-name').id = id + "_server-name";
-    if (pack_link !== "") {
+        
+    if (pack_link !== "" || pack_link != null) {
         element.getElementById('pack').innerHTML = "<a href='"+pack_link+"'  class='highlight' target='_blank'>"+ pack +"</a>";
     } else {
         element.getElementById('pack').innerText = pack;
@@ -230,6 +263,7 @@ function addServer(element, id, name, pack_link, online, pack, packVersion, play
     element.getElementById('m-record').id = id + "_m-record";
     element.getElementById('staff-time').innerText = formatTime(staffTime);
     element.getElementById('staff-time').id = id + "_staff-time";
+
     divServerTable.appendChild(element);
     $("#" + id + "_player-chart").PlayersChart(players, player_min, player_max);
     $("#" + id + "_tps-chart").TpsChart(tps, tps_min, tps_max);
@@ -243,13 +277,45 @@ function getSafe(fn, defaultVal) {
     }
 }
 
+var periods = {
+    month: 30 * 24 * 60 * 60 * 1000,
+    week: 7 * 24 * 60 * 60 * 1000,
+    day: 24 * 60 * 60 * 1000,
+    hour: 60 * 60 * 1000,
+    minute: 60 * 1000
+};
+
 function formatTime(milliTime) {
-return "soon™"
+    if (milliTime === "0") {
+        return "Never"
+    }
+    var diff = Date.now() - milliTime;
+
+    if (diff > periods.month) {
+        // it was at least a month ago
+        const month = Math.floor(diff / periods.month);
+        return month + (month === 1 ? " month ago" : " months ago")
+    } else if (diff > periods.week) {
+        const week = Math.floor(diff / periods.week);
+        return week + (week === 1 ? " week ago" : " weeks ago")
+    } else if (diff > periods.day) {
+        const day = Math.floor(diff / periods.day);
+        return day + (day === 1 ? " day ago" : " days ago")
+    } else if (diff > periods.hour) {
+        const hour = Math.floor(diff / periods.hour);
+        return hour + (hour === 1 ? " hour ago" : " hours ago")
+    } else if (diff > periods.minute) {
+        const minute = Math.floor(diff / periods.minute);
+        return minute + (minute === 1 ? " minute ago" : " minutes ago")
+    }
+    return "Just now";
 }
 
 function loaded() {
     document.getElementById('loading').style.display = 'none';
     document.getElementById('serversWrapper').style.display = 'flex';
+
+    /* Copy Server IP */
     $(".tooltip-hover").on( "click", function() {
         var $tempElement = $("<input>");
         $("body").append($tempElement);
@@ -261,7 +327,39 @@ function loaded() {
     $( ".tooltip-hover" ).on( "mouseleave", function() {
         $(this).find( ".tooltip-text")[0].innerText = "Click to copy ip!";
     });
+
+    /* Copy Status Link  */
+    $('.server-anchor').click(function(e) {
+        if (!document.getElementById('temp')) {
+            var elementID = $(this).attr('id');
+            var tip = $('<span class="server-tooltip" id="temp">Copied link to clipboard</span>');  
+            var parent = $(this).parent().parent();
+
+
+            setTimeout(function() {
+                tip.fadeOut(500);
+                document.getElementById('temp').remove();
+            }, 3000);
+            $(parent).prepend(tip);
+            // $(this).append(tip);
+        }
+        var statusLink = $(this).data('status-link');
+
+        navigator.clipboard.writeText(statusLink);
+    });
+
     $('.chart').css({width: "100% !important", margin: 'auto', padding: '0 !important' });
+
+    /*  If direct server status, scroll to correct server, if needed */
+    if (urlQueryString) {
+        try {
+            document.getElementById(urlQueryString).scrollIntoView(false);
+        } catch { 
+            console.log("Debug: Couldn't find the element " + urlQueryString.trim())
+        }
+    }
 }
+
+const urlQueryString = window.location.hash.substr(1).replace(/^\/|\/$/g, '');
 
 getAllServers();
