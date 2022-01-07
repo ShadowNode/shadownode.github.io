@@ -1118,7 +1118,7 @@ textarea {
 }
 
 .voter-col {
-  padding: 5px;
+  padding: 5px 25px;
 }
 
 .voter-container { 
@@ -1127,19 +1127,22 @@ textarea {
 
 .single-voter {
   display: flex;
-  flex-basis: 300px;
+  flex-basis: 200px;
   /* max-content: 300px; */
   justify-content: center;
   align-items: center;
 }
 
 @media screen and (max-width: 800px) {
+  .voter-col {
+    padding: 5px 0;
+  }
   .voter-info {
     display: block;
   }
-  .single-voter {
+  /* .single-voter {
     display: block;
-  }
+  } */
   .voter-data { 
       display: block;
       text-align: center;
@@ -1149,5 +1152,8 @@ textarea {
     margin: auto;
     width: 50px;
 
+  }
+  .voter-heading {
+    clear: none;
   }
 }
