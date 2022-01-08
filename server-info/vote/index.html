@@ -6,16 +6,16 @@
 <meta name=description content>
 <link rel="shortcut icon" href=https://shadownode.ca/assets/images/favicon.png type=image/x-icon>
 <title>Vote | ShadowNode Modded Game Servers</title>
-<link href=https://shadownode.ca/css/nucleus.css?1641371628 rel=stylesheet>
-<link href=https://shadownode.ca/css/fontawesome-all.min.css?1641371628 rel=stylesheet>
-<link href=https://shadownode.ca/css/featherlight.min.css?1641371628 rel=stylesheet>
-<link href=https://shadownode.ca/css/perfect-scrollbar.min.css?1641371628 rel=stylesheet>
-<link href=https://shadownode.ca/css/auto-complete.css?1641371628 rel=stylesheet>
-<link href=https://shadownode.ca/css/theme.css?1641371628 rel=stylesheet>
-<link href=https://shadownode.ca/css/theme-mine.css?1641371628 rel=stylesheet>
-<link href=https://shadownode.ca/css/variant.css?1641371628 rel=stylesheet>
-<link href=https://shadownode.ca/css/print.css?1641371628 rel=stylesheet media=print>
-<script src=https://shadownode.ca/js/jquery.min.js?1641371628></script>
+<link href=https://shadownode.ca/css/nucleus.css?1641623305 rel=stylesheet>
+<link href=https://shadownode.ca/css/fontawesome-all.min.css?1641623305 rel=stylesheet>
+<link href=https://shadownode.ca/css/featherlight.min.css?1641623305 rel=stylesheet>
+<link href=https://shadownode.ca/css/perfect-scrollbar.min.css?1641623305 rel=stylesheet>
+<link href=https://shadownode.ca/css/auto-complete.css?1641623305 rel=stylesheet>
+<link href=https://shadownode.ca/css/theme.css?1641623305 rel=stylesheet>
+<link href=https://shadownode.ca/css/theme-mine.css?1641623305 rel=stylesheet>
+<link href=https://shadownode.ca/css/variant.css?1641623305 rel=stylesheet>
+<link href=https://shadownode.ca/css/print.css?1641623305 rel=stylesheet media=print>
+<script src=https://shadownode.ca/js/jquery.min.js?1641623305></script>
 <style>:root #header+#content>#left>#rlblock_left{display:none!important}</style>
 </head>
 <body data-url=https://shadownode.ca/server-info/vote/>
@@ -48,10 +48,10 @@
 <button id=servers class=belowsearchbutton><i class="fas fa-server"></i> Servers</button>
 </a>
 </div>
-<script type=text/javascript src=https://shadownode.ca/js/lunr.min.js?1641371628></script>
-<script type=text/javascript src=https://shadownode.ca/js/auto-complete.js?1641371628></script>
+<script type=text/javascript src=https://shadownode.ca/js/lunr.min.js?1641623305></script>
+<script type=text/javascript src=https://shadownode.ca/js/auto-complete.js?1641623305></script>
 <script type=text/javascript>var baseurl="https://shadownode.ca"</script>
-<script type=text/javascript src=https://shadownode.ca/js/search.js?1641371628></script>
+<script type=text/javascript src=https://shadownode.ca/js/search.js?1641623305></script>
 </div>
 <div class=highlightable>
 <ul class=topics>
@@ -167,6 +167,34 @@
 </div>
 <p>Voting helps ShadowNode grow, gain new players and also expand. If you want to use your tokens you can do so via using the in-game command <code>/tokenshop</code>.</p>
 <p>Every month we give away free games to the top 3 voters of the month!</p>
+<div id=voter-warpper>
+<h2 style=text-align:center>Top Voting Members</h2>
+<div id=voter-table>
+<div class=top3-stat id=current-top>
+<h3>Current Top 3</h3>
+</div>
+<div class=top3-stat id=last-top>
+<h3>Last Month Top 3</h3>
+</div>
+<div class=top3-stat id=token-top>
+<h3>Top 3 Tokens</h3>
+</div>
+<template id=voter-template>
+<div class=voter-col>
+<div class=table>
+<div class=voter-container>
+<div class=single-voter>
+<div class=voter-info id=voter-head></div>
+<div class=voter-data id=voter-data></div>
+</div>
+</div>
+</div>
+</div>
+</template>
+</div>
+</div>
+<script src=https://shadownode.ca/assets/js/voters.js type=text/javascript></script>
+<script src=https://shadownode.ca/assets/js/remove-pagetitle.js type=text/javascript></script>
 <footer class=footline>
 </footer>
 </main>
@@ -177,15 +205,15 @@
 <div style=left:-1000px;overflow:scroll;position:absolute;top:-1000px;border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px>
 <div style=border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px></div>
 </div>
-<script src=https://shadownode.ca/js/clipboard.min.js?1641371628></script>
-<script src=https://shadownode.ca/js/perfect-scrollbar.min.js?1641371628></script>
-<script src=https://shadownode.ca/js/perfect-scrollbar.jquery.min.js?1641371628></script>
-<script src=https://shadownode.ca/js/jquery.svg.pan.zoom.js?1641371628></script>
-<script src=https://shadownode.ca/js/featherlight.min.js?1641371628></script>
-<script src=https://shadownode.ca/js/modernizr.custom-3.6.0.js?1641371628></script>
-<script src=https://shadownode.ca/js/mermaid.min.js?1641371628></script>
+<script src=https://shadownode.ca/js/clipboard.min.js?1641623305></script>
+<script src=https://shadownode.ca/js/perfect-scrollbar.min.js?1641623305></script>
+<script src=https://shadownode.ca/js/perfect-scrollbar.jquery.min.js?1641623305></script>
+<script src=https://shadownode.ca/js/jquery.svg.pan.zoom.js?1641623305></script>
+<script src=https://shadownode.ca/js/featherlight.min.js?1641623305></script>
+<script src=https://shadownode.ca/js/modernizr.custom-3.6.0.js?1641623305></script>
+<script src=https://shadownode.ca/js/mermaid.min.js?1641623305></script>
 <script>typeof mermaid!='undefined'&&mermaid.mermaidAPI.initialize(Object.assign({securityLevel:"antiscript"},JSON.parse('{ "startOnLoad": true }'),{startOnLoad:!1}))</script>
-<script src=https://shadownode.ca/js/relearn.js?1641371628></script><script src=https://shadownode.ca/assets/js/breadCrumb.js></script>
+<script src=https://shadownode.ca/js/relearn.js?1641623305></script><script src=https://shadownode.ca/assets/js/breadCrumb.js></script>
 <script src=https://shadownode.ca/assets/js/anchor-replacement.js></script>
 <script src=https://shadownode.ca/assets/js/pageload.js></script>
 </body>
