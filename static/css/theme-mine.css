@@ -245,6 +245,7 @@ svg {
     padding: 1rem;
     font-size: 2rem;
     border: none;
+    border-radius: 10px;
     color: #0c1016;
     /* filter: url("#gooey"); */
     position: relative;
