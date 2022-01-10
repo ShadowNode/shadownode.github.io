@@ -18,7 +18,7 @@ tags: ["owner", "admin", "mod", "mit", "dev", "staff", "builder", "ranks"]
 | Position |          Name(s)         |
 |:--------:|:------------------------:|
 | <span style="color: #FFAA00">Developer</span>   |  [Bennyboy1695](https://discordapp.com/users/97995963137802240) <br/>  [YourMCGeek](https://discordapp.com/users/102762443767287808) <br/> |
-| <span style="color: #FFFF55">Builders</span>  |  [Skull Lady Malady](https://discordapp.com/users/144051995051950080) <br/>
+| <span style="color: #FFFF55">Builders</span>  |  [Skull Lady Malady](https://discordapp.com/users/144051995051950080) <br/> |
 
 </center>
 
