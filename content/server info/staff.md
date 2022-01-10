@@ -8,13 +8,17 @@ tags: ["owner", "admin", "mod", "mit", "dev", "staff", "builder", "ranks"]
 
 | Position |          Name(s)         |
 |:--------:|:------------------------:|
-| <span style="color: #FF55FF">Owner</span>  |       [ShadowKitten](http://discordapp.com/users/106221569897922560)       |
-| <span style="color: #AA0000">Senior Administrator</span> | [Dnsmasq](http://discordapp.com/users/220218217145171969) <br> [RedSensei(A)](http://discordapp.com/users/318557661081632768) <br>  [War_Horse](http://discordapp.com/users/675429391513419816) <br> [Endercorps_Alpha](http://discordapp.com/users/142748655294742528) <br> [tree_of_chaos](http://discordapp.com/users/261311666904367124) |
-| <span style="color: #FF5555">Administrator</span>    |  [Cosmic_Elemental](http://discordapp.com/users/356530058908925965) <br>  [InkEyes](http://discordapp.com/users/147137133495189505) <br>  [Moody_420](http://discordapp.com/users/262778042760298497) <br>  [Zyion](http://discordapp.com/users/99358692054405120)  |
-| <span style="color: #1a7939">Moderator</span>      |  [Apollo](http://discordapp.com/users/207206527214419968)  <br> [Radicaljim](http://discordapp.com/users/137023583208603650) <br> [ItsAFauxyKitty](http://discordapp.com/users/272454142201692160) <br>  [hachiimann](http://discordapp.com/users/346423675869724675) <br>  [ItsNora_](http://discordapp.com/users/191989517408927744) <br>   [PopularSean](http://discordapp.com/users/240924570809270273) <br>[LethalMrM](http://discordapp.com/users/93226934015647744) |
-| <span style="color: #FFAA00">Developer</span>   |  [Bennyboy1695](http://discordapp.com/users/97995963137802240) <br>  [YourMCGeek](http://discordapp.com/users/102762443767287808)
-| <span style="color: #FFFF55">Builders</span>  |  [neoneix](http://discordapp.com/users/168941686368501760) <br> [ItsNora_](http://discordapp.com/users/191989517408927744) <br> [Skull Lady Malady](http://discordapp.com/users/144051995051950080) <br> [ItsAFauxyKitty](http://discordapp.com/users/272454142201692160) |
-| <span style="color: #25c059">MIT</span> | [InfernalShadow](http://discordapp.com/users/359487680385515521) <br> [neoneix](http://discordapp.com/users/168941686368501760)
+| <span style="color: #FF55FF">Owner</span>  | [ShadowKitten](https://discordapp.com/users/106221569897922560)  <br/> |
+| <span style="color: #AA0000">Senior Administrator</span> | [Dnsmasq](https://discordapp.com/users/220218217145171969) <br/> [RedSensei(A)](https://discordapp.com/users/318557661081632768) <br/>  [War_Horse](https://discordapp.com/users/675429391513419816) <br/> [Endercorps_Alpha](https://discordapp.com/users/142748655294742528) <br/> [tree_of_chaos](https://discordapp.com/users/261311666904367124) |
+| <span style="color: #FF5555">Administrator</span>    |  [Cosmic_Elemental](https://discordapp.com/users/356530058908925965) <br/>  [InkEyes](https://discordapp.com/users/147137133495189505) <br/>  [Moody_420](https://discordapp.com/users/262778042760298497) <br/> [Zyion](https://discordapp.com/users/99358692054405120) <br/> [Nightbringer](https://discordapp.com/users/285842895439790081) <br/> |
+| <span style="color: #1a7939">Moderator</span>      |  [Apollo](https://discordapp.com/users/207206527214419968)  <br/> [Radicaljim](https://discordapp.com/users/137023583208603650) <br/> [ItsAFauxyKitty](https://discordapp.com/users/272454142201692160) <br/>  [hachiimann](https://discordapp.com/users/346423675869724675) <br/>  [ItsNora_](https://discordapp.com/users/191989517408927744) <br/>  [PopularSean](https://discordapp.com/users/240924570809270273) <br/> [LethalMrM](https://discordapp.com/users/93226934015647744) <br/> |
+| <span style="color: #25c059">MIT</span> | [InfernalShadow](https://discordapp.com/users/359487680385515521) <br/> [neoneix](https://discordapp.com/users/168941686368501760) <br/> |
+
+## Additional Staff
+| Position |          Name(s)         |
+|:--------:|:------------------------:|
+| <span style="color: #FFAA00">Developer</span>   |  [Bennyboy1695](https://discordapp.com/users/97995963137802240) <br/>  [YourMCGeek](https://discordapp.com/users/102762443767287808) <br/> |
+| <span style="color: #FFFF55">Builders</span>  |  [Skull Lady Malady](https://discordapp.com/users/144051995051950080) <br/>
 
 </center>
 
