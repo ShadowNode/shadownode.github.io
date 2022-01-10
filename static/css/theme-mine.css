@@ -246,7 +246,7 @@ svg {
     font-size: 2rem;
     border: none;
     color: #0c1016;
-    filter: url("#gooey");
+    /* filter: url("#gooey"); */
     position: relative;
     background-color: #8451a1;
   }
