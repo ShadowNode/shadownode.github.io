@@ -240,27 +240,32 @@ svg {
     top: -4000px;
     left: -4000px;
   }
-  
-  #gooey-button {
+
+  .gooey-button {
     padding: 1rem;
     font-size: 2rem;
     border: none;
+    border-radius: 10px;
     color: #0c1016;
-    filter: url("#gooey");
     position: relative;
     background-color: #8451a1;
   }
-  #gooey-button:focus {
+
+  .gooey-nice {
+      filter: url('#gooey');
+  }
+
+  .gooey-button:focus {
     outline: none;
   }
-  #gooey-button .bubbles {
+  .gooey-button .bubbles {
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
   }
-  #gooey-button .bubbles .bubble {
+  .gooey-button .bubbles .bubble {
     background-color: #8451a1;
     border-radius: 100%;
     position: absolute;
@@ -269,7 +274,7 @@ svg {
     display: block;
     z-index: -1;
   }
-  #gooey-button .bubbles .bubble:nth-child(1) {
+  .gooey-button .bubbles .bubble:nth-child(1) {
     left: 53px;
     width: 25px;
     height: 25px;
@@ -278,7 +283,7 @@ svg {
     -webkit-animation-delay: 0.2s;
             animation-delay: 0.2s;
   }
-  #gooey-button .bubbles .bubble:nth-child(2) {
+  .gooey-button .bubbles .bubble:nth-child(2) {
     left: 97px;
     width: 25px;
     height: 25px;
@@ -287,7 +292,7 @@ svg {
     -webkit-animation-delay: 0.4s;
             animation-delay: 0.4s;
   }
-  #gooey-button .bubbles .bubble:nth-child(3) {
+  .gooey-button .bubbles .bubble:nth-child(3) {
     left: 74px;
     width: 25px;
     height: 25px;
@@ -296,7 +301,7 @@ svg {
     -webkit-animation-delay: 0.6s;
             animation-delay: 0.6s;
   }
-  #gooey-button .bubbles .bubble:nth-child(4) {
+  .gooey-button .bubbles .bubble:nth-child(4) {
     left: 97px;
     width: 25px;
     height: 25px;
@@ -305,7 +310,7 @@ svg {
     -webkit-animation-delay: 0.8s;
             animation-delay: 0.8s;
   }
-  #gooey-button .bubbles .bubble:nth-child(5) {
+  .gooey-button .bubbles .bubble:nth-child(5) {
     left: 28px;
     width: 25px;
     height: 25px;
@@ -314,7 +319,7 @@ svg {
     -webkit-animation-delay: 1s;
             animation-delay: 1s;
   }
-  #gooey-button .bubbles .bubble:nth-child(6) {
+  .gooey-button .bubbles .bubble:nth-child(6) {
     left: 74px;
     width: 25px;
     height: 25px;
@@ -323,7 +328,7 @@ svg {
     -webkit-animation-delay: 1.2s;
             animation-delay: 1.2s;
   }
-  #gooey-button .bubbles .bubble:nth-child(7) {
+  .gooey-button .bubbles .bubble:nth-child(7) {
     left: 56px;
     width: 25px;
     height: 25px;
@@ -332,7 +337,7 @@ svg {
     -webkit-animation-delay: 1.4s;
             animation-delay: 1.4s;
   }
-  #gooey-button .bubbles .bubble:nth-child(8) {
+  .gooey-button .bubbles .bubble:nth-child(8) {
     left: 91px;
     width: 25px;
     height: 25px;
@@ -341,7 +346,7 @@ svg {
     -webkit-animation-delay: 1.6s;
             animation-delay: 1.6s;
   }
-  #gooey-button .bubbles .bubble:nth-child(9) {
+  .gooey-button .bubbles .bubble:nth-child(9) {
     left: 50px;
     width: 25px;
     height: 25px;
@@ -350,7 +355,7 @@ svg {
     -webkit-animation-delay: 1.8s;
             animation-delay: 1.8s;
   }
-  #gooey-button .bubbles .bubble:nth-child(10) {
+  .gooey-button .bubbles .bubble:nth-child(10) {
     left: 100px;
     width: 25px;
     height: 25px;

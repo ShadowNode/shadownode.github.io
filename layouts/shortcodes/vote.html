@@ -16,31 +16,40 @@
             </defs>
         </svg>
         <h1 style="z-index: 999;position:relative">Earn tokens by voting here</h1>
-            <a href="https://ftbservers.com/server/z7RYUyxE/vote" target="_blank"><button id="gooey-button">FTB Servers                    
+            <a href="https://ftbservers.com/server/z7RYUyxE/vote" target="_blank"><button id="vote1" class="gooey-button">FTB Servers
+                <span class="bubbles">
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                    <span class="bubble"></span>
+                </span>
+            </button></a>
+        <a href="https://minecraft-mp.com/server/156002/vote/" target="_blank"><button id="vote2" class="gooey-button">Minecraft-MP
             <span class="bubbles">
-            <span class="bubble"></span>
-            <span class="bubble"></span>
-            <span class="bubble"></span>
-            <span class="bubble"></span>
-            <span class="bubble"></span>
-            <span class="bubble"></span>
-            <span class="bubble"></span>
-            <span class="bubble"></span>
-            <span class="bubble"></span>
-            <span class="bubble"></span>
-        </span></button></a>
-        <a href="https://minecraft-mp.com/server/156002/vote/" target="_blank"><button id="gooey-button">Minecraft-MP                    
-            <span class="bubbles">
-            <span class="bubble"></span>
-            <span class="bubble"></span>
-            <span class="bubble"></span>
-            <span class="bubble"></span>
-            <span class="bubble"></span>
-            <span class="bubble"></span>
-            <span class="bubble"></span>
-            <span class="bubble"></span>
-            <span class="bubble"></span>
-            <span class="bubble"></span>
-        </span></button></a>
+                <span class="bubble"></span>
+                <span class="bubble"></span>
+                <span class="bubble"></span>
+                <span class="bubble"></span>
+                <span class="bubble"></span>
+                <span class="bubble"></span>
+                <span class="bubble"></span>
+                <span class="bubble"></span>
+                <span class="bubble"></span>
+                <span class="bubble"></span>
+            </span>
+        </button></a>
     </div>
 </div>
+<script type="text/javascript">
+    //Safari Sucks you get NOTHING (for now)
+    if (!(navigator.userAgent.indexOf('Safari') !== -1  && navigator.userAgent.indexOf('Chrome') === -1)) {
+        document.getElementById('vote1').classList.add('gooey-nice');
+        document.getElementById('vote2').classList.add('gooey-nice');
+    }
+</script>
