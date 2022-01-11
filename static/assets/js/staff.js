@@ -120,24 +120,28 @@ function addRank(rank, roleColor) {
 
 }
 
-function addStaff(display, mc, discord) {
+function addStaff(display, mc, discord, roleColor) {
+
     let element = document.getElementById('staffTemplate').content.cloneNode(true);
 
+    let staffRow = element.getElementById('staffRow');
     let staffHead = element.getElementById('staffHead');
     let staffMember = element.getElementById('staffMember');
 
+    let boxShadow = '5px 0px 10px ' + roleColor;
 
     staffHead.innerHTML = '<img src="' + headAPI + mc + '/35" />';
     staffHead.id = mc + '_head';
 
     staffMember.innerText = display;
     staffMember.id =  mc + '_staff';
+    staffMember.style.borderColor = roleColor;
+    staffMember.style.boxShadow = boxShadow;
 
     staffTable.appendChild(element);
 }
 for (let staffRank of Object.keys(staffJson)) {
 
-    console.log(staffRank);
 
     let staffArray = staffJson[staffRank]['members'];
     let roleColor = staffJson[staffRank]['color'];
@@ -157,7 +161,6 @@ for (let staffRank of Object.keys(staffJson)) {
         if (away) {
             staffName += ' (A)';
         }
-
-        addStaff(staffName,mcName, discordID);
+        addStaff(staffName,mcName, discordID, roleColor);
     });
 }

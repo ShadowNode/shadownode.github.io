@@ -1216,6 +1216,7 @@ textarea {
   flex: 33%;
   flex-grow: 1;
   flex-shrink: 1;
+ 
 }
 .staffRowInner {
   display: block;
@@ -1229,8 +1230,14 @@ textarea {
   display: block;
   margin: 0 auto;
 }
+
 .staffName {
   display: block;
   text-align: center;
   margin: 0 auto;
+  border-right-style: solid;
+  border-width: 1px;
+  text-decoration-thickness: 1px;
+  text-decoration-style: dotted;
+  
 }
