@@ -46,9 +46,8 @@
     </div>
 </div>
 <script type="text/javascript">
-    if (navigator.userAgent.indexOf('Safari') != -1  && navigator.userAgent.indexOf('Chrome') == -1) {
-        //Safari Sucks you get NOTHING.
-    } else {
+    //Safari Sucks you get NOTHING (for now)
+    if (!(navigator.userAgent.indexOf('Safari') != -1  && navigator.userAgent.indexOf('Chrome') == -1)) {
         document.getElementById('vote1').classList.add('gooey-nice');
         document.getElementById('vote2').classList.add('gooey-nice');
     }
