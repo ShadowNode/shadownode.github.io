@@ -1119,7 +1119,6 @@ textarea {
   flex-wrap: wrap;
   padding-top: 25px;
   padding-bottom: 20px;
-  display: flex;
   flex-direction: row;
 }
 
@@ -1198,4 +1197,40 @@ textarea {
     50% {
       box-shadow: 1px 1px #b75fcc, 0 0 16px 8px #333, inset 2px 2px #D3FFEC;
     }
+}
+
+/* Staff Page */
+#staffGrid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rank-header {
+  font-size: 2rem;
+  text-align: center;
+  clear: both;
+  flex: 100%;
+}
+.staffRow {
+  margin: auto;
+  flex: 33%;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.staffRowInner {
+  display: block;
+  max-width: 300px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.staffHead {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+.staffName {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
 }
