@@ -22,20 +22,23 @@ function addStaff(display, mc, discord, roleColor) {
 
     let element = document.getElementById('staffTemplate').content.cloneNode(true);
 
-    // let staffRow = element.getElementById('staffRow');
+    let staffRow = element.getElementById('staffRow');
     let staffHead = element.getElementById('staffHead');
     let staffMember = element.getElementById('staffMember');
 
-    let boxShadow = '5px 0px 10px ' + roleColor;
+    let boxShadow = '0px 0px 10px 5px ' + roleColor;
 
-    staffHead.innerHTML = '<img alt="' + display + '" src="' + headAPI + mc + '/35" />';
+    staffHead.innerHTML = '<img height="100px" width="100px" style="box-shadow: ' + boxShadow +'" alt="' + display + '" src="' + headAPI + mc + '/100" />';
     staffHead.id = mc + '_head';
+    staffHead.style.borderColor = roleColor;
 
-    staffMember.innerText = display;
+    staffRow.id = mc + '_row';
+
+
+    staffMember.innerHTML = '<a style="" href="https://discord.com/users/' + discord + '">' + display + '</a>' ;
     staffMember.id =  mc + '_staff';
-    staffMember.style.borderColor = roleColor;
-    staffMember.style.boxShadow = boxShadow;
 
+    // staffMember.style.borderColor = roleColor;
     staffTable.appendChild(element);
 }
 

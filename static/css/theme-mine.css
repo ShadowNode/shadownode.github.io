@@ -1200,9 +1200,16 @@ textarea {
 }
 
 /* Staff Page */
+#staffWrapper {
+  display: block;
+  margin: auto;
+  max-width: 600px !important;
+}
+
 #staffGrid {
   display: flex;
   flex-wrap: wrap;
+  
 }
 
 .rank-header {
@@ -1212,31 +1219,38 @@ textarea {
   flex: 100%;
 }
 .staffRow {
-  margin: auto;
-  flex: 33%;
+  /*padding-top: 15px;*/
+  /*margin: auto;*/
+  flex: 30% !important;
+  padding: 10px;
   flex-grow: 1;
   flex-shrink: 1;
  
 }
 .staffRowInner {
   display: block;
-  max-width: 300px;
+  /*width: 200px;*/
   margin: auto;
   overflow: hidden;
 }
 
-.staffHead {
+.staffHead > img {
   text-align: center;
   display: block;
   margin: 0 auto;
+  
+  border-width: 1px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-bottom-style: solid;
 }
 
 .staffName {
-  display: block;
+  /*display: block;*/
+  padding: 0px 20px;
+  
+  width: max-content;
   text-align: center;
   margin: 0 auto;
-  border-right-style: solid;
-  border-width: 1px;
-  text-decoration-thickness: 1px;
-  text-decoration-style: dotted;
 }
