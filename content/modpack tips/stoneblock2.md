@@ -25,7 +25,7 @@ Our Stoneblock 2 server has some additional rules on the server apart from the [
 
 ## Commands
 
-There's a good number of commands that you should be aware of for using this pack, espcially in group play and you can find them on our commands page under the [Island/Cave](/home/commands/#islandcave-area) section. 
+There's a good number of commands that you should be aware of for using this pack, especially in group play and you can find them on our commands page under the [Island/Cave](/home/commands/#islandcave-area) section. 
 
 #### Getting Started
 
@@ -39,7 +39,7 @@ If you've never played on ShadowNode's Stoneblock 2 server, the way you get star
 
 #### Extra Utils not working
 
-his typically happens when you don't have enough Grid Power (GP). When this happens it may appear that you have enough, however, if you're sharing a base with someone or someone else placed the block will have the GP earned / stored based off of them. To solve this you will need to share your GP with your base mates(s). To do so you will need to use `/xu_powershare`. For more details please see our [Commands](/home/commands/#miscellaneous-commands)  page and look under Miscellaneous Commands.  
+This typically happens when you don't have enough Grid Power (GP). When this happens it may appear that you have enough, however, if you're sharing a base with someone or someone else placed the block will have the GP earned / stored based off of them. To solve this you will need to share your GP with your base mates(s). To do so you will need to use `/xu_powershare`. For more details please see our [Commands](/home/commands/#miscellaneous-commands)  page and look under Miscellaneous Commands.  
 
 ## Suggested Changes
 
