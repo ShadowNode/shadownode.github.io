@@ -35,6 +35,12 @@ Creating or resetting an area will wipe your inventory and progress
 
 If you've never played on ShadowNode's Stoneblock 2 server, the way you get started is to run `/area create`. Make sure you read the rules in spawn first.
 
+## Common Issues
+
+#### Extra Utils not working
+
+his typically happens when you don't have enough Grid Power (GP). When this happens it may appear that you have enough, however, if you're sharing a base with someone or someone else placed the block will have the GP earned / stored based off of them. To solve this you will need to share your GP with your base mates(s). To do so you will need to use `/xu_powershare`. For more details please see our [Commands](/home/commands/#miscellaneous-commands)  page and look under Miscellaneous Commands.  
+
 ## Suggested Changes
 
 ### Disable Craft Presence GUI
