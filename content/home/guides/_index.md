@@ -1,6 +1,7 @@
 ---
 title: Guides
 author: Babymillie
+weight: 1
 ---
 
 In this category you will find all guides and answers to questions you may have about our server!

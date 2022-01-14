@@ -1,6 +1,7 @@
 ---
 title: Launchers
 author: LethalMrM
+weight: 1
 ---
 
 In this category you will find information and guides about how to setup, manage and use launchers.

@@ -2,6 +2,7 @@
 title: Wiki
 author: Bennyboy1695
 contributors: YourMCGeek
+weight: 2
 ---
 
 In this category you will find all commands, guides, rules and answers to questions you may have about our server!
