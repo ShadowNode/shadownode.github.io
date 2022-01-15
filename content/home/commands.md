@@ -152,3 +152,5 @@ These are the commands that don't really fit into any section.
 **Note: On servers like infinity and vanilla this command does not exist!**
 
 ``/server <name>`` This command will put you on the server you specify. **Note: You still need that version/modpack** You can also run ``/name`` replacing name with the server name for the same effect!
+
+``/xu_powersharing <player>`` This command will allow you to share GP with others members in your team if you group up. **To use this effectively both sides have to use the command**.
