@@ -3,6 +3,7 @@ title: Wiki
 author: Bennyboy1695
 contributors: YourMCGeek
 weight: 2
+aliases: ["/wiki"]
 ---
 
 {{< indexes/home >}}
