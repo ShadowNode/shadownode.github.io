@@ -51,4 +51,4 @@ All of these shop perks have commands that must be run on a 1.12 client to use. 
     - Custom Status
       - Allows you to have a custom join / leave message. Buying this item gives you a join / leave message that you can set.
       - To set a custom join or leave message you'll need to type `/status`. This will give you the following screen. You can set, unset, preview, enable and disable the messages. Do not forget to enable it the first time you use it!
-      ![Custom Status](../../../assets/images/shop/custom-status.png)
+      ![Custom Status](/assets/images/shop/custom-status.png)

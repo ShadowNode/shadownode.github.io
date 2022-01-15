@@ -18,7 +18,7 @@ If you run ``/relocate`` a message in chat will be triggered to warn you of a fe
 2. If a certain mod/item has plans to be banned/removed from the pack there will be a warning.
     1. The purpose of this warning is for you to **NOT** include them in your crate because you **WILL** lose them.
 
-![Warning](../../../assets/images/relocate/relocate_command.png)
+![Warning](/assets/images/relocate/relocate_command.png)
 
 If you run ``/relocate crate`` an inventory similar to a chest will appear on your screen. You may drag items that you wish to save into the chest. *The chest does not save the order in which you place the items.* You may run the command again to open this inventory to take items out of it or to add more. In order to access the items after the wipe, or on the other server, run ``/relocate crate``
 
@@ -28,8 +28,8 @@ There will be a deadline to when you can access your relocate crate. This applie
 
 ### Items Inserted
 
-![Inserted Items](../../../assets/images/relocate/relocate_insertion.png)
+![Inserted Items](/assets/images/relocate/relocate_insertion.png)
 
 ### Crate Reopened
 
-![Inserted Items](../../../assets/images/relocate/relocate_opening.png)
+![Inserted Items](/assets/images/relocate/relocate_opening.png)
