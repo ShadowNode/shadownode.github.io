@@ -1,4 +1,4 @@
-baseurl = "https://shadownode.ca"
+baseurl = ""
 contentdir    = "content"
 layoutdir     = "layouts"
 publishdir    = "public"
