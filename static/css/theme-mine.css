@@ -1208,7 +1208,7 @@ textarea {
   background-color: #8451a1;
   color: #FFF;
   margin: 5px;
-  /*padding: 1rem;*/
+  padding: 0.7rem;
   font-size: 1.1rem;
   border-radius: 5px;
 }
