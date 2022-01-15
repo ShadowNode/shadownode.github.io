@@ -13,6 +13,9 @@ jobs:
         # with:
         #   submodules: true
 
+      - name: Trigger Cloudflage Pages Build
+        run: curl -X POST ${{ secrets.CF_PAGES_BUILD_WEBHOOK_URL }}
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
