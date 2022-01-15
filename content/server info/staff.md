@@ -11,7 +11,7 @@ tags: ["owner", "admin", "mod", "mit", "dev", "staff", "builder", "ranks"]
 {{% notice note %}}
 Members with (A) behind there name are in Away mode. They may or may not be able to assist.
 
-For quick help, [#support](https://discordapp.com/channels/124188711603798016/379181828302700547) or [tickets](https://discordapp.com/channels/124188711603798016/379180312871043073) is still the best way to get support. Provided you have joined [our Discord](https://discord.shadownode.ca/).)
+For quick help, [#support](https://discordapp.com/channels/124188711603798016/379181828302700547) or [tickets](https://discordapp.com/channels/124188711603798016/379180312871043073) is still the best way to get support. Provided you have joined [our Discord](https://discord.shadownode.ca/).
 
 You will need to be in the [ShadowNode Discord](https://discord.shadownode.ca) to message staff or create a ticket.
 {{% /notice %}}
