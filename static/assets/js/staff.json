@@ -1,0 +1,182 @@
+{
+  "Owner": {
+    "color": "#FF55FF",
+    "description": "This rank is for the owner of ShadowNode.",
+    "members": [
+      {
+        "display": "ShadowKitten",
+        "ingame": "df6e1e9b-d23d-4283-a941-87916bc3ea2e",
+        "discord": "106221569897922560",
+        "away": false
+      }
+    ]
+  },
+  "Sr Administrator": {
+    "color": "#AA0000",
+    "description": "Senior Administrators are responsible for managing the staff team, discord server, and network. Hand-picked by ShadowKitten, these members are some of the most trusted members in the entire network. ",
+    "members": [
+      {
+        "display": "Dnsmasq",
+        "ingame": "98c3e2ec-60f9-4ccd-b4a0-24280813dda3",
+        "discord": "220218217145171969",
+        "away": false
+      },
+      {
+        "display": "RedSensei",
+        "ingame": "5232223d-f05a-4a7b-9376-0428549b1163",
+        "discord": "318557661081632768",
+        "away": true
+      },
+      {
+        "display": "War_Horse",
+        "ingame": "dbf54ce3-0aea-47da-9d16-863283c7a437",
+        "discord": "675429391513419816",
+        "away": false
+      },
+      {
+        "display": "Endercorps_Alpha",
+        "ingame": "9db449a3-a567-470a-85d4-7ef7f16405a8",
+        "discord": "142748655294742528",
+        "away": false
+      },
+      {
+        "display": "tree_of_chaos",
+        "ingame": "2a6871c0-2dfa-41d8-af58-8608c81b8864",
+        "discord": "261311666904367124",
+        "away": false
+      }
+    ]
+  },
+  "Administrator": {
+    "color": "#FF5555",
+    "description": "Admins are responsible for managing the background functions of the servers. This includes setting up new packs and maintenance of the current ones.",
+    "members": [
+      {
+        "display": "Cosmic_Elemental",
+        "ingame": "a51adf68-e79a-4a62-8b95-10405dd071bd",
+        "discord": "356530058908925965",
+        "away": false
+      },
+      {
+        "display": "InkEyes",
+        "ingame": "f741de3f-89a7-4431-ac61-dcff541c45a7",
+        "discord": "147137133495189505",
+        "away": false
+      },
+      {
+        "display": "Moody_420",
+        "ingame": "39e05a75-49f2-4060-9a48-80e34d11b162",
+        "discord": "262778042760298497",
+        "away": false
+      },
+      {
+        "display": "Zyion",
+        "ingame": "6e863331-9968-4943-aa48-0b3c65308bc4",
+        "discord": "99358692054405120",
+        "away": false
+      },
+      {
+        "display": "Nightbringer",
+        "ingame":  "b988fece-a0b7-4b2a-a16f-e5fe3bbb6b3b",
+        "discord": "285842895439790081",
+        "away": false
+      }
+    ]
+  },
+  "Moderator": {
+    "color": "#1a7939",
+    "description": "Moderators are responsible for enforcing bans, refunding items, and fixing griefs.",
+    "members": [
+      {
+        "display": "Apollo",
+        "ingame": "c33f9d51-c964-4d86-ba02-dab6b39ae43e",
+        "discord": "207206527214419968",
+        "away": false
+      },
+      {
+        "display": "RadicalJim",
+        "ingame": "02065a9a-7d2b-4210-a4ac-cd7adc05488f",
+        "discord": "137023583208603650",
+        "away": false
+      },
+      {
+        "display": "ItsAFauxy",
+        "ingame": "8758960f-e495-4c03-b425-64218cd6c598",
+        "discord": "272454142201692160",
+        "away": false
+      },
+      {
+        "display": "hachiimann",
+        "ingame": "530ceac1-30e1-4fbc-97f2-3a846170dfc5",
+        "discord": "346423675869724675",
+        "away": false
+      },
+      {
+        "display": "ItsNora_",
+        "ingame": "e9309a03-1634-4b86-a895-1b70c829e51d",
+        "discord": "191989517408927744",
+        "away": false
+      },
+      {
+        "display": "PopularSean",
+        "ingame": "2fd35731-57c0-4dc3-adc3-508a56831180",
+        "discord": "240924570809270273",
+        "away": false
+      }
+    ]
+  },
+  "MIT": {
+    "color": "#25c059",
+    "description": "MIT are Moderators in Training. They assist in-game and Discord by answering questions and assisting the other staff.",
+    "members": [
+      {
+        "display": "neoneix",
+        "ingame": "de0104f0-681b-477b-8b66-4c5814d46302",
+        "discord": "168941686368501760",
+        "away": false
+      },
+      {
+        "display": "InfernalShadow",
+        "ingame": "3cd9d5c6-d4eb-4430-8635-bebe29c3a832",
+        "discord": "359487680385515521",
+        "away": false
+      }
+    ]
+  },
+  "Developer": {
+    "color": "#FFAA00",
+    "description": "Developers are responsible for updating, optimizing, and creating plugins, mods, and other coding needs.",
+    "members": [
+      {
+        "display": "Bennyboy1695",
+        "ingame": "a97174eb-9e37-4035-b751-f7601488528d",
+        "discord": "97995963137802240",
+        "away": false
+      },
+      {
+        "display": "YourMCGeek",
+        "ingame": "85abce19-1b92-4a6e-9063-6d832a417c40",
+        "discord": "102762443767287808",
+        "away": false
+      },
+      {
+        "display": "LethalMrM",
+        "ingame": "90349245-dd9a-464c-baf7-f72fa414b5a1",
+        "discord": "93226934015647744",
+        "away": false
+      }
+    ]
+  },
+  "Builder": {
+    "color": "#FFFF55",
+    "description": "Builders are our visual block artists. They design our spawns, hubs, and other official build requirements.  ",
+    "members": [
+      {
+        "display": "Skull Lady MLady",
+        "ingame": "67de4031-7703-4323-89f5-a72132be5ad4",
+        "discord": "144051995051950080",
+        "away": false
+      }
+    ]
+  }
+}
