@@ -6,13 +6,24 @@ const jsonURL = '/assets/js/staff.json'
 
 const staffTable = document.getElementById('staffGrid');
 
-function addRank(rank, roleColor) {
+function addRank(rank, roleColor, roleDesc) {
     let element = document.getElementById('rankTemplate').content.cloneNode(true);
     let rankHeader = element.getElementById('staffRank');
+    let rankDesc = element.getElementById('rankDescription');
+
 
     rankHeader.innerText = rank;
     rankHeader.id = rank + '_rank';
     rankHeader.style.color = roleColor;
+
+
+    if (roleDesc == null) {
+        roleDesc = "&nbsp;";
+    }
+
+    rankDesc.innerText = roleDesc;
+    rankDesc.id = rank + "_desc";
+
 
     staffTable.appendChild(element);
 
@@ -49,8 +60,9 @@ fetch(jsonURL, {method: 'get'}).then(async function (response) {
 
         let staffArray = staffJson[staffRank]['members'];
         let roleColor = staffJson[staffRank]['color'];
+        let roleDesc = staffJson[staffRank]['description'];
 
-        addRank(staffRank, roleColor);
+        addRank(staffRank, roleColor, roleDesc);
 
         staffArray.forEach((staffMember) => {
 

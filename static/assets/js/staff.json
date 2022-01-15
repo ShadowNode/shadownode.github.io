@@ -1,6 +1,7 @@
 {
   "Owner": {
     "color": "#FF55FF",
+    "description": "This rank is for the owner of ShadowNode.",
     "members": [
       {
         "display": "ShadowKitten",
@@ -12,6 +13,7 @@
   },
   "Sr Administrator": {
     "color": "#AA0000",
+    "description": "Senior Administrators are responsible for managing the staff team, discord server, and network. Hand-picked by ShadowKitten, these members are some of the most trusted members in the entire network. ",
     "members": [
       {
         "display": "Dnsmasq",
@@ -47,6 +49,7 @@
   },
   "Administrator": {
     "color": "#FF5555",
+    "description": "Admins are responsible for managing the background functions of the servers. This includes setting up new packs and maintenance of the current ones.",
     "members": [
       {
         "display": "Cosmic_Elemental",
@@ -82,6 +85,7 @@
   },
   "Moderator": {
     "color": "#1a7939",
+    "description": "Moderators are responsible for enforcing bans, refunding items, and fixing griefs.",
     "members": [
       {
         "display": "Apollo",
@@ -123,6 +127,7 @@
   },
   "MIT": {
     "color": "#25c059",
+    "description": "MIT are Moderators in Training. They assist in-game and Discord by answering questions and assisting the other staff.",
     "members": [
       {
         "display": "neoneix",
@@ -140,6 +145,7 @@
   },
   "Developer": {
     "color": "#FFAA00",
+    "description": "Developers are responsible for updating, optimizing, and creating plugins, mods, and other coding needs.",
     "members": [
       {
         "display": "Bennyboy1695",
@@ -163,6 +169,7 @@
   },
   "Builder": {
     "color": "#FFFF55",
+    "description": "Builders are our visual block artists. They design our spawns, hubs, and other official build requirements.  ",
     "members": [
       {
         "display": "Skull Lady MLady",

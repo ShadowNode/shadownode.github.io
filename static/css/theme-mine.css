@@ -1212,7 +1212,15 @@ textarea {
   
 }
 
+.rankDescription {
+  width: 100%;
+  text-align: center;
+}
+
 .rank-header {
+  border-top-width: 1px;
+  border-top-style: solid;
+  margin-top: 2rem;
   font-size: 2rem;
   text-align: center;
   clear: both;
@@ -1235,6 +1243,9 @@ textarea {
   box-shadow: 0 0 10px #00000070;
   width: 180px;
   
+}
+.staffRowInner:hover {
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
 }
 
 .staffHead > img {
