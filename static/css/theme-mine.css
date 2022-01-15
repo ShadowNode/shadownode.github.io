@@ -1219,10 +1219,10 @@ textarea {
   flex: 100%;
 }
 .staffRow {
-  /*padding-top: 15px;*/
+  padding-top: 15px;
   /*margin: auto;*/
   flex: 30% !important;
-  padding: 10px;
+  /*padding: 10px;*/
   flex-grow: 1;
   flex-shrink: 1;
  
@@ -1232,6 +1232,9 @@ textarea {
   /*width: 200px;*/
   margin: auto;
   overflow: hidden;
+  box-shadow: 0 0 10px #00000070;
+  width: 180px;
+  
 }
 
 .staffHead > img {

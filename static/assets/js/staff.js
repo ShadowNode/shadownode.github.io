@@ -32,7 +32,7 @@ function addStaff(display, mc, discord, roleColor) {
     staffHead.id = mc + '_head';
     staffHead.style.borderColor = roleColor;
 
-    staffRow.id = mc + '_row';
+    staffRow.id = display + '_row';
 
 
     staffMember.innerHTML = '<a style="" href="https://discord.com/users/' + discord + '">' + display + '</a>' ;
