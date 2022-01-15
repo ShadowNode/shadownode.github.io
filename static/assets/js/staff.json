@@ -71,6 +71,12 @@
         "ingame": "6e863331-9968-4943-aa48-0b3c65308bc4",
         "discord": "99358692054405120",
         "away": false
+      },
+      {
+        "display": "Nightbringer",
+        "ingame":  "b988fece-a0b7-4b2a-a16f-e5fe3bbb6b3b",
+        "discord": "285842895439790081",
+        "away": false
       }
     ]
   },
@@ -112,12 +118,6 @@
         "ingame": "2fd35731-57c0-4dc3-adc3-508a56831180",
         "discord": "240924570809270273",
         "away": false
-      },
-      {
-        "display": "LethalMrM",
-        "ingame": "90349245-dd9a-464c-baf7-f72fa414b5a1",
-        "discord": "93226934015647744",
-        "away": false
       }
     ]
   },
@@ -151,6 +151,12 @@
         "display": "YourMCGeek",
         "ingame": "85abce19-1b92-4a6e-9063-6d832a417c40",
         "discord": "102762443767287808",
+        "away": false
+      },
+      {
+        "display": "LethalMrM",
+        "ingame": "90349245-dd9a-464c-baf7-f72fa414b5a1",
+        "discord": "93226934015647744",
         "away": false
       }
     ]
