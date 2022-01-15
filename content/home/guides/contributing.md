@@ -14,7 +14,7 @@ All of these sections mentioning Github require a [Github](https://github.com) a
 
 
 ## Making Suggestions for Edits
-If you're not comfortable writing Markdown or using Git you can make suggestions for edits via our project's [Github issues]() or [simply open a ticket in our Discord]() detailing the changes needed. Please note that if you are able to make changes via Markdown and Git that is the preferred method. If you wish to contribute directly please click [here](#contributing-code--content-directly).
+If you're not comfortable writing Markdown or using Git you can make suggestions for edits via our project's [Github issues](https://github.com/ShadowNode/shadownode.github.io/issues) or [simply open a ticket in our Discord]() detailing the changes needed. Please note that if you are able to make changes via Markdown and Git that is the preferred method. If you wish to contribute directly please click [here](#contributing-code--content-directly).
 
 ### Making Suggestions via Github
 Github is a great place to make suggestions to our site and might be the better option if you fall into the following two groups.
