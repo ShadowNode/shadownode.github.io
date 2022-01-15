@@ -1204,6 +1204,19 @@ textarea {
     }
 }
 
+.shadow_button {
+  background-color: #8451a1;
+  color: #FFF;
+  margin: 5px;
+  padding: 0.7rem;
+  font-size: 1.1rem;
+  border-radius: 5px;
+}
+.shadow_button:hover {
+  -webkit-animation: glow 4s ease-in-out infinite alternate;
+  -moz-animation: glow 4s ease-in-out infinite alternate;
+  animation: glow 4s ease-in-out infinite alternate;
+}
 /* Staff Page */
 #staffWrapper {
   display: block;
