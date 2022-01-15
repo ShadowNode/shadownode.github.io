@@ -731,7 +731,7 @@ svg {
 
 #serversWrapper {
   width: calc(100% + 6rem);
-  margin: -3rem;
+  margin: 1rem -3rem;
   display: block;
 
 }
@@ -1124,7 +1124,6 @@ textarea {
   flex-wrap: wrap;
   padding-top: 25px;
   padding-bottom: 20px;
-  display: flex;
   flex-direction: row;
 }
 
@@ -1203,4 +1202,74 @@ textarea {
     50% {
       box-shadow: 1px 1px #b75fcc, 0 0 16px 8px #333, inset 2px 2px #D3FFEC;
     }
+}
+
+/* Staff Page */
+#staffWrapper {
+  display: block;
+  margin: auto;
+  max-width: 600px !important;
+}
+
+#staffGrid {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.rankDescription {
+  width: 100%;
+  text-align: center;
+}
+
+.rank-header {
+  border-top-width: 1px;
+  border-top-style: solid;
+  margin-top: 2rem;
+  font-size: 2rem;
+  text-align: center;
+  clear: both;
+  flex: 100%;
+}
+.staffRow {
+  padding-top: 30px;
+  /*margin: auto;*/
+  flex: 30% !important;
+  /*padding: 10px;*/
+  flex-grow: 1;
+  flex-shrink: 1;
+ 
+}
+.staffRowInner {
+  display: block;
+  /*width: 200px;*/
+  margin: auto;
+  overflow: hidden;
+  box-shadow: 0 0 10px #00000070;
+  width: 180px;
+  
+}
+.staffRowInner:hover {
+  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+
+.staffHead > img {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  
+  border-width: 1px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-left-style: solid;
+  border-bottom-style: solid;
+}
+
+.staffName {
+  /*display: block;*/
+  padding: 0px 20px;
+  
+  width: max-content;
+  text-align: center;
+  margin: 0 auto;
 }
