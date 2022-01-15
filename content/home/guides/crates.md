@@ -1,7 +1,7 @@
 ---
 title: Crates
 author: YourMCGeek
-contributors: Babymillie
+contributors: Babymillie, LethalMrM
 ---
 
 ## Crates
@@ -11,8 +11,8 @@ We use a plugin called HuskyCrates to manage our crates. Crates contain items, t
 Some items on this list may not be on your server as some modpacks don't have all the mods as others.
 {{% /notice %}}
 
-| Mod | Common | Uncommon | Rare | Legendary | Exotic |
-|:---:|:------:|:--------:|:----:|:---------:|:------:|
+| Mod | Common | Uncommon | Rare | Legendary | Exotic | Chaotic |
+|:---:|:------:|:--------:|:----:|:---------:|:------:|:------: |
 | Vanilla | Iron Blocks <br> Gold Blocks <br> Coal Blocks <br> Potatoes <br> Spider Eyes <br> Nether Warts <br> Ender Pearls <br> Bones <br> Melon Seeds <br> Leather Armor | Name Tag <br> Saddle <br> Redstone Blocks <br> Emerald Blocks <br> Iron Horse Armor <br> Blaze Powder <br> Golden Apple <br> Creeper Head <br> Skeleton Head <br> Zombie Head | Obsidian <br> Bookshelves <br> Ender Chestplate <br> Cake <br> Gold Horse Armor <br> Eyes of Ender <br> Ghast Tears <br> Wither Skeleton Head | Anvil <br> Sponge <br> Ghast Tears <br> Diamond Pickaxe <br> Diamond Shovel <br> Diamond Axe <br> Diamond Hoe <br> Prismarine Shard <br> Nether Quartz <br> Doomhammer Axe <br> Rotokiller Hoe <br> Mjolnir Pickaxe <br> The Infernian Shovel | Enchantment Table  <br> Beacon <br> Nether Star <br> Diamond Horse Armor <br> Diamond Horse Armor <br> Enchanted Golden Apple <br> Chorus Fruit <br> Mirkwood Bow <br> Godkiller Sword | End Crystals <br> Dragon's Breath <br> Dragon Egg  <br> Spawn Guardian Egg <br> Sponge <br> Block of Emerald <br> Bottles O' Enchanting <br> Elytra <br> HEV Helmet <br> HEV Chestplate <br> HEV Leggings <br> HEV Boots |
 | Draconic Evolution | Generator  <br> Draconium Nugget | Mob Grinder <br> Draconium Ingot | Wyvern Axe <br> Dislocator <br> Dislocator Pedestal <br> Infused Obsidian | Wyvern Pickaxe <br> Wyvern Sword <br> Draconic Core <br> Basic Energy Crystal <br> Crystal Binder Wrench | Wyvern Helmet  <br> Wyvern Chestplate <br> Wyvern Leggings <br> Wyvern Boots <br> Wyvern Bow <br> Wyvern Shovel <br> Energy Core <br> Basic Fusion Crafter <br> Basic Wireless Crystal | Custom Named Draconic Tool <br> Wyvern Capacitor <br> Dragon Heart <br> Draconium Ingot <br> Wyvern Core <br> Wyvern Fusion Crafter <br> Energy Core Stablizers |
 | Ender IO | Silicon <br> Basic Capacitor <br> Reservoir | Photovoltaic Cell <br> Sag Mill <br> Alloy Smelter <br> Stirling Generator <br> Powered Light | Energy Conduits  <br> Item Conduits  <br> Energetic Alloy <br> Experience Rod <br> Basic Capacitor Bank <br> Experience Obelisk <br> Item Filter | Enchanter <br> Vacuum Chestplate  <br> XP Vacuum <br> Soul Binder <br> Slice 'n' Splice <br> Vibrant Alloy <br> Enhanced Energy Conduit | Farming Station  <br> Filled Soul Vial <br> Dark Steel Helmet <br> Dark Steel Chestplate <br> Dark Steel Leggings <br> Dark Steel Boots <br> Travel Anchor <br> Advanced Filter <br> The Vat | Wireless Charger <br> Wither Proof Obsidian <br> Dark Steel <br> Ender Energy Conduit <br> Advanced Photovoltaic Cell |
