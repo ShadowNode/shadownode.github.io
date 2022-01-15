@@ -14,7 +14,7 @@ All of these sections mentioning Github require a [Github](https://github.com) a
 
 
 ## Making Suggestions for Edits
-If you're not comfortable writing Markdown or using Git you can make suggestions for edits via our project's [Github issues]() or [simply open a ticket in our Discord]() detailing the changes needed. Please note that if you are able to make changes via Markdown and Git that is the preferred method. If you wish to contribute directly please click [here](#contributing-code--content-directly).
+If you're not comfortable writing Markdown or using Git you can make suggestions for edits via our project's [Github issues](https://github.com/ShadowNode/shadownode.github.io/issues) or [simply open a ticket in our Discord]() detailing the changes needed. Please note that if you are able to make changes via Markdown and Git that is the preferred method. If you wish to contribute directly please click [here](#contributing-code--content-directly).
 
 ### Making Suggestions via Github
 Github is a great place to make suggestions to our site and might be the better option if you fall into the following two groups.
@@ -30,7 +30,7 @@ Assuming you have an account and are signed in head to the [Issues](https://gith
 2. Make the following changes. You can see an already filled out example below.
   * Type in the title box a brief summary / title about what you want changed.
   * Type in the description tab details outlining a more detailed change. Include as much detail as needed to clearly convey this issue. 
-![GitHub Issue](../../../assets/images/contributing/example_issue.png)
+![GitHub Issue](/assets/images/contributing/example_issue.png)
 3. Click  `Submit New Issue`.
 4. Wait at least a day to see if your issue has been updating asking further details or had any changes made.
 
@@ -44,11 +44,11 @@ If you're a member of our community it's likely easiest for you to submit a tick
 Let's get started:
 1. Click the [#tickets](https://discord.com/channels/@me/379180312871043073) channel.
 2. Click Create Ticket.
-![Create a Ticket](../../../assets/images/contributing/create_ticket.png)
+![Create a Ticket](/assets/images/contributing/create_ticket.png)
 3. For the server select "Not Applicable"
-![Create a Ticket Step 2](../../../assets/images/contributing/create_ticket_2.png)
+![Create a Ticket Step 2](/assets/images/contributing/create_ticket_2.png)
 4. Fill the ticket out as normal, clicking the checkmark below your response confirmation after each step. If you need to edit your reply you can click the red "X" instead and it'll allow to do so. When complete it should look like this.
-![Create a Ticket Step 3](../../../assets/images/contributing/create_ticket_3.png)
+![Create a Ticket Step 3](/assets/images/contributing/create_ticket_3.png)
 5. After your ticket is created simply type into the ticket's channel the suggestion and optionally include screenshots of outdated areas.
 
 {{% notice note %}}
