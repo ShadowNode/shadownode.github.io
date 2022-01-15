@@ -1204,3 +1204,16 @@ textarea {
       box-shadow: 1px 1px #b75fcc, 0 0 16px 8px #333, inset 2px 2px #D3FFEC;
     }
 }
+.shadow_button {
+  background-color: #8451a1;
+  color: #FFF;
+  margin: 5px;
+  /*padding: 1rem;*/
+  font-size: 1.1rem;
+  border-radius: 5px;
+}
+.shadow_button:hover {
+  -webkit-animation: glow 4s ease-in-out infinite alternate;
+  -moz-animation: glow 4s ease-in-out infinite alternate;
+  animation: glow 4s ease-in-out infinite alternate;
+}
