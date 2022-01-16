@@ -2,7 +2,7 @@
 title: Wipes and Restarts
 author: YourMCGeek
 contributors: Dnsmasq, LethalMrM
-aliases: ["/restarts"]
+aliases: ["/home/wipes/", "/restarts"]
 -----------------------------
 
 Servers restart every once in a while to reduce lag. This does not mean that a restart will fix all kinds of lag so, please, **do not** as staff to restart a server due to lag. **Restarts are NOT wipes**, they are just a scheduled reboot to the server. 
