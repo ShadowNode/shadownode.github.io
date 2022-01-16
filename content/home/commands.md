@@ -70,11 +70,11 @@ Any server that is a skyblock style or uses a predefined starting area will use 
 
 ``/area create`` Creates an area and automatically sets the area spawn point. **This command wipes your inventory.**
 
-``/area spawn [name] [-f]`` Teleports you to the specified users island. Leaving the name blank will teleport you to your area. If you accompany the command with the `-f` flag it will force you to your area's spawn point even if the server deems it unsafe!
+``/area spawn [name] [-f]`` Teleports you to the specified user's island. Leaving the name blank will teleport you to your area. If you accompany the command with the `-f` flag it will force you to your area's spawn point even if the server deems it unsafe!
 
 ``/area setspawn <-o>`` Changes the area spawn point location to where you are currently standing. *Make sure its not on slabs, as the plugin will see them as unsafe!*
 
-``/area reset`` Wipes your area and starts your progress over fresh.
+``/area reset`` Wipes your area and starts your progress over fresh. **This command wipes your inventory.**
 
 ``/area info`` Provides information regarding the area you are currently in.
 
