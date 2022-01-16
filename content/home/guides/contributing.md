@@ -9,20 +9,20 @@ Contributors: LethalMrM
 You might want to contribute code, content or time to this wiki and are unsure how to do so. Please follow the steps below on how to do so.
 
 {{% notice note %}}
-All of these sections mentioning Github require a [Github](https://github.com) account!
+All of these sections mentioning GitHub require a [GitHub](https://github.com) account!
 {{% /notice %}}
 
 
 ## Making Suggestions for Edits
-If you're not comfortable writing Markdown or using Git you can make suggestions for edits via our project's [Github issues](https://github.com/ShadowNode/shadownode.github.io/issues) or [simply open a ticket in our Discord]() detailing the changes needed. Please note that if you are able to make changes via Markdown and Git that is the preferred method. If you wish to contribute directly please click [here](#contributing-code--content-directly).
+If you're not comfortable writing Markdown or using Git you can make suggestions for edits via our project's [GitHub issues](https://github.com/ShadowNode/shadownode.github.io/issues) or [simply open a ticket in our Discord]() detailing the changes needed. Please note that if you are able to make changes via Markdown and Git that is the preferred method. If you wish to contribute directly please click [here](#contributing-code--content-directly).
 
-### Making Suggestions via Github
-Github is a great place to make suggestions to our site and might be the better option if you fall into the following two groups.
+### Making Suggestions via GitHub
+GitHub is a great place to make suggestions to our site and might be the better option if you fall into the following two groups.
 
 1. Power users who simply don't feel comfortable making edits
 2. You are not in our Discord or simply don't use Discord.
 
-To get started with Github issues you will first need a Github account. You can sign up and join via a few methods so please refer to [Github's signup page](https://github.com/signup).
+To get started with GitHub issues you will first need a GitHub account. You can sign up and join via a few methods so please refer to [GitHub's signup page](https://GitHub.com/signup).
 
 Assuming you have an account and are signed in head to the [Issues](https://github.com/ShadowNode/shadownode.github.io/issues) section of our project and follow these steps.
 
@@ -64,15 +64,15 @@ There's two ways to do this:
 
 If you just want to simply edit one of the existing pages you just click the <i class="fas fa-code-branch"></i> Edit this page in the top right of the page! Then skip to [Step 3](#third-step)
 
-Or if you want to create a new section go to the [project](https://github.com/Bennyboy1695/ShadowNodeHugo/blob/master/content/wiki/) and click the `Fork` button.
+Or if you want to create a new section go to the [project](https://github.com/ShadowNode/shadownode.github.io) and click the `Fork` button.
 
 ### Second Step
 *This step is only if you did the second option in the First Step*
 
-Once you have clicked the fork button you will be redirected to your version of the github repo.
-On there you must go into the content folder, this is where all of the posts on here are located.
+Once you have clicked the fork button you will be redirected to your version of the GitHub repo.
+On there you must go into the content folder, this is where all the posts on here are located.
 
-Now you can create a new section by simply making a new folder, on github this is done in the edit screen which you can get to by clicking `Create new file`.
+Now you can create a new section by simply making a new folder, on GitHub this is done in the edit screen which you can get to by clicking `Create new file`.
 You then simply type what you want the folder to be named followed by a `/`.
 
 If you want your new section follow the steps in [Step 3](#third-step) but inside a file called `_index.md` inside the folder!
@@ -94,7 +94,7 @@ Then you just simply write everything in a language called Markdown. A guide of 
 
 ### Fourth Step
 
-Now you have edited/created your files you must use github to create a pull request to get them on the actual website.
+Now you have edited/created your files you must use GitHub to create a pull request to get them on the actual website.
 
 To do this a handy guide can be found [here](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
 
