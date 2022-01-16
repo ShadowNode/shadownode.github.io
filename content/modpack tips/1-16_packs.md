@@ -1,6 +1,6 @@
 ---
 title: 1.16 Packs
-author: Fayettemat
+author: LethalMrM
 ---
 
 {{% notice note %}}
@@ -15,16 +15,16 @@ Many of you are already familiar with 1.12.2 and 1.16 packs but there are some k
 
 #### Token Loaders
 
-Currently due to us using a different plugin for chunkloading on 1.16 there isn't token loaders for these packs. While we hope to add these back in the future, you currently have to purchase loaders from the [shop](https://shop.shadownode.ca/) should you wish to use them.
+Currently, due to us using a different plugin for chunkloading on 1.16 there isn't token loaders for these packs. While we hope to add these back in the future, you currently have to purchase loaders from the <a href="https://shop.shadownode.ca/" target="_blank">shop</a> should you wish to use them.
 
 #### Glow/Particle Effects
 
-Currently this is only supported on 1.12.2 packs. We do hope to have an update for this in the future.
+Currently, this is only supported on 1.12.2 packs. We do hope to have an update for this in the future.
 
 #### Can't Access Lobby
 
-The Lobby and events server will not support 1.16.5 modpacks. This is unfortunately something that we can't fix due to the changes in Forge that send all FML packets right at login. This also prevents server switching and being kicked to the lobby.
+The Lobby and events server will not support 1.16.5 Modpacks. This is unfortunately something that we can't fix due to the changes in Forge that send all FML packets right at login. This also prevents server switching and being kicked to the lobby.
 
-#### Cant Change Join / Leave 
+#### Can't Change Join / Leave 
 
 This is a known limitation. You can change your join / leave status by joining the Lobby with 1.12.2 client and running `/status`. For more details on this command please see [the store](/home/guides/store/) page.

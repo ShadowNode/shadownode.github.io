@@ -4,14 +4,12 @@ author: YourMCGeek
 contributors: Babymillie, LethalMrM
 ---
 
-The store is a place where you can purchase upgrades to support us, besides using the voting system. 
+<a href="https://shop.shadownode.ca/" target="_blank">The store</a> is a place where you can purchase upgrades to support us, besides using the voting system. 
 {{% notice note %}}
 All money received is used to improve our network for its users who may or may not to choose to support us via the store or even through voting. Please make sure you have your parents permission to purchase upgrades on our stores if you're one of our younger users.
 {{% /notice %}}
 
 ### Overview
-
-[//]: # (When you first open the [shop]&#40;https://shop.shadownode.ca&#41;, it should be quite easy to understand.)
 
 - Top Right Corner
     - This little widget shows how much you currently have in your "Shopping Cart". You can also change the currency that the sum is displayed in.  The "Log Out" button only appears here if you have been viewing som of the items and entered your username.
@@ -42,7 +40,7 @@ When entering your username, please ensure that it is the same as your in-game n
     - Currently, we only have the "Pay What You Want" option in here. This item has no reward, so please only use this function if you really want to support us without expecting anything in return.
 - Crate Keys
     - Crates are kind of like an in game loot box. They give you a change to win a prize for an item that you may want.
-    - To find out what is likely to be in a crate check out [the loot table]().
+    - To find out what is likely to be in a crate check out [the loot table](/home/guides/crates/).
 - Perks
 ![In Game Perks  Menu](/assets/images/store/perks.png)
 {{% notice note%}}

@@ -6,7 +6,7 @@ contributors: Babymillie, LethalMrM
 
 ## Crates
 
-We use a plugin called HuskyCrates to manage our crates. Crates contain items, the quality of which depends on the tier of the crate. To open a create you must hold the crate key in your hand and right click the corresponding crate. You can obtain crate keys by either purchasing them from our [store](https://shop.shadownode.ca), or buy buying them in our token shop. 
+We use a plugin called HuskyCrates to manage our crates. Crates contain items, the quality of which depends on the tier of the crate. To open a create you must hold the crate key in your hand and right click the corresponding crate. You can obtain crate keys by either purchasing them from our <a href="https://shop.shadownode.ca/" target="_blank">shop</a>, or buy buying them in our token shop. 
 {{% notice note %}}
 Some items on this list may not be on your server as some modpacks don't have all the mods as others.
 {{% /notice %}}

@@ -1,16 +1,19 @@
 ---
 Title: Ranks
 Author: Cosmic
-Contributors: Dnsmasq
+Contributors: Dnsmasq, LethalMrM
 ---
 
 ## Available Ranks
 
-On the server we have multiple ranks that you can [contribute](https://shop.shadownode.ca/) to acquire. \
-The first few include some commands with many being useful and some fun ones included with a few. \
-Each rank also has their own custom join/leave message. \
-Also every rank inherits the commands/features from the previous ranks.\
-Price of each rank is also located on the [contribute](https://shop.shadownode.ca/) page.
+On the server we have multiple ranks that you can <a href="https://shop.shadownode.ca/" target="_blank">contribute</a> to acquire.
+
+The first few include some commands with many being useful and some fun ones included with a few.
+
+Each rank also has their own custom join/leave message. 
+
+Also, every rank inherits the commands/features from the previous ranks.
+Price of each rank is also located on the <a href="https://shop.shadownode.ca/" target="_blank">shop</a> page.
 
 {{% notice note %}}
 All ranks have access to their specific prefix in `/perks`. \

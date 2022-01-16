@@ -7,7 +7,7 @@ contributors: Babymillie
 ## How to Use Github Gist
 While other copy and paste tools, like Pastebin or Hastebin, are more popular then Github Gist, Github Gist is one of the better copy and paste tools. It doesn't have a character count and it's just as easy to use as other tools. Using a copy and paste tool like Gist is recommended if you have issues with client crashes since it keeps the formatting of the log, and makes it easier to read the file without having to download it. 
 
-1. Use [this](https://gist.github.com/) link.
+1. Use <a href="https://gist.github.com/" target="_blank">this link</a> to create a gist.
 2. Give the gist a title in the small "filename" window above the large text window.
 3. Open the file you wish to share.
 4. Use Ctrl+A to select the whole text and Ctrl+C to copy it.
