@@ -5,10 +5,10 @@ contributors: LethalMrM
 tags: ["area", "teleport", "banned", "island", "home", "tp", "msg", "ignore"]
 ---
 ## Basic Commands
-| Argument  | Required  |
-|:--------:	|:--------:	|
-|    <>    	| Required 	|
-|    []    	| Optional 	|
+| Argument   | Required   |
+| :--------: | :--------: |
+| <>         | Required   |
+| []         | Optional   |
 
 ### Discord
 
@@ -17,7 +17,7 @@ In order to join discord, you need to run the command ``/discord`` in game, this
 ___
 
 ### Home
-*These commands are affecting by your rank. For example a normal member gets only 1 home. See [Ranks](../../server-info/ranks) for more info!*
+*These commands are affecting by your rank. For example a normal member gets only 1 home. See [Ranks](/server-info/ranks) for more info!*
 
 ``/sethome [name] [-o]`` Sets your home at a current location. Failure to specify a name will set the home under the name ``home``. Adding ``-o`` to the end of your command will override the location of the previous home (e.g ``/sethome home -o`` will make your new home at the location you're currently at).
 
@@ -65,7 +65,7 @@ ___
 
 ### Island/Cave Area
 
-Any server that is a skyblock style or uses a predefined starting area will use this plugin to create your area. Along with the commands mentioned above, there are a few more commands for your island/cave.\
+Any server that is a Skyblock style or uses a predefined starting area will use this plugin to create your area. Along with the commands mentioned above, there are a few more commands for your island/cave.\
 *Servers that fit into this category are servers like: Stoneblock, SkyFactory, Glacial Awakening.*
 
 ``/area create`` Creates an area and automatically sets the area spawn point. **This command wipes your inventory.**
@@ -145,12 +145,12 @@ ___
 
 These are the commands that don't really fit into any section.
 
-``/banneditems`` This command will list all the items that have been banned from being used/placed/crafted/broken ingame because of certain reasons.\
-*To navigate through its pages follow the command below unless your on vanilla or infinity in which case the command is* ``/banneditems [-p number]``
+``/banneditems`` This command will list all the items that have been banned from being used/placed/crafted/broken in-game because of certain reasons.
+*To navigate through its pages follow the command below unless your on vanilla in which case the command is* ``/banneditems [-p number]``
 
-``/page <next|prev|number>`` This command is used by a few plugins that send messages with multiple pages. For example if you run `/banneditems` it will most likely return you a message that at the bottom say `1/9`, this means it has 9 pages and you can rotate through those page using this command!\
-**Note: On servers like infinity and vanilla this command does not exist!**
+``/page <next | prev | number>`` This command is used by a few plugins that send messages with multiple pages. For example if you run `/banneditems` it will most likely return you a message that at the bottom say `1/9`, this means it has 9 pages, and you can rotate through those page using this command!
+**Note: On servers like vanilla this command does not exist!**
 
-``/server <name>`` This command will put you on the server you specify. **Note: You still need that version/modpack** You can also run ``/name`` replacing name with the server name for the same effect!
+``/server <name>`` This command will put you on the server you specify. **Note: This only works for 1.12 clients/servers. You still need that version/modpack** You can also run ``/name`` replacing name with the server name for the same effect!
 
 ``/xu_powersharing <player>`` This command will allow you to share GP with others members in your team if you group up. **To use this effectively both sides have to use the command**.

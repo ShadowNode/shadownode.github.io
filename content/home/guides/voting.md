@@ -7,7 +7,7 @@ contributors: Babymillie
 ## The Voting System
 Our voting system is relatively simple and easy to understand. 
 
-- We have 3 voting website we are listed on. Each of which you can use to vote on, once per day.
+- We have 2 voting website we are listed on. Each of which you can use to vote on, once per day.
 - You vote by filling in your Minecraft username in the text window and completing the Captcha.
 - Voting gives you 100 Tokens per voting website, which can be used for in-game items or transactions with other users.
 
