@@ -14,9 +14,9 @@ Always On is a chunk loader which is online 24/7 and will keep the chunk loaded.
 
 ### Token-earned Loaders vs Shop bought Loaders
 
-Token Loaders are always online-only and cannot be transfered between servers. They are also reset when the server is reset so you will need to earn them again through voting. Also, please keep in mind that token loaders are currently not working on 1.16 packs, however, are still avaliable on 1.12 packs.
+Token Loaders are always online-only and cannot be transferred between servers. They are also reset when the server is reset, so you will need to earn them again through voting. Also, please keep in mind that token loaders are currently not working on 1.16 packs, however, are still available on 1.12 packs.
 
-Shop Loaders are avalaible in Online Only as well as Always On. You can get Shop loaders transfered  between servers and reinstated after a server reset. 
+Shop Loaders are available in Online Only as well as Always On. You can get Shop loaders transferred  between servers and reinstated after a server reset. 
 
 You will need to open a ticket in our Discord server to accomplish this.
 
@@ -46,7 +46,7 @@ Please note that these blocks can change per pack. You can also view the current
 
 {{% /notice %}}
 
-Once you place the correct block in the chunk you wish to load (or radius load) you need to right click it with a Blaze Rod. If you have enough free chunk loaders you can create a radius chunk loader by right clicking the chunk loader block again. Please note that you can only assign a radius up to the maximum amount of chunk loaders you have and not larger than a radius of 4 per chunk loader. Once you are happy with your chunk loader set up shift-right click it to activate the loader. 
+Once you place the correct block in the chunk you wish to load (or radius load) you need to right-click it with a Blaze Rod. If you have enough free chunk loaders you can create a radius chunk loader by right clicking the chunk loader block again. Please note that you can only assign a radius up to the maximum amount of chunk loaders you have and not larger than a radius of 4 per chunk loader. Once you are happy with your chunk loader set up shift-right click it to activate the loader. 
 ![Placing a chunk loader](/assets/images/ificlt/ificlt_alwaysonline_prompt.png)
 ![Radius](/assets/images/ificlt/ificlt_radius_prompt.png)
 ![Enabled](/assets/images/ificlt/ificlt_enabled.png)
