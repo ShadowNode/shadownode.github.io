@@ -1105,6 +1105,17 @@ textarea {
 }
 
 /* Voters */
+.vote-section {
+  border-top: 1px solid #FFF;
+  padding-bottom: 2rem;
+}
+.no-dot {
+  text-align: center;
+}
+.no-dot > li {
+  list-style-type: none !important;
+}
+
 #voter-wrapper {
   display: block;
 
