@@ -56,7 +56,7 @@ Time to time pack authors will release updates to packs and prompt us to update 
 At the time of writing there's currently no way to backup modpacks on this launcher through the app.
 
 ### Setting Java Arguments
-Some packs have Java Arguments (args) that we recommend you the pack with. The other reasons you might want to change this is you have a set of arguments that you want to run or someone suggested a set of Java arguments.
+[Some packs have Java Arguments](/home/guides/java-args/) (args) that we recommend you the pack with. The other reasons you might want to change this is you have a set of arguments that you want to run or someone suggested a set of Java arguments.
 
 1. Go to your library and then click on the modpack you'd like to edit the arguments for.
 2. Click "Settings"

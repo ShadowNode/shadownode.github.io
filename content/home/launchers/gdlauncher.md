@@ -77,7 +77,7 @@ If you're wanting to modify the mods in your pack it's highly recommend you back
 ![GDLauncher Duplicate Modpack](/assets/images/gdlauncher/gdlauncher-duplicate.png)
 
 ### Setting Java Arguments
-Some packs have Java Arguments (args) that we recommend you the pack with. The other reasons you might want to change this is you have a set of arguments that you want to run or someone suggested a set of Java arguments. The below assumes you're setting it per instance.
+Some packs have [Java Arguments](/home/guides/java-args/) (args) that we recommend you the pack with. The other reasons you might want to change this is you have a set of arguments that you want to run or someone suggested a set of Java arguments. The below assumes you're setting it per instance.
 
 1. Right Click on your instance and select "Manage"
 ![GDLauncher Rightclick Modpack](/assets/images/gdlauncher/gdlauncher-rightclick.png) 
