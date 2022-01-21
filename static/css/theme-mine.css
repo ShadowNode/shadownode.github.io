@@ -1285,3 +1285,7 @@ textarea {
   text-align: center;
   margin: 0 auto;
 }
+
+.wrapper {
+  margin: 0 auto;
+}
