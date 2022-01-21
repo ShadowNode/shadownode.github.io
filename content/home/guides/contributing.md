@@ -9,12 +9,13 @@ Contributors: LethalMrM
 You might want to contribute code, content or time to this wiki and are unsure how to do so. Please follow the steps below on how to do so.
 
 {{% notice note %}}
-All of these sections mentioning GitHub require a [GitHub](https://github.com) account!
+All of these sections mentioning GitHub require a  <a href="https://github.com" target="_blank">GitHub</a> account!
 {{% /notice %}}
 
 
 ## Making Suggestions for Edits
-If you're not comfortable writing Markdown or using Git you can make suggestions for edits via our project's [GitHub issues](https://github.com/ShadowNode/shadownode.github.io/issues) or [simply open a ticket in our Discord]() detailing the changes needed. Please note that if you are able to make changes via Markdown and Git that is the preferred method. If you wish to contribute directly please click [here](#contributing-code--content-directly).
+If you're not comfortable writing Markdown or using Git you can make suggestions for edits via our project's <a href="https://github.com/ShadowNode/shadownode.github.io/issues" target="_blank">GitHub Issues</a> 
+or open a ticket in our Discord detailing the changes needed. Please note that if you are able to make changes via Markdown and Git that is the preferred method. If you wish to contribute directly please click [here](#contributing-code--content-directly).
 
 ### Making Suggestions via GitHub
 GitHub is a great place to make suggestions to our site and might be the better option if you fall into the following two groups.
@@ -22,9 +23,9 @@ GitHub is a great place to make suggestions to our site and might be the better 
 1. Power users who simply don't feel comfortable making edits
 2. You are not in our Discord or simply don't use Discord.
 
-To get started with GitHub issues you will first need a GitHub account. You can sign up and join via a few methods so please refer to [GitHub's signup page](https://GitHub.com/signup).
+To get started with GitHub issues you will first need a GitHub account. You can sign up and join via a few methods so please refer to <a href="https://GitHub.com/signup" target="_blank">GitHub's signup</a> page.
 
-Assuming you have an account and are signed in head to the [Issues](https://github.com/ShadowNode/shadownode.github.io/issues) section of our project and follow these steps.
+Assuming you have an account and are signed in head to the <a href="https://github.com/ShadowNode/shadownode.github.io/issues" target="_blank">Issues</a> section of our project and follow these steps.
 
 1. First make sure that your issue doesn't already exist and then click the `New Issue` button.
 2. Make the following changes. You can see an already filled out example below.
@@ -64,7 +65,7 @@ There's two ways to do this:
 
 If you just want to simply edit one of the existing pages you just click the <i class="fas fa-code-branch"></i> Edit this page in the top right of the page! Then skip to [Step 3](#third-step)
 
-Or if you want to create a new section go to the [project](https://github.com/ShadowNode/shadownode.github.io) and click the `Fork` button.
+Or if you want to create a new section go to the <a href="https://github.com/ShadowNode/shadownode.github.io" target="_blank">project</a> and click the `Fork` button.
 
 ### Second Step
 *This step is only if you did the second option in the First Step*
@@ -90,11 +91,11 @@ author: Bennyboy1695
 ```
 at the top of the file, and the file must have `.md` at the end!
 
-Then you just simply write everything in a language called Markdown. A guide of how things will look on our site can be seen [here](https://learn.netlify.com/en/cont/markdown/) of course we have a slightly different color scheme but the layout is the same!
+Then you just simply write everything in a language called Markdown. A guide of how things will look on our site can be seen <a href="https://learn.netlify.com/en/cont/markdown/" target="_blank">here</a>. Of course, we have a slightly different color scheme but the layout is the same!
 
 ### Fourth Step
 
 Now you have edited/created your files you must use GitHub to create a pull request to get them on the actual website.
 
-To do this a handy guide can be found [here](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)
+To do this a handy guide can be found on <a href="https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request">GitHub</a> for creating pull requests.
 
