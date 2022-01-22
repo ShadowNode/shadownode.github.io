@@ -1289,3 +1289,9 @@ textarea {
 .wrapper {
   margin: 0 auto;
 }
+
+copy-to-clipboard-inline {
+  width: inherit;
+  /*overflow:  hidden;*/
+}
+

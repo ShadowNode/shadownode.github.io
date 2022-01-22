@@ -47,4 +47,4 @@ The steps below assume you're continuing from the above setup and on the Minecra
 ![CurseForge Setup 6](/assets/images/curseforge/curseforge_setup_6.png)
 
 ### Setting Java Arguments
-Some packs have [Java Arguments](/home/guides/java-args/) (args) that we recommend you the pack with. The other reasons you might want to change this is you have a set of arguments that you want to run or someone suggested a set of Java arguments. Sadly, it's currently not possible to do so with this launcher.
+Some packs have [Java Arguments](/home/guides/java-args/) (args) that we recommend you the pack with. Check the [ModPack Tips](/modpack-tips/) section for any args that might need to be set for your pack. The below assumes you're setting it per instance.

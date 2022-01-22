@@ -58,7 +58,7 @@ MultiMC is a Minecraft launcher. It can be used to launch vanilla Minecraft, cus
 Ensure that you are running a version higher than or equal to 0.6.0. You can find your version at the top of the launcher toolbar. If your version is not higher than or equal to 0.6.0, follow [this tutorial](https://github.com/MultiMC/MultiMC5/wiki/Switching-update-channels)
 
 ### Adding Java Arguments
-You can find out more about Java Arguments and what you might want to set them to [here](/home/guides/java-args/).
+Some packs have [Java Arguments](/home/guides/java-args/) (args) that we recommend you the pack with. Check the [ModPack Tips](/modpack-tips/) section for any args that might need to be set for your pack. The below assumes you're setting it per instance.
 
 1. Locate the Settings tab at the top of the toolbar
 2. Click Java on the left side
