@@ -1279,8 +1279,7 @@ textarea {
 }
 
 .staffName {
-  padding: 0px 20px;
-  
+  padding: 0 20px;
   width: max-content;
   text-align: center;
   margin: 0 auto;
@@ -1288,10 +1287,5 @@ textarea {
 
 .wrapper {
   margin: 0 auto;
-}
-
-copy-to-clipboard-inline {
-  width: inherit;
-  /*overflow:  hidden;*/
 }
 
