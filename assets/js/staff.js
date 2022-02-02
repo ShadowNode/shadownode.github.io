@@ -12,8 +12,8 @@ function addRank(rank, roleColor, roleDesc) {
     let rankDesc = element.getElementById('rankDescription');
 
 
-    rankHeader.innerText = rank;
-    rankHeader.id = rank + '_rank';
+    rankHeader.innerHTML = '<a href="#'  + rank + '" style="color: ' + roleColor + ' !important;">' + rank + '</a>';
+    rankHeader.id = rank;
     rankHeader.style.color = roleColor;
 
 

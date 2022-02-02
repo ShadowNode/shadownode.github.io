@@ -83,6 +83,30 @@
       }
     ]
   },
+  "Developer": {
+    "color": "#FFAA00",
+    "description": "Developers are responsible for updating, optimizing, and creating plugins, mods, and other coding needs.",
+    "members": [
+      {
+        "display": "Bennyboy1695",
+        "ingame": "a97174eb-9e37-4035-b751-f7601488528d",
+        "discord": "97995963137802240",
+        "away": false
+      },
+      {
+        "display": "YourMCGeek",
+        "ingame": "85abce19-1b92-4a6e-9063-6d832a417c40",
+        "discord": "102762443767287808",
+        "away": false
+      },
+      {
+        "display": "LethalMrM",
+        "ingame": "90349245-dd9a-464c-baf7-f72fa414b5a1",
+        "discord": "93226934015647744",
+        "away": false
+      }
+    ]
+  },
   "Moderator": {
     "color": "#1a7939",
     "description": "Moderators are responsible for enforcing bans, refunding items, and fixing griefs.",
@@ -139,30 +163,6 @@
         "display": "InfernalShadow",
         "ingame": "3cd9d5c6-d4eb-4430-8635-bebe29c3a832",
         "discord": "359487680385515521",
-        "away": false
-      }
-    ]
-  },
-  "Developer": {
-    "color": "#FFAA00",
-    "description": "Developers are responsible for updating, optimizing, and creating plugins, mods, and other coding needs.",
-    "members": [
-      {
-        "display": "Bennyboy1695",
-        "ingame": "a97174eb-9e37-4035-b751-f7601488528d",
-        "discord": "97995963137802240",
-        "away": false
-      },
-      {
-        "display": "YourMCGeek",
-        "ingame": "85abce19-1b92-4a6e-9063-6d832a417c40",
-        "discord": "102762443767287808",
-        "away": false
-      },
-      {
-        "display": "LethalMrM",
-        "ingame": "90349245-dd9a-464c-baf7-f72fa414b5a1",
-        "discord": "93226934015647744",
         "away": false
       }
     ]
