@@ -878,7 +878,7 @@ svg {
   content: "";
   height: 1px;
   width: 0;
-  background-color: #B145B8; /*#CE3B2F*/
+  background-color: #B145B8;
   -webkit-transition: width 0.5s ease;
   -moz-transition: width 0.5s ease;
   -ms-transition: width 0.5s ease;
@@ -1105,17 +1105,24 @@ textarea {
 }
 
 /* Voters */
+.vote-section {
+  border-top: 1px solid #8451a1;
+  padding-bottom: 2rem;
+}
+.no-dot {
+  text-align: center;
+}
+.no-dot > li {
+  list-style-type: none !important;
+  padding-left: 0px !important;
+}
+
 #voter-wrapper {
   display: block;
 
 }
 
-/* #voter-wrapper > * {
-  flex-shrink: 1;
-} */
-
 #voter-table {
-  /* max-width: 800px; */
   width: 100%;
   margin: auto;
   display: flex;
@@ -1137,8 +1144,6 @@ textarea {
 }
 
 .voter-data {
-  /* flex-grow: 3;
-  flex-shrink: 1; */
   text-align: center;
 }
 
@@ -1160,7 +1165,6 @@ textarea {
 .single-voter {
   display: flex;
   flex-basis: 200px;
-  /* max-content: 300px; */
   justify-content: center;
   align-items: center;
 }
@@ -1172,9 +1176,7 @@ textarea {
   .voter-info {
     display: block;
   }
-  /* .single-voter {
-    display: block;
-  } */
+
   .voter-data { 
       display: block;
       text-align: center;
@@ -1217,6 +1219,7 @@ textarea {
   -moz-animation: glow 4s ease-in-out infinite alternate;
   animation: glow 4s ease-in-out infinite alternate;
 }
+
 /* Staff Page */
 #staffWrapper {
   display: block;
@@ -1246,16 +1249,13 @@ textarea {
 }
 .staffRow {
   padding-top: 30px;
-  /*margin: auto;*/
   flex: 30% !important;
-  /*padding: 10px;*/
   flex-grow: 1;
   flex-shrink: 1;
  
 }
 .staffRowInner {
   display: block;
-  /*width: 200px;*/
   margin: auto;
   overflow: hidden;
   box-shadow: 0 0 10px #00000070;
@@ -1279,10 +1279,13 @@ textarea {
 }
 
 .staffName {
-  /*display: block;*/
-  padding: 0px 20px;
-  
+  padding: 0 20px;
   width: max-content;
   text-align: center;
   margin: 0 auto;
 }
+
+.wrapper {
+  margin: 0 auto;
+}
+

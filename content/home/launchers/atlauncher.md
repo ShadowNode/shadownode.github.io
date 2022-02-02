@@ -33,7 +33,7 @@ Now that ATLauncher is installed you likely want to install a modpack to get pla
 3. Once the install completes you'll be able to play by clicking "Instances" on the right hand bar then clicking Play for the pack in question.
 
 ### Setting Java Arguments
-Some packs have Java Arguments (args) that we recommend you the pack with. The other reasons you might want to change this is you have a set of arguments that you want to run or someone suggested a set of Java arguments. The below assumes you're setting it per instance.
+Some packs have [Java Arguments](/home/guides/java-args/) (args) that we recommend you the pack with. Check the [ModPack Tips](/modpack-tips/) section for any args that might need to be set for your pack. The below assumes you're setting it per instance.
 
 1. Go to your "Instance Tab" and click the "Settings" button to open a pack configuration window.
 ![AT Setings](/assets/images/atlauncher/at_settings_1.png)

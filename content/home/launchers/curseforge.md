@@ -5,12 +5,12 @@ author: LethalMrM
 
 ## CurseForge
 
-CurseForge is a popular Minecraft launcher. It can be used to launch vanilla Minecraft, custom modpacks, or CurseForge modpacks. This launcher great for getting into modded Minecraft and providing a simple expirence. However, for advanced users we'd recommend using GDLauncher or MultiMC. CurseForge works on Windows and macOS.
+CurseForge is a popular Minecraft launcher. It can be used to launch vanilla Minecraft, custom Modpacks, or CurseForge Modpacks. This launcher great for getting into modded Minecraft and providing a simple expirence. However, for advanced users we'd recommend using GDLauncher or MultiMC. CurseForge works on Windows and macOS.
 
 ### How to Install
 Head to [CurseForge](https://download.curseforge.com/) and download the CurseForge Beta Launcher for your OS. The steps below are taken from a Windows install so it might be different if you're on macOS. 
 
-Once you've downloaded the launcher  go to your downloads folder and open the installer and follow the instructions below to get setup.
+Once you've downloaded the launcher go to your downloads folder and open the installer and follow the instructions below to get setup.
 
 1. Select your language and click next.
 ![CurseForge Installer 1](/assets/images/curseforge/installer_1.png)
@@ -32,7 +32,7 @@ To be able to use CurseForge for Minecraft you will need to do some basic config
 ![CurseForge Setup 2](/assets/images/curseforge/curseforge_setup_2.png)
 
 ### Adding a Modpack
-CurseForge has a large library of modpacks and it can be daunting to find and install the pack you want, however, we're breaking down how to install a pack. In this case we're install SkyFactory 4.
+CurseForge has a large library of Modpacks, and it can be daunting to find and install the pack you want, however, we're breaking down how to install a pack. In this case we're install SkyFactory 4.
 
 The steps below assume you're continuing from the above setup and on the Minecraft game page. 
 
@@ -47,4 +47,4 @@ The steps below assume you're continuing from the above setup and on the Minecra
 ![CurseForge Setup 6](/assets/images/curseforge/curseforge_setup_6.png)
 
 ### Setting Java Arguments
-Some packs have Java Arguments (args) that we recommend you the pack with. The other reasons you might want to change this is you have a set of arguments that you want to run or someone suggested a set of Java arguments. Sadly, it's currently not possible to do so with this launcher.
+Some packs have [Java Arguments](/home/guides/java-args/) (args) that we recommend you the pack with. Check the [ModPack Tips](/modpack-tips/) section for any args that might need to be set for your pack. The below assumes you're setting it per instance.

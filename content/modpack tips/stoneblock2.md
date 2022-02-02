@@ -50,9 +50,9 @@ Craft Presence is a mod that is designed to allow you to share your currently pl
 Normally we would suggest rebinding the key for Craft Presence's GUI in the controls setting, however, they have moved it. To disable the keybinding you can follow the steps below to regain access to Ultiminer.
 
 1. Press the grave key  - `` ` ``.  You will get a new GUI window with options pop up when you do so.
-![Craft Presence GUI](../../../../assets/images/tips/sb2/craft-presence_1.png)
+![Craft Presence GUI](/assets/images/tips/sb2/craft-presence_1.png)
 2. Click the button labeled "Accessibility Settings" and you should see the following page.
-![Craft Presence GUI - Accessibility](../../../../assets/images/tips/sb2/craft-presence_2.png)
+![Craft Presence GUI - Accessibility](/assets/images/tips/sb2/craft-presence_2.png)
 3. At the bottom there's a button labled "Config GUI Keybind" that you need to click. Once you do it will say "None" so you'll simply need to press "ESC" on your keyboard to delete the keybind. Press the back key.
 4. You will now be redirected back to the original screen and there will now be a new button in the middle at the bottom that says "Save". Click this and you're able to use FTB Ultimine normally.
-![Craft Presence GUI - Accessibility](../../../../assets/images/tips/sb2/craft-presence_3.png)
+![Craft Presence GUI - Accessibility](/assets/images/tips/sb2/craft-presence_3.png)

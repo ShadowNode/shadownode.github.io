@@ -20,7 +20,7 @@ Our Project Ozone 3: Kappa server has some additional rules on the server apart 
 
 ## Commands
 
-There's a good number of commands that you should be aware of for using this pack, espcially in group play and you can find them on our commands page under the [Island/Cave](/home/commands/#islandcave-area) section. 
+There's a good number of commands that you should be aware of for using this pack, especially in group play, and you can find them on our commands page under the [Island/Cave](/home/commands/#islandcave-area) section. 
 
 #### Getting Started
 
@@ -34,11 +34,11 @@ If you've never played on ShadowNode's Project Ozone 3: Kappa server, the way yo
 
 #### Unable to craft
 
-This means your pack is currently not set to the right mode. You will need to enable Kappa Mode to be able to play our pack. Once it's enabled you will need to relaunch the modpack.
+This means your pack is currently not set to the right mode. You will need to enable Normal Mode to be able to play our pack. Once it's enabled you will need to relaunch the Modpack.
 
-To enable Kappa mode you will need to follow the following steps.
+To enable normal mode you will need to follow the following steps.
 
-1. With your pack not launched open your pack modpack's  instance folder. You can find examples of this for your launcher under the launchers section of the wiki.
+1. With your pack not launched open your pack Modpack's  instance folder. You can find examples of this for your launcher under the launchers section of the wiki.
 2. Locate the packmode.cfg file. You will find it at `PO3\config\packmode.cfg` in your instance folder and open it with a text editor such as Notepad on Windows.
-3. Change `S:packMode=normal` to `S:packMode=kappa` and save the file. 
+3. Change `S:packMode=kappa` to `S:packMode=normal` and save the file. 
 4. Launch the pack and play as normal.

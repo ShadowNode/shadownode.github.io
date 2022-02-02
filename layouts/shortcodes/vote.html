@@ -1,9 +1,7 @@
+<header>
+    <a href="/home/"><img alt="logo" src="/assets/images/logo_vert.png?featherlight=false"></a>
+</header>
 <div class="wrapper">
-    <!-- <header>
-        <a href="/home" tabindex="3">
-            <img alt="logo" src="/assets/images/logo_vert.png">
-        </a>
-    </header> -->
     <div class="" style="text-align: center;">
         <svg xmlns="https://www.w3.org/2000/svg" version="1.1">
             <defs>
@@ -15,7 +13,7 @@
                 </filter>
             </defs>
         </svg>
-        <h1 style="z-index: 999;position:relative">Earn tokens by voting here</h1>
+        <h2 style="position:relative">Earn tokens by voting here</h2>
             <a href="https://ftbservers.com/server/z7RYUyxE/vote" target="_blank"><button id="vote1" class="gooey-button">FTB Servers
                 <span class="bubbles">
                     <span class="bubble"></span>
@@ -45,7 +43,55 @@
             </span>
         </button></a>
     </div>
+    <div class="vote-section" style="margin-top: 2rem;">
+        <h2 style="text-align: center">Why Vote</h2>
+        <div style="text-align: center;">
+            <img src="/assets/images/voting/voting_rewards.png" alt="Voting Rewards"/>
+            Voting increases our rank and reputation on voting websites. This can result in new players joining. <br/>
+            The tokens you get from voting are a global form of currency which you can trade in for rewards. <br/>
+            We have a monthly giveaway of Steam Game Keys for permanent copies of certain games for the Top 3 Voters! <br/>
+            More details can be found on our Wiki entry about <a href="/home/guides/voting/">voting and rewards</a> <br/>
+        </div>
+    </div>
+    <div class="vote-section" style="border-bottom: 1px solid #8451a1;">
+        <h2 style="text-align: center">The Voting System</h2>
+        <div style="text-align: center">
+            <img src="/assets/images/voting/voting_site.png" alt="Voting Site"/>
+            We have 2 voting website we are listed on. Each of which you can use to vote on, once per day. <br/>
+            You vote by filling in your Minecraft username in the text window and completing the Captcha. <br/>
+            Voting gives you 100 Tokens per voting website, which can be used for in-game items or currency. <br/>
+        </div>
+    </div>
+    <div id="voter-warpper">
+        <h2 style="text-align: center;">Top Voting Members</h2>
+        <div id="voter-table">
+            <div class="top3-stat" id="current-top">
+                <h3>Current Top 3</h3>
+            </div>
+            <div class="top3-stat" id="last-top">
+                <h3>Last Month Top 3</h3>
+            </div>
+            <div class="top3-stat" id="token-top">
+                <h3>Top 3 Tokens</h3>
+            </div>
+
+            <template id="voter-template">
+                <div class="voter-col">
+                    <div class="table">
+                        <div class="voter-container">
+                            <div class="single-voter">
+                                <div class="voter-info" id="voter-head"></div>
+                                <div class="voter-data" id="voter-data"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </template>
+        </div>
+    </div>
 </div>
+<script src="/assets/js/voters.js" type="text/javascript"></script>
+<script src="/assets/js/remove-pagetitle.js" type="text/javascript"></script>
 <script type="text/javascript">
     //Safari Sucks you get NOTHING (for now)
     if (!(navigator.userAgent.indexOf('Safari') !== -1  && navigator.userAgent.indexOf('Chrome') === -1)) {

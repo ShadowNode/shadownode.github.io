@@ -1,16 +1,19 @@
 ---
 Title: Ranks
 Author: Cosmic
-Contributors: Dnsmasq
+Contributors: Dnsmasq, LethalMrM
 ---
 
 ## Available Ranks
 
-On the server we have multiple ranks that you can [contribute](https://shop.shadownode.ca/) to acquire. \
-The first few include some commands with many being useful and some fun ones included with a few. \
-Each rank also has their own custom join/leave message. \
-Also every rank inherits the commands/features from the previous ranks.\
-Price of each rank is also located on the [contribute](https://shop.shadownode.ca/) page.
+On the server we have multiple ranks that you can <a href="https://shop.shadownode.ca/" target="_blank">contribute</a> to acquire.
+
+The first few include some commands with many being useful and some fun ones included with a few.
+
+Each rank also has their own custom join/leave message. 
+
+Also, every rank inherits the commands/features from the previous ranks.
+Price of each rank is also located on the <a href="https://shop.shadownode.ca/" target="_blank">shop</a> page.
 
 {{% notice note %}}
 All ranks have access to their specific prefix in `/perks`. \
@@ -175,7 +178,7 @@ Upgrade from Adumbrate
 To request a creator rank , you must be an active streamer on Twitch, Youtube or Mixer, Must at least create content for minecraft or stream on a regular basis\
 Having past content/streams from inside ShadowNode is a plus. Have a steady following count, and must not be toxic in game chat or have past issues with staff or ever got banned.\
 Creators will be accepted or denied on case by case basis by one of the senior-admin staff.\
-If you wish to apply make a [#support-tickets](https://discordapp.com/channels/124188711603798016/379180312871043073) in the [ShadowNode Official Discord Werver](https://discord.shadownode.ca/)
+If you wish to apply make a ticket in <a href="https://discordapp.com/channels/124188711603798016/379180312871043073" target="_blank">#tickets</a> in the <a href="https://discord.shadownode.ca/" target="_blank">ShadowNode Discord</a>.
 {{% /notice %}}
 
 Features 
@@ -185,7 +188,7 @@ Features
 `/nick` Allows you to set a nickname 'with' colors. (`/info colors` for color codes) \
 	Example: `/nick &5Shadows&dKitten` = <span style="color: #AA00AA">Shadows</span><span style="color: #FF55FF">Kitten </span>
 
-You may post your video/stream in our [#content](https://discordapp.com/channels/124188711603798016/383503183391096832) every time you stream or upload a video on youtube (Provided it is Shadownode Related).
+You may post your video/stream in our <a href="https://discordapp.com/channels/124188711603798016/383503183391096832" target="_blank">#content</a> every time you stream or upload a video on youtube (Provided it is Shadownode Related).
 
 As well as 3 Homes. (if you had no rank before)
 
@@ -194,10 +197,13 @@ As well as 3 Homes. (if you had no rank before)
 ### Booster
 
 {{% notice note %}}
-You can only get the booster rank if you boost the [ShadowNode Official Discord Server](https://discord.shadownode.ca/) with discord nitro or buy the boosts.\
-If you remove the boost on the discord server , we will remove the boost rank from your account to.\
-If you boosted the server and haven't received the rank make a [#support-tickets](https://discordapp.com/channels/124188711603798016/379180312871043073) in the [ShadowNode Official Discord Server](https://discord.shadownode.ca) so we can set you up.\
-Your booster title can only be activated in `/perks` under prefix.\
+You can only get the booster rank if you boost the <a href="https://discord.shadownode.ca/" target="_blank">ShadowNode Discord</a> with discord nitro or buy the boosts.
+
+If you remove the boost on the discord server , we will remove the boost rank from your account to.
+
+If you boosted the server and haven't received the rank make a  ticket in <a href="https://discordapp.com/channels/124188711603798016/379180312871043073" target="_blank">#tickets</a> in the <a href="https://discord.shadownode.ca/" target="_blank">ShadowNode Discord</a> so we can set you up.
+Your booster title can only be activated in `/perks` under prefix.
+
 While its not a direct contribution to ShadowNode it does help us to have Discord perks for ShadowNode Discord Server.
 {{% /notice %}}
 

@@ -9,11 +9,11 @@ Our market plugin is a custom plugin created by our owner, ShadowKitten. Running
 
 ### How to Access the Market
 To view the current listings, type the command ``/market``
-![Listings](../../../assets/images/market/market_listings.jpg)
+![Listings](/assets/images/market/market_listings.jpg)
 
 ### How to buy an item
 You can either browse the market or you can click on the ```Search Seller``` button to find a specific player's listening. Once you click on search, ``/market search seller <seller>`` will show up in your chat. Simply replace ```<seller>``` with the in game name of the person you'd like to search and hit enter. You can also click ```Search Item``` to check if a certain item is on the market. Once you click on it, ``/market search item <item>`` will appear. Replace ```<item>``` with the item id, and all listings that are relevant to you will be returned. If you decide to just browse the market, once you find an item you like, click on ```View```. From here you can decide to either message the user or buy the item.
-![View Item](../../../assets/images/market/market_view.png)
+![View Item](/assets/images/market/market_view.png)
 
 ### How to Create a listing
 To create a listing, you type in ```/market``` in the chat and scroll down to find Create and click it. Once you click it ```/market create <quantity> <price>``` will show up in your chat, replace the ``<quantity>`` with how many of the item you would like to sell at a time and ``<price>`` with the price per quantity. It will take the items in your hand. Once that command is ran you can see the information on your listing.
