@@ -8,7 +8,7 @@ contributors: Babymillie
 Crate relocation is a method that we have created in order to compensate for wiping servers. it will hold a **limited** number of items for you to be able to access them later. 
  
 ### Conditions to be capable of relocating
- 1. Must be across servers wit the same mod pack, such as Stoneblock A to Stoneblock B
+ 1. Must be across servers with the same mod pack, such as Stoneblock A to Stoneblock B
  2. May also be used to store some items to use after a map wipe
  3. **Cannot** be across different mod packs, such as Skyfactory to Beyond
  
