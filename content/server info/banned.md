@@ -4,7 +4,7 @@ author: YourMCGeek
 Contributors: LethalMrM
 tags: ["banneditems"]
 ---
-
+<!-- We ask that you refrain from editing this file as a community member. If you notice something appears wrong, please let us know in the Support Channel, and it'll be updated. Thank you for understanding. -->
 
 We have banned certain items on our servers because of issues in the past that now require us to disable them. If you encounter a bug, or any issue with the items, please report it in our Discord Support channel. Our plugin allows us to ban the items in a way that allows you to still progress through the pack. Craft, Place, Use, and Near are all the different ways items can be banned. 
 {{% notice note %}}
@@ -47,11 +47,11 @@ The list here  might not be the same as what's banned on a specific ShadowNode s
 |               RFTools Dimensions                |                        Causes Lag                        |                Craft                 |
 |              RFTools Quarry Cards               |                        Causes Lag                        |                Craft                 |
 |             RFTools Storage Scanner             |                   Bypass Claims<br>PvP                   |                Craft                 |
-|          Refined Storage Auto-Crafting          |                    Causes Insane Lag                     |                Craft                 ||
-|           Refined Storage Controller            |                   Causes Lag - Use AE2                   |                Craft                 ||
-|             Refined Storage Crafter             |                   Causes Lag - Use AE2                   |                Craft                 ||
+|          Refined Storage Auto-Crafting          |                    Causes Insane Lag                     |                Craft                 |
+|           Refined Storage Controller            |                   Causes Lag - Use AE2                   |                Craft                 |
+|             Refined Storage Crafter             |                   Causes Lag - Use AE2                   |                Craft                 |
 |        Refined Storage External Storage         |                   Causes Lag - Use AE2                   |                Craft                 |
-|      Refined Storage Quartz Enriched Iron       |                   Causes Lag - Use AE2                   |                Craft                 ||
+|      Refined Storage Quartz Enriched Iron       |                   Causes Lag - Use AE2                   |                Craft                 |
 |          Sticky Piston + RFTools Timer          |                           Dupe                           |                 Near                 |
 |           Tinkers Construct Throwball           |                   Bypass Claims<br>PvP                   |                Craft                 |
 |                  Translocators                  |                        Major Lag                         |                Craft                 |

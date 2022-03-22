@@ -5,9 +5,9 @@ author: LethalMrM
 
 ## Important Rules
 
-Our OceanBlock server follows all global rules that are appliciable to all of our other servers. You can find our [global rules](/rules) on our wiki and at `/spawn`.
+Our OceanBlock server follows all global rules that are applicable to all of our other servers. You can find our [global rules](/rules) on our wiki and at `/spawn`.
 
-As an improtant note, do not build a 1 chunk bases or farms. ShadowNode staff will take action as required. Staff response will depend on the situation.
+As an important note, do not build a 1 chunk bases or farms. ShadowNode staff will take action as required. Staff response will depend on the situation.
 
 #### Getting Started
 
@@ -22,7 +22,7 @@ Below is a current list of known issues with Ocean Block and work arounds (if an
 
 ### Joining an Island Wipes Inventory and Progress
 
-Currently if you join a team or island after you're already started the game you will lose all of your currently unlocked quest progress as well as having everything in your inventory wiped.
+Currently, if you join a team or island after you're already started the game you will lose all of your currently unlocked quest progress as well as having everything in your inventory wiped.
 
 While we cannot prevent the loss of quest progress when joining a team or creating an island we can help you keep your items. To do so simply have your friend trust you manually on the island. To do so they will need to type `/trust your_playername` and then allow you to place your stuff on their island. Once you have fully moved your items off your island and player's inventory you should be safe to join their team without losing items.
 
