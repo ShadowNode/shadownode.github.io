@@ -4,12 +4,12 @@ author: LethalMrM
 ---
 
 {{% notice note %}}
-This list is current as of the time of writing this but might not always be up-to-date. Take advice here with that knoweldge.
+This list is current as of the time of writing this but might not always be up-to-date. Take advice here with that knowledge.
 {{% /notice %}}
 
 ## Important Rules
 
-Our Project Ozone 3: Kappa server has some additional rules on the server apart from the [global rules](/rules) you find on all our servers.
+Our Project Ozone 3 server has some additional rules on the server apart from the [global rules](/rules) you find on all our servers.
 
 * Up to **2** Imaginary Time Blocks per area
 * Up to **2** Growth Crystals per area
@@ -20,15 +20,15 @@ Our Project Ozone 3: Kappa server has some additional rules on the server apart 
 
 ## Commands
 
-There's a good number of commands that you should be aware of for using this pack, especially in group play, and you can find them on our commands page under the [Island/Cave](/home/commands/#islandcave-area) section. 
+There's a good number of commands that you should be aware of for using this pack, especially in group play, and you can find them on our command page under the [Island/Cave](/home/commands/#islandcave-area) section. 
 
 #### Getting Started
 
 {{% notice warning %}}
-Creating or resetting an area will wipe your inventory and progress
+Creating or resetting an area will wipe your inventory and progress.
 {{% /notice %}}
 
-If you've never played on ShadowNode's Project Ozone 3: Kappa server, the way you get started is to run `/area create`. Make sure you read the rules in spawn first.
+If you've never played on ShadowNode's Project Ozone 3 server, the way you get started is to run `/area create`. Make sure you read the rules in spawn first.
 
 ## Common Issues
 
@@ -40,5 +40,5 @@ To enable normal mode you will need to follow the following steps.
 
 1. With your pack not launched open your pack Modpack's  instance folder. You can find examples of this for your launcher under the launchers section of the wiki.
 2. Locate the packmode.cfg file. You will find it at `PO3\config\packmode.cfg` in your instance folder and open it with a text editor such as Notepad on Windows.
-3. Change `S:packMode=kappa` to `S:packMode=normal` and save the file. 
+3. Change `S:packMode=kappa` to `S:packMode=normal` and save the file. Please note that if you've played on a server other than ours your `S:packmode=` entry might be different.
 4. Launch the pack and play as normal.
