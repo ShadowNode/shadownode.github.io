@@ -76,6 +76,10 @@ If you're wanting to modify the mods in your pack it's highly recommend you back
 2. Enter a name for the duplicated modpack and press the duplicate button.
 ![GDLauncher Duplicate Modpack](/assets/images/gdlauncher/gdlauncher-duplicate.png)
 
+### Updating Java Per Instance
+
+GDLauncher typically sets the default and correct version of Java for installs of packs using GDLauncher. We do not recommend updating them here.
+
 ### Setting Java Arguments
 Some packs have [Java Arguments](/home/guides/java-args/) (args) that we recommend you the pack with. Check the [ModPack Tips](/modpack-tips/) section for any args that might need to be set for your pack. The below assumes you're setting it per instance.
 

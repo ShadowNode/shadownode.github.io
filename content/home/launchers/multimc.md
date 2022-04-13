@@ -16,11 +16,12 @@ MultiMC is a Minecraft launcher. It can be used to launch vanilla Minecraft, cus
 
 1. Head to [MultiMC](https://multimc.org) and select which software is most appropriate for you.
 2. Locate the downloaded zip file and extract it into a folder.
-  - On most machines, you can right click the folder, click extract files and select your destination. If your machine does not have this option, head to Google!
-  - As an example on Windows 10 you can right click and select "Extract All.." and select a destination to extract the files to.
+  - On most machines, you can right-click the folder, click extract files and select your destination. If your machine does not have this option, head to Google!
+  - As an example on Windows 10 you can right-click and select "Extract All.." and select a destination to extract the files to.
   - We recommend only using the systems built in tools to extract compressed files.
+  - It's typically best to install MultiMC into the root of your drive on Windows. For example C:\MultiMC - this is to prevent file name length issues.
 
-3. Open the MultiMC folder generated at the location specified during extract and double click the MultiMC executable.
+3. Open the MultiMC folder generated at the location specified during extract and double-click the MultiMC executable.
 4. Complete the final setup details that it asks for, such as your preferred language and java version.
 
 ### Login to your Profile
@@ -66,9 +67,26 @@ Some packs have [Java Arguments](/home/guides/java-args/) (args) that we recomme
 4. Fill in your desired arguments in the blank
 5. Click test to verify everything is working properly.
 
+### Updating Java Per Instance
+{{% notice warning %}}
+Make sure you read up on how to [backup your modpack](/home/launchers/multimc/#backing-up-your-modpacks). Before editing these settings!
+{{% /notice %}}
+
+Simply follow these steps to update your Java version per instance with  MultiMC. Please note that some parts of the instructions will vary based on your system and installation methods. 
+
+1. With MultiMC launched, and no Modpacks started, right click on one of your Minecraft installs (instances) and select "Edit Instance" 
+![MultiMC Right Click](/assets/images/multimc/multimc-rightclick.png)
+2. Click on "Settings" on the left hand side and you should see a menu like this.
+![MultiMC Right Click](/assets/images/multimc/multimc-instance-settings.png)
+3. On this screen you'll see a checkbox at the top labeled "Java installation". Check the box and then click "Browse.."
+4. From here you'll have to navigate to the location that Java was installed on your computer for the correct version. 
+   - For Windows these are typically located under `C:\Program Files\Java` unless you opted to install it else where. You will need the full path of the java.exe file. 
+   - You will need to open the related version eg jre1.8.0_211 and then click `bin` before selecting the Java executable. On Windows this will be named `java.exe`
+     - On an example Windows system this is installed at `C:\Program Files\Java\jre1.8.0_211\bin\java.exe` 
+
 ### Managing Mods With MultiMC
 {{% notice warning %}}
-Removing and adding mods can cause pack instablity. Please consult your launcher's documentation on backing up your instance prior to preforming any of the tips below.
+Removing and adding mods can cause pack instability. Please consult your launcher's documentation on backing up your instance prior to preforming any of the tips below.
 {{% /notice %}}
 
 Using [MultiMC](https://multimc.org/) is by far the easiest and simplest method for updating and managing your mods. 
