@@ -3,6 +3,10 @@ title: GDLauncher
 author: LethalMrM
 ---
 
+{{% notice warning %}}
+Due to changes with CurseForge and FTB we recommend using those the platform launchers for the time being due to modpacks no longer being able to be installed cleanly due to changes by FTB and CurseForge.
+{{% /notice %}}
+
 ## About GDLauncher
 
 GDLauncher is a Minecraft launcher. It can be used to launch vanilla Minecraft, custom modpacks, or regular modpacks. This launcher is one of our recommended options for installing modpacks and managing mods. GDLauncher works on all major platforms - Windows, Linux and macOS.
