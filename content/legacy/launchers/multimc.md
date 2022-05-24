@@ -4,6 +4,10 @@ author: YourMCGeek
 contributors: Babymillie, LethalMrM
 ---
 
+{{% notice warning %}}
+We recommend using the CurseForge and FTBApp launchers until further notice, due to changes regarding downloads of modpacks in third party launchers with CurseForge and FTB.
+{{% /notice %}}
+
 ## About MultiMC
 
 MultiMC is a Minecraft launcher. It can be used to launch vanilla Minecraft, custom modpacks, or regular modpacks. The launcher is very good for Linux users or those who don't like the Twitch Launcher. **We strongly recommend this launcher.**
