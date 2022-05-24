@@ -3,6 +3,11 @@ title: ATLauncher
 author: LethalMrM
 ---
 
+{{% notice warning %}}
+We recommend using the CurseForge and FTBApp launchers until further notice, due to changes regarding downloads of modpacks in third party launchers with CurseForge and FTB.
+{{% /notice %}}
+
+
 ## About ATLauncher
 
 

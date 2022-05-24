@@ -4,7 +4,7 @@ author: LethalMrM
 ---
 
 {{% notice warning %}}
-Due to changes with CurseForge and FTB we recommend using those the platform launchers for the time being due to modpacks no longer being able to be installed cleanly due to changes by FTB and CurseForge.
+We recommend using the CurseForge and FTBApp launchers until further notice, due to changes regarding downloads of modpacks in third party launchers with CurseForge and FTB.
 {{% /notice %}}
 
 ## About GDLauncher
