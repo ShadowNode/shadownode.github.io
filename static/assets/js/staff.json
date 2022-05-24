@@ -153,7 +153,12 @@
     "color": "#25c059",
     "description": "MIT are Moderators in Training. They assist in-game and Discord by answering questions and assisting the other staff.",
     "members": [
-
+      {
+        "display": "Barbarian007",
+        "ingame": "50da74c9-160c-49f1-9707-ad8259d28768",
+        "discord": "235927184294936577",
+        "away": false
+      }
     ]
   },
   "Builder": {
