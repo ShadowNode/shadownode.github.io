@@ -18,17 +18,16 @@ All times listed are in Eastern Standard Time (EST). This is the same as GMT-5. 
 
 ####  1.16 and Vanilla Pack Restarts
 
-| Server Name                 | Restart Time   | Restart Time   |
-| :-------------------------: | :------------: | :------------: |
-| ATM6: To The Sky            | 4:30 AM/PM     | 10:30 AM/PM    |
-| Direwolf 20                 | 2:30 AM/PM     | 8:30 AM/PM     |
-| Endeavour                   | 3:30 AM/PM     | 9:30 AM/PM     |
-| Engineer's Life 2           | 5:30 AM/PM     | 11:30 AM/PM    |
-| Enigmatica 6                | 6:00 AM/PM     | 12 AM/PM       |
-| Enigmatica 6: Expert        | 1:30 AM/PM     | 7:30 AM/PM     |
-| FTB OceanBlock              | 6:30 AM/PM     | 11:30 AM/PM    |
-| FTB Ultimate Reloaded: AE   | 1:30 AM/PM     | 7:30 AM/PM     |
-| Vanilla                     | 12:00 AM/PM    |                |
+|        Server Name        | Restart Time   | Restart Time   |
+|:-------------------------:| :------------: | :------------: |
+|     ATM6: To The Sky      | 4:30 AM/PM     | 10:30 AM/PM    |
+|      Direwolf20 1.16      | 2:30 AM/PM     | 8:30 AM/PM     |
+|         Endeavour         | 3:30 AM/PM     | 9:30 AM/PM     |
+|       Enigmatica 6        | 6:00 AM/PM     | 12 AM/PM       |
+|   Enigmatica 6: Expert    | 1:30 AM/PM     | 7:30 AM/PM     |
+|      FTB OceanBlock       | 6:30 AM/PM     | 11:30 AM/PM    |
+| FTB Ultimate Reloaded: AE | 1:30 AM/PM     | 7:30 AM/PM     |
+|          Vanilla          | 12:00 AM/PM    |                |
 
 #### 1.12 Servers
 
