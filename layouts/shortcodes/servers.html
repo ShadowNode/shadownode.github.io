@@ -1,4 +1,12 @@
+<div id="serverModal" class="modal">
+    <div class="serverModalContent">
+        <h2 class="modalHeader">Pack Info</h2>
+        Testing123 testing. <br/>
+        <a class="modalLink">Download pack</a>
+    </div>
+</div>
 <div class="wrapper">
+
     <div id="loading" class="loading">
         <p id="loading-text">Loading</p>
     </div>
@@ -50,6 +58,9 @@
                                 <dt>Staff last seen:</dt>
                                 <dd id="staff-time"></dd>
                             </dl>
+                            <div class="server-info" id="pack-link">
+                                <a onclick="showModal()">Pack Download</a>
+                            </div>
                             <div id="player-chart" class="info chart"></div>
                             <div id="tps-chart" class="info bottomchart chart"></div>
                         </div>
@@ -64,4 +75,5 @@
 <script data-cfasync="true" type="text/javascript" src="/assets/js/jquery.flot.tooltip.js"></script>
 <script data-cfasync="false" type="text/javascript" src="/assets/js/jquery.flot.time.js"></script>
 <script src="/assets/js/servers.js" type="text/javascript"></script>
+<script src="/assets/js/modal.js" type="application/javascript"></script>
 <script src="/assets/js/remove-pagetitle.js" type="text/javascript"></script>

@@ -625,6 +625,34 @@ svg {
 }
 
 
+#serverModal {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgba(0,0,0,0.4) !important;
+  display: none;
+  z-index: 9998 !important;
+}
+
+.serverModalContent {
+  text-align: center;
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: #633884;
+  z-index: 9999 !important;
+  
+  /*transform: translateY(-50%);*/
+}
+.modalLink {
+  color: #CCC;
+}
+.modalLink:hover {
+  color: #8888ff;
+}
 
 @-webkit-keyframes spin {
   from {
