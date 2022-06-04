@@ -641,19 +641,52 @@ svg {
   margin: auto;
   position: fixed;
   width: 100%;
+  padding-bottom: 5%;
+  left: 0;
   bottom: 0;
-  background-color: #633884;
+  overflow: scroll;
   z-index: 9999 !important;
-  
-  /*transform: translateY(-50%);*/
+  background-color: #2D3033;
+}
+.modalHeader {
+  top: 0;
+  position: relative;
+  background-color: #633884;
+  color: #FFF;
+}
+.modalBody {
+  margin: auto;
+  width: 80%;
+  max-width: 500px;
 }
 .modalLink {
-  color: #CCC;
+  color: #FFF;
+  border-radius: 6px;
+  padding: 6px;
+  background-color: #633884;
+  border-color: #633884;
 }
 .modalLink:hover {
-  color: #8888ff;
+  color: #FFF;
+  animation: buttonGlow;
 }
 
+/*.modalDownload {*/
+/*  background-color: #633884;*/
+/*  border: #792cac;*/
+/*}*/
+
+@keyframes buttonGlow {
+  0% {
+    box-shadow: 0 0 3px #2ba805;
+  }
+  50% {
+    box-shadow: 0 0 10px #49e819;
+  }
+  100% {
+    box-shadow: 0 0 3px #2ba805;
+  }
+}
 @-webkit-keyframes spin {
   from {
       -webkit-transform: translate(-50%, -50%) rotateZ(0deg);
