@@ -15,7 +15,7 @@ Note that some of these parameters are explained in details in other sections of
   # menu; if no setting is given, the first menu level is set to false, all others to true;
   # this can be overridden in the pages frontmatter
   alwaysopen = true
-  # Prefix URL to edit current page. Will display an "Edit this page" button on top right hand corner of every page.
+  # Prefix URL to edit current page. Will display an "Edit" button on top right hand corner of every page.
   # Useful to give opportunity to people to create merge request for your doc.
   # See the config.toml file from this documentation site to have an example.
   editURL = ""
@@ -47,24 +47,43 @@ Note that some of these parameters are explained in details in other sections of
   disableLanguageSwitchingButton = false
   # Hide breadcrumbs in the header and only show the current page title
   disableBreadcrumb = true
-  # If set to true, prevents Hugo from including the Mermaid module if not needed (will reduce load times and traffic)
+  # If set to true, hide table of contents menu in the header of all pages
+  disableToc = false
+  # If set to false, load the Mermaid module on every page regardless if a Mermaid shortcode or Mermaid codefence is present
   disableMermaid = false
   # Specifies the remote location of the Mermaid js
-  customMermaidURL = "https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"
+  customMermaidURL = "https://unpkg.com/mermaid/dist/mermaid.min.js"
   # Initialization parameter for Mermaid, see Mermaid documentation
   mermaidInitialize = "{ \"theme\": \"default\" }"
+  # Specifies the remote location of the RapiDoc js
+  customSwaggerURL = ""https://unpkg.com/rapidoc/dist/rapidoc-min.js"
+  # Initialization parameter for Swagger, see RapiDoc documentation
+  swaggerInitialize = "{ \"theme\": \"light\" }"
   # Hide Next and Previous page buttons normally displayed full height beside content
   disableNextPrev = true
   # Order sections in menu by "weight" or "title". Default to "weight";
   # this can be overridden in the pages frontmatter
   ordersectionsby = "weight"
-  # Change default color scheme with a variant one. Can be "red", "blue", "green".
-  themeVariant = ""
+  # Change default color scheme with a variant one. Eg. can be "red", "blue", "green" or an array like [ "blue", "green" ].
+  themeVariant = "relearn-light"
   # Provide a list of custom css files to load relative from the `static/` folder in the site root.
   custom_css = ["css/foo.css", "css/bar.css"]
   # Change the title separator. Default to "::".
   titleSeparator = "-"
+  # If set to true, the menu in the sidebar will be displayed in a collapsible tree view.
+  collapsibleMenu = false
 ```
+
+## A word on running your site in a subfolder
+
+The theme runs best if your site is installed in the root of your webserver. If your site is served from a subfolder, eg. `https://example.com/mysite/`, you have to set the following lines to your `config.toml`
+
+````toml
+baseURL = "https://example.com/mysite/"
+canonifyURLs = true
+````
+
+Without `canonifyURLs=true` URLs in sublemental pages (like `sitemap.xml`, `rss.xml`) will be generated falsly while your HTML files will still work. See https://github.com/gohugoio/hugo/issues/5226.
 
 ## Activate search
 
@@ -72,13 +91,30 @@ If not already present, add the follow lines in the same `config.toml` file.
 
 ```toml
 [outputs]
-home = [ "HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS", "JSON"]
 ```
 
 Relearn theme uses the last improvement available in hugo version 20+ to generate a json index file ready to be consumed by lunr.js javascript search engine.
 
 > Hugo generate lunrjs index.json at the root of public folder.
 > When you build the site with `hugo server`, hugo generates it internally and of course it doesn’t show up in the filesystem
+
+## Activate print support
+
+You can activate print support to add the capability to print whole chapters or even the complete site. Just add the `PRINT` output format to your home, section and page in your `config.toml` as seen below:
+
+```toml
+[outputs]
+  home = ["HTML", "RSS", "PRINT", "JSON"]
+  section = ["HTML", "RSS", "PRINT"]
+  page = ["HTML", "RSS", "PRINT"]
+```
+
+This will add a little printer icon in the top bar. It will switch the page to print preview when clicked. You can then send this page to the printer by using your browser's usual print functionality.
+
+{{% notice note %}}
+While colors of your chosen color variant are reset to the theme's light standard values for printing, this does not apply for Mermaid diagrams and Swagger/OpenAPI Specification. Those will still use the colors of your chosen color variant which may cause a non coherent look on paper.
+{{% /notice %}}
 
 ## Mermaid
 
@@ -98,15 +134,15 @@ on the left menu. It is an alternative for clicking on the logo. To edit the
 appearance, you will have to configure two parameters for the defined languages:
 
 ```toml
-[Lanugages]
-[Lanugages.en]
+[Languages]
+[Languages.en]
 ...
-landingPageURL = "/en"
+landingPageURL = "/"
 landingPageName = "<i class='fas fa-home'></i> Home"
 ...
-[Lanugages.pir]
+[Languages.pir]
 ...
-landingPageURL = "/pir"
+landingPageURL = "/pir/"
 landingPageName = "<i class='fas fa-home'></i> Arrr! Homme"
 ...
 ```
@@ -121,4 +157,4 @@ landingPageName = "<i class='fas fa-home'></i> Home"
 
 The home button is going to look like this:
 
-![Default Home Button](/basics/configuration/images/home_button_defaults.png?width=100%)
+![Default Home Button](images/home_button_defaults.png?classes=shadow&width=300px)

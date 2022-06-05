@@ -17,13 +17,22 @@ other = ".¯\\_(ツ)_/¯أوبس. يبدو أن هذه الصفحة غير مو�
 other = "الذهاب إلى الصفحة الرئيسية"
 
 [Edit-this-page]
-other = "تعديل هذه الصفحة"
+other = "حرر"
+
+[Print-this-chapter]
+other = "طباعة الفصل بأكمله"
 
 [Shortcuts-Title]
 other = "المزيد"
 
 [Expand-title]
 other = "...قم بتوسيع"
+
+[Navigation-toggle]
+other = "قائمة"
+
+[Toc-toggle]
+other = "جدول المحتويات"
 
 [Byte-symbol]
 other = "B"
@@ -35,13 +44,25 @@ other = "KB"
 other = "MB"
 
 [note]
-other = "Note"
+other = "ملاحظه"
 
 [info]
-other = "Info"
+other = "معلومات"
 
 [tip]
-other = "Tip"
+other = "بقشيش"
 
 [warning]
-other = "Warning"
+other = "تحذير"
+
+[Copy-to-clipboard]
+other = "نسخ إلى الحافظة"
+
+[Copied-to-clipboard]
+other = "نسخت إلى الحافظة!"
+
+[Copy-link-to-clipboard]
+other = "نسخ الرابط إلى الحافظة"
+
+[Link-copied-to-clipboard]
+other = "رابط نسخت إلى الحافظة!"

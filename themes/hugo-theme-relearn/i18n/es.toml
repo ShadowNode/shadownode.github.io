@@ -17,13 +17,22 @@ other = "Ups. Parece que la página no existe ¯\\_(ツ)_/¯."
 other = "Ir al inicio"
 
 [Edit-this-page]
-other = "Editar esta página"
+other = "Editar"
+
+[Print-this-chapter]
+other = "Imprimer le chapitre entier"
 
 [Shortcuts-Title]
 other = "Más"
 
 [Expand-title]
 other = "Expandir..."
+
+[Navigation-toggle]
+other = "Menú"
+
+[Toc-toggle]
+other = "Tabla de contenido"
 
 [Byte-symbol]
 other = "B"
@@ -45,3 +54,15 @@ other = "Consejo"
 
 [warning]
 other = "Aviso"
+
+[Copy-to-clipboard]
+other = "Copiar en el portapapeles"
+
+[Copied-to-clipboard]
+other = "¡Copiado al portapapeles!"
+
+[Copy-link-to-clipboard]
+other = "Copiar enlace al portapapeles"
+
+[Link-copied-to-clipboard]
+other = "¡Enlace copiado al portapapeles!"

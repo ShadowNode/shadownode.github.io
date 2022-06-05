@@ -17,13 +17,22 @@ other = "Huch. Diese Seite scheint nicht zu existieren ¯\\_(ツ)_/¯."
 other = "Gehe zur Homepage"
 
 [Edit-this-page]
-other = "Bearbeite diese Seite"
+other = "Bearbeiten"
+
+[Print-this-chapter]
+other = "Ganzes Kapitel drucken"
 
 [Shortcuts-Title]
 other = "Mehr"
 
 [Expand-title]
 other = "Erweitere mich..."
+
+[Navigation-toggle]
+other = "Menu"
+
+[Toc-toggle]
+other = "Inhalt"
 
 [Byte-symbol]
 other = "B"
@@ -45,3 +54,15 @@ other = "Tipp"
 
 [warning]
 other = "Warnung"
+
+[Copy-to-clipboard]
+other = "In Zwischenablage kopieren"
+
+[Copied-to-clipboard]
+other = "In Zwischenablage kopiert!"
+
+[Copy-link-to-clipboard]
+other = "Link in Zwischenablage kopieren"
+
+[Link-copied-to-clipboard]
+other = "Link in Zwischenablage kopiert!"

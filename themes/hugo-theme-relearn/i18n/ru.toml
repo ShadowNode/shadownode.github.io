@@ -17,13 +17,22 @@ other = "Упс. Выглядит будто такой страницы нет 
 other = "Перейти на главную"
 
 [Edit-this-page]
-other = "Редактировать"
+other = "редактировать"
+
+[Print-this-chapter]
+other = "Печать всей главы"
 
 [Shortcuts-Title]
 other = "Еще"
 
 [Expand-title]
 other = "Развернуть..."
+
+[Navigation-toggle]
+other = "Меню"
+
+[Toc-toggle]
+other = "Оглавление"
 
 [Byte-symbol]
 other = "Б"
@@ -45,3 +54,15 @@ other = "Совет"
 
 [warning]
 other = "Внимание"
+
+[Copy-to-clipboard]
+other = "Копировать в буфер"
+
+[Copied-to-clipboard]
+other = "Скопировано в буфер обмена!"
+
+[Copy-link-to-clipboard]
+other = "Скопировать ссылку в буфер обмена"
+
+[Link-copied-to-clipboard]
+other = "Ссылка скопирована в буфер обмена!"

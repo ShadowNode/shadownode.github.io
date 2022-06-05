@@ -17,13 +17,22 @@ other = "おっと。ページが見当たりません。 ¯\\_(ツ)_/¯."
 other = "ホームページへ行く"
 
 [Edit-this-page]
-other = "このページを編集"
+other = "編集"
+
+[Print-this-chapter]
+other = "章全体を印刷する"
 
 [Shortcuts-Title]
 other = "更に"
 
 [Expand-title]
 other = "開く..."
+
+[Navigation-toggle]
+other = "メニュー"
+
+[Toc-toggle]
+other = "目次"
 
 [Byte-symbol]
 other = "B"
@@ -35,13 +44,25 @@ other = "KB"
 other = "MB"
 
 [note]
-other = "Note"
+other = "手記"
 
 [info]
-other = "Info"
+other = "情報"
 
 [tip]
-other = "Tip"
+other = "先端"
 
 [warning]
-other = "Warning"
+other = "警告"
+
+[Copy-to-clipboard]
+other = "クリップボードにコピー"
+
+[Copied-to-clipboard]
+other = "クリップボードにコピー!"
+
+[Copy-link-to-clipboard]
+other = "リンクをクリップボードにコピー"
+
+[Link-copied-to-clipboard]
+other = "リンクをクリップボードにコピーしました!"

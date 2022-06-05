@@ -17,13 +17,22 @@ other = "Woops. Looks like this page doesn't exist ¯\\_(ツ)_/¯."
 other = "Go to homepage"
 
 [Edit-this-page]
-other = "Edit this page"
+other = "Edit"
+
+[Print-this-chapter]
+other = "Print whole chapter"
 
 [Shortcuts-Title]
 other = "More"
 
 [Expand-title]
 other = "Expand me..."
+
+[Navigation-toggle]
+other = "Menu"
+
+[Toc-toggle]
+other = "Table of Contents"
 
 [Byte-symbol]
 other = "B"
@@ -45,3 +54,15 @@ other = "Tip"
 
 [warning]
 other = "Warning"
+
+[Copy-to-clipboard]
+other = "Copy to clipboard"
+
+[Copied-to-clipboard]
+other = "Copied to clipboard!"
+
+[Copy-link-to-clipboard]
+other = "Copy link to clipboard"
+
+[Link-copied-to-clipboard]
+other = "Copied link to clipboard!"

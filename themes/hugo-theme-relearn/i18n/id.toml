@@ -17,13 +17,22 @@ other = "Oops. Sepertinya halaman ini tidak ada ¯\\_(ツ)_/¯."
 other = "Ke halaman depan"
 
 [Edit-this-page]
-other = "Edit halaman ini"
+other = "Mengedit"
+
+[Print-this-chapter]
+other = "Mencetak seluruh bab"
 
 [Shortcuts-Title]
 other = "Lainnya"
 
 [Expand-title]
 other = "Bentangkan..."
+
+[Navigation-toggle]
+other = "Menu"
+
+[Toc-toggle]
+other = "Daftar isi"
 
 [Byte-symbol]
 other = "B"
@@ -35,13 +44,25 @@ other = "KB"
 other = "MB"
 
 [note]
-other = "Note"
+other = "Nota"
 
 [info]
 other = "Info"
 
 [tip]
-other = "Tip"
+other = "Ujung"
 
 [warning]
-other = "Warning"
+other = "Peringatan"
+
+[Copy-to-clipboard]
+other = "Salin ke clipboard"
+
+[Copied-to-clipboard]
+other = "Disalin ke clipboard!"
+
+[Copy-link-to-clipboard]
+other = "Salin link ke clipboard"
+
+[Link-copied-to-clipboard]
+other = "Link disalin ke clipboard!"

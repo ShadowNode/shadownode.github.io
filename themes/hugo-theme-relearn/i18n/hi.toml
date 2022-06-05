@@ -17,13 +17,22 @@ other = "यह पृष्ठ अभि अनुपलब्ध है!"
 other = "मुख्य पृष्ठ पर जाऐ"
 
 [Edit-this-page]
-other = "यह पृष्ठ संपादित करें"
+other = "संपादन करना"
+
+[Print-this-chapter]
+other = "पूरा अध्याय मुद्रित करें"
 
 [Shortcuts-Title]
 other = "अधिक सामग्री दिखाएं"
 
 [Expand-title]
 other = "विस्तार करे..."
+
+[Navigation-toggle]
+other = "Menú"
+
+[Toc-toggle]
+other = "विषयसूची"
 
 [Byte-symbol]
 other = "B"
@@ -35,13 +44,25 @@ other = "KB"
 other = "MB"
 
 [note]
-other = "Note"
+other = "नोट"
 
 [info]
-other = "Info"
+other = "जानकारी"
 
 [tip]
-other = "Tip"
+other = "नोक"
 
 [warning]
-other = "Warning"
+other = "चेतावनी"
+
+[Copy-to-clipboard]
+other = "क्लिपबोर्ड पर प्रतिलिपि बनाएँ"
+
+[Copied-to-clipboard]
+other = "क्लिपबोर्ड पर कॉपी किया गया!"
+
+[Copy-link-to-clipboard]
+other = "क्लिपबोर्ड पर लिंक की प्रतिलिपि बनाएँ"
+
+[Link-copied-to-clipboard]
+other = "लिंक क्लिपबोर्ड के लिए प्रतिलिपि बनाई!"
