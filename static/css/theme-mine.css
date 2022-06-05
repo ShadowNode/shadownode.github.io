@@ -991,12 +991,12 @@ svg {
 }
 
 .online {
-  background: #00bc8c;
+  background: #00bc8c !important;
   box-shadow: 0 0 0 2px #00bc8c;
 }
 
 .offline {
-  background: #e74c3c;
+  background: #e74c3c !important;
   box-shadow: 0 0 0 2px #e74c3c;
 }
 
