@@ -670,11 +670,11 @@ svg {
 
 
 .loading {  
-  position: relative;
+  position: relative !important;
   margin: 50% 0;
-  top: 50%;
+  top: 50% !important;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, 0);
   width: 250px;
   height: 250px;
   background: transparent;
@@ -688,7 +688,7 @@ svg {
   text-transform: uppercase;
   text-shadow: 0 0 10px #633884;
   box-shadow: 0 0 20px rgba(0, 0, 0, .5);
-  z-index: 1000;
+  z-index: 10000;
 }
 @media screen and (max-width: 600px) {
   .loading  {
