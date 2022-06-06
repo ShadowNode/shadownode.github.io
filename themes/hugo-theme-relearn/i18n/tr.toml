@@ -17,13 +17,22 @@ other = "Uups. Görünüşe göre böyle bir sayfa yok ¯\\_(ツ)_/¯"
 other = "Anasayfaya dön"
 
 [Edit-this-page]
-other = "Sayfayı düzenle"
+other = "Düzenlemek"
+
+[Print-this-chapter]
+other = "Bölümün tamamını yazdır"
 
 [Shortcuts-Title]
 other = "Dahası Var"
 
 [Expand-title]
 other = "Genişlet..."
+
+[Navigation-toggle]
+other = "Menü"
+
+[Toc-toggle]
+other = "İçindekiler"
 
 [Byte-symbol]
 other = "B"
@@ -35,13 +44,25 @@ other = "KB"
 other = "MB"
 
 [note]
-other = "Note"
+other = "Not"
 
 [info]
-other = "Info"
+other = "Bilgi"
 
 [tip]
-other = "Tip"
+other = "Bahşiş"
 
 [warning]
-other = "Warning"
+other = "Uyarı"
+
+[Copy-to-clipboard]
+other = "Panoya kopyala"
+
+[Copied-to-clipboard]
+other = "Panoya kopyalanmış!"
+
+[Copy-link-to-clipboard]
+other = "Bağlantıyı panoya kopyala"
+
+[Link-copied-to-clipboard]
+other = "Panoya bağlantı kopyalanmış!"

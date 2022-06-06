@@ -1,31 +1,15 @@
-        {{- if .Params.chapter }}
-        </div> <!-- end chapter-->
-        {{- end }}
-        </main><!-- #body-inner -->
+
+        </div>
+      </main><!-- #body-inner -->
 {{- partial "custom-comments.html" . }}
-      </div>
-      <div id="navigation">
-  {{- $showPrevNext := (and (not .Params.disableNextPrev) (not .Site.Params.disableNextPrev)) }}
-  {{- if $showPrevNext }}
-    {{- with ($.Scratch.Get "relearnPrevPage") }}
-        <a class="nav nav-prev" href="{{.RelPermalink}}" title="{{.Title}}"><i class="fa fa-chevron-left"></i></a>
-    {{- end}}
-    {{- with ($.Scratch.Get "relearnNextPage") }}
-        <a class="nav nav-next" href="{{.RelPermalink}}" title="{{.Title}}"><i class="fa fa-chevron-right"></i></a>
-    {{- end }}
-  {{- end }}
-      </div>
     </div><!-- #body -->
-    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
-      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
-    </div>
+{{- partial "menu.html" . }}
     <script src="{{"js/clipboard.min.js" | relURL}}{{ if not .Site.Params.disableAssetsBusting }}?{{ now.Unix }}{{ end }}"></script>
     <script src="{{"js/perfect-scrollbar.min.js" | relURL}}{{ if not .Site.Params.disableAssetsBusting }}?{{ now.Unix }}{{ end }}"></script>
-    <script src="{{"js/perfect-scrollbar.jquery.min.js" | relURL}}{{ if not .Site.Params.disableAssetsBusting }}?{{ now.Unix }}{{ end }}"></script>
-    <script src="{{"js/jquery.svg.pan.zoom.js" | relURL}}{{ if not .Site.Params.disableAssetsBusting }}?{{ now.Unix }}{{ end }}"></script>
     <script src="{{"js/featherlight.min.js" | relURL}}{{ if not .Site.Params.disableAssetsBusting }}?{{ now.Unix }}{{ end }}"></script>
-    <script src="{{"js/modernizr.custom-3.6.0.js" | relURL}}{{ if not .Site.Params.disableAssetsBusting }}?{{ now.Unix }}{{ end }}"></script>
-{{- if (or (and (ne .Params.disableMermaid nil) (not .Params.disableMermaid)) (not .Site.Params.disableMermaid)) }}
+{{- $wantsMermaid := or (and (eq (.Scratch.Get "relearnOutputFormat") "HTML") (.Page.Store.Get "htmlHasMermaid")) (and (eq (.Scratch.Get "relearnOutputFormat") "PRINT") (.Page.Store.Get "printHasMermaid")) }}
+{{- if (or $wantsMermaid (and (ne .Params.disableMermaid nil) (not .Params.disableMermaid)) (and (ne .Site.Params.disableMermaid nil) (not .Site.Params.disableMermaid)) ) }}
+    <script src="{{"js/jquery.svg.pan.zoom.js" | relURL}}{{ if not .Site.Params.disableAssetsBusting }}?{{ now.Unix }}{{ end }}"></script>
   {{- if isset .Params "custommermaidurl" }}
     <script src="{{ .Params.customMermaidURL }}"></script>
   {{- else if isset .Site.Params "custommermaidurl" }}
@@ -34,19 +18,52 @@
     <script src="{{"js/mermaid.min.js" | relURL}}{{ if not .Site.Params.disableAssetsBusting }}?{{ now.Unix }}{{ end }}"></script>
   {{- end }}
   {{- if isset .Params "mermaidinitialize" }}
-      {{- $.Scratch.Set "mermaidInitialize" .Params.mermaidInitialize }}
+    {{- $.Scratch.Set "mermaidInitialize" .Params.mermaidInitialize }}
   {{- else if isset .Site.Params "mermaidinitialize" }}
-      {{- $.Scratch.Set "mermaidInitialize" .Site.Params.mermaidInitialize }}
+    {{- $.Scratch.Set "mermaidInitialize" .Site.Params.mermaidInitialize }}
   {{- else }}
-      {{- $.Scratch.Set "mermaidInitialize" "{ \"startOnLoad\": true }" }}
+    {{- $.Scratch.Set "mermaidInitialize" "{}" }}
   {{- end }}
     <script>
-      if (typeof mermaid != 'undefined') {
-        mermaid.mermaidAPI.initialize( Object.assign( { "securityLevel": "antiscript" }, JSON.parse({{ $.Scratch.Get "mermaidInitialize" }}), { startOnLoad: false } ) );
+      function useMermaid( config ){
+        if (typeof mermaid != 'undefined' && typeof mermaid.mermaidAPI != 'undefined') {
+          mermaid.initialize( Object.assign( { "securityLevel": "antiscript", "startOnLoad": false  }, config ) );
+          if( config.theme ){
+            var write_style = variants.findLoadedStylesheet( 'variant-style' );
+            write_style.setProperty( '--CONFIG-MERMAID-theme', config.theme );
+          }
+        }
       }
+      useMermaid( JSON.parse({{ $.Scratch.Get "mermaidInitialize" }}) );
     </script>
 {{- end }}
-    <script src="{{"js/relearn.js" | relURL}}{{ if not .Site.Params.disableAssetsBusting }}?{{ now.Unix }}{{ end }}"></script>
+{{- $wantsSwagger := or (and (eq (.Scratch.Get "relearnOutputFormat") "HTML") (.Page.Store.Get "htmlHasSwagger")) (and (eq (.Scratch.Get "relearnOutputFormat") "PRINT") (.Page.Store.Get "printHasSwagger")) }}
+{{- if (or $wantsSwagger (and (ne .Params.disableSwagger nil) (not .Params.disableSwagger)) (and (ne .Site.Params.disableSwagger nil) (not .Site.Params.disableSwagger)) ) }}
+  {{- if isset .Params "customswaggerurl" }}
+    <script src="{{ .Params.customSwaggerURL }}"></script>
+  {{- else if isset .Site.Params "customswaggerurl" }}
+    <script src="{{ .Site.Params.customSwaggerURL }}"></script>
+  {{- else }}
+    <script src="{{ "/js/rapidoc-min.js" | relURL }}{{ if not .Site.Params.disableAssetsBusting }}?{{ now.Unix }}{{ end }}"></script>
+  {{- end }}
+  {{- if isset .Params "swaggerinitialize" }}
+    {{- $.Scratch.Set "swaggerInitialize" .Params.swaggerInitialize }}
+  {{- else if isset .Site.Params "swaggerinitialize" }}
+    {{- $.Scratch.Set "swaggerInitialize" .Site.Params.swaggerInitialize }}
+  {{- else }}
+    {{- $.Scratch.Set "swaggerInitialize" "{}" }}
+  {{- end }}
+    <script>
+      function useSwagger( config ){
+        if( config.theme ){
+          var write_style = variants.findLoadedStylesheet( 'variant-style' );
+          write_style.setProperty( '--CONFIG-SWAGGER-theme', config.theme );
+        }
+      }
+      useSwagger( JSON.parse({{ $.Scratch.Get "swaggerInitialize" }}) );
+    </script>
+{{- end }}
+    <script src="{{"js/theme.js" | relURL}}{{ if not .Site.Params.disableAssetsBusting }}?{{ now.Unix }}{{ end }}"></script>
     {{- partial "custom-footer.html" . }}
   </body>
 </html>

@@ -43,10 +43,13 @@ content
 
 The Relearn theme defines two types of pages. *Default* and *Chapter*. Both can be used at any level of the documentation, the only difference being layout display.
 
+### Chapter {#chapter-style}
+
 A **Chapter** displays a page meant to be used as introduction for a set of child pages. Commonly, it contains a simple title and a catch line to define content that can be found under it.
+
 You can define any HTML as prefix for the menu. In the example below, it's just a number but that could be an [icon](https://fortawesome.github.io/Font-Awesome/).
 
-![Chapter page](/cont/pages/images/pages-chapter.png?width=50pc)
+![Chapter page](images/pages-chapter.png?classes=shadow&width=60pc)
 
 ```markdown
 +++
@@ -65,9 +68,11 @@ Discover what this Hugo theme is all about and the core-concepts behind it.
 
 To tell the Relearn theme to consider a page as a chapter, set `chapter=true` in the Front Matter of the page.
 
+### Default
+
 A **Default** page is any other content page.
 
-![Default page](/cont/pages/images/pages-default.png?width=50pc)
+![Default page](images/pages-default.png?classes=shadow&width=60pc)
 
 ```toml
 +++
@@ -98,7 +103,7 @@ The Relearn theme uses the following parameters on top of Hugo ones :
 +++
 # Table of contents (toc) is enabled by default. Set this parameter to true to disable it.
 # Note: Toc is always disabled for chapter pages
-disableToc = "false"
+disableToc = false
 # If set, this will be used for the page's menu entry (instead of the `title` attribute)
 menuTitle = ""
 # If set, this will explicitly override common rules for the expand state of a page's menu entry
@@ -131,7 +136,7 @@ pre = "<i class='fab fa-github'></i> "
 +++
 ```
 
-![Title with icon](/cont/pages/images/frontmatter-icon.png)
+![Title with icon](images/frontmatter-icon.png?classes=shadow&width=300px)
 
 ### Ordering sibling menu/page entries
 

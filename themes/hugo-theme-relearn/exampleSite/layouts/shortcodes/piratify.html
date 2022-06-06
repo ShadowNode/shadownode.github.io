@@ -1,5 +1,7 @@
 {{- $langsrc := .Get 1 | default "en" }}
 {{- $langtrg := .Page.Language.Lang }}
+{{- $baseURL := urls.Parse .Site.BaseURL }}
+{{- $baseURLpath := $baseURL.Path | default "/" }}
 {{- $words := dict
 	"Hugo" "Cap'n Hugo"
 	"Info" "Ahoi"
@@ -43,8 +45,8 @@
 	"load" "board"
 	"Loaded" "Boarded"
 	"loaded" "boarded"
-	"Content" "Rambling"
-	"content" "rambling"
+	"Content" "Rrrambling"
+	"content" "rrrambling"
 	"icon" "ay'con"
 	"Icon" "Ay'con"
 	"icons" "ay'cons"
@@ -59,7 +61,7 @@
 	"pages" "planks"
 	"Relearn" "Relearrrn"
 	"Learn" "Learrrn"
-}}
+-}}
 {{- $specials := dict
 	"(\\w)ing([\\s\\n<.,;?!:])" "'n"
 	"(\\w)ings([\\s\\n<.,;?!:])" "'ns"
@@ -70,18 +72,18 @@
 	"(\\w)(?:[aeiou])mizes([\\s\\n<.,;?!:])" "'mizes"
 	"(\\w)(?:[aeiou])nize([\\s\\n<.,;?!:])" "'nize"
 	"(\\w)(?:[aeiou])nizes([\\s\\n<.,;?!:])" "'nizes"
-	"(.)=\"/([^\".]*?\")" (printf "=\"/%s/" $langtrg)
-}}
+	(printf "(.)=\"%s([^\"]*?\")" $baseURLpath)  (printf "=\"%s%s/" $baseURLpath $langtrg)
+-}}
 {{- $fix := dict
 	"warn'n" "warning"
 	"sect'n" "section"
 	"n Cap'n" "n"
-	"Documentat'n fer Cap'n Hugo Relearrrn Theme" "Documentation for Hugo Relearn Theme"
 	"Avast right o' John" "Note right of John"
-}}
+-}}
 {{- $c := "" }}
 {{- range .Page.Translations }}
 	{{- if eq .Language.Lang $langsrc }}
+		{{- $l := .RelPermalink }}
 		{{- $c = .Content }}
 		{{- range $from, $to := $words }}
 			{{- $c = replaceRE (printf "([\\s\\n>])%s([\\s\\n<.,;?!:])" $from) (printf "${1}%s${2}" $to) $c }}
@@ -90,8 +92,19 @@
 			{{- $c = replaceRE $from (printf "${1}%s${2}" $to) $c }}
 		{{- end }}
 		{{- range $from, $to := $fix }}
-			{{ $c = replace $c $from $to }}
+			{{- $c = replace $c $from $to }}
 		{{- end }}
+		{{- $c = replaceRE "(src|href)=\"(images/[^\"]*?\")" (printf "${1}=\"%s${2}" $l) $c }}
+		{{- $c = replaceRE "(src|href)=\"([^\"]*?)/pir/([^\"]*?.files/[^\"]*?\")" "${1}=\"${2}/${3}" $c }}
 	{{- end }}
 {{- end }}
-{{- $c | safeHTML }}
+{{- $style := "warning" }}
+{{- $title := "Arrr! ☠ Pirrrates ☠" }}
+<div class="box notices {{ $style }}">
+    <div class="box-label">{{ $title }}</div>
+	<div class="box-content">
+	    <p>Fello' pirrates, be awarrre some featurrres may not work fer us in this trrranslat'n. Like table of rrramblings, some Merrrmaids and stuff.</p>
+	</div>
+</div>
+
+{{ $c | safeHTML }}

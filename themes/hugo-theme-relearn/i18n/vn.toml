@@ -17,13 +17,22 @@ other = "Tiếc quá! Có vẻ như trang này không tồn tại ¯\\_(ツ)_/¯
 other = "Đi đến trang chủ"
 
 [Edit-this-page]
-other = "Chỉnh sửa trang này"
+other = "Biên tập"
+
+[Print-this-chapter]
+other = "In toàn bộ chương"
 
 [Shortcuts-Title]
 other = "Nội dung khác"
 
 [Expand-title]
 other = "Mở rộng..."
+
+[Navigation-toggle]
+other = "Menu"
+
+[Toc-toggle]
+other = "Mục lục"
 
 [BinaryPrefix-kilobyte]
 other = "kb"
@@ -48,3 +57,15 @@ other = "Mẹo vặt"
 
 [warning]
 other = "Cảnh báo"
+
+[Copy-to-clipboard]
+other = "Sao chép vào bảng tạm"
+
+[Copied-to-clipboard]
+other = "Sao chép vào bảng tạm!"
+
+[Copy-link-to-clipboard]
+other = "Sao chép nối kết vào bảng tạm"
+
+[Link-copied-to-clipboard]
+other = "Liên kết được sao chép vào bảng tạm!"

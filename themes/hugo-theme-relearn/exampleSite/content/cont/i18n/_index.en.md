@@ -7,11 +7,11 @@ The Relearn theme is fully compatible with Hugo multilingual mode.
 
 It provides:
 
-- Translation strings for default values (English, Arabic, Dutch, Piratized English, German, Hindi, Indonesian, Japanese, Piratized English, Portuguese, Russian, Simplified Chinese, Spanish, Turkish). Feel free to contribute!
+- Translation strings for default values (English, Piratized English, Arabic, Simplified Chinese, Traditional Chinesse, Dutch, French, German, Hindi, Indonesian, Japanese, Korean, Portuguese, Russian, Spanish, Turkish, Vietnamese). Feel free to contribute!
 - Automatic menu generation from multilingual content
 - In-browser language switching
 
-![I18n menu](/cont/i18n/images/i18n-menu.gif)
+![I18n menu](images/i18n-menu.gif?classes=shadow&width=300px)
 
 ## Basic configuration
 
@@ -25,12 +25,12 @@ defaultContentLanguage = "en"
 
 [Languages]
 [Languages.en]
-title = "Documentation for Hugo Relearn Theme"
+title = "Hugo Relearn Theme"
 weight = 1
 languageName = "English"
 
 [Languages.pir]
-title = "Documentat'n fer Cap'n Hugo Relearrrn Theme"
+title = "Cap'n Hugo Relearrrn Theme"
 weight = 2
 languageName = "Arrr! Pirrrates"
 ```
@@ -54,7 +54,7 @@ Use [slug](https://gohugo.io/content-management/multilingual/#translate-your-con
 
 ## Overwrite translation strings
 
-Translations strings are used for common default values used in the theme (*Edit this page* button, *Search placeholder* and so on). Translations are available in English and Piratized English but you may use another language or want to override default values.
+Translations strings are used for common default values used in the theme (*Edit* button, *Search placeholder* and so on). Translations are available in English and Piratized English but you may use another language or want to override default values.
 
 To override these values, create a new file in your local i18n folder `i18n/<idlanguage>.toml` and inspire yourself from the theme `themes/hugo-theme-relearn/i18n/en.toml`
 

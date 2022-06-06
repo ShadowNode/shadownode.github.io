@@ -17,13 +17,22 @@ other = "Oups. On dirait que cette page n'existe pas ¯\\_(ツ)_/¯"
 other = "Vers la page d'accueil"
 
 [Edit-this-page]
-other = "Modifier la page"
+other = "Éditer"
+
+[Print-this-chapter]
+other = "Imprimer le chapitre entier"
 
 [Shortcuts-Title]
 other = "Aller plus loin"
 
 [Expand-title]
 other = "Déroulez-moi..."
+
+[Navigation-toggle]
+other = "Menu"
+
+[Toc-toggle]
+other = "Table des matières"
 
 [Byte-symbol]
 other = "o"
@@ -45,3 +54,15 @@ other = "Astuce"
 
 [warning]
 other = "Avertissement"
+
+[Copy-to-clipboard]
+other = "Copier dans le presse-papiers"
+
+[Copied-to-clipboard]
+other = "Copié dans le presse-papiers!"
+
+[Copy-link-to-clipboard]
+other = "Copier le lien dans le presse-papiers"
+
+[Link-copied-to-clipboard]
+other = "Lien copié dans le presse-papiers!"

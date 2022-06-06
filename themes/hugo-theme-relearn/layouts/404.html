@@ -1,11 +1,8 @@
+{{- .Scratch.Set "relearnOutputFormat" "HTML" }}
 <!DOCTYPE html>
-<html lang="{{ .Page.Language | default "en" }}" class="js csstransforms3d">
+<html lang="{{ .Page.Language | default "en" }}">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {{ hugo.Generator -}}
     {{- partial "meta.html" . }}
-    {{ partial "favicon.html" . }}
     {{- .Scratch.Add "title" "" }}
     {{- if eq .Site.Data.titles .Title }}
       {{- .Scratch.Set "title" (index .Site.Data.titles .Title).title }}
@@ -14,24 +11,9 @@
     {{- end }}
     <title>{{ .Scratch.Get "title" }} {{ default "::" .Site.Params.titleSeparator }} {{ .Site.Title }}</title>
 
-    {{- $assetBusting := not .Site.Params.disableAssetsBusting }}
-    <link href="{{"css/nucleus.css" | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}" rel="stylesheet">
-    <link href="{{"css/fontawesome-all.min.css" | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}" rel="stylesheet">
-    <link href="{{"css/featherlight.min.css" | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}" rel="stylesheet">
-    <link href="{{"css/perfect-scrollbar.min.css" | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}" rel="stylesheet">
-    <link href="{{"css/theme.css" | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}" rel="stylesheet">
-    {{- with .Site.Params.themeVariant }}
-    <link href="{{(printf "css/theme-%s.css" .) | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}" rel="stylesheet">
-    <link href="{{"css/variant.css" | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}" rel="stylesheet">
-    {{- end }}
-    <link href="{{"css/print.css" | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}" rel="stylesheet" media="print">
-    {{- range .Site.Params.custom_css }}
-    <link href="{{(printf "%s" .) | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}" rel="stylesheet">
-    {{- end }}
+    {{- partial "favicon.html" . }}
+    {{- partial "stylesheet.html" . }}
     <style>
-      :root #header + #content > #left > #rlblock_left {
-        display: none !important;
-      }
       p, li, ul {
         text-align: center
       }
@@ -41,19 +23,19 @@
     </style>
     {{- partial "custom-header.html" . }}
   </head>
-  <body class="" data-url="/">
-    <div id="body" style="margin-left:0px;">
-      <div id="overlay"></div>
-      <div id="chapter">
-        <main id="body-inner">
+  <body class="mobile-support" data-url="/">
+    <div id="body" class="default-animation" style="margin-left:0px;">
+      <div id="sidebar-overlay"></div>
+      <main id="body-inner" class="chapter">
+        <div class="flex-block-wrapper">
           <h1>{{ T "title-404" }}</h1>
           <p></p>
           <p>{{ T "message-404" }}</p>
           <p></p>
           <p><a href="{{ "" | relLangURL }}">{{ T "Go-to-homepage" }}</a></p>
           <p><img src="{{ "/images/gopher-404.jpg" | relURL }}" style="width:50%" alt="Page not found!"></p>
-        </main>
-      </div>
+        </div>
+      </main>
     </div>
   </body>
 </html>
