@@ -827,7 +827,7 @@ svg {
 }
 @media screen and (min-width: 2000px) {
   #body-inner {
-    max-width: 1300px !important;
+    /*max-width: 1300px !important;*/
   }
   .col  {
     flex: 20% !important;
