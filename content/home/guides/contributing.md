@@ -43,14 +43,9 @@ This section assumes the following:
 If you're a member of our community it's likely easiest for you to submit a ticket via our Discord and have it flagged to the Wiki Authors. To do this is fast, simple and easy. All it requires is you to have a Discord account and be in ShadowNode's Discord.
 
 Let's get started:
-1. Click the [#tickets](https://discord.com/channels/@me/379180312871043073) channel.
-2. Click Create Ticket.
-![Create a Ticket](/assets/images/contributing/create_ticket.png)
-3. For the server select "Not Applicable"
-![Create a Ticket Step 2](/assets/images/contributing/create_ticket_2.png)
-4. Fill the ticket out as normal, clicking the checkmark below your response confirmation after each step. If you need to edit your reply you can click the red "X" instead and it'll allow to do so. When complete it should look like this.
-![Create a Ticket Step 3](/assets/images/contributing/create_ticket_3.png)
-5. After your ticket is created simply type into the ticket's channel the suggestion and optionally include screenshots of outdated areas.
+1. Check out our [Guide on creating tickets](/support)
+2. Create a ticket as outlined above and  making sure to select "Not Applicable" for server type.
+3. After your ticket is created simply type into the ticket's channel the suggestion and optionally include screenshots of outdated areas.
 
 {{% notice note %}}
 You might be asked for further details and clarification so be sure to pay attention to the ticket!
