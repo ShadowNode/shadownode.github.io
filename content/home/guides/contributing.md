@@ -47,9 +47,9 @@ Let's get started:
 2. Under ticket starters choose "None of the below"
 ![None of the below](/assets/images/tickets/ticket_s_1.png)
 3. Enter the type of issue that you're having with the site.
-![Enter details](/assets/images/tickets/ticket_s_3.png)
+![Enter details](/assets/images/tickets/ticket_s_2.png)
 4. Create a ticket as outlined above and  making sure to select "Not Applicable" for server type.
-![Not Applicable](/assets/images/tickets/ticket_s_2.png)
+![Not Applicable](/assets/images/tickets/ticket_s_3.png)
 5. After your ticket is created simply type into the ticket's channel the suggestion and optionally include screenshots of outdated areas.
 
 {{% notice note %}}
