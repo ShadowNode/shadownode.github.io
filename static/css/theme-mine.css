@@ -697,11 +697,20 @@ svg {
     margin: 70% 0;
     left: 50%;
   }
+  #topbar {
+  
+  }
+  #breadcrumbs {
+    padding: 0 2%;
+  }
 }
 @media screen and (min-width: 601px) {
   .loading {
     position: relative;
     margin: 40% 0;
+  }
+  #topbar {
+    margin: 2%;
   }
 }
 
@@ -1306,6 +1315,6 @@ textarea {
   margin: 0 auto;
 }
 
-#breadcrumbs {
-  padding: 0 2%;
+#topbar {
+  margin-top: 1%;
 }
