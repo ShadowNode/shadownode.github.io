@@ -4,6 +4,7 @@ layoutdir     = "layouts"
 publishdir    = "public"
 title = "ShadowNode Modded Game Servers"
 canonifyurls  = true
+enableRobotsTXT=true
 
 DefaultContentLanguage = "en"
 theme = "hugo-theme-relearn"
