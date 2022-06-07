@@ -86,7 +86,8 @@ table {
 }
 
 #footer p {
-    position: fixed;
+    /*position: fixed;*/
+    text-align: center;
     bottom: 0;
     margin-bottom: 2px;
 }
@@ -696,11 +697,20 @@ svg {
     margin: 70% 0;
     left: 50%;
   }
+  #topbar {
+  
+  }
+  #breadcrumbs {
+    padding: 0 2%;
+  }
 }
 @media screen and (min-width: 601px) {
   .loading {
     position: relative;
     margin: 40% 0;
+  }
+  #topbar {
+    margin: 2%;
   }
 }
 
@@ -827,7 +837,7 @@ svg {
 }
 @media screen and (min-width: 2000px) {
   #body-inner {
-    max-width: 1300px !important;
+    /*max-width: 1300px !important;*/
   }
   .col  {
     flex: 20% !important;
@@ -1305,3 +1315,6 @@ textarea {
   margin: 0 auto;
 }
 
+#topbar {
+  margin-top: 1%;
+}
