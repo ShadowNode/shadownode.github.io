@@ -3,7 +3,7 @@ title: Basic Commands
 author: YourMCGeek
 contributors: LethalMrM
 tags: ["ShadowNode", "modded Minecraft commands", "Modded Minecraft", "Minecraft Network", 
-"ShadowNode Commands", "Grief Prevention Commands" 
+"ShadowNode Commands", "Grief Prevention Commands", 
 "DW20 commands", "Direwolf20 commands", 
 "Minecraft Island Commands", "Oceanblock Commands", "FTB Oceanblock",
 ]
