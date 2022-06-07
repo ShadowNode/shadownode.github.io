@@ -2,6 +2,9 @@
 title: Crates
 author: YourMCGeek
 contributors: Babymillie, LethalMrM
+tags: ["modded Minecraft commands", "Modded Minecraft", "Minecraft Network", "ShadowNode", "ShadowNode Modded", "Modded
+MC", "Modded MC Network"
+"Modded MC crates", "Minecraft  crates", "loot pool", "crate rewards"]
 ---
 
 ## Crates

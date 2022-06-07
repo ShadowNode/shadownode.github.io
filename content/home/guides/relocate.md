@@ -2,6 +2,8 @@
 title: Relocate
 author: YourMCGeek
 contributors: Babymillie
+tags: ["modded Minecraft commands", "Modded Minecraft", "Minecraft Network", "ShadowNode", "ShadowNode Modded", "Modded
+MC", "Modded MC Network"]
 ---
 
 ## Relocation

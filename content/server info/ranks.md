@@ -2,6 +2,9 @@
 Title: Ranks
 Author: Cosmic
 Contributors: Dnsmasq, LethalMrM
+tags: ["modded Minecraft commands", "Modded Minecraft", "Minecraft Network", "ShadowNode", "ShadowNode Modded", 
+"Modded MC", "Modded MC Network", "Minecraft Ranks", "ShadowNode Ranks", "ShadowNode Contributors", ShadowNode Shop",
+"Shop", "Minecraft Shop"]
 ---
 <!-- We ask that you refrain from editing this file as a community member. If you notice something appears wrong, please let us know in the Support Channel, and it'll be updated. Thank you for understanding. -->
 

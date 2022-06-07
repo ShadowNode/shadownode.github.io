@@ -1,6 +1,9 @@
 ---
 title: FTB Oceanblock
 author: LethalMrM
+tags: ["modded Minecraft commands", "Modded Minecraft", "Minecraft Network", "ShadowNode", "ShadowNode Modded", "Modded
+MC", "Modded MC Network", 
+"FTB", "Oceanblock", "FTB Oceanblock"]
 ---
 
 ## Important Rules

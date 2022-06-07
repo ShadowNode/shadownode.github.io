@@ -2,6 +2,8 @@
 title: Github Gist
 author: YourMCGeek
 contributors: Babymillie
+tags: ["modded Minecraft commands", "Modded Minecraft", "Minecraft Network", "ShadowNode", "ShadowNode Modded", "Modded
+MC", "Modded MC Network", "GitHub", "Gist"]
 ---
 
 ## How to Use Github Gist

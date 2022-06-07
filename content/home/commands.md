@@ -2,7 +2,11 @@
 title: Basic Commands
 author: YourMCGeek
 contributors: LethalMrM
-tags: ["area", "teleport", "banned", "island", "home", "tp", "msg", "ignore"]
+tags: ["ShadowNode", "modded Minecraft commands", "Modded Minecraft", "Minecraft Network", 
+"ShadowNode Commands", "Grief Prevention Commands" 
+"DW20 commands", "Direwolf20 commands", 
+"Minecraft Island Commands", "Oceanblock Commands", "FTB Oceanblock",
+]
 ---
 ## Basic Commands
 | Argument   | Required   |

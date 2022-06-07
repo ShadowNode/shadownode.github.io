@@ -4,6 +4,7 @@ author: Bennyboy1695
 contributors: YourMCGeek
 weight: 2
 aliases: ["/wiki"]
+tags: ["modded Minecraft commands", "Modded Minecraft", "Minecraft Network", "ShadowNode", "ShadowNode Modded", "Modded MC", "Modded MC Network", "ShadowNode Wiki"]
 ---
 
 {{< indexes/home >}}

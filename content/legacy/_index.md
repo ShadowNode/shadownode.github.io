@@ -2,6 +2,8 @@
 title: Legacy Info
 author: LethalMrM
 weight: 4
+tags: ["modded Minecraft commands", "Modded Minecraft", "Minecraft Network", "ShadowNode", "ShadowNode Modded", 
+"Modded MC", "Modded MC Network"]
 ---
 
 ### Legacy Info

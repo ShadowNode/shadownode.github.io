@@ -1,6 +1,9 @@
 ---
 title: Teaming Up
 author: LethalMrM
+tags: ["modded Minecraft commands", "Modded Minecraft", "Minecraft Network", "ShadowNode", "ShadowNode Modded", "Modded
+MC", "Modded MC Network", "MC team play", "Minecraft Team play", "play with friends", "minecraft friends", "friends",
+"minecraft"]
 ---
 
 ## Intro

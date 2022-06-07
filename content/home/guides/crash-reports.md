@@ -1,6 +1,8 @@
 ---
 title: Crash Reports
 author: Bennyboy1695
+tags: ["modded Minecraft commands", "Modded Minecraft", "Minecraft Network", "ShadowNode", "ShadowNode Modded", "Modded
+MC", "Modded MC Network", "get crash reports", "MC crash reports"]
 ---
 
 {{% notice note %}}

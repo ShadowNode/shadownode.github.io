@@ -2,6 +2,8 @@
 title: Claiming
 author: YourMCGeek
 contributors: Babymillie
+tags: ["modded Minecraft commands", "Modded Minecraft", "Minecraft Network", "ShadowNode", "ShadowNode Modded", "Modded 
+MC", "Modded MC Network", "Grief Prevention", "Claiming in Minecraft", "Minecraft claiming"]
 ---
 
 ## Claiming

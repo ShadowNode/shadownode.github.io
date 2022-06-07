@@ -2,6 +2,8 @@
 title: Wipes and Restarts
 author: YourMCGeek
 contributors: Dnsmasq, LethalMrM
+tags: ["modded Minecraft commands", "Modded Minecraft", "Minecraft Network", "ShadowNode", "ShadowNode Modded", 
+"Modded MC", "Modded MC Network"]
 aliases: ["/home/wipes/", "/restarts"]
 -----------------------------
 

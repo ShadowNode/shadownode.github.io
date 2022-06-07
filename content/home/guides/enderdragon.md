@@ -2,6 +2,8 @@
 title: Summoning the Ender Dragon
 author: YourMCGeek
 contributors: Babymillie
+tags: ["modded Minecraft commands", "Modded Minecraft", "Minecraft Network", "ShadowNode", "ShadowNode Modded", "Modded
+MC", "Modded MC Network", "Ender Dragon", "Modded End"]
 ---
 
 ## Summoning the Ender Dragon
