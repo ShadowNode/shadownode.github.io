@@ -5,10 +5,13 @@
     --MAIN-LINK-color: #B75FCC; /* Color of links */
     --MAIN-LINK-HOVER-color: #B145B8; /* Color of hovered links */
     --MAIN-ANCHOR-color: #33a1ff; /* color of anchors on titles */
+    --MAIN-BG-color: #2D3033;
 
     --MENU-HEADER-BG-color: #633884; /* Background color of menu header */
     --MENU-HEADER-BORDER-color: #4A2A63; /*Color of menu header border */
-
+    --MENU-MAIN-BG-color: rgb(32, 39, 43);
+  
+  
     --MENU-SEARCH-BG-color: #4A2A63; /* Search field background color (by default borders + icons) */
     --MENU-SEARCH-BOX-color: #385984; /* Override search field border color */
     --MENU-SEARCH-BOX-ICONS-color: #a1d2fd; /* Override search field icons color */
@@ -22,12 +25,24 @@
 
     --MENU-VISITED-color: #33a1ff; /* Color of 'page visited' icons in menu */
     --MENU-SECTION-HR-color: #2D3033; /* Color of <hr> separator in menu */
-
+  
+    --MERMAID-theme: dark; /* name of the default Mermaid theme for this variant, can be overridden in config.toml */
+    --SWAGGER-theme: dark; /* name of the default Swagger theme for this variant, can be overridden in config.toml */
+  
+    --BOX-CAPTION-color: rgba( 240, 240, 240, 1 ); /* color of the title text */
+    --BOX-BG-color: rgb(21, 31, 31);
+        /*rgba( 20, 20, 20, 1 ); !* color of the content background *!*/
+    --BOX-TEXT-color: #e0e0e0; /* automatic color of the content text */
+    --CODE-INLINE-BG-color: rgb(47, 50, 51);
+    --CODE-BLOCK-BG-color: rgb(47, 50, 51);
+    --CODE-INLINE-color: #a1d2fd;
+    --CODE-BLOCK-color: #a1d2fd;
 }
 
 @media (prefers-color-scheme: dark) {
     body {
         color: #2D3033;
+        background-color: #2D3033 !important;
         /*color: white;*/
     }
 }
@@ -71,7 +86,8 @@ table {
 }
 
 #footer p {
-    position: fixed;
+    /*position: fixed;*/
+    text-align: center;
     bottom: 0;
     margin-bottom: 2px;
 }
@@ -655,11 +671,11 @@ svg {
 
 
 .loading {  
-  position: relative;
+  position: relative !important;
   margin: 50% 0;
-  top: 50%;
+  top: 50% !important;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, 0);
   width: 250px;
   height: 250px;
   background: transparent;
@@ -673,7 +689,7 @@ svg {
   text-transform: uppercase;
   text-shadow: 0 0 10px #633884;
   box-shadow: 0 0 20px rgba(0, 0, 0, .5);
-  z-index: 1000;
+  z-index: 10000;
 }
 @media screen and (max-width: 600px) {
   .loading  {
@@ -681,11 +697,20 @@ svg {
     margin: 70% 0;
     left: 50%;
   }
+  #topbar {
+  
+  }
+  #breadcrumbs {
+    padding: 0 2%;
+  }
 }
 @media screen and (min-width: 601px) {
   .loading {
     position: relative;
     margin: 40% 0;
+  }
+  #topbar {
+    margin: 2%;
   }
 }
 
@@ -762,7 +787,8 @@ svg {
   margin-block-end: 0;
   margin-inline-start: 0;
   margin-inline-end: 0;
-  background: #2D3033;
+  /*background: #2D3033 !important;*/
+  background-color: rgb(32, 39, 43) !important;
   z-index: 998;
   position: relative;
   overflow: hidden;
@@ -770,7 +796,7 @@ svg {
   text-align: center;
   border: 5px #0079d3;
   width: auto;
-  margin: 0 0 0 0x;
+  margin: 0 0 0 0;
   top: 4%;
   /* left: 4%; */
   font-family: "Open Sans", Arial, Helvetica, serif;
@@ -811,7 +837,7 @@ svg {
 }
 @media screen and (min-width: 2000px) {
   #body-inner {
-    max-width: 1300px !important;
+    /*max-width: 1300px !important;*/
   }
   .col  {
     flex: 20% !important;
@@ -975,12 +1001,12 @@ svg {
 }
 
 .online {
-  background: #00bc8c;
+  background: #00bc8c !important;
   box-shadow: 0 0 0 2px #00bc8c;
 }
 
 .offline {
-  background: #e74c3c;
+  background: #e74c3c !important;
   box-shadow: 0 0 0 2px #e74c3c;
 }
 
@@ -1289,3 +1315,6 @@ textarea {
   margin: 0 auto;
 }
 
+#topbar {
+  margin-top: 1%;
+}
