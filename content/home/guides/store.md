@@ -2,6 +2,8 @@
 title: The Store
 author: YourMCGeek
 contributors: Babymillie, LethalMrM
+tags: ["modded Minecraft commands", "Modded Minecraft", "Minecraft Network", "ShadowNode", "ShadowNode Modded", "Modded
+MC", "Modded MC Network", "ShadowNode Shop"]
 ---
 
 <a href="https://shop.shadownode.ca/" target="_blank">The store</a> is a place where you can purchase upgrades to support us, besides using the voting system. 

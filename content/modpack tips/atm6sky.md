@@ -1,7 +1,8 @@
 ---
 title: ATM6 Sky
 author: LethalMrM
-tags: ["all the mods 6", "atm6", "atm6sky"]
+tags: ["modded Minecraft commands", "Modded Minecraft", "Minecraft Network", "ShadowNode", "ShadowNode Modded", "Modded
+MC", "Modded MC Network", "all the mods 6", "atm6", "atm6sky"]
 ---
 
 {{% notice note %}}

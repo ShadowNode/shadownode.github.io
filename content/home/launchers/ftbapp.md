@@ -1,6 +1,9 @@
 ---
 title: FTB App
 author: LethalMrM
+tags: ["modded Minecraft commands", "Modded Minecraft", "Minecraft Network", "ShadowNode", "ShadowNode Modded", "Modded
+MC", "Modded MC Network",
+"FTB App", "Feed-The-Beast", "FTB Launcher", "How-to"]
 ---
 
 ## About FTB App

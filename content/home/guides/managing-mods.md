@@ -1,6 +1,8 @@
 ---
 title: Managing Mods
 author: LethalMrM
+tags: ["modded Minecraft commands", "Modded Minecraft", "Minecraft Network", "ShadowNode", "ShadowNode Modded", "Modded
+MC", "Modded MC Network"]
 ---
 
 ## Managing Your Mods

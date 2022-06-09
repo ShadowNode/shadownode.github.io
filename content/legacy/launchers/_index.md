@@ -1,6 +1,8 @@
 ---
 title: Launchers
 author: LethalMrM
+tags: ["modded Minecraft commands", "Modded Minecraft", "Minecraft Network", "ShadowNode", "ShadowNode Modded", 
+"Modded MC", "Modded MC Network"]
 ---
 
 ### Legacy Info

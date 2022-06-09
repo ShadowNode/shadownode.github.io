@@ -1,6 +1,9 @@
 ---
 title: FTB Stoneblock 2
 author: LethalMrM
+tags: ["modded Minecraft commands", "Modded Minecraft", "Minecraft Network", "ShadowNode", "ShadowNode Modded", "Modded
+MC", "Modded MC Network",
+"Stoneblock 2", "FTB Stoneblock 2", "Stone block 2", "Stoneblock", "FTB Stone block"]
 ---
 
 {{% notice note %}}

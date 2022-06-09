@@ -2,6 +2,7 @@
 title: Guides
 author: Babymillie
 weight: 1
+tags: ["modded Minecraft commands", "Modded Minecraft", "Minecraft Network", "ShadowNode", "ShadowNode Modded", "Modded MC", "Modded MC Network", "ShadowNode Wiki"]
 ---
 {{< indexes/home_guides >}}
 <!--

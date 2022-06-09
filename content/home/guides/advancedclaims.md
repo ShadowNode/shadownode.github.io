@@ -2,6 +2,8 @@
 Title: Advanced Claim Management
 Author: LethalMrM
 Contributors: Toxic_Goblin
+tags: ["modded Minecraft commands", "Modded Minecraft", "Minecraft Network", "ShadowNode", "ShadowNode Modded", "Modded MC", "Modded MC Network",
+"Grief Prevention tricks", "Grief Prevention Tips",  "GP Tips", "Claim Flags" ]
 ---
  
  

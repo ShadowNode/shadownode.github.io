@@ -1,6 +1,8 @@
 ---
 title: What Java To Use
 author: LethalMrM
+tags: ["modded Minecraft commands", "Modded Minecraft", "Minecraft Network", "ShadowNode", "ShadowNode Modded", 
+"Modded MC", "Modded MC Network", "Modded MC Java", "MC Java", "Minecraft Java", "Modded Java", "Java versions"]
 ---
 With the release of Minecraft 1.18 we now have 3 different versions of Java that we need to have installed if we want to access all that Minecraft currently has to offer.
 

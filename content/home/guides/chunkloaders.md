@@ -2,6 +2,10 @@
 title: Chunkloaders
 author: YourMCGeek
 contributors: Babymillie, LethalMrM
+tags: ["modded Minecraft chunkloaders", "Modded Minecraft", "Minecraft Network", "ShadowNode", "ShadowNode Modded", 
+"Modded 
+MC", "Modded MC Network",
+"Custom chunkloaders", "chunk loaders", "how-to"]
 ---
 
 ## Chunk Loaders

@@ -1,7 +1,8 @@
 ---
 title: Rules and Policies
 author: YourMCGeek
-tags: ["rules", "store", "shop"]
+tags: ["modded Minecraft commands", "Modded Minecraft", "Minecraft Network", "ShadowNode", "ShadowNode Modded", 
+"Modded MC", "Modded MC Network", "rules", "store", "shop"]
 aliases: ["/rules/", "/server-info/rules/"]
 ---
 <!-- We ask that you refrain from editing this file as a community member! Thank you! -->

@@ -1,6 +1,8 @@
 ---
 title: Support
 author: LethalMrM
+tags: ["modded Minecraft commands", "Modded Minecraft", "Minecraft Network", "ShadowNode", "ShadowNode Modded", 
+"Modded MC", "Modded MC Network", "ShadowNode Support", "ShadowNode tickets", "ShadowNode Discord"]
 aliases: ["/support", "/tickets"]
 ---
 

@@ -1,6 +1,8 @@
 ---
 title: 1.16 Packs
 author: LethalMrM
+tags: ["modded Minecraft commands", "Modded Minecraft", "Minecraft Network", "ShadowNode", "ShadowNode Modded", "Modded
+MC", "Modded MC Network", "ShadowNode 1.16", "Modded 1.16", "Minecraft 1.16"]
 ---
 
 {{% notice note %}}

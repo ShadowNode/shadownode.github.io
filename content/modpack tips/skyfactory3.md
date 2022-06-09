@@ -1,6 +1,8 @@
 ---
 title: Skyfactory 3
 author: LethalMrM
+tags: ["modded Minecraft commands", "Modded Minecraft", "Minecraft Network", "ShadowNode", "ShadowNode Modded", "Modded
+MC", "Modded MC Network", "SF3", "Skyfactory 3", "Sky factory 3"]
 ---
 
 {{% notice note %}}

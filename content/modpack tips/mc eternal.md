@@ -1,6 +1,9 @@
 ---
 title: MC Eternal
 author: LethalMrM
+tags: ["modded Minecraft commands", "Modded Minecraft", "Minecraft Network", "ShadowNode", "ShadowNode Modded", "Modded
+MC", "Modded MC Network",
+"MC Eternal", "Eternal"]
 ---
 
 {{% notice note %}}
