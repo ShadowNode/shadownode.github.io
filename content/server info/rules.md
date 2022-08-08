@@ -75,6 +75,13 @@ These rules apply to our Discord, servers and all other services. By using our s
 ### Do Not Impersonate a Staff Member
   * Impersonation means pretending to be someone else. This includes changing your nickname to a staff member's username/nickname or adding Staff/Admin/Etc to any part of your nickname or rank. This also applies to custom join/leave messages.
 
+### No One Chunk Bases
+  * One chunk bases create more server lag and disrupt all players. Make sure you spread your base out over several 
+    chunks. In general don't build more than 1 or 2 layers vertically. Use ``F3+G`` to see chunk boundaries. This 
+    allows you to ensure your base isn't in only a few chunks.
+
+### Some packs have server-specific rules.
+  * Be sure to check out the servers spawn for pack specific rules.  
 ___
 
 # Store Policies

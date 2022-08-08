@@ -156,7 +156,9 @@ Features
 
 Upgrade from Phantom
 
-<div class="append"><span style="color: #000000">[</span><span style="color: #D24860">#E<span style="color: #D7CD64">d<span style="color: #D24860">o<span style="color: #D7CD64">l<span style="color: #D24860">o<span style="color: #D7CD64">n<span style="color: #D24860">#</span><span style="color: #000000">]</span></div>
+<div class="append"><span style="color: #000000">[</span><span style="color: #D24860">#E<span style="color: 
+#D7CD64">i</span><span style="color: #D24860">d<span style="color: #D7CD64">o<span style="color: #D24860">l<span 
+style="color: #D7CD64">o<span style="color: #D24860">n#</span><span style="color: #000000">]</span></div>
 
 ### Eidolon
 
