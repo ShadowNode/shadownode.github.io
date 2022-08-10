@@ -7,13 +7,18 @@ aliases: ["/rules/", "/server-info/rules/"]
 ---
 <!-- We ask that you refrain from editing this file as a community member! Thank you! -->
 
-ShadowNode was created in 2014 by our owner ShadowKitten. Aiming to provide players with the best experience possible, ShadowNode is proud to host over 15 diverse servers!
+ShadowNode was created in 2014 by our owner ShadowKitten. Aiming to provide players with the best experience 
+possible, ShadowNode is proud to host over 10 diverse servers!
 
 # Rules
-These rules apply to our Discord, servers and all other services. By using our services, you are agreeing to follow these rules. Ignorance of these rules is not an excuse. Staff are provided with a general guideline of punishments for each rule, however choose a punishment is at their discretion.
+These rules apply to our Discord, servers and all other services. By using our services, you are agreeing to follow 
+these rules. Ignorance of these rules is not an excuse. Staff are provided with a general guideline of punishments 
+for each rule, however choosing a punishment is at their discretion.
 
 ### Respect Staff and Staff Decisions
- * Do not in any way mock, abuse, argue with, or be disrespectful in general to any member of our staff. If you feel you have been mistreated by a staff member or believe a punishment you received is unjust, do not mock them or make a scene. Contact another member of the staff team to discuss the issue privately.
+ * Do not in any way mock, abuse, argue with, or be disrespectful in general to any member of our staff. If you feel 
+   you have been mistreated by a staff member or believe a punishment you received is unjust, please do not mock 
+   them or make a scene. Contact another member of the staff team to discuss the issue privately.
 
 ### No Harassment, Flaming or Trolling
   * This includes repeated requests for something over DMs, frequent unwanted TPA requests, bullying someone in server chat or DMs, and any other kind of unwanted contact or abuse. We understand that friends may joke around with each other, but if a staff member asks you to stop, you should listen. Any joking around that includes cussing, vulgar sexual comments or hate speech will be punished as such.
