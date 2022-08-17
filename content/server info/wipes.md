@@ -7,12 +7,16 @@ tags: ["modded Minecraft commands", "Modded Minecraft", "Minecraft Network", "Sh
 aliases: ["/home/wipes/", "/restarts"]
 -----------------------------
 
-Servers restart every once in a while to reduce lag. This does not mean that a restart will fix all kinds of lag so, please, **do not** as staff to restart a server due to lag. **Restarts are NOT wipes**, they are just a scheduled reboot to the server. 
+Servers restart every once in a while to reduce lag. This does not mean that a restart will fix all kinds of lag. So, 
+please, **do not** ask staff to restart a server due to lag. **Restarts are NOT wipes**, they are just a scheduled reboot to the server. 
 
 *Ground items are cleared every 20 minutes (XX:10, XX:30, XX:50). There is a 1 minute warning before a clear.*
 
 {{% notice note %}}
-All times listed are in Eastern Standard Time (EST). This is the same as GMT-5. Wipes will happen during the nightly restart. Restarts happen both in the AM and in the PM.
+All times listed are in Eastern Standard Time (EST). This is the same as GMT-5. Wipes will happen during the nightly 
+restart. Restarts happen both in the AM and in the PM. The times might appear to be an hour off if you're currently in 
+Daylight 
+Savings Time (DST).
 {{% /notice %}}
 
 ## Restart Times (EST)
