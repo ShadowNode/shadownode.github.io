@@ -8,14 +8,13 @@ weight: 1
 ---
 ## About PolyMC
 
-PolyMC is a newer launcher that allows you to install via CurseForge and FTB App. PolyMC will provide links to mods 
-that it cannot download directly from CurseForge. You will need to manually download these mods and add them to your 
+PolyMC is a newer launcher that allows you to install packs via CurseForge and FTB App. PolyMC will provide links to 
+mods that it cannot download directly from CurseForge. You will need to manually download these mods and add them to your 
 pack's mod folder directly. We'll describe how to do so below. If the interface for PolyMC looks familiar, that's 
 because it was originally a fork of MultiMC. 
 
 If you already have PolyMC installed and want to install a pack you can jump to [pack installs](/join/polymc/#install-packs). 
-If you are having issues with the wrong version of Java please jump to [changing java versions]
-(/join/polymc/#wrong-java) 
+If you are having issues with the wrong version of Java please jump to [changing java versions](/join/polymc/#wrong-java) 
 
 ## Installing PolyMC
 Head to the [PolyMC Download Page](https://polymc.org/download/) and click on the download link for your platform. All instructions below assume you're running Windows.
@@ -31,14 +30,14 @@ Once you've downloaded PolyMC go to your downloads folder and open the installer
 ![Install Location](/assets/images/polymc/polymc_setup_location.png)
 3. Once you've set the location click "Install" and let it install. Leave the box checked that says "Run PolyMC" and 
    click "Finish".
-4. PolyMC will now launch and you'll see a screen like below without any modpacks. 
+4. PolyMC will now launch and you'll see a screen like below but without any packs. 
 ![PolyMC Default Screen](/assets/images/polymc/polymc_modpacks.png)
 5. To finish setting up PolyMC we need to add our Microsoft Account to it to be able to add packs. To do so click 
    the top left drop-down. The one above says "LethalMrM" but yours will say something along the lines of "No Accounts". From the drop down click "Manage Accounts". In the top right corner you'll see "Add Microsoft" and you'll need to click that.
 ![Account Management](/assets/images/polymc/polymc_accounts.png)
 6. Once you do this a window will pop up asking you to link the account. Click the link and login with your 
-   **Minecraft-related Microsoft Account**. It will provide you a code you'll need to enter to link the account. 
-   This will be in bold. I've blurred the one in the image out for security reasons.
+   **Minecraft-linked Microsoft Account**. It will provide you a code you'll need to enter to link the account. 
+   This will be in bold. We've blurred the linking code in the image out for security reasons.
 ![Link Accounts](/assets/images/polymc/polymc_link.png)
 7. You should now see your account listed if you did this correctly. You can close the account window and return to 
    the main window. PolyMC is now ready to be used.
