@@ -24,6 +24,7 @@ Once you've downloaded PolyMC go to your downloads folder and open the installer
 
 1. As this application is open source and not signed you will be prompted with a screen like the below. You will need to click "more info" then "Run Anyway". As long as the application was downloaded via the link above it should be safe.
 ![More info](/assets/images/polymc/polymc_warning_1.png)
+![Run Anyway](/assets/images/polymc/polymc_warning_2.png)
 2. This will now bring up an installer. Click "Next >" and then choose the options you want to have installed with 
    the program. After you checked the options, click "Next >" again and you will be prompted where to install it. We 
    recommend the following location `C:\PolyMC`, however, you're free to install it where you choose to. 

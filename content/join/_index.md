@@ -1,7 +1,7 @@
 ---
 title: How to Join
 author: LethalMrM
-weight: 2
+weight: 1
 aliases: ["/join"]
 tags: ["modded Minecraft commands", "Modded Minecraft", "Minecraft Network", "ShadowNode", "ShadowNode Modded", 
 "Modded MC", "Modded MC Network", "Play on ShadowNode"]
