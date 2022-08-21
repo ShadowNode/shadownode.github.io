@@ -22,12 +22,42 @@
           vanilla, vanilla server">
 
     <title>ShadowNode Modded Game Servers</title>
+    <script defer src="/fontawesome/js/all.min.js"></script>
     <meta name="description" content="Welcome to ShadowNode! We specialise in modded game servers and strive to offer a friendly and comfortable environment for our players. Join now!">
-
     <link rel="stylesheet" href="assets/css/main.css">
+    <link href="//fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        .btnIcon {
+		  background: rgba(214,88,255,1);
+		  background: linear-gradient(180deg, rgba(164,177,255,1) 0%, rgba(214,88,255,1) 100%);
+          color: #282828;
+          display: block;
+          text-align: center;
+          padding: 2rem 1.25rem;
+          text-decoration: none;
+          border-radius: 50%;
 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+		}
 
+        .btnIcon:hover {
+		  background: rgb(209,221,255);
+		  background: linear-gradient(180deg, rgba(209,221,255,1) 0%, rgba(248,136,255,1) 100%);
+		  border-radius: 2rem;
+
+		}
+
+		.fa-fw {
+		  font-size: 5rem !important;
+		}
+
+        .btnDesc {
+		  z-index: 9999;
+          color: #FFF;
+          text-align: center;
+          font-size: 1.5rem;
+          padding: 1rem 0;
+        }
+    </style>
 </head>
 <body>
 
@@ -40,23 +70,39 @@
         </header>
         <nav>
             <ul>
-
                 <li>
-                    <a href="./server-info/" tabindex="1">
-                        <button class="homebtn" tabindex="-1"></button>
+                    <a href="/join" class="btnIcon" tabindex="1">
+                        <i class="fa-solid fa-book fa-fw"></i>
                     </a>
+                    <div class="btnDesc">Wiki</div>
+
+                </li>
+                <li>
+                    <a href="/servers/" class="btnIcon" tabindex="2">
+                        <i class="fa-solid fa-server fa-fw"></i>
+<!--                        <button class="homebtn" tabindex="-1"></button>-->
+                    </a>
+                    <div class="btnDesc">Servers</div>
                 </li>
 
                 <li>
-                    <a href="/votes" tabindex="2">
-                        <button class="vote" tabindex="-1"></button>
+                    <a href="/votes" class="btnIcon" tabindex="3">
+<!--                        <i class="fa-solid fa-list-check fa-fw"></i>-->
+                        <i class="fa-solid fa-check-to-slot fa-fw"></i>
+
+                        <!--                        <button class="vote" tabindex="-1"></button>-->
                     </a>
+                    <div class="btnDesc">Vote!</div>
+
                 </li>
 
                 <li>
-                    <a href="https://shop.shadownode.ca/" tabindex="3">
-                        <button class="shop" tabindex="-1"></button>
+                    <a href="https://shop.shadownode.ca/" class="btnIcon" tabindex="3">
+                        <i class="fa-solid fa-bag-shopping fa-fw"></i>
+<!--                        <button class="shop" tabindex="-1"></button>-->
                     </a>
+                    <div class="btnDesc">Shop</div>
+
                 </li>
             </ul>
         </nav>
