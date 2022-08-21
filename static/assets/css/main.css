@@ -980,13 +980,14 @@ input[type=checkbox] {
 
 
 #server-table {
-    /* max-width: 1300px; */
+     max-width: 1300px;
     margin: auto;
     display: flex;
     justify-content: center;
     text-align: center;
     flex-wrap: wrap;
     padding-bottom: 20px;
+    
 }
 
 #serversWrapper > * {
@@ -1048,7 +1049,7 @@ input[type=checkbox] {
     background-color:darkorchid !important;
 }
 .col {
-    flex: 25%;
+    flex: 35%;
     padding: 10px;
     max-width: 260px;
     box-sizing: border-box;
@@ -1058,7 +1059,7 @@ input[type=checkbox] {
         /*max-width: 1300px !important;*/
     }
     .col  {
-        flex: 20% !important;
+        flex: 30% !important;
     }
 }
 @media screen and (max-width: 980px) {
