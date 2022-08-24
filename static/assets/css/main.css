@@ -1386,12 +1386,13 @@ textarea {
 /* (Portal) Pretty Buttons */
 .btnIcon {
     background: rgba(214,88,255,1);
-    background: linear-gradient(180deg, rgba(164,177,255,1) 20%, rgba(214,88,255,1) 70%);
+    /*background: linear-gradient(180deg, rgba(164,177,255,1) 30%, #da6bff 70%);*/
+    background: linear-gradient(180deg, #7f86ee 0%, #9856fe 100%);
     color: #282828;
     display: block;
     text-align: center;
     margin-top: 3rem;
-    padding: 1.5rem 1rem;
+    padding: 1.0rem 0.75rem;
     text-decoration: none;
     border-radius: 50%;
 }
@@ -1401,18 +1402,17 @@ textarea {
 
 .btnIcon:hover {
     background: rgb(209,221,255);
-    background: linear-gradient(180deg, rgba(209,221,255,1) 20%, rgba(248,136,255,1) 70%);
+    background: linear-gradient(180deg, rgba(209,221,255,1) 30%, rgba(248,136,255,1) 70%);
     border-radius: 2rem;
     box-shadow: 0.7rem 0.7rem rgba(14,20,26, 0.5);
     
 }
 
 .fa-fw {
-    font-size: 5rem !important;
+    font-size: 4.5rem !important;
     /*text-shadow: 3rem 3rem rgba(14,20,26, 0.5);*/
     /*box-shadow: 1rem 1rem rgba(14,20,26, 0.5);*/
-    filter: drop-shadow(0.3rem 1.7rem 0.9rem rgba(40,40,40,0.7));
-    
+    /*filter: drop-shadow(0.3rem 1.7rem 0.9rem rgba(40,40,40,0.7));*/
 }
 .btnDesc {
     z-index: 9999;
