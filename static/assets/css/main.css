@@ -1387,12 +1387,15 @@ textarea {
 .btnIcon {
     background: rgba(214,88,255,1);
     /*background: linear-gradient(180deg, rgba(164,177,255,1) 30%, #da6bff 70%);*/
-    background: linear-gradient(180deg, #7f86ee 0%, #9856fe 100%);
+    /*background: linear-gradient(180deg, #7f86ee 0%, #9856fe 100%);*/
+    /*background: linear-gradient(180deg, #f888ff 0%, #9856fe 50%);*/
+    background: linear-gradient(180deg, #f888ff 25%, #9856fe 55%);
+    
     color: #282828;
     display: block;
     text-align: center;
     margin-top: 3rem;
-    padding: 1.0rem 0.75rem;
+    padding: 1.3rem 0.9rem;
     text-decoration: none;
     border-radius: 50%;
 }
