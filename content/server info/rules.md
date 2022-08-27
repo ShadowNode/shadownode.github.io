@@ -59,9 +59,12 @@ for each rule, however choosing a punishment is at their discretion.
   * We do not refund items lost to graves failing to spawn, clicking the Baubles menu with an item by accident, accidentally throwing an item in a Trash Can, or any similar issue. These are mod bugs and user error, neither of which we are responsible for. We do not refund items lost in unclaimed bases being raided or griefed. You are responsible for securing your own base. WE will use Prism to roll back/undo the damage, but that is all we will do. We do not refund easy-to-replace items such as sand, wood, dirt, Oak Fence, etc.
   * Staff will decide on a case-by-case basis if an item should be refunded.
 
-### Do Not Auto-mine in the Overworld
+### Do Not World Auto-mine in the Overworld
   * We have mining worlds for a reason, so the terrain of the overworld doesn't get scarred by constant mining with Quarries or other mass-mining devices. If a quarry or quarry-like device is found in the overworld, it will be broken by a staff member.
-  * You may use a Quarry and/or similar devices for clearing space during base-building. 2x2 chunks maximum, with a 20 Y-level maximum.
+
+
+### No Manual World Scarring of the Overworld
+  * Manual world scarring is any kind of digging, mining or harvesting by manual methods out side of your claim. In general, manual methods are ok for minor gatherings, however, anything that causes excessive outward damage or pitfalls isn't allowed. World Scarring isn't pretty to look at nor is it always safe for players to be around. As a result we only allow overworld mining of where your base is and what you plan to use. For example you can clear out a forrest or desert if you plan to live there, but not for resources. If you wish to gather these resources please visit our mining worlds.
 
 ### Use English Only in the Main Chat
   * This is purely to help the staff troubleshoot things and keep the chat clear of confusing messages. Talking in other langues via private messages is allowed.
