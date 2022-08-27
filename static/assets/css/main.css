@@ -123,11 +123,6 @@ a.username {
     color: #fff !important
 }
 
-@media (prefers-color-scheme: dark) {
-    body {
-        background: #303030;
-    }
-}
 
 body {
     background: image('../images/vortex.jpg') fixed center !important;
@@ -1401,21 +1396,6 @@ textarea {
 }
 .btnIcon > i {
 
-}
-
-@media screen {
-    [data-darkreader-mode="dynamic"] .btnIcon, [data-darkreader-mode="on"] .btnIcon {
-        background: #f888ff;
-        background: linear-gradient(180deg, #f888ff 25%, #9856fe 55%);
-    
-        color: #282828;
-        display: block;
-        text-align: center;
-        margin-top: 3rem;
-        padding: 1.3rem 0.9rem;
-        text-decoration: none;
-        border-radius: 50%;
-    }
 }
 .btnIcon:hover {
     background: rgb(209,221,255);
