@@ -1,4 +1,4 @@
-const playersEle = document.getElementById("players");
+const playersEle = document.getElementById("onlinePlayers");
 let cachedCount;
 
 function playerCount(element) {
