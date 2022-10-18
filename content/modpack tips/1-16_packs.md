@@ -1,5 +1,5 @@
 ---
-title: 1.16 Packs
+title: 1.16/1.18 Packs
 author: LethalMrM
 tags: ["modded Minecraft commands", "Modded Minecraft", "Minecraft Network", "ShadowNode", "ShadowNode Modded", "Modded
 MC", "Modded MC Network", "ShadowNode 1.16", "Modded 1.16", "Minecraft 1.16"]
@@ -9,9 +9,9 @@ MC", "Modded MC Network", "ShadowNode 1.16", "Modded 1.16", "Minecraft 1.16"]
 This section might not always be up-to-date. Please let us know or submit changes if you discover this is the case. To find out how see [contributing](/home/guides/contributing/).
 {{% /notice %}}
 
-## 1.16 vs 1.12 Packs
+## 1.18 vs 1.12 Packs
 
-Many of you are already familiar with 1.12.2 and 1.16 packs but there are some key changes that seemingly impact all 1.16 packs as a whole. As a result of this you're likely wondering what's changed and how you can work around it. The good news is that while some things are not able to be corrected around you can still access many of your "missing" perks by loading the lobby with a 1.12.2 client.
+Many of you are already familiar with 1.12.2 and 1.16/1.18 packs but there are some key changes that seemingly impact all 1.16 packs as a whole. As a result of this you're likely wondering what's changed and how you can work around it. The good news is that while some things are not able to be corrected around you can still access many of your "missing" perks by loading the lobby with a 1.12.2 client.
 
 ### Known Issues
 
