@@ -24,6 +24,7 @@ Savings Time (DST).
 #### 1.18 and Vanilla Servers
 | Server Name        | Restart Time   | Restart Time |
 | :----------------: | :------------: |:------------:|
+| Stoneblock 3       | 10:00 AM/PM    |  4:00 AM/PM  |
 | Direwolf20 1.18    | 12:00 AM/PM    |  6:00 AM/PM  |
 | Vanilla            | 12:00 AM/PM    |              |
 
