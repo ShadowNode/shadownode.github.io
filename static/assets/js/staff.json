@@ -27,7 +27,6 @@
         "discord": "346423675869724675",
         "away": false
       },
-
       {
         "display": "Moody_420",
         "ingame": "39e05a75-49f2-4060-9a48-80e34d11b162",
@@ -70,18 +69,11 @@
         "discord": "272454142201692160",
         "away": true
       },
-
       {
         "display": "InkEyes",
         "ingame": "f741de3f-89a7-4431-ac61-dcff541c45a7",
         "discord": "147137133495189505",
         "away": false
-      },
-      {
-        "display": "Nightbringer",
-        "ingame":  "b988fece-a0b7-4b2a-a16f-e5fe3bbb6b3b",
-        "discord": "285842895439790081",
-        "away": true
       }
     ]
   },
@@ -129,7 +121,7 @@
         "display": "PopularSean",
         "ingame": "2fd35731-57c0-4dc3-adc3-508a56831180",
         "discord": "240924570809270273",
-        "away": true
+        "away": false
       }
     ]
   },
