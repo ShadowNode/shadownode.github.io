@@ -22,19 +22,20 @@ Savings Time (DST).
 ## Restart Times (EST)
 
 #### 1.18 and Vanilla Servers
+
 | Server Name        | Restart Time   | Restart Time |
 | :----------------: | :------------: |:------------:|
 | Stoneblock 3       | 10:00 AM/PM    |  4:00 AM/PM  |
 | Direwolf20 1.18    | 12:00 AM/PM    |  6:00 AM/PM  |
-| Vanilla            | 12:00 AM/PM    |              |
+| All The Mods 7 Sky |  2:30 AM/PM    |  8:30 AM/PM  |
+| Vanilla 1.19.2     | 12:00 AM/PM    |              |
 
 ####  1.16 Servers
 
 | Server Name                 | Restart Time   | Restart Time   |
 | :-------------------------: | :------------: | :------------: |
-| ATM6: To The Sky            | 4:30 AM/PM     | 10:30 AM/PM    |
 | Enigmatica 6: Expert        | 1:30 AM/PM     | 7:30 AM/PM     |
-| FTB OceanBlock              | 6:30 AM/PM     | 11:30 AM/PM    |
+| Techopolis                  | 5:30 AM/PM     | 11:30 AM/PM    |
 
 #### 1.12 Servers
 
