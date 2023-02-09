@@ -27,7 +27,6 @@
         "discord": "346423675869724675",
         "away": false
       },
-
       {
         "display": "Moody_420",
         "ingame": "39e05a75-49f2-4060-9a48-80e34d11b162",
@@ -56,21 +55,14 @@
         "display": "Cosmic_Elemental",
         "ingame": "a51adf68-e79a-4a62-8b95-10405dd071bd",
         "discord": "356530058908925965",
-        "away": false
+        "away": true
       },
       {
         "display": "Endercorps_Alpha",
         "ingame": "9db449a3-a567-470a-85d4-7ef7f16405a8",
         "discord": "142748655294742528",
-        "away": false
-      },
-      {
-        "display": "FauxyCE",
-        "ingame": "8758960f-e495-4c03-b425-64218cd6c598",
-        "discord": "272454142201692160",
         "away": true
       },
-
       {
         "display": "InkEyes",
         "ingame": "f741de3f-89a7-4431-ac61-dcff541c45a7",
@@ -78,10 +70,10 @@
         "away": false
       },
       {
-        "display": "Nightbringer",
-        "ingame":  "b988fece-a0b7-4b2a-a16f-e5fe3bbb6b3b",
-        "discord": "285842895439790081",
-        "away": true
+        "display": "neoneix",
+        "ingame": "de0104f0-681b-477b-8b66-4c5814d46302",
+        "discord": "168941686368501760",
+        "away": false
       }
     ]
   },
@@ -114,21 +106,21 @@
     "description": "Moderators are responsible for enforcing bans, refunding items, and fixing griefs.",
     "members": [
       {
-        "display": "PopularSean",
-        "ingame": "2fd35731-57c0-4dc3-adc3-508a56831180",
-        "discord": "240924570809270273",
-        "away": true
-      },
-      {
-        "display": "neoneix",
-        "ingame": "de0104f0-681b-477b-8b66-4c5814d46302",
-        "discord": "168941686368501760",
+        "display": "Mervyn_2K",
+        "ingame": "85fd0020-c931-4c3b-a538-f775113605b6",
+        "discord": "129704142141653002",
         "away": false
       },
       {
-        "display": "Zyion",
-        "ingame": "6e863331-9968-4943-aa48-0b3c65308bc4",
-        "discord": "99358692054405120",
+        "display": "PopularSean",
+        "ingame": "2fd35731-57c0-4dc3-adc3-508a56831180",
+        "discord": "240924570809270273",
+        "away": false
+      },
+      {
+        "display": "FauxyCE",
+        "ingame": "8758960f-e495-4c03-b425-64218cd6c598",
+        "discord": "272454142201692160",
         "away": false
       }
     ]
@@ -138,9 +130,15 @@
     "description": "MIT are Moderators in Training. They assist in-game and Discord by answering questions and assisting the other staff.",
     "members": [
       {
-        "display": "AccioNox",
-        "ingame": "8347a24d-61d2-4274-8a82-22bcd1ea06aa",
-        "discord": "303484061630857218",
+        "display": "Alrynth",
+        "ingame": "109836fa-ead8-493e-b3e3-0e6177bc2566",
+        "discord": "197910390213050368",
+        "away": true
+      },
+      {
+        "display": "Spniel",
+        "ingame": "d9d83d66-a44e-40e3-817e-ee3a0de07d1c",
+        "discord": "190843105161904128",
         "away": false
       }
     ]
