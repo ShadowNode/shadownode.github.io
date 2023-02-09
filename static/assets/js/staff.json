@@ -55,24 +55,24 @@
         "display": "Cosmic_Elemental",
         "ingame": "a51adf68-e79a-4a62-8b95-10405dd071bd",
         "discord": "356530058908925965",
-        "away": false
+        "away": true
       },
       {
         "display": "Endercorps_Alpha",
         "ingame": "9db449a3-a567-470a-85d4-7ef7f16405a8",
         "discord": "142748655294742528",
-        "away": false
-      },
-      {
-        "display": "FauxyCE",
-        "ingame": "8758960f-e495-4c03-b425-64218cd6c598",
-        "discord": "272454142201692160",
         "away": true
       },
       {
         "display": "InkEyes",
         "ingame": "f741de3f-89a7-4431-ac61-dcff541c45a7",
         "discord": "147137133495189505",
+        "away": false
+      },
+      {
+        "display": "neoneix",
+        "ingame": "de0104f0-681b-477b-8b66-4c5814d46302",
+        "discord": "168941686368501760",
         "away": false
       }
     ]
@@ -112,15 +112,15 @@
         "away": false
       },
       {
-        "display": "neoneix",
-        "ingame": "de0104f0-681b-477b-8b66-4c5814d46302",
-        "discord": "168941686368501760",
-        "away": false
-      },
-      {
         "display": "PopularSean",
         "ingame": "2fd35731-57c0-4dc3-adc3-508a56831180",
         "discord": "240924570809270273",
+        "away": false
+      },
+      {
+        "display": "FauxyCE",
+        "ingame": "8758960f-e495-4c03-b425-64218cd6c598",
+        "discord": "272454142201692160",
         "away": false
       }
     ]
