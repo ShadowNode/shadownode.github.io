@@ -33,7 +33,7 @@ To be able to use Prism you will need to do some basic setup and to do so you ca
 5. At this step click the "Open page and copy code" button. I highly recommend that you manually copy the code shown as well to ensure that you correctly paste it. Login to your Microsoft account and then paste the code it. It will inform you that you can close the window when done.
 ![Prism Launcher Setup 5](/assets/images/launchers/prism/prism_setup_5.png)
 6. If you've done everything right you should see something like this. Click the close button and then proceed to the next section to add a mod pack.
-![Prism Launcher Setup 5](/assets/images/launchers/prism/prism_setup_6.png)
+![Prism Launcher Setup 5](/assets/images/launchers/prism/prism_setup_6_1.png)
 
 ### Adding Mod Packs
 To be able to play Minecraft with Prism you still need to add a mod pack to the launcher and use it. You will need to know the pack you're looking to use as well as it's version. You can find the version and our packs in the [#info-server-ips channel on our Discord](https://discord.shadownode.ca)
@@ -45,7 +45,7 @@ Once you've gotten *both* the pack and version number you'll need to add them us
 ![Prism Modpacks 2](/assets/images/launchers/prism/prism_modpack_2.png)
 3. Once you select your pack and click OK to install it you will likely get prompted to install more mods that have to be downloaded by a browser, luckily, Prism can automatically manage this for you. Click the "Open Missing" button and then let it open all the mods and download them. Once that's done and all mods are downloaded, click "Ok" to continue with the installation.
 ![Prism Modpacks 3](/assets/images/launchers/prism/prism_modpack_3.png)
-4. When the modpack has finished downloading you'll see a screen similar to this. Double-click the launcher and your game should launch. If it doesn't you might need to edit your Java version for the pack. You can find the [correct version of Java](https://shadownode.net/home/guides/java-versions/) here.
+4. When the modpack has finished downloading you'll see a screen similar to this. Wait till the progress bar completes and you get access to the main window again and Double-click the game's icon and your game should launch. If it doesn't you might need to edit your Java version for the pack. You can find the [correct version of Java](https://shadownode.net/home/guides/java-versions/) here.
 ![Prism Modpacks 4](/assets/images/launchers/prism/prism_modpack_4.png)
 
 ### Updating Modpacks
