@@ -53,7 +53,7 @@ Prism doesn't have a pack update mechanism at this time. To update simply follow
 
 ### Updating Per-Instance Settings
 In the example below we'll be updating the memory for a pack instance, however, you can also update your Java Version as well as add Java Arguments to make the pack run more efficiently.
-1. By default, Prism will use the amount of memory that you want to right-click on an instance and select "Edit" on the popup menu to be able to change this value.
+1. By default, Prism will use the amount of memory that you set as a default. You will want to right-click on an instance and select "Edit" on the popup menu to be able to change this value.
    ![Prism Edit Pack Menu](/assets/images/launchers/prism/prism_editpack_step_1.png)
 2. Click settings on the new window that opens. By default, it will show a log of the Minecraft instance from every time you have started it.
    ![Prism Edit Pack Screen](/assets/images/launchers/prism/prism_editpack_step_2.png)
@@ -65,6 +65,6 @@ In the example below we'll be updating the memory for a pack instance, however, 
 4. To edit the memory that you want to set aside for Minecraft/Java you need to click the check box next to the word "Memory" in section 2. When you do so you will see the following and be able to adjust it. Suggested values are below while leaving an extra 2-4GB for your system and other applications.
    * To allocate 6GB - 6144MB
    * To allocate 8GB - 8192MB
-   * To allocate 10GB - 1024MB
+   * To allocate 10GB - 10240MB
      ![Prism Edit Pack Setting Memory](/assets/images/launchers/prism/prism_editpack_step_4.png)
 5. Once you are done with any changes you'd like to make here click "Close" at the bottom of the window and you'll have them saved you can then launch your pack by double-clicking as usual.
