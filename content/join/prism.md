@@ -20,15 +20,15 @@ Once you've downloaded the launcher go to your downloads folder and open the ins
 3. Once this completes you can launch Prism by either searching for it on your computer or launching it from your Desktop.
 
 ### Basic Setup
-To be able to use Prism you will need to do some basic setup and to do so you can follow the steps below. Please note that if you don't have [java installed](https://shadownode.net/home/guides/java-versions/) you will need to download it.
+To be able to use Prism you will need to do some basic setup and to do so you can follow the steps below. Please note that if you don't have [java installed](/home/guides/java-versions/) you will need to download it.
 
-1. Once you launch Prism for the first time you'll see a screen like this. Click the language you speak and wish to have your launcher in. In this case we'll be using American English.
+1. Once you launch Prism for the first time you'll see a screen like this. Click the language you speak and wish to have your launcher in. In this case we'll be using American English. Click next once you've done so.
    ![Prism Launcher Setup 1](/assets/images/launchers/prism/prism_setup_1.png)
-2. Next step is to make sure you have Java installed and to select Java. In the screenshot below Java isn't installed and you will need to install it and then click refresh. Once a suitable java is installed click the version you wish to use as the base version and click "Next"
-   ![Prism Launcher Setup 3](/assets/images/launchers/prism/prism_setup_2.png)
+2. On this step if you don't have Java installed, you will need to pause and install Java first, otherwise please proceed by selecting the correct Java version from the list here. Note that in the the screenshot below Java isn't installed and you will need to install it if you see this and then click refresh. After you have Java selected and are happy with your choices, click "Next".
+![Prism Launcher Setup 3](/assets/images/launchers/prism/prism_setup_2.png)
 3. In the top right corner you'll see a dropdown labeled "Accounts", click that and then "Manage Accounts".
    ![Prism Launcher Setup 3](/assets/images/launchers/prism/prism_setup_3.png)
-4. On this screen you'll see a button in the top right that's labeled "Add Microsoft" click that and it'll prompt you to login to your Microsoft account on the web.
+4. On this screen you'll see a button in the top right that's labeled "Add Microsoft" click that and it'll prompt you to login to your Microsoft account on the web. This will launch a web browser.
    ![Prism Launcher Setup 4](/assets/images/launchers/prism/prism_setup_4.png)
 5. At this step click the "Open page and copy code" button. I highly recommend that you manually copy the code shown as well to ensure that you correctly paste it. Login to your Microsoft account and then paste the code. It will inform you that you can close the window when done.
    ![Prism Launcher Setup 5](/assets/images/launchers/prism/prism_setup_5.png)
@@ -38,7 +38,7 @@ To be able to use Prism you will need to do some basic setup and to do so you ca
 ### Adding Mod Packs
 To be able to play Minecraft with Prism you still need to add a mod pack to the launcher and use it. You will need to know the pack you're looking to use as well as it's version. You can find the version and our packs in the [#info-server-ips channel on our Discord](https://discord.shadownode.ca)
 
-Once you've gotten *both* the pack and version number you'll need to add them using the launcher. In this example, we'll be adding Direwolf20 1.19 from FTB.
+Once you've gotten *both* the pack and version number you'll need to add them using the launcher. In this example, we'll be adding Direwolf20 1.19 from FTB. This assumes you're already in the main launcher window of the Prism application.
 1. Click Add Instance at the top of the Main Window
    ![Prism Modpacks 1](/assets/images/launchers/prism/prism_modpack_1.png)
 2. Once you do so, you'll have a new window popup and it'll show different Minecraft versions you can install. Choose CurseForge for any CurseForge packs and FTB For any FTB Packs. In the below example, we're installing DW20 1.19.
@@ -49,7 +49,7 @@ Once you've gotten *both* the pack and version number you'll need to add them us
    ![Prism Modpacks 4](/assets/images/launchers/prism/prism_modpack_4.png)
 
 ### Updating Modpacks
-Prism doesn't have a pack update mechanism at this time. To update simply follow the steps above and create a new instance with the updated pack version.
+Prism doesn't have a pack update mechanism at this time. To update simply follow the steps above to add a new Modpack and create a new instance with the updated pack version. You should likely label you packs with the version number to avoid confusion.
 
 ### Updating Per-Instance Settings
 In the example below we'll be updating the memory for a pack instance, however, you can also update your Java Version as well as add Java Arguments to make the pack run more efficiently.
@@ -58,11 +58,11 @@ In the example below we'll be updating the memory for a pack instance, however, 
 2. Click settings on the new window that opens. By default, it will show a log of the Minecraft instance from every time you have started it.
    ![Prism Edit Pack Screen](/assets/images/launchers/prism/prism_editpack_step_2.png)
 3. The new screen that is shown is broken down into three parts.
-   1. Change from the default Java version. You can find the [correct version of Java to use per Minecraft version here](https://shadownode.net/home/guides/java-versions/).
+   1. Change from the default Java version. You can find the [correct version of Java to use per Minecraft version here](/home/guides/java-versions/).
    2. Memory settings
-   3. Java Arguments. You typically don't need to adjust this, however, you might want to check our [Modpack tips](https://shadownode.net/modpack-tips/) section to see if there are any suggested arguments for your pack.
+   3. Java Arguments. You typically don't need to adjust this, however, you might want to check our [Modpack tips](/modpack-tips/) section to see if there are any suggested arguments for your pack.
       ![Prism Edit Pack Settings](/assets/images/launchers/prism/prism_editpack_step_3.png)
-4. To edit the memory that you want to set aside for Minecraft/Java you need to click the check box next to the word "Memory" in section 2. When you do so you will see the following and be able to adjust it. Suggested values are below while leaving an extra 2-4GB for your system and other applications.
+4. To edit the memory that you want to set aside for Minecraft/Java you need to click the checkbox next to the word "Memory" in section 2. When you do so you will see the following and be able to adjust it. Suggested values are below while leaving an extra 2-4GB for your system and other applications.
    * To allocate 6GB - 6144MB
    * To allocate 8GB - 8192MB
    * To allocate 10GB - 10240MB
