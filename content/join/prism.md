@@ -20,11 +20,11 @@ Once you've downloaded the launcher go to your downloads folder and open the ins
 3. Once this completes you can launch Prism by either searching for it on your computer or launching it from your Desktop.
 
 ### Basic Setup
-To be able to use Prism you will need to do some basic setup and to do so you can follow the steps below. Please note that if you don't have [java installed](/home/guides/java-versions/) you will need to download it.
+To be able to use Prism you will need to do some basic setup and to do so you can follow the steps below. Please note that if you don't have an appropriate version of [Java installed](/home/guides/java-versions/) you will need to download it.
 
 1. Once you launch Prism for the first time you'll see a screen like this. Click the language you speak and wish to have your launcher in. In this case we'll be using American English. Click next once you've done so.
    ![Prism Launcher Setup 1](/assets/images/launchers/prism/prism_setup_1.png)
-2. On this step if you don't have Java installed, you will need to pause and install Java first, otherwise please proceed by selecting the correct Java version from the list here. Note that in the the screenshot below Java isn't installed and you will need to install it if you see this and then click refresh. After you have Java selected and are happy with your choices, click "Next".
+2. On this step if you don't have Java installed, you will need to pause and install Java first, otherwise please proceed by selecting the [correct Java version](/home/guides/java-versions/) from the list here. Note that in the the screenshot below Java isn't installed and you will need to install it if you see this and then click refresh. After you have Java selected and are happy with your choices, click "Next".
 ![Prism Launcher Setup 3](/assets/images/launchers/prism/prism_setup_2.png)
 3. In the top right corner you'll see a dropdown labeled "Accounts", click that and then "Manage Accounts".
    ![Prism Launcher Setup 3](/assets/images/launchers/prism/prism_setup_3.png)
