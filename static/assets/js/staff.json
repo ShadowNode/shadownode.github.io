@@ -122,6 +122,12 @@
         "ingame": "2fd35731-57c0-4dc3-adc3-508a56831180",
         "discord": "240924570809270273",
         "away": false
+      },
+      {
+        "display": "Spniel",
+        "ingame": "d9d83d66-a44e-40e3-817e-ee3a0de07d1c",
+        "discord": "190843105161904128",
+        "away": false
       }
     ]
   },
@@ -130,9 +136,15 @@
     "description": "MIT are Moderators in Training. They assist in-game and Discord by answering questions and assisting the other staff.",
     "members": [
       {
-        "display": "Spniel",
-        "ingame": "d9d83d66-a44e-40e3-817e-ee3a0de07d1c",
-        "discord": "190843105161904128",
+        "display": "Enchantica",
+        "ingame": "14504699-909f-4612-aded-595284a0b636",
+        "discord": "347047295037997056",
+        "away": false
+      },
+      {
+        "display": "INKED0ne",
+        "ingame": "bc73a03c-a829-4c84-8eac-fe24a0737095",
+        "discord": "305130395815510017",
         "away": false
       }
     ]
