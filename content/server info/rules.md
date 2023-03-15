@@ -13,7 +13,7 @@ possible, ShadowNode is proud to host over 10 diverse servers!
 # Rules
 These rules apply to our Discord, servers and all other services. By using our services, you are agreeing to follow 
 these rules. Ignorance of these rules is not an excuse. Staff are provided with a general guideline of punishments 
-for each rule, however choosing a punishment is at their discretion.
+for each rule, however choosing a punishment is at their discretion. Please note that you may be in violation of rules not explicitly listed here if a staff member asks you to make a change. 
 
 ### Respect Staff and Staff Decisions
  * Do not in any way mock, abuse, argue with, or be disrespectful in general to any member of our staff. If you feel 
@@ -29,8 +29,8 @@ for each rule, however choosing a punishment is at their discretion.
 ### No Advertising, Spamming or Attention-Seeking
   * This includes advertising other servers or Discords, spamming random stuff in chat, or just general spamming to get attention for something, such as trying to sell something. Bear in mind, that asking for the same thing every few minutes **DOES** count as spamming.
 
-### No Excessive Mobs/Items Inside Mob Spawners
-  * Spawners **MUST** auto-kill mobs as soon as they spawn. You are **NOT** allowed to have a spawner which requires a player to kill the mobs inside. Spawners must **NOT** clog with mobs or items. It is your responsibility to ensure that this doesn't happen.
+### No Excessive Mobs/Items Inside Mob Spawners/Overflowing Inventories
+  * Spawners **MUST** auto-kill mobs as soon as they spawn. You are **NOT** allowed to have a spawner which requires a player to kill the mobs inside. Spawners and inventories must **NOT** clog with mobs or items. It is your responsibility to ensure that this doesn't happen.
 
 ### No Cheating, Hacking, Glitching, Duping
   * This includes using third-party programs, plugins and/or bugs to gain an unfair advantage in gameplay over other players. X-Ray bugs/resource packs are not allowed.
@@ -70,8 +70,8 @@ for each rule, however choosing a punishment is at their discretion.
   * This is purely to help the staff troubleshoot things and keep the chat clear of confusing messages. Talking in other langues via private messages is allowed.
 
 ### No Griefing
-  * Griefing means to negatively change a building or area which you do not own or have permission to use. This includes, but is not limited to the following:
-    * Breaking blocks from other's builds, stealing items or resources from others. This also applies to buildings and areas where the area is player owner, but it is not evident who exactly owned it.
+  * Griefing means to change a building or area which you do not own or have permission to use. This includes, but is not limited to the following:
+    * Breaking blocks from other's builds, placing unwanted blocks, stealing items or resources from others. This also applies to buildings and areas where the area is player owner, but it is not evident who exactly owned it.
 
 ### No raiding or Stealing, Even if the Base is Unclaimed
   * Includes all resource types.
@@ -83,10 +83,14 @@ for each rule, however choosing a punishment is at their discretion.
 ### Do Not Impersonate a Staff Member
   * Impersonation means pretending to be someone else. This includes changing your nickname to a staff member's username/nickname or adding Staff/Admin/Etc to any part of your nickname or rank. This also applies to custom join/leave messages.
 
-### No One Chunk Bases
+### No One Chunk Bases / Stacked Farms / Excessive Vertical Building
   * One chunk bases create more server lag and disrupt all players. Make sure you spread your base out over several 
     chunks. In general don't build more than 1 or 2 layers vertically. Use ``F3+G`` to see chunk boundaries. This 
     allows you to ensure your base isn't in only a few chunks.
+
+### Don't build laggy bases / setups.
+  * There's a lot of common causes of excessive server-side lag that you base can generate depending on how it's setup. Typically, all inventories must have a void filter / void upgrade to void excess items so they don't clog. In addition, looped pipes and full machines/inventories tend to cause a lot of extra cycles per tick. This means that it will generate a lot more server-side lag if you poorly optimize your builds. 
+  * The above is not an all encompassing list and you may be asked to make changes to better optimize your builds if it's found to be poorly optimized for servers.
 
 ### Some packs have server-specific rules.
   * Be sure to check out the servers spawn for pack specific rules.  
