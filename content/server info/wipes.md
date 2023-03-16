@@ -21,16 +21,22 @@ Savings Time (DST).
 
 ## Restart Times (EST)
 
-#### 1.18 and Vanilla Servers
+### 1.19 and Vanilla Servers
+
+|   Server Name   | Restart Time | Restart Time |
+|:---------------:|:------------:|:------------:|
+| Direwolf20 1.19 | 12:30 AM/PM  |  6:30 AM/PM  |
+| Vanilla 1.19.2  | 12:00 AM/PM  |              |
+
+
+#### 1.18 Servers
 
 | Server Name        | Restart Time   | Restart Time |
 | :----------------: | :------------: |:------------:|
 | Stoneblock 3       | 10:00 AM/PM    |  4:00 AM/PM  |
-| Direwolf20 1.18    | 12:00 AM/PM    |  6:00 AM/PM  |
 | All The Mods 7 Sky |  2:30 AM/PM    |  8:30 AM/PM  |
-| Vanilla 1.19.2     | 12:00 AM/PM    |              |
 
-####  1.16 Servers
+#### 1.16 Servers
 
 | Server Name                 | Restart Time   | Restart Time   |
 | :-------------------------: | :------------: | :------------: |
@@ -47,7 +53,7 @@ Savings Time (DST).
 | Project Ozone 3    | 3 AM             | 11 AM            | 7 PM             |
 | Skyfactory 4       | 3 AM             | 11 AM            | 7 PM             |
 
-##  Wipes 
+## Wipes 
 These wipes only happen on 1.12 and 1.16 servers.
 
 | World Name      | Wipe Date     | Wipe Date   |
