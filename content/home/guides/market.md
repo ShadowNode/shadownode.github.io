@@ -1,14 +1,18 @@
 ---
 title: Market
 author: YourMCGeek
-contributors: Babymillie
+contributors: Babymillie, InvictusOne
 tags: ["modded Minecraft commands", "Modded Minecraft", "Minecraft Network", "ShadowNode", "ShadowNode Modded", "Modded
 MC", "Modded MC Network",
 "in game market", "player economy", "MC economy"]
 ---
 
+{{% notice note %}}
+This mod only works on our Modded 1.12 servers
+{{% /notice %}}
+
 ## The Market
-Our market plugin is a custom plugin created by our owner, ShadowKitten. Running ``/market help`` in game will return a list of commands. 
+The market plugin is a custom plugin that allows you to buy/sell/trade items in a text-based marketplace. Running ``/market help`` in game will return a list of commands. 
 
 ### How to Access the Market
 To view the current listings, type the command ``/market``
@@ -21,7 +25,7 @@ You can either browse the market or you can click on the ```Search Seller``` but
 ### How to Create a listing
 To create a listing, you type in ```/market``` in the chat and scroll down to find Create and click it. Once you click it ```/market create <quantity> <price>``` will show up in your chat, replace the ``<quantity>`` with how many of the item you would like to sell at a time and ``<price>`` with the price per quantity. It will take the items in your hand. Once that command is ran you can see the information on your listing.
 {{% notice note %}}
-All profits will automatically go into your balance. You can see your balance by running ```/bal```.​
+All sales will automatically go into your balance. You can see your balance by running ```/bal```.
 {{% /notice %}}
 
 ### How to Add Stock
