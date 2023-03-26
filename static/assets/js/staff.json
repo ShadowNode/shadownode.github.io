@@ -112,6 +112,12 @@
         "away": false
       },
       {
+        "display": "Enchantica",
+        "ingame": "14504699-909f-4612-aded-595284a0b636",
+        "discord": "347047295037997056",
+        "away": false
+      },
+      {
         "display": "Mervyn_2K",
         "ingame": "85fd0020-c931-4c3b-a538-f775113605b6",
         "discord": "129704142141653002",
@@ -135,12 +141,6 @@
     "color": "#25c059",
     "description": "MIT are Moderators in Training. They assist in-game and Discord by answering questions and assisting the other staff.",
     "members": [
-      {
-        "display": "Enchantica",
-        "ingame": "14504699-909f-4612-aded-595284a0b636",
-        "discord": "347047295037997056",
-        "away": false
-      },
       {
         "display": "INKED0ne",
         "ingame": "bc73a03c-a829-4c84-8eac-fe24a0737095",
