@@ -643,7 +643,71 @@ svg {
 }
 
 
+#serverModal {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding-top: 0;
+  background-color: rgba(0,0,0,0.4) !important;
+  display: none;
+  z-index: 9998 !important;
+}
 
+.serverModalContent {
+  text-align: center;
+  margin: 0 auto;
+  position: fixed;
+  width: 100%;
+  padding-bottom: 5%;
+  left: 0;
+  bottom: 0;
+  overflow: scroll;
+  z-index: 9999 !important;
+  background-color: #2D3033;
+}
+
+.modalHeader {
+  background-color: #633884;
+  color: #FFF;
+}
+
+.modalHeader h2 {
+  margin-top: 0 !important;
+}
+
+.modalBody {
+  margin: auto;
+  width: 80%;
+  max-width: 500px;
+}
+
+.modalLink {
+  color: #FFF;
+  border-radius: 6px;
+  padding: 6px;
+  background-color: #633884;
+  border-color: #633884;
+}
+
+.modalLink:hover {
+  color: #FFF;
+  animation: buttonGlow;
+}
+
+
+@keyframes buttonGlow {
+  0% {
+    box-shadow: 0 0 3px #2ba805;
+  }
+  50% {
+    box-shadow: 0 0 10px #49e819;
+  }
+  100% {
+    box-shadow: 0 0 3px #2ba805;
+  }
+}
 @-webkit-keyframes spin {
   from {
       -webkit-transform: translate(-50%, -50%) rotateZ(0deg);
