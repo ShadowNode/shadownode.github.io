@@ -26,6 +26,7 @@ Savings Time (DST).
 |   Server Name   | Restart Time | Restart Time |
 |:---------------:|:------------:|:------------:|
 | Direwolf20 1.19 | 12:30 AM/PM  |  6:30 AM/PM  |
+| Techopolis 2    | 5:30 AM/PM   | 11:30 AM/PM  |
 | Vanilla 1.19.2  | 12:00 AM/PM  |              |
 
 
@@ -41,7 +42,6 @@ Savings Time (DST).
 | Server Name                 | Restart Time   | Restart Time   |
 | :-------------------------: | :------------: | :------------: |
 | Enigmatica 6: Expert        | 1:30 AM/PM     | 7:30 AM/PM     |
-| Techopolis                  | 5:30 AM/PM     | 11:30 AM/PM    |
 
 #### 1.12 Servers
 
