@@ -25,7 +25,7 @@
         "display": "hachiimann",
         "ingame": "530ceac1-30e1-4fbc-97f2-3a846170dfc5",
         "discord": "346423675869724675",
-        "away": false
+        "away": true
       },
       {
         "display": "Moody_420",
@@ -73,7 +73,7 @@
         "display": "neoneix",
         "ingame": "de0104f0-681b-477b-8b66-4c5814d46302",
         "discord": "168941686368501760",
-        "away": false
+        "away": true
       }
     ]
   },
@@ -91,12 +91,6 @@
         "display": "InvictusOne",
         "ingame": "90349245-dd9a-464c-baf7-f72fa414b5a1",
         "discord": "93226934015647744",
-        "away": false
-      },
-      {
-        "display": "YourMCGeek",
-        "ingame": "85abce19-1b92-4a6e-9063-6d832a417c40",
-        "discord": "102762443767287808",
         "away": true
       }
     ]
@@ -109,7 +103,7 @@
         "display": "Alrynth",
         "ingame": "109836fa-ead8-493e-b3e3-0e6177bc2566",
         "discord": "197910390213050368",
-        "away": false
+        "away": true
       },
       {
         "display": "Enchantica",
@@ -118,21 +112,9 @@
         "away": false
       },
       {
-        "display": "Mervyn_2K",
-        "ingame": "85fd0020-c931-4c3b-a538-f775113605b6",
-        "discord": "129704142141653002",
-        "away": false
-      },
-      {
         "display": "PopularSean",
         "ingame": "2fd35731-57c0-4dc3-adc3-508a56831180",
         "discord": "240924570809270273",
-        "away": false
-      },
-      {
-        "display": "Spniel",
-        "ingame": "d9d83d66-a44e-40e3-817e-ee3a0de07d1c",
-        "discord": "190843105161904128",
         "away": false
       }
     ]
@@ -145,6 +127,12 @@
         "display": "INKED0ne",
         "ingame": "bc73a03c-a829-4c84-8eac-fe24a0737095",
         "discord": "305130395815510017",
+        "away": false
+      },
+      {
+        "display": "Spniel",
+        "ingame": "d9d83d66-a44e-40e3-817e-ee3a0de07d1c",
+        "discord": "190843105161904128",
         "away": false
       }
     ]
