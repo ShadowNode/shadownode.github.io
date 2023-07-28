@@ -20,6 +20,11 @@
         "ingame": "98c3e2ec-60f9-4ccd-b4a0-24280813dda3",
         "discord": "220218217145171969",
         "away": false
+      },      {
+        "display": "Endercorps_Alpha",
+        "ingame": "9db449a3-a567-470a-85d4-7ef7f16405a8",
+        "discord": "142748655294742528",
+        "away": false
       },
       {
         "display": "hachiimann",
@@ -80,18 +85,6 @@
         "ingame": "109836fa-ead8-493e-b3e3-0e6177bc2566",
         "discord": "197910390213050368",
         "away": false
-      },
-      {
-        "display": "Enchantica",
-        "ingame": "14504699-909f-4612-aded-595284a0b636",
-        "discord": "347047295037997056",
-        "away": true
-      },
-      {
-        "display": "PopularSean",
-        "ingame": "2fd35731-57c0-4dc3-adc3-508a56831180",
-        "discord": "240924570809270273",
-        "away": true
       }
     ]
   },
@@ -100,10 +93,10 @@
     "description": "MIT are Moderators in Training. They assist in-game and Discord by answering questions and assisting the other staff.",
     "members": [
       {
-        "display": "INKED0ne",
-        "ingame": "bc73a03c-a829-4c84-8eac-fe24a0737095",
-        "discord": "305130395815510017",
-        "away": true
+        "display": "Fatal1tyGC",
+        "ingame": "7ddfcba6-8b2c-49f6-9545-44dc6c19bc0f",
+        "discord": "129999595932483584",
+        "away": false
       },
       {
         "display": "Spniel",
