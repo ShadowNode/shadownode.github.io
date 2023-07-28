@@ -11,14 +11,19 @@
       }
     ]
   },
-  "Sr Administrator": {
-    "color": "#AA0000",
-    "description": "Senior Administrators are responsible for managing the staff team, discord server, and network. Hand-picked by ShadowKitten, these members are some of the most trusted members in the entire network.",
+  "Administrator": {
+    "color": "#FF5555",
+    "description": "Admins are responsible for managing the background functions of the servers. This includes setting up new packs and maintenance of the current ones.",
     "members": [
       {
         "display": "Dnsmasq",
         "ingame": "98c3e2ec-60f9-4ccd-b4a0-24280813dda3",
         "discord": "220218217145171969",
+        "away": false
+      },      {
+        "display": "Endercorps_Alpha",
+        "ingame": "9db449a3-a567-470a-85d4-7ef7f16405a8",
+        "discord": "142748655294742528",
         "away": false
       },
       {
@@ -28,47 +33,18 @@
         "away": false
       },
       {
-        "display": "Moody_420",
-        "ingame": "39e05a75-49f2-4060-9a48-80e34d11b162",
-        "discord": "262778042760298497",
-        "away": false
-      },
-      {
-        "display": "tree_of_chaos",
-        "ingame": "2a6871c0-2dfa-41d8-af58-8608c81b8864",
-        "discord": "261311666904367124",
-        "away": false
-      },
-      {
-        "display": "War_Horse",
-        "ingame": "dbf54ce3-0aea-47da-9d16-863283c7a437",
-        "discord": "675429391513419816",
-        "away": false
-      }
-    ]
-  },
-  "Administrator": {
-    "color": "#FF5555",
-    "description": "Admins are responsible for managing the background functions of the servers. This includes setting up new packs and maintenance of the current ones.",
-    "members": [
-      {
-        "display": "Cosmic_Elemental",
-        "ingame": "a51adf68-e79a-4a62-8b95-10405dd071bd",
-        "discord": "356530058908925965",
-        "away": true
-      },
-      {
-        "display": "Endercorps_Alpha",
-        "ingame": "9db449a3-a567-470a-85d4-7ef7f16405a8",
-        "discord": "142748655294742528",
-        "away": true
-      },
-      {
         "display": "InkEyes",
         "ingame": "f741de3f-89a7-4431-ac61-dcff541c45a7",
         "discord": "147137133495189505",
         "away": false
       },
+      {
+        "display": "Moody_420",
+        "ingame": "39e05a75-49f2-4060-9a48-80e34d11b162",
+        "discord": "262778042760298497",
+        "away": false
+      },
+
       {
         "display": "neoneix",
         "ingame": "de0104f0-681b-477b-8b66-4c5814d46302",
@@ -92,12 +68,6 @@
         "ingame": "90349245-dd9a-464c-baf7-f72fa414b5a1",
         "discord": "93226934015647744",
         "away": false
-      },
-      {
-        "display": "YourMCGeek",
-        "ingame": "85abce19-1b92-4a6e-9063-6d832a417c40",
-        "discord": "102762443767287808",
-        "away": true
       }
     ]
   },
@@ -109,24 +79,6 @@
         "display": "Alrynth",
         "ingame": "109836fa-ead8-493e-b3e3-0e6177bc2566",
         "discord": "197910390213050368",
-        "away": false
-      },
-      {
-        "display": "Enchantica",
-        "ingame": "14504699-909f-4612-aded-595284a0b636",
-        "discord": "347047295037997056",
-        "away": false
-      },
-      {
-        "display": "Mervyn_2K",
-        "ingame": "85fd0020-c931-4c3b-a538-f775113605b6",
-        "discord": "129704142141653002",
-        "away": false
-      },
-      {
-        "display": "PopularSean",
-        "ingame": "2fd35731-57c0-4dc3-adc3-508a56831180",
-        "discord": "240924570809270273",
         "away": false
       },
       {
@@ -142,9 +94,9 @@
     "description": "MIT are Moderators in Training. They assist in-game and Discord by answering questions and assisting the other staff.",
     "members": [
       {
-        "display": "INKED0ne",
-        "ingame": "bc73a03c-a829-4c84-8eac-fe24a0737095",
-        "discord": "305130395815510017",
+        "display": "Fatal1tyGC",
+        "ingame": "7ddfcba6-8b2c-49f6-9545-44dc6c19bc0f",
+        "discord": "129999595932483584",
         "away": false
       }
     ]
@@ -153,12 +105,6 @@
     "color": "#FFFF55",
     "description": "Builders are our visual block artists. They design our spawns, hubs, and other official build requirements.",
     "members": [
-      {
-        "display": "ItsNora_",
-        "ingame": "e9309a03-1634-4b86-a895-1b70c829e51d",
-        "discord": "191989517408927744",
-        "away": true
-      },
       {
         "display": "neoneix",
         "ingame": "de0104f0-681b-477b-8b66-4c5814d46302",
