@@ -26,7 +26,9 @@ Savings Time (DST).
 |   Server Name   | Restart Time | Restart Time |
 |:---------------:|:------------:|:------------:|
 | Direwolf20 1.19 | 12:30 AM/PM  |  6:30 AM/PM  |
-| Vanilla 1.19.2  | 12:00 AM/PM  |              |
+| FTB Skies       |  3:30AM/PM   |  9:30 AM/PM  |
+| Techopolis 2 | 5:30 AM/PM     | 11:30 AM/PM   |
+| Vanilla 1.20.1 | 12:00 AM/PM  |               |
 
 
 #### 1.18 Servers
@@ -35,23 +37,6 @@ Savings Time (DST).
 | :----------------: | :------------: |:------------:|
 | Stoneblock 3       | 10:00 AM/PM    |  4:00 AM/PM  |
 | All The Mods 7 Sky |  2:30 AM/PM    |  8:30 AM/PM  |
-
-#### 1.16 Servers
-
-| Server Name                 | Restart Time   | Restart Time   |
-| :-------------------------: | :------------: | :------------: |
-| Enigmatica 6: Expert        | 1:30 AM/PM     | 7:30 AM/PM     |
-| Techopolis                  | 5:30 AM/PM     | 11:30 AM/PM    |
-
-#### 1.12 Servers
-
-| Server Name        | Restart Time     | Restart Time     | Restart Time     |
-| :----------------: | :--------------: | :--------------: | :--------------: |
-| FTB Revelation     | 12 AM            | 8 AM             | 4 PM             |
-| FTB Stoneblock 2   | 12 AM            | 8 AM             | 4 PM             |
-| MC Eternal         | 2 AM             | 10 AM            | 6 PM             |
-| Project Ozone 3    | 3 AM             | 11 AM            | 7 PM             |
-| Skyfactory 4       | 3 AM             | 11 AM            | 7 PM             |
 
 ## Wipes 
 These wipes only happen on 1.12 and 1.16 servers.
