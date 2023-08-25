@@ -25,9 +25,10 @@ Savings Time (DST).
 
 |   Server Name   | Restart Time | Restart Time |
 |:---------------:|:------------:|:------------:|
+| Skies           | 3:30 AM/PM   |  9:30 AM/PM  |
 | Direwolf20 1.19 | 12:30 AM/PM  |  6:30 AM/PM  |
 | Techopolis 2    | 5:30 AM/PM   | 11:30 AM/PM  |
-| Vanilla 1.19.2  | 12:00 AM/PM  |              |
+| Vanilla 1.20.1  | 12:00 AM/PM  |              |
 
 
 #### 1.18 Servers
