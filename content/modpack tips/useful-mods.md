@@ -22,6 +22,6 @@ Most listed mods are for version 1.16+ and focused to Forge
 
 ## Other mods
 
- -  **[Not Enough Crashes](https://www.curseforge.com/minecraft/mc-mods/not-enough-crashes-forge)** is a mod that improves crashes and prevents closing the client.
+ - **[Not Enough Crashes](https://www.curseforge.com/minecraft/mc-mods/not-enough-crashes-forge)** is a mod that improves crashes and prevents closing the client.
  - **[Connectivity](https://www.curseforge.com/minecraft/mc-mods/connectivity)** is a mod that helps with client login/timeout issues
  - **[No Telemetry](https://www.curseforge.com/minecraft/mc-mods/no-telemetry)** is a mod that disables the usage data collection, aka telemetry, introduced in 1.18 version
