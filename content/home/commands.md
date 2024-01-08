@@ -1,11 +1,11 @@
 ---
 title: Basic Commands
 author: YourMCGeek
-contributors: LethalMrM
+contributors: LethalMrM, Dnsmasq
 tags: ["ShadowNode", "modded Minecraft commands", "Modded Minecraft", "Minecraft Network", 
 "ShadowNode Commands", "Grief Prevention Commands", 
-"DW20 commands", "Direwolf20 commands", 
-"Minecraft Island Commands", "Oceanblock Commands", "FTB Oceanblock",
+"Player commands", "Basic commands",
+"Minecraft Island Commands",
 ]
 ---
 ## Basic Commands
@@ -23,7 +23,7 @@ ___
 ### Home
 *These commands are affecting by your rank. For example a normal member gets only 1 home. See [Ranks](/server-info/ranks) for more info!*
 
-``/sethome [name] [-o]`` Sets your home at a current location. Failure to specify a name will set the home under the name ``home``. Adding ``-o`` to the end of your command will override the location of the previous home (e.g ``/sethome home -o`` will make your new home at the location you're currently at).
+``/sethome [name]`` Sets your home at a current location. Failure to specify a name will set the home under the name ``home``.
 
 ``/home <name>`` Teleports your to the specified home. Failure to specify a home name will default to home.
 
@@ -100,24 +100,6 @@ Any server that is a Skyblock style or uses a predefined starting area will use 
 
 ___
 
-### FTB OceanBlock
-
-All these commands work for general use on OceanBlock and some of them are specific to OceanBlock.
-
-``/is create`` Creates and island for you. Will prompt you for the type that you wish to use. There's many choices to choose from but choose wisely as if you change your mind you have to start over! **Will  wipe your inventory.**
-
-``/is spawn`` Takes you to your or your team's island.
-
-``/is join`` Joins a team island. **Wipes joining players quests and inventory.**
-
-``/is kick <player>``  Invites a player to join your island.
-
-``/is reset`` Resets your island and allows you to recreate it. **This will fully wipe your inventory, island and quests.**
-
-``/ftbteamislands change_spawn`` While standing on your island this will change the location of the spawn point that you teleport to with `/is spawn`.
-
-___
-
 ### Grief Prevention
 *All these commands will work for subdivided claims as well*
 
@@ -154,7 +136,3 @@ These are the commands that don't really fit into any section.
 
 ``/page <next | prev | number>`` This command is used by a few plugins that send messages with multiple pages. For example if you run `/banneditems` it will most likely return you a message that at the bottom say `1/9`, this means it has 9 pages, and you can rotate through those page using this command!
 **Note: On servers like vanilla this command does not exist!**
-
-``/server <name>`` This command will put you on the server you specify. **Note: This only works for 1.12 clients/servers. You still need that version/modpack** You can also run ``/name`` replacing name with the server name for the same effect!
-
-``/xu_powersharing <player>`` This command will allow you to share GP with others members in your team if you group up. **To use this effectively both sides have to use the command**.
